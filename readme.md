@@ -14,6 +14,6 @@ Redstone minecrafters are the electrical engineers of Minecraft, and their creat
                
 Further exploring the possibilities of redstone crafting, the use of ComputerCraft robots and moving into more traditional programming within the a visual Javascript environment. _For ages 10-14 or younger when having completed Sequence 2 or with equivalent experience._
 
-## Sequence 4: qCraft and mod developemtn
+## Sequence 4: qCraft and Mod Development
 
 qCraft is a mod that brings the principles of quantum physics to the world of Minecraft. “Mods”, or game modifications, are programs that change the game in any way the mod developer desires. Campers will learn about the special objects and properties of qCraft, then learn just enough Java to get dangerous within a mod development environment and learn what it takes to become a game developer. _For ages 10-16 or younger when having completed Sequence 3 or with equivalent experience._
