@@ -1,4 +1,4 @@
-![Stay clear of these guys](images/Minecraft-Creeper-Wallpapers.jpg)
+![Stay clear of these guys](/sequence1/images/Minecraft-Creeper-Wallpapers.jpg)
 
 ## Minecraft U Sequence 1: Construction and Problem Solving
 
