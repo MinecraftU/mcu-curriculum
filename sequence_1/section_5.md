@@ -1,6 +1,6 @@
 # Section 5: Minecraft Tools
 
-### Adventure Maps
+## Adventure Maps
 
 > Adventure mode is a game mode intended for player-created maps by limiting some of the gameplay in Minecraft, in which the player cannot directly destroy most blocks to avoid spoiling adventure maps or griefing servers. Most blocks cannot be destroyed without the proper tools. However, players can still interact with mobs and craft items. [link](http://minecraft.gamepedia.com/Adventure)
 
@@ -26,7 +26,7 @@ Maps provided:
 * "The Evil Doctor's Castle" is a classic escape-style map. Quickly determining the way through each "level" is of the most importance with this map, but it does have a very clear path to success!
 * "Jungle Stream" is a classic story/puzzle/parkour map in the style of the Indiana Jones series.*
 
-### Importing Schematics Using MCEdit
+## Importing Schematics Using MCEdit
 
 Schematics and tools that support them, like MCEdit, can be very helpful in getting started creating more interesting worlds for any game type.
 
@@ -80,7 +80,7 @@ Quit MCEdit, open Minecraft and test out your new creations!
 
 > It is very important to have only MCEdit *or* Minecraft open at any given time. You will lose work if you try to have a world open in both applications.
 
-### Creating Schematics
+## Creating Schematics
 
 While you are in your creative Minecraft world, whip up a quick farm.
 
@@ -102,14 +102,14 @@ Everything might not be perfect in MCEdit (as you can see in the image above). T
 
 Now you can try to create schematics from other worlds and import them into your world.
 
-### Building Your Own Map
+## Building Your Own Map
 
 Continue using the techniques you just learned to flesh out your map. Leave goodies for players to find, particular challenges for them to complete, etc. Once you've completed your map, trade with a friend or neighbor (ask your instructor for help with this step).
 
-### Skin Design
+## Skin Design
 
 This section is pretty straightforward thanks to the great tools at [Miners Need Cool Shoes](http://www.needcoolshoes.com/). Go to needcoolshoes.com and import your skin or go to the gallery and pick a new one to tweak. Then edit that skin using their editing tools! You can download the png file or change your skin right from the site. You can even combine skins by loading multiple skins as layers in the editing tool.
 
-### Server time!
+## Server time!
 
 We will now spend some time getting familiar with the Sequences server, our whitelisted camp server for Minecraft U campers. Your instructors will go over the rules, which are also in the next section, and help you get on the server and get established there.

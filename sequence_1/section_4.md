@@ -1,30 +1,25 @@
 # Section 4: More Advanced Survival Techniques
 
-### Enchanting
+## Enchanting
 
-Enchanting is a very important technique in Minecraft. Enchanted tools, armor and weapons make success in your Minecraft adventures much more likely, and are more fun to use besides.
+Enchanting is a very important technique in Minecraft. Enchanted tools, armor and weapons make success in your Minecraft adventures much more likely, and are more fun to use as well.
 
 Tips:
 
 * When first starting out, use only one experience level to enchant as many tools and armor pieces as possible. After that, use an anvil to combine enchantments. Later, do the opposite to try and get as many enchantments as possible on one tool/weapon, then  use an anvil again to combine when possible.
-
 * When trying to get a specific enchantment on a tool/weapon that is already enchanted, use books.
-
 * As you progress above level 16, each level requires more XP than the last. Try to enchant using a level as close to yours as possible to make the high XP cost worthwhile.
-
 * Do not enchant anything weaker than iron as the lack of durability makes the cost not worthwhile.
-
 * In 1.7 and later, an enchanted fishing rod can pay off. "Luck of the Sea" lowers chance of "junk" catches by 2.5% per level and increases chance of "treasure" catches by 1% per level. "Treasure" can include enchanted tools. "Lure" decreases wait time until a catch by 5 seconds per level but decreases chances of both "junk" and "treasure" catches by 1% per level, so be careful with that one if your goal is to catch treasure. ("Treasure" and "junk" catches are only available in version 1.7 and up.)
-
 * Place 15 bookshelves around an enchantment table to get the highest level enchantments. If after establishing the 15 bookshelves you _do not_ want maximized enchantments, you can block their effect with torches.
 
-#### Anvils
+### Anvils
 
 An anvil can be used to combine the enchantments of two items. The items must be of the same type and material. There are two slots in the anvil, and the item in the second slot is sacrificed to improve the first.
 
 The cost in levels depends on the enchantments. You can also repair and name items with the anvil. In survival mode, there is a limit of 39 levels for any work performed on the anvil.
 
-#### Enchanting Challenge
+### Enchanting Challenge
 
 In the map provided, enchant a sword to either:
 
@@ -39,38 +34,33 @@ Extra credit for enchanting a chest plate as well.
 The bottle of enchantment provided is only going to get you so far. You'll have to go get some bad guys for the rest of the XP required (there are plenty of slimes around during the day for this purpose). There are three strategies you can use to achieve the challenge:
 
 * Enchant two swords and combine.
-
 * Enchant books and use the anvil.
-
 * Just go for it with the maximum possible enchant (you'll need to go get some additional XP first).
 
 There is a fair amount of luck involved, and no one strategy is necessarily better than another. After everyone has completed the challenge, compare notes.
 
-### X-ray machines
+## X-ray machines
 
 X-ray machines are rather useful things, allowing you to see through the ground to whatever open space it might contain, allowing you to locate abandoned mineshafts, dungeons, ravines, etc. To create a primitive x-ray machine in the latest version of Minecraft:
 
 * Acquire two pieces of fence and a redstone block
-
 * Dig a 1x2 hole and jump in
-
 * Place the two fence posts one on top of the other in one half of the hole
-
 * While jumping, place the redstone block against the side of the fence facing you
 
 Timing is tricky here, you must time it just right, and it might take a few tries
 
-![simple x-ray machine](images/x-ray_machine.png)
-
-![using an x-ray machine](images/using_x-ray.png)
+![simple x-ray machine](images/section_4/x-ray_machine.png)
 
 There is also a more sophisticated x-ray machine design that involves minecarts. If you would like to try those, you can checkout [this SethBling video (at 16:30 minutes)](http://youtu.be/WBu2gPRYPyQ?t=16m33s).
 
 Unfortunately the x-ray glitch is becoming more difficult to exploit in upcoming versions. To see a 1.8 x-ray machine, checkout [this video](https://www.youtube.com/watch?v=hQMhwqlaArI).
 
-Fortunately, one of our camp servers is 1.6.4, which allows for a more elegant x-ray machine using a sticky piston and a block of glowstone:
+Fortunately, one of our camp servers is running on version 1.6.4, which allows for a more elegant x-ray machine using a sticky piston and a block of glowstone. Power a sticky piston via a pressure plate that pushes a block of glowstone into your head while you are standing on the pressure plate.
 
-### Minecarts and railway construction
+![1.6.4 x-ray machine](images/section_4/1.6.4-xray.png)
+
+## Minecarts and railway construction
 
 As you expand your living area, you may find that traveling between areas taking up a lot of your time. Running and walking aren't particularly fast, but minecarts can make traveling significantly faster and safer.
 
@@ -100,11 +90,7 @@ Dig out a 3x1 trench. Put a detector rail in the middle, and two powered rails o
 
 ![The trench with railing inside.](images/section_4/stop_initial.png)
 
-Extend the rails outward to connect to your normal railways.
-
-![Extending the rails to the surface.](images/section_4/stop_track.png)
-
-Place two blocks with buttons on them on top of the blocks adjacent to the powered rail segments. When you press the button, the powered rail below it should light up.
+Extend the rails outward to connect to your normal railways. Place two blocks with buttons on them on top of the blocks adjacent to the powered rail segments. When you press the button, the powered rail below it should light up.
 
 ![The placement of the buttons.](images/section_4/stop_buttons.png)
 
@@ -118,7 +104,7 @@ Your assignment is to make a minecart rail that connects three different locatio
 
 ![A three-way intersection](images/section_4/track_switching_station.png)
 
-### Auto-Smelters
+## Auto-Smelters
 
 The concept behind an auto-smelter is pretty simple, actually: smelt a chest full of materials automatically. The build in its most basic is this: Chest (with materials) feeds into a hopper, which in turn feeds into the furnace, then into another hopper, then into the chest with the final product.
 

@@ -1,6 +1,11 @@
+![Stay clear of these guys](images/Minecraft-Creeper-Wallpapers.jpg)
+
+## Minecraft U Sequence 1: Construction and Problem Solving
+
+Work your mental muscle on survival techniques, adventure maps and building projects.
 # Section 1: Basic Building and Survival
 
-### Village House
+## Village House
 
 One thing any Minecraft survivor needs is a nice place to rest. Housing is the most common type of build in Minecraft. Villages offer a number of building templates and this build is based off of one of the larger village structures.
 
@@ -12,7 +17,7 @@ Here is the blueprint for this building--we will build the last and largest of t
 
 ![Village buildings](images/minecraft_npc_village_houses_floorplan.jpg)
 
-### Efficiency of Building Structures
+## Efficiency of Building Structures
 
 Now we'll do a competition.
 
@@ -31,11 +36,11 @@ Your house must contain all of the following:
 
 Your house's design must not use any of the required contents as exterior building material (excluding the window) (basically you should have real complete walls. No beds sticking out or furnaces in the wall, etc.) However, items can be used as flooring.
 
-### Survival
+## Survival
 
 One of the first thing one must master in the world of Minecraft is survival. You are dropped into the middle of a world with nothing but your bare hands. In order to survive you need to use all of your most well defined problem solving skills.
 
-#### Tool making and surviving your first night
+## Tool making and surviving your first night
 
 One of the most important things a Minecraft survivor needs to do is develop tools.
 
@@ -57,11 +62,11 @@ There are some tricks to help you craft these tools just a tiny bit faster, howe
 
 * If there is no coal in sight or under the first layers of stone you mine, immediately go back to chopping down trees. You'll need wood to smelt charcoal for torches.
 
-#### Surviving your first night exercise
+## Surviving your first night exercise
 
 Start a new world! When you spawn, it will be morning in the world of Minecraft. You'll be alone in the wilderness without any food or supplies. Tools are your top priority, as food will be difficult to obtain without them. Monsters will spawn at nighttime, so you will also need somewhere safe to stay overnight. Your challenge is simply to survive your first night in Minecraft. Explore your surroundings and decide where you're going to make your base, and then move on from there.
 
-#### Survival challenge
+## Survival challenge
 
 ![Artic map](images/arctic-main_900_6399647.jpg)
 
@@ -79,7 +84,7 @@ Additional challenges on this map are:
 * Rescue József
 # Section 2: Advanced Survival Strategies
 
-### Farming
+## Farming
 
 A Minecraft survivor needs to quickly develop a renewable food source.
 
@@ -111,7 +116,7 @@ Make bread using the recipe below. Bread fills you up almost as much as cooked m
 
 ![The recipe for making bread from wheat.](images/section_2/farming_bread_recipe.png)
 
-### Automatic Farming
+## Automatic Farming
 
 Farming isn't exactly difficult, and can be quite relaxing, but if you wanted to speed things up a bit there is a simple redstone contraption you can construct to automatically harvest your crops.
 
@@ -163,7 +168,7 @@ To harvest, go press the button connected to the hoppers. The water will flow do
 
 When all the items have flowed down into the hoppers, press the button to stop the water flow, and replant!
 
-### Mining strategies
+## Mining strategies
 
 In Minecraft, ores tend to group together at certain heights and some ores will only occur very far underground. Diamond ore, for example, only spawns at a Y-coordinate of 15 or below. To search for diamonds and other ores most efficiently, we need to mine below that level.
 
@@ -187,7 +192,7 @@ If you keep mining long enough, you're sure to find some good veins of ore! Here
 
 ![A vein of diamond ore.](images/section_2/mining_diamond.png)
 
-### Nether Portal
+## Nether Portal
 
 The Nether is an awful place without much to see and a lot to be afraid of; but it also a place one must visit if one is ever to create potions and it is fairly handy when travelling long distances.
 
@@ -223,7 +228,7 @@ Mobs of all kinds can make their way through portals, so be a little cautious wh
 
 ![Nether Sheep](images/nether_sheep.png)
 
-### Mob Farm/Grinder
+## Mob Farm/Grinder
 
 Occasionally you will find a monster spawner in a Minecraft dungeon. These cage-like blocks spawn monsters in a cube around them every few seconds. While they can be dangerous, they can also be a valuable source of items and experience. To do so safely and quickly, you can build a structure that serves two purposes. First, it should weaken the monsters using water, lava, or a steep fall so that you can defeat them faster. Second, it should also allow you to attack the spawned monsters from a safe place.
 
@@ -256,9 +261,9 @@ And finally we create a 22-block high shaft for the zombies to drop down. We can
 We've given you a world that has a zombie dungeon located directly below the spawn point. Your task is to find the spawner (dig down carefully to find it) and build a mob grinder like the one described above.
 # Section 3: Advanced Building
 
-### Furniture and Decor
+## Furniture and Decor
 
-#### Tables and Chairs
+### Tables and Chairs
 
 Tables can be made in many different ways, like a pressure plate on a fence post or glass pame, carpet on a cactus in a pot, or a piston powered by redstone.
 
@@ -268,7 +273,7 @@ Chairs are usually made with stairs and can be given arm rests with items such a
 
 ![Chairs using various materials](images/section_3/chairs.png)
 
-#### Wall art
+### Wall art
 
 Paintings are a great way to decorate your home. They come in lots of different sizes and can even be used to hide doors! Item frames are not only a nice decoration, but double as storage to display your tools and fovorite items!
 
@@ -276,17 +281,17 @@ Paintings are a great way to decorate your home. They come in lots of different 
 
 ![Item Frames](images/section_3/frames.png)
 
-#### Cabinets
+### Cabinets
 
 Bookshelves can be spruced up with the same types of materials you use for chairs. Stairs are a great way to add depth and texture to a home, as well.
 
 ![Shelves and stairs](images/section_3/shelves.png)
 
-### Lighting strategies
+## Lighting strategies
 
-#### Hiding light sources
+### Hiding light sources
 
-##### Carpet
+#### Carpet
 
 You can hide a light source under carpet. The only disadvantage is you can't place another block on top of the carpet.
 
@@ -294,27 +299,27 @@ You can hide a light source under carpet. The only disadvantage is you can't pla
 
 ![Using carpet to hide lighting sources](images/section_3/lighting_carpet_source.png)
 
-##### Jack-o-lanterns with hidden faces
+#### Jack-o-lanterns with hidden faces
 
 You can place jack-o-lanterns in walls and floors so that their face isn't facing outwards. Unless you like the jack-o-lantern faces, in which case leave them face-out (only an option in walls).
 
 ![Lack-o-lantern obscured in wall](images/section_3/lighting_jackolantern.png)
 
-##### The around-the-corner trick
+#### The around-the-corner trick
 
 It lets less light through, and might not work in buildings as well as in caves or moutain-dwellings, but lights can be hidden "up and away" inside small openings in walls.
 
 ![Torch obscured in wall](images/section_3/lighting_aroundcorner.png)
 
-##### Behind bushes
+#### Behind bushes
 
 Like carpet, bushes let light through but obscure the light source. This works great outside when placed strategically.
 
-#### Redstone lamps
+### Redstone lamps
 
 Redstone lamps are commonly considered the most tasteful of light sources, but they are also the most expensive. The recipe for a redstone lamp is as follows: a glowstone block surrounded by four redstone dust. The advantage to redstone lamps is they can be controlled by switches and daylight sensors, allowing them to turn off and on by either user action or the lack of natural light.
 
-##### Creating an automatic lighting source using redstone lamps and a daylight sensor
+#### Creating an automatic lighting source using redstone lamps and a daylight sensor
 
 For this exercise create a creative superflat world. Once in your world, you will need the following:
 
@@ -342,11 +347,11 @@ The final product from the "front": automatic lights along a decorative wall.
 
 ![Automatic redstone lamp configuration two lamps](images/section_3/lighting_redstonelamp_wall.png)
 
-### Adding texture and interest
+## Adding texture and interest
 
 One of the keys to a really great looking build is the ability to add texture and interest to your structures.
 
-#### Roads and paths
+### Roads and paths
 
 Try and mix up the materials used in building roads and paths as much as possible. Here we see a stone path made up of stone bricks, mossy stone bricks, cracked stone bricks, cobblestone and gravel. Stick with one main material, adding as randomly as possible the other materials you have at your disposal.
 
@@ -362,7 +367,7 @@ Dirt paths can also be rather nice. Here we have one made of dirt, podzol, grave
 
 ![Dirt Path](images/section_3/texture_and_interest/dirt_path.png)
 
-### Structures
+## Structures
 
 Now, onto structures. One of the often neglected areas of a building is the entrance. Here we make the entrance more interesting with some pillars anchoring a covered path to the front doors of this house. The stairs on either side create separation and define the space while taking up less visual space than a fully square block. With enough imagination they could also be benches lining the path.
 
@@ -376,7 +381,7 @@ This next example uses the space between the ceiling and the roof to create rece
 
 ![Recessed Lighting](images/section_3/texture_and_interest/recessed_lighting.png)
 
-#### Roofs and Material Choice
+### Roofs and Material Choice
 
 Roof lines are very important in Minecraft. Here we see two different styles of flat roof and the beginnings of multi-lined staired roof.
 
@@ -390,7 +395,7 @@ Don't forget to add interesting bits and pieces to the outside of your structure
 
 ![Outside Interest](images/section_3/texture_and_interest/outside_interest.png)
 
-### Your Turn
+## Your Turn
 
 We want to finish this section off with a relatively big build. We will provide some examples, but use your own creativity and practice building your dream Minecraft house, or at least something better than your last Minecraft house. (Remember we're going for detail and visual interest here, not simply building size.)
 
@@ -402,7 +407,7 @@ Here are a couple of screen shots of the final product all the previous examples
 
 # Section 4: More Advanced Survival Techniques
 
-### Enchanting
+## Enchanting
 
 Enchanting is a very important technique in Minecraft. Enchanted tools, armor and weapons make success in your Minecraft adventures much more likely, and are more fun to use besides.
 
@@ -420,13 +425,13 @@ Tips:
 
 * Place 15 bookshelves around an enchantment table to get the highest level enchantments. If after establishing the 15 bookshelves you _do not_ want maximized enchantments, you can block their effect with torches.
 
-#### Anvils
+### Anvils
 
 An anvil can be used to combine the enchantments of two items. The items must be of the same type and material. There are two slots in the anvil, and the item in the second slot is sacrificed to improve the first.
 
 The cost in levels depends on the enchantments. You can also repair and name items with the anvil. In survival mode, there is a limit of 39 levels for any work performed on the anvil.
 
-#### Enchanting Challenge
+### Enchanting Challenge
 
 In the map provided, enchant a sword to either:
 
@@ -448,7 +453,7 @@ The bottle of enchantment provided is only going to get you so far. You'll have 
 
 There is a fair amount of luck involved, and no one strategy is necessarily better than another. After everyone has completed the challenge, compare notes.
 
-### X-ray machines
+## X-ray machines
 
 X-ray machines are rather useful things, allowing you to see through the ground to whatever open space it might contain, allowing you to locate abandoned mineshafts, dungeons, ravines, etc. To create a primitive x-ray machine in the latest version of Minecraft:
 
@@ -472,7 +477,7 @@ Unfortunately the x-ray glitch is becoming more difficult to exploit in upcoming
 
 Fortunately, one of our camp servers is 1.6.4, which allows for a more elegant x-ray machine using a sticky piston and a block of glowstone:
 
-### Minecarts and railway construction
+## Minecarts and railway construction
 
 As you expand your living area, you may find that traveling between areas taking up a lot of your time. Running and walking aren't particularly fast, but minecarts can make traveling significantly faster and safer.
 
@@ -520,7 +525,7 @@ Your assignment is to make a minecart rail that connects three different locatio
 
 ![A three-way intersection](images/section_4/track_switching_station.png)
 
-### Auto-Smelters
+## Auto-Smelters
 
 The concept behind an auto-smelter is pretty simple, actually: smelt a chest full of materials automatically. The build in its most basic is this: Chest (with materials) feeds into a hopper, which in turn feeds into the furnace, then into another hopper, then into the chest with the final product.
 
@@ -529,7 +534,7 @@ The concept behind an auto-smelter is pretty simple, actually: smelt a chest ful
 Think of ways to improve upon this design by making it more efficient, easier to load with raw materials or have more capacity.
 # Section 5: Minecraft Tools
 
-### Adventure Maps
+## Adventure Maps
 
 > Adventure mode is a game mode intended for player-created maps by limiting some of the gameplay in Minecraft, in which the player cannot directly destroy most blocks to avoid spoiling adventure maps or griefing servers. Most blocks cannot be destroyed without the proper tools. However, players can still interact with mobs and craft items. [link](http://minecraft.gamepedia.com/Adventure)
 
@@ -555,7 +560,7 @@ Maps provided:
 * "The Evil Doctor's Castle" is a classic escape-style map. Quickly determining the way through each "level" is of the most importance with this map, but it does have a very clear path to success!
 * "Jungle Stream" is a classic story/puzzle/parkour map in the style of the Indiana Jones series.*
 
-### Importing Schematics Using MCEdit
+## Importing Schematics Using MCEdit
 
 Schematics and tools that support them, like MCEdit, can be very helpful in getting started creating more interesting worlds for any game type.
 
@@ -609,7 +614,7 @@ Quit MCEdit, open Minecraft and test out your new creations!
 
 > It is very important to have only MCEdit *or* Minecraft open at any given time. You will lose work if you try to have a world open in both applications.
 
-### Creating Schematics
+## Creating Schematics
 
 While you are in your creative Minecraft world, whip up a quick farm.
 
@@ -631,15 +636,15 @@ Everything might not be perfect in MCEdit (as you can see in the image above). T
 
 Now you can try to create schematics from other worlds and import them into your world.
 
-### Building Your Own Map
+## Building Your Own Map
 
 Continue using the techniques you just learned to flesh out your map. Leave goodies for players to find, particular challenges for them to complete, etc. Once you've completed your map, trade with a friend or neighbor (ask your instructor for help with this step).
 
-### Skin Design
+## Skin Design
 
 This section is pretty straightforward thanks to the great tools at [Miners Need Cool Shoes](http://www.needcoolshoes.com/). Go to needcoolshoes.com and import your skin or go to the gallery and pick a new one to tweak. Then edit that skin using their editing tools! You can download the png file or change your skin right from the site. You can even combine skins by loading multiple skins as layers in the editing tool.
 
-### Server time!
+## Server time!
 
 We will now spend some time getting familiar with the Sequences server, our whitelisted camp server for Minecraft U campers. Your instructors will go over the rules, which are also in the next section, and help you get on the server and get established there.
 # Appendix 1: MCU Servers
