@@ -64,7 +64,7 @@ A NOT gate only has one input and simply reverses that input. An ON input leads 
 
 Input | Output
 --- | ---
-1 | 1
+0 | 1
 1 | 0  
 
 ## NOR
