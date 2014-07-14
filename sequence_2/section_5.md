@@ -43,7 +43,7 @@
   1. Right click on the computer and run the ```alongtimeago``` program  
     1. To run a program on the disk, specify the full path to the program like this: ```disk/alongtimeago```  
     1. To run the program on the monitor, specify the monitor first, so this: ```monitor [top|bottom|left|right|front|back] disk/alongtimeago```
-      The syntax ```[top|bottom|left|right|front|back]``` means pick which side your monitor is on and only type that direction, of those six shown. So you command would be something like ```monitor left disk/alongtimeago```.
+      The syntax ```[top|bottom|left|right|front|back]``` means pick which side your monitor is on and only type that direction, of those six shown. So your command would be something like ```monitor left disk/alongtimeago```.
   1. Sit back and enjoy the show  
   ![Watching on the big screen](images/section_5/monitor.png)
   1. To quit any running program, hold down ```ctrl + r```
@@ -56,7 +56,7 @@ Turtles are programmable robots that you can use to collect resources, clear ter
 
 *Note: Tools equipped to turtles will not wear out and turtles themselves are indestructible (unless you break them yourself).  This makes them one of the safest ways to utilize diamond tools, not to mention the time they will save you.
 
-Like any robot, turtles recquire fuel.  They can get energy from anything that would work in a furnace as well as other more advanced options we'll get to later.  Different types of fuel will yield different _fuel counts_ which is the number of blocks the turtle can move with that amount of fuel.  For example, coal will give the turtle 80 fuel, so the turtle can now move 80 blocks.
+Like any robot, turtles require fuel.  They can get energy from anything that would work in a furnace as well as other more advanced options we'll get to later.  Different types of fuel will yield different _fuel counts_ which is the number of blocks the turtle can move with that amount of fuel.  For example, coal will give the turtle 80 fuel, so the turtle can now move 80 blocks.
 
 1. Add some dancing turtles
   1. Open your inventory and search for ```turtle```
