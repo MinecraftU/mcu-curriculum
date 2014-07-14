@@ -148,7 +148,7 @@ for i=1,3 do
 end
 ```
 
-This block of code takes agruments and check to make sure there are 3 of them, and that all are numbers greater than 1.
+This block of code takes arguments and checks to make sure there are 3 of them, and that all are numbers greater than 1.
 If they aren't, it prints a line that tells the user how to run the program.
 
 Now, we take the three arguments and assign them to the correct variables.
@@ -236,7 +236,7 @@ And we're done! Feed your turtle coal and a building material and run the progra
 Another useful program! You can point this one at a wall and it will dig a two block tall and one block wide tunnel. It will also place torches every 8 blocks.
 
 We'll also build this one with several different functions.
-The first will check if the turtle is on solid ground, and if not, it will palce a block below itself.
+The first will check if the turtle is on solid ground, and if not, it will place a block below itself.
 
 ```lua
 function placeFloorBlock()
