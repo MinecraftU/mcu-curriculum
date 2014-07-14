@@ -1,6 +1,6 @@
 # Section 3: Khan Academy ProcessingJS
 
-Now we're going to learnw some basic programming concepts using ProcessingJS and Khan Academy. If you haven't heard of Khan Academy, it is a website that has instructional videos for math, history, and many other subjects. Last year, they introduced a programming platform that's based around shapes, colors, and animation.
+Now we're going to learn some basic programming concepts using ProcessingJS and Khan Academy. If you haven't heard of Khan Academy, it is a website that has instructional videos for math, history, and many other subjects. Last year, they introduced a programming platform that's based around shapes, colors, and animation.
 
 1. Open up khanacademy.org and click on the "Learn" tab at the top left. Then hover over the "Computing" tab and click on "Computer Programming". On the next page, click "Create Program" over on the left side of the screen.
 1. This is the IDE (or Integrated Development Environment) for Khan Academy's programming tutorials. Code that is typed into the left box will be executed real-time in the right box; any changes you make will immediately be reflected on the right side.  
@@ -81,7 +81,7 @@ Loops provide a way to execute the same commands multiple times. Each execution 
 
 ### WHILE loops
 
-The body of `while` loops execute when the boolean of the `white` evaluates to `true`. The syntax for a while loop is below. Notice the form of the boolean expression after the keyword `while`.
+The body of `while` loops execute when the boolean of the `while` evaluates to `true`. The syntax for a while loop is below. Notice the form of the boolean expression after the keyword `while`.
 
 ```javascript
 while (x < 10)
@@ -107,7 +107,7 @@ What happens if we run the same program without changing the value of `x`? Comme
 
 `for` loops are more structured that `while` loops. To write a `for` loop, you specify a starting point, an ending point, and an action to be performed every iteration. The following code block shows the basic syntax of a `for` loop.
 
-```javascriopt
+```javascript
 for (var i = 1; i < 10; i = i + 1) //Notice we actually declare the variable i inside the parentheses
 {
     //Code goes here
