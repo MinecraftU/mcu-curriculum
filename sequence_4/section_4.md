@@ -69,6 +69,7 @@ Before we create our language packs, make sure you have "hide file extensions fo
 1. Select Finder -> Preferences -> Advanced
 2. Select "Show all filename extensions"
 
+## Language Packs
 1. Create a folder called "lang" in the "assets/examplemod" folder.
 
 1. Create a new text file called "en_US.lang" in the folder.
