@@ -125,7 +125,7 @@ To actually launch our modded Minecraft, run the project by clicking on the gree
 
 1. Open up Paint and create a new empty canvas. The resolution should be square; most Minecraft textures are 16x16 but you could also try 32x32 or 64x64.
 
-1. Take a few minutes and make your own texture! For right now, the block will have the same texture on all six sides like cobblestone or obsidian. Save the texture as "genericDirt.png" in the "blocks" folder. I made a dice-like yellow and blue texture for mine.
+1. Take a few minutes and make your own texture! For right now, the block will have the same texture on all six sides like cobblestone or obsidian. Save the texture as .png called "genericDirt" in the "blocks" folder. I made a dice-like yellow and blue texture for mine.
 ![The texture I made for my block.](../sequence_4/images/section_3/block_texture.png)
 
 1. After your texture has been saved, run Minecraft. Now check out the texture of your block!
