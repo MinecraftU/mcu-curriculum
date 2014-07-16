@@ -14,14 +14,14 @@ These crafting and smelting recipes go in our original ExampleMod class.
 GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond, 64), new ItemStack(Blocks.dirt));
 ```
 This recipe simply trades in a stack of 64 dirt blocks for 64 diamonds.
-![A dirt-for-diamonds recipe.}](../images/section_4/recipe_dirt_single.png)
+![A dirt-for-diamonds recipe.}](../sequence_4/images/section_4/recipe_dirt_single.png)
 
 1. To add more items, simply add more ItemStacks within the parentheses.
 ```java
 GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond, 64), new ItemStack(Blocks.dirt),
     new ItemStack(Blocks.dirt), new ItemStack(Blocks.dirt));
 ```
-![A recipe that requires 3 dirt per diamond.](../images/section_4/recipe_dirt_triple.png)
+![A recipe that requires 3 dirt per diamond.](../sequence_4/images/section_4/recipe_dirt_triple.png)
 
 1. Next, let's make a shaped recipe. Shaped recipes group the rows of items using letters to represent the type of block. For example, the recipe for TNT would be: `("xyx", "yxy", "xyx", 'x', new ItemStack(Materials.sulphur), 'y', new ItemStack(Blocks.sand))` Pay attention to the double-quotes for the letters representing the recipe shape and the single-quotes for the letters representing the items in the recipe.
 > Note: when we leave out the size of the ItemStack, the game will assume a size of 1.
@@ -31,7 +31,7 @@ GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond, 64), new ItemStack(
 GameRegistry.addShapedRecipe(new ItemStack(Items.diamond), "xxx", "x x", "xxx", 'x',
     new ItemStack(Items.coal));
 ```
-![The crafting diamond recipe.](../images/section_4/recipe_coal.png)
+![The crafting diamond recipe.](../sequence_4/images/section_4/recipe_coal.png)
 
 ## Smelting recipes
 
@@ -40,7 +40,7 @@ GameRegistry.addShapedRecipe(new ItemStack(Items.diamond), "xxx", "x x", "xxx", 
 GameRegistry.addSmelting(Blocks.stone, new ItemStack(Blocks.stonebrick), 0.1f);
 ```
 This time, the input item is on the left while the output is on the right. The number at the end specifies how much experience the player receives from the smelting.
-![The smelting diamond recipe.](../images/section_4/smelting_stone.png)
+![The smelting diamond recipe.](../sequence_4/images/section_4/smelting_stone.png)
 
 1. On a side note, the _damage values_ of items often hold _metadata_ about the block. For example, all the colors of wool are actually the same type of block. They're rendered differently based on the value of their damage value. We can use this data value in our recipes to alter what kinds of wool, clay, or wood are required.
 ```java
@@ -51,7 +51,7 @@ woolStackBlack.setItemDamage(15);
 woolStackOrange.setItemDamage(1);
 GameRegistry.addSmelting(woolStackBlack, woolStackOrange, 0.1f);
 ```
-![The smelting wool recipe.}](../images/section_4/smelting_wool.png)
+![The smelting wool recipe.}](../sequence_4/images/section_4/smelting_wool.png)
 
 ## Setting names
 The names that we've given our new blocks and items so far are all hard-coded into our mod. But what if we want people in other countries who speak different languages to play our mod? We can use what are called _language packs_ to give our items language-specific names. The packs also replace the cumbersome "package.item.item"-type names with real names such as "Iron Ingot" or "Dirt".
@@ -59,9 +59,9 @@ The names that we've given our new blocks and items so far are all hard-coded in
 1. Create a folder called "lang" in the "assets/examplemod" folder.
 
 1. Create a new text file called "en_US.lang" in the folder.
-![The language file we've created.](../images/section_4/lang_folder.png)
+![The language file we've created.](../sequence_4/images/section_4/lang_folder.png)
 
 1. Right-click on the file and choose to edit it. The default entry is something similar to: ```category.blockName.name=Item Name```. The name that appeared for our initial block, `tile.genericDirt.name` is what we would use in our case. So my line would be `tile.genericDirt.name=CookieDice`.
 
 1. Save the file and run Minecraft. Your name should now appear in-game.
-![Our ingame name with the language file.](../images/section_4/lang_block.png)
+![Our ingame name with the language file.](../sequence_4/images/section_4/lang_block.png)
