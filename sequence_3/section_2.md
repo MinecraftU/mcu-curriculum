@@ -4,7 +4,8 @@
 
 An _adder_ uses logic gates to perform addition. There are three inputs to the whole circuit: A, B, and carry. The carry is the result from the previous addition (think of how you carry a 1 when you add large numbers). The two outputs are the result and the carry for the next addition.
 
-This diagram shows the overall structure of an adder.
+This diagram shows the overall structure of an adder.  
+Note: A dot means the two lines of redstone should connect.  Other overlaps should not connect.
 
 ![A diagram fo an adder.](images/section_1/adder_diagram.gif)
 
