@@ -76,7 +76,7 @@ Items Needed:
 
 Your teleporting Matrix should look like this:  
 
-![An example of a teleporting matrix. \label{fig:telporterMatrix}](/images/Section_1/matrix.png)
+![An example of a teleporting matrix. \label{fig:telporterMatrix}](/sequence_4/images/Section_1/matrix.png)
 
 Note: This will not transport you the player, only items/blocks inside the area.  **There is no distance cap!!!**
 
