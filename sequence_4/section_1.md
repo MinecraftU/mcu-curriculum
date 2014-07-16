@@ -108,11 +108,11 @@ You will need the same items for the portal as the teleporter/quantizer:
 
 It will look like this  
 
-![An example of a Quantum Portal. \label{fig:portal}](/images/Section_1/portal.png)
+![An example of a Quantum Portal. \label{fig:portal}](/sequence_4/images/Section_1/portal.png)
 
 When you right-click the QC you will see this menu: 
 
-![QP Menu. \label{fig:menu}](/images/Section_1/menu.png)
+![QP Menu. \label{fig:menu}](/sequence_4/images/Section_1/menu.png)
 
 Name the Portal you have selected and give it a destination portal.
 You will need to build at least two portals to get anywhere.
