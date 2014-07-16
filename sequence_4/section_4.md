@@ -57,7 +57,17 @@ GameRegistry.addSmelting(woolStackBlack, woolStackOrange, 0.1f);
 The names that we've given our new blocks and items so far are all hard-coded into our mod. But what if we want people in other countries who speak different languages to play our mod? We can use what are called _language packs_ to give our items language-specific names. The packs also replace the cumbersome "package.item.item"-type names with real names such as "Iron Ingot" or "Dirt".
 
 #### File Extensions
-Before we create our language packs, make sure you have file extensions enabled. See section 3 for instructions.
+Before we create our language packs, make sure you have "hide file extensions for known file types" disabled. To check if its disabled, go look at your textures.  If they show up as "_name_.png" you're good.  Otherwise, follow these instructions.  
+
+##### Windows
+1. Start -> Control Panel -> Appearance and Personalization -> Folder Options
+2. Click on "View" tab
+3. Click "Advanced settings"
+4. Uncheck the box next to "Hide extensions for known file types" then click "OK"
+
+##### Mac
+1. Select Finder -> Preferences -> Advanced
+2. Select "Show all filename extensions"
 
 1. Create a folder called "lang" in the "assets/examplemod" folder.
 
