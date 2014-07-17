@@ -40,3 +40,11 @@ Another cool set of items in qCraft are goggles: Quantum and Anti-Observation
 Quantum Goggles: When worn, you will see all quantum blocks in their superpositional state (green and swirly).  This makes it relatively easy to differentiate quantum blocks from regular blocks and will also reveal invisible quantum blocks.
 
 Anti-Observation Goggles: When worn, these goggles will make quantum blocks act as though your character wasn't there.  They will then resolve into their last observed state.  This can be used to work around or with ODB's and QB's without them constantly changing.
+
+### Entanglement  Explained
+If you tried being creative, you're mostly likely all tangled up trying to entangle things.  Heh.  Not to worry, this should help you become _untangled_. Okay, enough jokes.
+
+First, a couple of FYI's.
+1. You can ony entangle quantum blocks.  
+2. You can make an ODB with the same block from all sides.
+3. 
