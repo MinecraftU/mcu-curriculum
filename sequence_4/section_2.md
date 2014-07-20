@@ -14,7 +14,7 @@ Think of an elevator to a building. Every portal you build is a door that elevat
 
 #### Examples:
 
-Fixed Path:
+Fixed Path:  
 1. Portal 1 -> Portal 2  
 2. Portal 2 -> Portal 1  
 
