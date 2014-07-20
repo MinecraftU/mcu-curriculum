@@ -65,6 +65,9 @@ Items Needed:
 * Glass blocks
 * EoO
 * Quantum Computer (optional entangled pair)
+ 
+####Crafting ODB's  
+![ODB recipe. \label{fig:ODB recipe}](/sequence_4/images/Section_1/crafting_ODB.png)
 
 1. Craft 4 different Observational dependent blocks (ODB's) using Gold for one of the cardinal directions, and Obsidian for the rest.
 2. Place these ODB's in a square/rectangle around a Quantum Computer (QC) such that all the ODB's resolve to Gold when you are standing in the enclosed area.  
