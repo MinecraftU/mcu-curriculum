@@ -8,17 +8,17 @@ https://sites.google.com/a/elinemedia.com/qcraft/wiki/qcraft/blocks-and-items
 
 The 3 principles you will learn to use are:
 
-1. Observer Dependance
+1. Observer Dependence
 2. Superposition
 3. Entanglement
 
 You may also learn to utilize quantum teleportation.
 
-Helpful video [here](https://www.youtube.com/watch?v=hygLNR_wGPo)
+Helpful video [here.](https://www.youtube.com/watch?v=hygLNR_wGPo)
 
-### Observer Dependance
+### Observer Dependence
 
-Observational Dependancy essentially states that looking at an object can actually change it.
+Observational Dependency essentially states that looking at an object can actually change it.
 
 In Minecraft, imagine a block that is diamond if you observe it from the North, but is coal from the West.
 
