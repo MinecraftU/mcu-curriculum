@@ -16,18 +16,18 @@ Think of an elevator to a building. Every portal you build is a door that elevat
 
 Fixed Path:
 1. Portal 1 -> Portal 2  
-1. Portal 2 -> Portal 1  
+2. Portal 2 -> Portal 1  
 
 Progression  
 1. Portal 1 -> Portal 2  
-1. Portal 2 -> Portal 3  
-1. Portal 3 -> Portal 4  
-1. etc...  
+2. Portal 2 -> Portal 3  
+3. Portal 3 -> Portal 4  
+4. etc...  
 
 Converging  
 1. Portal 1 -> Portal 3  
-1. Portal 2 -> Portal 3  
-1. Portal 4 -> Portal 3  
+2. Portal 2 -> Portal 3  
+3. Portal 4 -> Portal 3  
 
 ### Implementing New Redstone: Automated Observer
 
