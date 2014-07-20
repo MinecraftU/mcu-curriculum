@@ -44,7 +44,10 @@ Anti-Observation Goggles: When worn, these goggles will make quantum blocks act 
 ### Entanglement  Explained
 If you tried being creative, you're mostly likely all tangled up trying to entangle things.  Heh.  Not to worry, this should help you become _untangled_. Okay, enough jokes.
 
-First, a couple of FYI's.
-1. You can ony entangle quantum blocks.  
-2. You can make an ODB with the same block from all sides.
-3. 
+1. You can ony entangle ODB/quantum blocks.  
+2. You can make quantum blocks and ODB's with the same block from all sides.
+3. Quantum blocks made from multiple types of blocks will change properties based on what state they resolve to.
+4. Large entangled groups are made by entangling a new ODB with an ODB already in the entangled group.
+5. You cannot un-entangle anything (without destroying it).
+6. Entangled superpositional blocks will all resolve to the same block, making them more dependable than ODB's in large groups.
+
