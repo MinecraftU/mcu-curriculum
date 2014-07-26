@@ -33,7 +33,7 @@
 1. Play the music with the ```dj``` program
 1. Create a monitor
   1. Open your inventory and search for ```monitor```
-  1. Place 12 monitors in a 6 wide by 2 high pattern to create a giant widescreen monitor
+  1. Place 12 monitors in a 6 wide by 3 high pattern to create a giant widescreen monitor
   1. Place a computer next to the monitor
   1. Place a disk drive next to the computer
 1. Watch a movie on the monitor

@@ -10,19 +10,17 @@ Access to the camp server is contingent on behavior guidelines just like those i
 
 Violation of any of these rules will result in bans on a graduated scale described below.
 
-1. No griefers. [A griefer is a player in a multiplayer video game who deliberately irritates and harasses other players within the game](http://en.wikipedia.org/wiki/Griefer).
-1. No stealing. You wouldn't just walk into someone else's house and take things out of their closet. Similarly, you may not remove things from other player's chests without consequences. The only exceptions to this are chests marked with a sign as community chests, and food in the case of emergency.
+1. No griefers. [A griefer is a player in a multiplayer video game who deliberately irritates and harasses other players within the game](http://en.wikipedia.org/wiki/Griefer). This includes causing damage to other players, damaging existing structures/contraptions and stealing.
+1. It bears repeating: No stealing. You wouldn't just walk into someone else's house and take things out of their closet. Similarly, you may not remove things from other player's chests or houses without consequences. The only exceptions to this are chests marked with a sign as community chests, and food in the case of emergency.
 1. No bad language.
 1. No raging or rage quitting. Even if not intended as raging, all caps chatting may be interpreted as such.
-1. Fill creeper holes and repair any other damage done by creeper blasts.
-1. Replant community crops, and leave as much behind in community chests as you take out.
+1. Fill creeper holes and repair any other damage done by creeper blasts. (We have disabled creeper block damange on the servers for now.)
+1. Replant community crops, re-breed community animals and leave as much behind in community chests as you take out.
 
 Punishment for breaking any of the server rules are as follows:
 
 1. Verbal warning through chat.
 1. If immediately reachable, warning to a parent.
 1. Kick.
-1. Ban for 24 hours.
-1. Ban for a week.
-1. Ban for three weeks.
+1. Indefinite ban. Length determined after discussion with a parent.
 1. Permanent ban. Reversible only through appeal.

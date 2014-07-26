@@ -67,7 +67,7 @@ Items Needed:
 * Quantum Computer (optional entangled pair)
  
 ####Crafting ODB's  
-![ODB recipe. \label{fig:ODB recipe}](/sequence_4/images/Section_1/crafting_ODB.png)
+![ODB recipe. \label{fig:ODB recipe}](images/section_1/crafting_ODB.png)
 
 1. Craft 4 different Observational dependent blocks (ODB's) using Gold for one of the cardinal directions, and Obsidian for the rest.
 2. Place these ODB's in a square/rectangle around a Quantum Computer (QC) such that all the ODB's resolve to Gold when you are standing in the enclosed area.  
@@ -79,7 +79,7 @@ Items Needed:
 
 Your teleporting Matrix should look like this:  
 
-![An example of a teleporting matrix. \label{fig:telporterMatrix}](/sequence_4/images/Section_1/matrix.png)
+![An example of a teleporting matrix. \label{fig:telporterMatrix}](images/section_1/matrix.png)
 
 Note: This will not transport you the player, only items/blocks inside the area.  **There is no distance cap!!!**
 
@@ -111,11 +111,11 @@ You will need the same items for the portal as the teleporter/quantizer:
 
 It will look like this  
 
-![An example of a Quantum Portal. \label{fig:portal}](/sequence_4/images/Section_1/portal.png)
+![An example of a Quantum Portal. \label{fig:portal}](images/section_1/portal.png)
 
 When you right-click the QC you will see this menu: 
 
-![QP Menu. \label{fig:menu}](/sequence_4/images/Section_1/menu.png)
+![QP Menu. \label{fig:menu}](images/section_1/menu.png)
 
 Name the Portal you have selected and give it a destination portal.
 You will need to build at least two portals to get anywhere.
