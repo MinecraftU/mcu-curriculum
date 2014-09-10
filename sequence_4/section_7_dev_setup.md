@@ -8,9 +8,7 @@ To get started writing mods, you'll need a good development environment. Always 
 
 * Also download the [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html). Download the correct version for your system from that page.
 
-* We'll need a folder to do our development in. Make a folder at `C:/minecraft/dev`.
-
-* Please note that Windows or Linux are highly recommended for Minecraft Mod Developemnt, because most tutorials are for Windows, and if you use Linux, you already know what you're doing.
+* We'll need a folder to do our development in. Make a folder called `minecraft` and another inside that called `dev`.
 
 * The Java SDK should be done downloading. Install it by running the file you downloaded.
 
@@ -18,10 +16,22 @@ To get started writing mods, you'll need a good development environment. Always 
 
 * Once the Forge zip file is finished downloading, place it inside the `/minecraft/dev/` folder. Open it and there should be a folder labeled `forge` inside. Extract that to the `/minecraft/dev/` folder as well. This is the folder we will use to write your mod. Rename it to whatever you want your mod to be called. E.g. from `forge` to `DiamondCutter`. Keep the Forge zip file in case you need it later.
 
-* Now we need to let Forge set itself up for development. Open the folder you just renamed. If you're using Windows, hold shift and right click inside that window. Click on `Open command window here`. Then type `gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod. 
+* Now we need to let Forge set itself up for development. Open the folder you just renamed. 
 
-* Type `gradlew idea` and press `Enter`. This command sets up Forge for use with our IntelliJ IDE.
+### Windows
+* Hold shift and right click inside the folder you renamed. Click on `Open command window here`. Then type `gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod. 
 
-* Open IntelliJ and select `Open Project`. Navigate to the folder you made for your mod and open the file that ends in `.ipr`.
+* Open IntelliJ and select `import project`. Navigate to the folder you renamed and select `build.gradle`.
 
-* Congrats! You're now ready to develop your very own Minecraft mod!
+* Once IntelliJ finished importing the project, close it. Go back to your command window and type `gradlew genIntellijRuns`.
+
+* Start IntelliJ and get to modding!
+
+### Mac/Linux
+* Open a terminal and navigate to the folder you just renamed. Type `./gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod. 
+
+* Open IntelliJ and select `import project`. Navigate to the folder you renamed and select `build.gradle`.
+
+* Once IntelliJ finished importing the project, close it. Go back to your terminal and type `./gradlew genIntellijRuns`.
+
+* Start IntelliJ and get to modding!
