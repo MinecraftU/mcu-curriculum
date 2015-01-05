@@ -12,7 +12,7 @@ Learn the basics of survival in the Minecraft world, from fending off starvation
 Learn the basics of electricity, with in game and real world applications. We’ll go over digital circuits, like those found in smartphones and tablets, and how to use them in the Minecraft world to build yourself awesome contraptions. At the advanced level, we’ll go over what binary really is, and how to design binary logic machines with Redstone! _For ages 8-14 or younger when having completed Sequence 1 or with equivalent experience._
 
 ## Sequence 3: ComputerCraft
-               
+
 Use the Minecraft mod ComputerCraft to learn the basics of programming and then apply those skills via your own in-game robots. These robots can do anything, from build you a house to find and mine diamonds for you. The only limit is your ability to direct them. At the advanced level, we’ll discuss the limitations of computers and how to work around them. _For ages 10-14 or younger when having completed Sequence 2 or with equivalent experience._
 
 ## Sequence 4: Java and Modding Minecraft
