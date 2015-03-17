@@ -1,7 +1,7 @@
 ## Setup
 
 To get started writing mods, you'll need a good development environment. Always try to keep your enviromnet organized, since it's what you'll have to use to write all your code.
- 
+
 * To start off, start the download for [JetBrains IntelliJ IDEA Community Edition](http://www.jetbrains.com/idea/). Find the button towards the bottom of that page that says `Download Community`. This is a free version of their commercial IDE, and it has lots of the same features.
 
 * While that's downloading, lets go grab [Forge](http://www.minecraftforge.net/forum/index.php?action=files), as it's what we need to develop mods. Pick the version marked `1.7.10` that's labeled as `Recommended`, and click the `*` next to `(Src)`. This should start downloading a file called something like `forge-1.7.10-10.13.0.1180-src.zip`
@@ -16,10 +16,10 @@ To get started writing mods, you'll need a good development environment. Always 
 
 * Once the Forge zip file is finished downloading, place it inside the `/minecraft/dev/` folder. Open it and there should be a folder labeled `forge` inside. Extract that to the `/minecraft/dev/` folder as well. This is the folder we will use to write your mod. Rename it to whatever you want your mod to be called. E.g. from `forge` to `DiamondCutter`. Keep the Forge zip file in case you need it later.
 
-* Now we need to let Forge set itself up for development. Open the folder you just renamed. 
+* Now we need to let Forge set itself up for development. Open the folder you just renamed.
 
 ### Windows
-* Hold shift and right click inside the folder you renamed. Click on `Open command window here`. Then type `gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod. 
+* Hold shift and right click inside the folder you renamed. Click on `Open command window here`. Then type `gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod.
 
 * Open IntelliJ and select `import project`. Navigate to the folder you renamed and select `build.gradle`.
 
@@ -28,10 +28,34 @@ To get started writing mods, you'll need a good development environment. Always 
 * Start IntelliJ and get to modding!
 
 ### Mac/Linux
-* Open a terminal and navigate to the folder you just renamed. Type `./gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod. 
+* Open a terminal and navigate to the folder you just renamed. Type `./gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod.
 
 * Open IntelliJ and select `import project`. Navigate to the folder you renamed and select `build.gradle`.
 
 * Once IntelliJ finished importing the project, close it. Go back to your terminal and type `./gradlew genIntellijRuns`.
 
-* Start IntelliJ and get to modding!
+* If you open the `ExampleMod` class, you should see the following code.
+
+```java
+package com.example.examplemod;
+
+import net.minecraft.init.Blocks;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+
+@Mod(modid = ExampleMod.MODID, version = ExampleMod.VERSION)
+public class ExampleMod
+{
+    public static final String MODID = "examplemod";
+    public static final String VERSION = "1.0";
+
+    @EventHandler
+    public void init(FMLInitializationEvent event)
+    {
+		// some example code
+        System.out.println("DIRT BLOCK >> "+Blocks.dirt.getUnlocalizedName());
+    }
+}
+```
+* Right-click on _ExampleMod.java_ and select "Refactor". Change the name to something that you like. For our examples, we use `CopperMod` since our mod adds copper to the game. We'll also have to change the _MODID_ and _VERSION_ to what we want. You can delete the example `println` statement if you wish.

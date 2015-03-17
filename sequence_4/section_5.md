@@ -6,3 +6,7 @@ Let's give our custom items a few!
 
 ### Custom Tool Material
 The easiest way to manipulate these parameters is to simply create our custom item from a custom _Tool Material_.
+
+### Custom enchantability
+
+## Custom Furnace

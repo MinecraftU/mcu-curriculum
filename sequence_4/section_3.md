@@ -1,6 +1,6 @@
-# Mod Dev
+# Minecraft Mod Development
 
-## Setup
+## Setup (See section 7 for more detailed instructions)
 
 1. Extract the "forge" folder.
 1. Shift + right-click inside the folder and choose "Open command window here". A console window will appear.
@@ -8,46 +8,52 @@
 1. Type `gradlew idea` and press `Enter`, which sets up an IntelliJ workspace for coding.
 1. Open IntelliJ and select the created project at the top.
 
+## What is a _mod_?
+The word _mod_ is short for _modification_. A _mod_ is made up of code and images that change how Minecraft works. You can add new ores, new items, new foods, and even new mobs and monsters! In previous sequences, you learned about programming using the ComputerCraft mod, an advanced mod that adds turtles and computers into the world of Minecraft. By learning how to program in Java and create your own textures, you can add just about anything you want into the world of Minecraft. In this sequence, we're first going to learn how to add new blocks and items and then move onto more advanced topics like custom crafting tables and armor.
+
 ## Creating new blocks
 
-> In this section, be sure to match ALL capitalization and punctuation as exactly as possible.
+> Anytime you copy Java code in this section, be sure to match ALL capitalization and punctuation as exactly as possible.
 
-Programmers use something called a _class_ as a blueprint for all of the objects in Minecraft. There's a class for a diamond pickaxe, for an iron ore, and all other blocks and items. By creating our own class, we can add our own objects to the game. Rather than make a completely new class, however, we can _extend_ the existing Block class and make our own new block. It will have all the normal properties of a block (can be broken, placed down, picked up) but we can set our own texture, hardness, and sound.
+Programmers use something called a _class_ as a blueprint for all of the objects in Minecraft. There's a class for a diamond pickaxe, for an iron ore, and all other blocks and items. These classes tell what a block (or item) should look like, how it should behave, as well as where it spawns or how it can be crafted. By creating our own class, we can add our own objects to the game. Let's say that we wanted to make a new type of block. We don't want to have to program everything from scratch, especially because Minecraft already has a `Block` class that defines what a block is in the game (all blocks can be broken and picked up, for example). We can _extend_ the existing `Block` class and make our own new block. It will have all the normal properties of a block but we can set our own texture, hardness, and sound.
 
-Create a new class called "GenericBlock" by right-clicking on the package and choosing "Create new class". Name it "GenericBlock" and press OK. The following code should be displayed. You should add the lines with comments after them.
+For this lesson, we're going to create a new material in Minecraft: copper. We'll have to make copper ore, copper ingots, copper tools, and all the other items associated with the iron or diamond. Create a new class called `CopperBlock` by right-clicking on the package and choosing _Create new class_. Name it `CopperBlock` and press OK. The file that opens up will have code almost matching what I've written below. You should add the lines with comments after them so that it matches exactly.
 
 ```java
-package com.example.examplemod;
+package com.example.coppermod;
 
 import net.minecraft.block.Block; //Add me
 
-/**
- * Created by atvaccaro on 6/21/2014.
- */
-public class GenericBlock extends Block //Add the second half of this line
+public class CopperBlock extends Block //Add the second half of this line
 {
+
 }
 ```
+The keyword `class` means that we are creating a new class. By extending the `Block` class, our `CopperBlock` class will inherit all of the attributes of the existing `Block` class. We call `Block` the _parent class_ of `CopperBlock`, while `CopperBlock` is the _child class_ of `Block`.
 
-An error will come up regarding a missing _constructor_. Constructors are a set of functions that run whenever a new block is created in the game. The following constructor should go inside the braces of the GenericBlock class. If your cursor is over `GenericBlock`, you should be able to press Alt-Enter and select "Add missing constructor".
+An error will come up regarding a missing _constructor_. A constructor is a function that runs whenever a new block is created in the game. The following constructor should go inside the braces of the `CopperBlock` class. If your cursor is over `CopperBlock`, you should be able to press Alt-Enter and select "Add missing constructor". Then change the name of the `Material` parameter to `mat` and fill in the rest of the constructor.
 
 ```java
-protected GenericBlock(Material p_i45394_1_)
+public CopperBlock(Material mat)
 {
-    super(p_i45394_1_);
+    super(mat);
 
-    setHardness(0.5F);
-    setStepSound(Block.soundTypeGravel);
-    setBlockName("genericDirt");
-    setCreativeTab(CreativeTabs.tabBlock);
-    setBlockTextureName("examplemod:genericDirt");
-    setHarvestLevel("shovel", 0); //0 is wood
+    this.setBlockName("copper_block");
+    this.setHardness(5.0F);
+    this.setStepSound(Block.soundTypeMetal);
+    this.setCreativeTab(CreativeTabs.tabBlock);
+    this.setBlockTextureName("coppermod:copper_block");
+    this.setHarvestLevel("pickaxe", 2);
 }
 ```
+`super` calls the constructor of `CopperBlock`'s parent, `Block` (don't worry about this too much for now). We mainly want to focus on the rest of the functions. Each of them defines an attribute of our `CopperBlock` block, most of which should be obvious from the name. For example, `setStepSound` determines which sound the block will make when placed. `setHarvestLevel` determines what type and level of tool is required to successfully mine it (the number 2 means iron). The keyword `this` means that the function is part of the class whose constructor you're currently in, `CopperBlock` in this case (don't worry about this too much, either).
 
-Taking a look at our method calls, it will be made of the "ground" material, sound like gravel, can be broken more easily by shovels, and be called "genericDirt" among other properties.
 
-However, simply making a new class is not enough. To actually add our block into the game, we need to register it with Minecraft Forge. The following block of code goes into the ExampleMod.java class, which you can open from the project tree on the left side of the screen.
+However, simply making a new class is not enough. To actually add our block into the game, we need to register it with Minecraft Forge. Open the `CopperMod` class from the left side of the screen (it might be called `ExampleMod` initally; just rename it to `CopperMod` if so). It will look like the code segment below, with a couple minor differences. Change the indicated lines of code to match.
+
+```java
+
+```
 
 ```java
 @EventHandler
@@ -55,6 +61,7 @@ public void preInit(FMLPreInitializationEvent event)
 {
   Block genericDirt = new GenericBlock(Material.ground).
   GameRegistry.registerBlock(genericDirt, "genericDirt");
+  copperBlock = new BlockCopperBlock(Material.iron);    GameRegistry.registerBlock(copperBlock, MODID + "_" + copperBlock.getUnlocalizedName());
 }
 ```
 
