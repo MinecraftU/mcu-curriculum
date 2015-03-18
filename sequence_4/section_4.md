@@ -1,8 +1,36 @@
-# Mod Dev
+# More mod development
+>In this section, you'll learn how to make new items, specify what a block drops when broken, and make new crafting/smelting recipes.
+
+## Making new items
+Making an item is very similar to making a new block, except that we will be extending the `Item` class rather than the `Block` class.
+
+```java
+package com.example.coppermod;
+
+import net.minecraft.item.Item;
+
+public class CopperIngot extends Item {
+
+}
+```
+
+## Specifying dropped items
+
+Right now, our `CopperBlock only drops itself when broken, like wood does. But what about blocks suchas glowstone? Glowstone drops an item (specifically glowstone dust) when broken. We can modify our existing block easily to drop an item (or multiple items) when broken. Add the following function declaration to the `CopperBlock` class. Launch the game, and try breaking your block.
+
+```java
+@Override
+public Item getItemDropped(int metadata, Random random, int fortune)
+{
+    return CopperMod.copperIngot;
+}
+```
+
+![Our block now drops ingots.](images/section_3/block_drops_ingots.png)
 
 ## Making new crafting recipes
 
-There are two types of recipes we can create as well: shapeless and shaped. Shapeless recipes (such as making wooden planks from wood) don't require the items to be in any specific orientation to work. Shaped recipes (such as making tools) requires blocks to be in specific locations for the recipe to function. You will also need to import the ItemStack and Items classes to use these calls (IntelliJ will prompt you for them when you type your functions).
+Now we need to make our new blocks and items useful by using them in recipes! There are two types of recipes we can create: shapeless and shaped. Shapeless recipes (such as making wooden planks from wood) don't require the items to be in any specific orientation to work. Shaped recipes (such as making a pickaxe or shovel) require blocks to be in specific locations for the recipe to function. You will also need to import the `ItemStack` and `Items` classes to use these calls (IntelliJ will prompt you for them when you use them).
 
 ### Important!
 

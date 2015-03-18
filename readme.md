@@ -22,3 +22,5 @@ Learn the basics of Java, the most common programming language in the world, and
 ## Sequence 5: Architectural Design in Minecraft
 
 Start with the basics of aesthetic and functional design and learn how to incorporate architectural concepts like flow, movement, and negative space into your builds. Design and then create structures ranging from houses to bridges and aqueducts. Finish by taking ideas from multiple sources and combining them into your own unique structure. _For ages 8-16._
+
+## Sequence 6: Physics
