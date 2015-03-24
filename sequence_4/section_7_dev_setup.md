@@ -16,7 +16,7 @@ To get started writing mods, you'll need a good development environment. Always 
 
 3. Make a new folder on the desktop and name it 'Minecraft Dev' and drag the 'forge' folder into it. The 'forge' folder is a .zip file so we need to extract it (if you don't have an extraction tool we recommend 7-zip). Put the extracted folder into the Minecraft Dev folder. 
 
-Note: If you wish, you can rename the extracted 'forge' folder to whatever you want your mod to be called, e.g. from `forge` to `DiamondCutter`. Keep the Forge zip file in case you need it later.
+Note: If you wish, you can rename the extracted 'forge' folder to whatever you want your mod to be called, e.g. from `forge` to `DiamondCutter`. Keep the Forge zip file in case you want to start a fresh mod.
 
 ### Getting Started for Windows
 * Hold shift and right click inside the folder you renamed. Click on `Open command window here`. Then type `gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod.
@@ -32,11 +32,17 @@ Note: If you wish, you can rename the extracted 'forge' folder to whatever you w
 ### Getting Started for Mac/Linux
 * Open a terminal and navigate to the folder you just renamed. Type `./gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod.
 
-* Open IntelliJ and select `import project`. Navigate to the folder you renamed and select `build.gradle`.
+* After you get 'BUILD SUCCESSFUL' open IntelliJ and select `import project`. Navigate to the folder you renamed and select `build.gradle`.
 
-* Once IntelliJ finished importing the project, close it. Go back to your terminal and type `./gradlew genIntellijRuns`.
+* Once IntelliJ finishes importing the project, close it. Go back to your terminal and type `./gradlew idea`.
 
-* If you open the `ExampleMod` class, you should see the following code.
+### Testing
+
+1. On the top left, double click the folder icon (the name of your folder should be next to it).
+
+2. Double-click the folders: src > main > java > 'your-folder-name' 
+
+3. There should be an `ExampleMod` class and if you double-click it you should see the following code:
 
 ```java
 package com.example.examplemod;
