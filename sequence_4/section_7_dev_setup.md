@@ -19,22 +19,22 @@ To get started writing mods, you'll need a good development environment. Always 
 Note: If you wish, you can rename the extracted 'forge' folder to whatever you want your mod to be called, e.g. from `forge` to `DiamondCutter`. Keep the Forge zip file in case you want to start a fresh mod.
 
 ### Getting Started for Windows
-* Hold shift and right click inside the folder you renamed. Click on `Open command window here`. Then type `gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod.
+1. Hold shift and right click inside the folder you renamed. Click on `Open command window here`. Then type `gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod.
 
-* Once you get 'BUILD SUCCESSFUL' type 'gradlew idea' and press 'Enter'.
+2. Once you get 'BUILD SUCCESSFUL' type 'gradlew idea' and press 'Enter'.
 
-* After you get 'BUILD SUCCESSFUL' again, run IntelliJ (the installation should have put a shortcut on your desktop).
+3. After you get 'BUILD SUCCESSFUL' again, run IntelliJ (the installation should have put a shortcut on your desktop).
 
-* On the pop-up screen, select 'Import Project' and navigate to the folder you renamed.
+4. On the pop-up screen, select 'Import Project' and navigate to the folder you renamed.
 
-* Find the file with the IntelliJ icon - it should be (forge-1.7.10-10.13.2.1230-src.ipr) and import it.
+5. Find the file with the IntelliJ icon - it should be (forge-1.7.10-10.13.2.1230-src.ipr) and import it.
 
 ### Getting Started for Mac/Linux
-* Open a terminal and navigate to the folder you just renamed. Type `./gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod.
+1. Open a terminal and navigate to the folder you just renamed. Type `./gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod.
 
-* After you get 'BUILD SUCCESSFUL' open IntelliJ and select `import project`. Navigate to the folder you renamed and select `build.gradle`.
+2. After you get 'BUILD SUCCESSFUL' open IntelliJ and select `import project`. Navigate to the folder you renamed and select `build.gradle`.
 
-* Once IntelliJ finishes importing the project, close it. Go back to your terminal and type `./gradlew idea`.
+3. Once IntelliJ finishes importing the project, close it. Go back to your terminal and type `./gradlew idea`.
 
 ### Testing
 
