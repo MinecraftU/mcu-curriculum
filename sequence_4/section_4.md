@@ -14,27 +14,45 @@ public class CopperIngot extends Item {
 }
 ```
 
+Just as we did with our `CopperBlock` class, we can also add a constructor and give some properties to our `CopperIngot`.
+
+```java
+public CopperIngot()
+{
+    this.setUnlocalizedName("copper_ingot");
+    this.setCreativeTab(CreativeTabs.tabMaterials);
+    this.setTextureName("coppermod:copper_ingot");
+}
+```
+
+One important note regarding textures is that item textures should have transparent backgrounds, or there will be a white square around the item in the game. Transparency backgrounds are indicated by a grey and white checkerboard on the background of the image file.
+
+<!-- TO DO: Add item texture screenshot here -->
+
+We'll also need to register our item with the game using the `registerItem` function. You should create a static `copperIngot` variable in `CopperMod` class just as we did with our static `copperBlock` variable.
+
+```java
+copperIngot = new CopperIngot();    //initializing the variable you should declare in the class
+GameRegistry.registerItem(copperIngot, MODID + "_" + copperBlock.getUnlocalizedName());
+```
+
 ## Specifying dropped items
 
-Right now, our `CopperBlock only drops itself when broken, like wood does. But what about blocks suchas glowstone? Glowstone drops an item (specifically glowstone dust) when broken. We can modify our existing block easily to drop an item (or multiple items) when broken. Add the following function declaration to the `CopperBlock` class. Launch the game, and try breaking your block.
+Right now, our `CopperBlock` only drops itself when broken, like wood does. But what about blocks suchas glowstone? Glowstone drops an item (specifically glowstone dust) when broken. We can modify our existing block easily to drop an item (or multiple items) when broken. Add the following function declaration to the `CopperBlock` class. Launch the game, and try breaking your block. Our copper block will now drop ingots when mined.
 
 ```java
 @Override
 public Item getItemDropped(int metadata, Random random, int fortune)
 {
-    return CopperMod.copperIngot;
+    return CopperMod.copperIngot;   //this is why we use static variables
 }
 ```
 
-![Our block now drops ingots.](images/section_3/block_drops_ingots.png)
+![](images/section_3/block_drops_ingots.png)
 
 ## Making new crafting recipes
 
-Now we need to make our new blocks and items useful by using them in recipes! There are two types of recipes we can create: shapeless and shaped. Shapeless recipes (such as making wooden planks from wood) don't require the items to be in any specific orientation to work. Shaped recipes (such as making a pickaxe or shovel) require blocks to be in specific locations for the recipe to function. You will also need to import the `ItemStack` and `Items` classes to use these calls (IntelliJ will prompt you for them when you use them).
-
-### Important!
-
-These crafting and smelting recipes go in our original ExampleMod class.
+Now we need to make our new blocks and items useful by creating some recipes! There are two types of recipes we can create: shapeless and shaped. Shapeless recipes (such as making wooden planks from wood) don't require the items to be in any specific orientation to work. Shaped recipes (such as making a pickaxe or shovel) require blocks to be in specific locations for the recipe to function. You will also need to import the `ItemStack` and `Items` classes to use these calls (IntelliJ will prompt you for them when you use them).
 
 ### Steps
 
@@ -45,7 +63,7 @@ GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond, 64), new ItemStack(
 
 This recipe simply trades in a stack of 64 dirt blocks for 64 diamonds.
 
-![A dirt-for-diamonds recipe.](images/section_4/recipe_dirt_single.png)
+![](images/section_4/recipe_dirt_single.png)
 
 To add more items, simply add more ItemStacks within the parentheses.
 
@@ -67,7 +85,7 @@ GameRegistry.addShapedRecipe(new ItemStack(Items.diamond), "xxx", "x x", "xxx", 
     new ItemStack(Items.coal));
 ```
 
-![The crafting diamond recipe.](images/section_4/recipe_coal.png)
+![.](images/section_4/recipe_coal.png)
 
 ## Smelting recipes
 
@@ -79,7 +97,7 @@ GameRegistry.addSmelting(Blocks.stone, new ItemStack(Blocks.stonebrick), 0.1f);
 
 This time, the input item is on the left while the output is on the right. The number at the end specifies how much experience the player receives from the smelting.
 
-![The smelting diamond recipe.](images/section_4/smelting_stone.png)
+![](images/section_4/smelting_stone.png)
 
 On a side note, the _damage values_ of items often hold _metadata_ about the block. For example, all the colors of wool are actually the same type of block. They're rendered differently based on the value of their damage value. We can use this data value in our recipes to alter what kinds of wool, clay, or wood are required.
 
@@ -92,13 +110,13 @@ woolStackOrange.setItemDamage(1);
 GameRegistry.addSmelting(woolStackBlack, woolStackOrange, 0.1f);
 ```
 
-![The smelting wool recipe.](images/section_4/smelting_wool.png)
+![](images/section_4/smelting_wool.png)
 
 ## Setting names
 
 The names that we've given our new blocks and items so far are all hard-coded into our mod. But what if we want people in other countries who speak different languages to play our mod? We can use what are called _language packs_ to give our items language-specific names. The packs also replace the cumbersome "package.item.item"-type names with real names such as "Iron Ingot" or "Dirt".
 
-#### File Extensions
+#### File extensions
 
 Before we create our language packs, make sure you have "hide file extensions for known file types" disabled. To check if its disabled, go look at your textures.  If they show up as "_name_.png" you're good.  Otherwise, follow these instructions.  
 
@@ -114,11 +132,13 @@ Before we create our language packs, make sure you have "hide file extensions fo
 1. Select Finder -> Preferences -> Advanced
 2. Select "Show all filename extensions"
 
-## Language Packs
+## Making the language pack
 
 1. Create a folder called "lang" in the "assets/examplemod" folder.
 1. Create a new text file called "en_US.lang" in the folder.
-  ![The language file we've created.](images/section_4/lang_folder.png)
-1. Right-click on the file and choose to edit it. The default entry is something similar to: ```category.blockName.name=Item Name```. The name that appeared for our initial block, `tile.genericDirt.name` is what we would use in our case. So my line would be `tile.genericDirt.name=CookieDice`.
+![](images/section_4/lang_folder.png)
+
+1. Right-click on the file and choose to edit it. The default entry is something similar to: `category.blockName.name=Item Name`. The name that appeared for our initial block, `tile.copper_block.name` is what we would use in our case. So my line would be `tile.copper_block.name=Copper Block`.
+
 1. Save the file and run Minecraft. Your name should now appear in-game.
-  ![Our ingame name with the language file.](images/section_4/lang_block.png)
+![](images/section_4/lang_block.png)

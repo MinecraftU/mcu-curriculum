@@ -10,7 +10,7 @@ The word _mod_ is short for _modification_. A _mod_ is made up of code and image
 
 Programmers use something called a _class_ as a blueprint for all of the objects in Minecraft. There's a class for a diamond pickaxe, for an iron ore, and all other blocks and items. These classes tell what a block (or item) should look like, how it should behave, as well as where it spawns or how it can be crafted. By creating our own class, we can add our own objects to the game. Let's say that we wanted to make a new type of block. We don't want to have to program everything from scratch, especially because Minecraft already has a `Block` class that defines what a block is in the game (all blocks can be broken and picked up, for example). We can _extend_ the existing `Block` class and make our own new block. It will have all the normal properties of a block but we can set our own texture, hardness, and sound.
 
-For this lesson, we're going to create a new material in Minecraft: copper. We'll have to make copper ore, copper ingots, copper tools, and all the other items associated with the iron or diamond. Create a new class called `CopperBlock` by right-clicking on the package and choosing _Create new class_. Name it `CopperBlock` and press OK. The file that opens up will have code almost matching what I've written below. You should add the lines with comments after them so that it matches exactly.
+For this lesson, we're going to create a new material in Minecraft: copper. We'll have to make copper ore, copper ingots, copper tools, and all the other items associated with it (think of the tools and other items made from iron or diamond). First, you should create a new class called `CopperBlock` by right-clicking on the package and choosing _Create new class_. Name it `CopperBlock` and press OK. The file that opens up will have code almost matching what I've written below. You should add the lines with comments (use `//` to make a comment in Java) after them so that it matches exactly.
 
 ```java
 package com.example.coppermod;
@@ -42,7 +42,7 @@ public CopperBlock(Material mat)
 `super` calls the constructor of `CopperBlock`'s parent, `Block` (don't worry about this too much for now). We mainly want to focus on the rest of the functions. Each of them defines an attribute of our `CopperBlock` block, most of which should be obvious from the name. For example, `setStepSound` determines which sound the block will make when placed. `setHarvestLevel` determines what type and level of tool is required to successfully mine it (the number 2 means iron). The keyword `this` means that the function is part of the class whose constructor you're currently in, `CopperBlock` in this case (don't worry about this too much, either).
 
 
-However, simply making a new class is not enough. To actually add our block into the game, we need to register it with Minecraft Forge. Open the `CopperMod` class from the left side of the screen (it might still be called `ExampleMod` initally; just rename it to `CopperMod` if so). Add the variable declaration line and the `registerBlock` line. The second argument of `registerBlock` sets up the name of the block as "modid_blockname" and lets us use the same code to create a standardized naming system for all of our blocks. In addition, by using our _MODID_ in the names of our blocks, we can make sure there won't be any overlaps with any other mods we may want to add.
+However, simply making a new class is not enough. To actually add our block into the game, we need to register it with Minecraft Forge. Open the `CopperMod` class from the left side of the screen (it might still be called `ExampleMod` initally; just rename it to `CopperMod` if so). Add the variable declaration line and the `registerBlock` line shown below. The second argument of `registerBlock` sets up the name of the block as "_modid_\__blockname_" and lets us use the same code to create a standardized naming system for all of our blocks. In addition, by using our _MODID_ in the names of our blocks, we can make sure there won't be any overlaps with any other mods we may want to add.
 
 ```java
 public static CopperBlock copperBlock;  //static variable declaration
@@ -107,15 +107,14 @@ public class CopperBlock extends Block
 
 To actually launch our modded Minecraft, run the project by clicking on the green arrow at the top of the IDE. Make a new creative world and try placing your block on the ground. It should be under the normal _Blocks_ tab at the very bottom and will be called _tile.copper_block.name_. The coloring should be a purple and black checkerboard, the default color scheme when a texture is not specified. Even though we said the texture file's name should be _copper\_block_ in the code, Minecraft can't find the texture file because we haven't made one!
 
-![The custom block we have just added.](images/section_3/block_initial.png)
+![](images/section_3/block_initial.png)
 
 ## Adding a texture to a block
 
-First, we need to create the folder that will hold our textures. The full path is "src/main/resources/assets/coppermod/textures/blocks". Start at the "resources" folder (it should already exist) and create one folder after another until you get down to the final one, "blocks". Open up Paint (or another image-editing program) and create a new empty canvas with a square resolution. Most Minecraft textures are 16x16 but you could also try 32x32 or 64x64. Take a few minutes and make your own texture! For right now, the block will have the same texture on all six sides like cobblestone or obsidian. Save the texture as .png called "copper_block" in the "blocks" folder.
+To add our texture to our block, we first need to create the folder that will hold our textures. The full path is "src/main/resources/assets/coppermod/textures/blocks". Start at the "resources" folder (it should already exist) and create one folder after another until you get down to the final one, "blocks". Open up Paint (or another image-editing program) and create a new empty canvas with a square resolution. Most Minecraft textures are 16x16 but you could also try 32x32 or 64x64. Take a few minutes and make your own texture!
 
+![](images/section_3/block_texture.png)
 
-![The texture I made for my block.](images/section_3/block_texture.png)
+For right now, the block will have the same texture on all six sides like cobblestone or obsidian. Save the texture as .png called "copper_block" in the "blocks" folder. After your texture has been saved, run Minecraft. Now check out the texture of your block!
 
-However, I simply made a square that is copper-colored since we're making a copper block. After your texture has been saved, run Minecraft. Now check out the texture of your block!
-
-![Our block in-game after the texture has been added.](images/section_3/block_texture_ingame.png)
+![](images/section_3/block_texture_ingame.png)
