@@ -10,7 +10,7 @@ Minecraft game mechanics are incredibly analogous to engineering. Our programs f
 
 ## The Sequences
 
-Our curriculum is organize into a core curriculum called _sequences_, which allow for a logical progression through increasingly complex concepts. There are also additional units outside of the core sequences.
+Our curriculum is organized into a core curriculum called _sequences_, which allow for a logical progression through increasingly complex concepts. There are also additional units outside of the core sequences.
 
 ### Sequence 1: Basic Problem Solving in Gaming
 
