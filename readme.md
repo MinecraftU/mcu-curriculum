@@ -10,7 +10,7 @@ Minecraft game mechanics are incredibly analogous to engineering. Our programs f
 
 ## The Sequences
 
-Our curriculum is organize into _sequences_, which allow for a logical progression through increasingly complex concepts.
+Our curriculum is organize into a core curriculum called _sequences_, which allow for a logical progression through increasingly complex concepts. There are also additional units outside of the core sequences.
 
 ### Sequence 1: Basic Problem Solving in Gaming
 
@@ -29,8 +29,16 @@ Use the Minecraft mod ComputerCraft to learn the basics of programming and then 
 
 Learn the basics of Java, the most common programming language in the world, and use them to create your own modification of Minecraft. Add any item of your design to the game, expanding Minecraft in whatever direction you desire. At the end, you’ll understand the syntax and applications of Java, and how they apply to Minecraft. _For ages 10-16 or younger when having completed Sequence 3 or with equivalent experience._
 
-### Sequence 5: Architectural Design in Minecraft
+### Architectural Design in Minecraft
 
 Start with the basics of aesthetic and functional design and learn how to incorporate architectural concepts like flow, movement, and negative space into your builds. Design and then create structures ranging from houses to bridges and aqueducts. Finish by taking ideas from multiple sources and combining them into your own unique structure. _For ages 8-16._
 
-### Sequence 6: Physics
+### Physics
+
+TBD
+
+---
+
+### Contributing
+
+Contributions, corrections and improvements to this curriculum are welcome! If you are not familiar with how to contribute to a project on GitHub, check out [this guide](https://guides.github.com/activities/forking/).
