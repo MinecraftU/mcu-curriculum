@@ -1,125 +1,119 @@
-# qCraft
+# Minecraft mod development
+>You should have performed the setup steps in section_0. You're going to learn about what exactly a Minecraft mod is, as well as how to add a new block to the game.
 
-qCraft is a mod that allows us to use principles of quantum physics.  
-All items can be found in creative mode. Recipes can be found at the qCraft wiki:  
-https://sites.google.com/a/elinemedia.com/qcraft/wiki/qcraft/blocks-and-items
+## What is a _mod_?
+The word _mod_ is short for _modification_. A _mod_ is made up of code and images that change how Minecraft works. You can add new ores, new items, new foods, and even new mobs and monsters! In previous sequences, you learned about programming using the ComputerCraft mod, an advanced mod that adds turtles and computers into the world of Minecraft. By learning how to program in Java and create your own textures, you can add just about anything you want into the world of Minecraft. In this sequence, we're first going to learn how to add new blocks and items and then move onto more advanced topics like custom crafting tables and armor.
 
-## 3 Main Principles
+## Creating a new block
 
-The 3 principles you will learn to use are:
+>Anytime you copy Java code in this section, be sure to match ALL capitalization and punctuation as exactly as possible.
 
-1. Observer Dependence
-2. Superposition
-3. Entanglement
+Programmers use something called a _class_ as a blueprint for all of the objects in Minecraft. There's a class for a diamond pickaxe, for an iron ore, and all other blocks and items. These classes tell what a block (or item) should look like, how it should behave, as well as where it spawns or how it can be crafted. By creating our own classes, we can add our own blocks and items to the game. Let's say that we wanted to make a new type of block. Minecraft already has a `Block` class that defines what a block is in the game (all blocks can be broken and have a texture, for example). We can _extend_ the existing `Block` class and make our own new block. It will have all the normal properties of a block but we can set our own texture, hardness, and sound.
 
-You may also learn to utilize quantum teleportation.
+For this lesson, we're going to create a new resource in Minecraft: copper. We'll have to make copper ore, copper ingots, copper tools, and all the other items associated with it (think of the tools and other items made from iron or diamond). First, you should create a new class called `CopperBlock` by right-clicking on the package and choosing _Create new class_. Name it `CopperBlock` and press OK. The file that opens up will have code almost matching what I've written below. You should add the lines with comments (use `//` to make a comment in Java) after them so that it matches exactly.
 
-Helpful video [here.](https://www.youtube.com/watch?v=hygLNR_wGPo)
+```java
+package com.example.coppermod;
 
-### Observer Dependence
+import net.minecraft.block.Block; //Add me
 
-Observational Dependency essentially states that looking at an object can actually change it.
+public class CopperBlock extends Block //Add the second half of this line
+{
 
-In Minecraft, imagine a block that is diamond if you observe it from the North, but is coal from the West.
+}
+```
+The keyword `class` means that we are creating a new class. By extending the `Block` class, our `CopperBlock` class will inherit all of the attributes of the existing `Block` class. We call `Block` the _parent class_ of `CopperBlock`, while `CopperBlock` is the _child class_ of `Block`.
 
-### Superposition
+An error will come up regarding a missing _constructor_. A constructor is a function that runs whenever a new block is created in the game. The following constructor should go inside the braces of the `CopperBlock` class. If your cursor is over `CopperBlock`, you should be able to press Alt-Enter and select "Add missing constructor". Then change the name of the `Material` parameter to `mat` and fill in the rest of the constructor.
 
-Superposition is a state that includes all possible states.
+```java
+public CopperBlock(Material mat)
+{
+    super(mat);
 
-For example, if I rolled a dice then covered it before it stopped, you wouldn't know if its a 1 or a 6 or a number in between, but you know it is _one_ of those.  However, on a quantum level, the dice would be all _six_ possible outcomes at the *same* time until you looked.
+    this.setBlockName("copper_block");
+    this.setHardness(5.0F);
+    this.setStepSound(Block.soundTypeMetal);
+    this.setCreativeTab(CreativeTabs.tabBlock);
+    this.setBlockTextureName("coppermod:copper_block");
+    this.setHarvestLevel("pickaxe", 2);
+}
+```
+`super` calls the constructor of `CopperBlock`'s parent, `Block` (don't worry about this too much for now). We mainly want to focus on the rest of the functions. Each of them defines an attribute of our `CopperBlock` block, most of which should be obvious from the name. For example, `setStepSound` determines which sound the block will make when placed. `setHarvestLevel` determines what type and level of tool is required to successfully mine it (the number 2 means iron). The keyword `this` means that the function is part of the class whose constructor you're currently in, `CopperBlock` in this case (don't worry about this too much, either).
 
-In Minecraft, imagine a block that is both diamond and coal.  Looking at that block will cause it to become one of the two, but you can't know which one until you look at it.
+However, simply making a new class is not enough. To actually add our block into the game, we need to register it with Minecraft Forge. Open the `CopperMod` class from the left side of the screen (it might still be called `ExampleMod` initally; just rename it to `CopperMod` if so). Add the variable declaration line and the `registerBlock` line shown below. The second argument of `registerBlock` sets up the name of the block as "_modid_\__blockname_" and lets us use the same code to create a standardized naming system for all of our blocks. In addition, by using our _MODID_ in the names of our blocks, we can make sure there won't be any overlaps with any other mods we may want to add.
 
-### Entanglement
+```java
+public static CopperBlock copperBlock;  //static variable declaration
 
-Entanglement refers to the ability of pairs or groups of particles that are created together to have a special relationship: their states are related.  Not necessarilly the same state, but changing the state of one particle will have an effect on all its entangled partners.  What is incredible though, is that this change occurs instantaneously, regardless of the distance seperating the particles. This means that the particles can exchange information faster than the speed of light!
+@EventHandler
+public void init(FMLInitializationEvent event)
+{
+    copperBlock = new CopperBlock(Material.iron);
+    GameRegistry.registerBlock(copperBlock, MODID + "_" + copperBlock.getUnlocalizedName());
+}
+```
+This block of code registers our newly-created block with the game.
 
-Some believe this principle could lead to breakthroughs in quantum *teleporatation*.
+So to recap, our `CopperMod` and `CopperBlock` classes should look as follows.
 
-In Minecraft, imagine having an entangled pair of diamond/coal superposition blocks.  If we observe one of them and it is diamond, its partner, regardless of the distance seperating the two, will also be diamond.
+```java
+package com.example.coppermod;
 
-Note: You can only entangle qCraft blocks.
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.material.Material;
 
-## New Items
+@Mod(modid = CopperMod.MODID, version = CopperMod.VERSION)
+public class CopperMod
+{
+    public static final String MODID = "coppermod";
+    public static final String VERSION = "1.0";
 
-### Quantum ore/dust
+    public static CopperBlock copperBlock;
 
-1. Essence of Observation (EoO)  
-2. Essence of Superposition (EoS)  
-3. Essence of Entanglement (EoE)  
-4. Automated Observer (AO)  
-5. Quantum Computer
+    @EventHandler
+    public void init(FMLInitializationEvent event)
+    {
+        copperBlock = new CopperBlock(Material.iron);
+        GameRegistry.registerBlock(copperBlock, MODID + "_" + copperBlock.getUnlocalizedName());
+    }
+}
+```
 
-## Practical Uses
+```java
+package com.example.coppermod;
 
-### Teleporter/Quantizer
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
 
-qCraft introduces a new item called a "Quantum Computer" (QC) and it is mainly used to create a teleporter/quantizer.  
-A quantizer will "digitize" a part of the Minecraft world which can then be copied (quantized) or transported (teleported). The only difference is that a teleporter recquires an *entangled pair of quantum computers*.
+public class CopperBlock extends Block
+{
+    protected CopperBlock(Material mat) {
+        super(mat);
+        this.setBlockName("copper_block");
+        this.setHardness(5.0F);
+        this.setStepSound(Block.soundTypeMetal);
+        this.setCreativeTab(CreativeTabs.tabBlock);
+        this.setBlockTextureName("coppermod:copper_block");
+        this.setHarvestLevel("pickaxe", 2);
+    }
+}
+```
 
-Items Needed:  
+To actually launch our modded Minecraft, run the project by clicking on the green arrow at the top of the IDE. Make a new creative world and try placing your block on the ground. It should be under the normal _Blocks_ tab at the very bottom and will be called _tile.copper_block.name_. The coloring should be a purple and black checkerboard, the default color scheme when a texture is not specified. Even though we said the texture file's name should be _copper\_block_ in the code, Minecraft can't find the texture file because we haven't made one!
 
-* Obsidian
-* Full gold blocks
-* Ice
-* Glass blocks
-* EoO
-* Quantum Computer (optional entangled pair)
- 
-####Crafting ODB's  
-![ODB recipe. \label{fig:ODB recipe}](images/section_1/crafting_ODB.png)
+![](images/section_1/block_initial.png)
 
-1. Craft 4 different Observational dependent blocks (ODB's) using Gold for one of the cardinal directions, and Obsidian for the rest.
-2. Place these ODB's in a square/rectangle around a Quantum Computer (QC) such that all the ODB's resolve to Gold when you are standing in the enclosed area.  
-3. Put a block of Ice next to the QC to provide cooling.
-4. Place Obsidian blocks on top of the ODB's, as high as you want your teleportation area to be (These are called "Pylons").  
-5. Then place a glass block on top of your Pylons.
-6. Construct another area in exactly the same way and **SAME DIMENSIONS**
-7. "Energize" the QC
+## Adding a texture to a block
 
-Your teleporting Matrix should look like this:  
+To add our texture to our block, we first need to create the folder that will hold our textures. The full path is "src/main/resources/assets/coppermod/textures/blocks". Start at the "resources" folder (it should already exist) and create one folder after another until you get down to the final one, "blocks". Open up Paint (or another image-editing program) and create a new empty canvas with a square resolution. Most Minecraft textures are 16x16 but you could also try 32x32 or 64x64. Take a few minutes and make your own texture!
 
-![An example of a teleporting matrix. \label{fig:telporterMatrix}](images/section_1/matrix.png)
+![](images/section_1/block_texture.png)
 
-Note: This will not transport you the player, only items/blocks inside the area.  **There is no distance cap!!!**
+For right now, the block will have the same texture on all six sides like cobblestone or obsidian. Save the texture as "copper_block.png" in the "blocks" folder. After your texture has been saved, run Minecraft. Now check out the texture of your block!
 
-If you used entangled QC's then the contents of the two teleporters will be swapped.  If you chose to build a quantizer instead, break the Quantum computer and walk/run/swim/tp to the destination area, place the QC and activate it again.
-
-Troubleshooting:  
-
-1. The QC / pylon matrix dimensions don’t exactly match at origin and destination  
-2. There is no room for quantized blocks at destination. (e.g. trying to move a tall tower to a mountaintop near the height limit of the world)  
-3. Destination is abutting water or lava that could flow in and damage structures  
-4. Source / destination contains blocks with extra info that would be lost in the transfer (e.g. blocks from other mods with unusual data storage methods) 
-
-### Quantum Portal
-
-If you were disappointed that the Teleporter didn't take you with the rest of your stuff, don't worry, qCraft has another great feature that will let you travel anywhere, including between servers.
-
-You will need the same items for the portal as the teleporter/quantizer:  
-
-* Obsidian
-* Full gold blocks
-* Ice
-* Glass blocks
-* EoO
-* Quantum Computer
-
-1. Create gold/obsidian ODB's such that they will resolve to Gold only when you try entering the Portal (so opposite cardinal directions, i.e. North and South)
-2. Create the same structure as a nether portal only use the gold/obsidian ODB's for the corners and glass in between.
-3. Place a quantum computer and a block of ice next to your portal
-
-It will look like this  
-
-![An example of a Quantum Portal. \label{fig:portal}](images/section_1/portal.png)
-
-When you right-click the QC you will see this menu: 
-
-![QP Menu. \label{fig:menu}](images/section_1/menu.png)
-
-Name the Portal you have selected and give it a destination portal.
-You will need to build at least two portals to get anywhere.
-
-### Controlling Lighting in a (large) room
-
-We are not limited to *entangling* merely two (2) objects together, we can in fact entangle a multitude together.  All you have to do is use one of the previously entangled blocks in the recipe. This allows us to have a mass number of objects react to a single action.  For example, I could entangle several superpositional redstone lamps together, and light them all at once simply by lighting one.
+![](images/section_1/block_texture_ingame.png)
