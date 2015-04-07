@@ -8,9 +8,9 @@ The word _mod_ is short for _modification_. A _mod_ is made up of code and image
 
 >Anytime you copy Java code in this section, be sure to match ALL capitalization and punctuation as exactly as possible.
 
-Programmers use something called a _class_ as a blueprint for all of the objects in Minecraft. There's a class for a diamond pickaxe, for an iron ore, and all other blocks and items. These classes tell what a block (or item) should look like, how it should behave, as well as where it spawns or how it can be crafted. By creating our own class, we can add our own objects to the game. Let's say that we wanted to make a new type of block. We don't want to have to program everything from scratch, especially because Minecraft already has a `Block` class that defines what a block is in the game (all blocks can be broken and picked up, for example). We can _extend_ the existing `Block` class and make our own new block. It will have all the normal properties of a block but we can set our own texture, hardness, and sound.
+Programmers use something called a _class_ as a blueprint for all of the objects in Minecraft. There's a class for a diamond pickaxe, for an iron ore, and all other blocks and items. These classes tell what a block (or item) should look like, how it should behave, as well as where it spawns or how it can be crafted. By creating our own classes, we can add our own blocks and items to the game. Let's say that we wanted to make a new type of block. Minecraft already has a `Block` class that defines what a block is in the game (all blocks can be broken and have a texture, for example). We can _extend_ the existing `Block` class and make our own new block. It will have all the normal properties of a block but we can set our own texture, hardness, and sound.
 
-For this lesson, we're going to create a new material in Minecraft: copper. We'll have to make copper ore, copper ingots, copper tools, and all the other items associated with it (think of the tools and other items made from iron or diamond). First, you should create a new class called `CopperBlock` by right-clicking on the package and choosing _Create new class_. Name it `CopperBlock` and press OK. The file that opens up will have code almost matching what I've written below. You should add the lines with comments (use `//` to make a comment in Java) after them so that it matches exactly.
+For this lesson, we're going to create a new resource in Minecraft: copper. We'll have to make copper ore, copper ingots, copper tools, and all the other items associated with it (think of the tools and other items made from iron or diamond). First, you should create a new class called `CopperBlock` by right-clicking on the package and choosing _Create new class_. Name it `CopperBlock` and press OK. The file that opens up will have code almost matching what I've written below. You should add the lines with comments (use `//` to make a comment in Java) after them so that it matches exactly.
 
 ```java
 package com.example.coppermod;
@@ -40,7 +40,6 @@ public CopperBlock(Material mat)
 }
 ```
 `super` calls the constructor of `CopperBlock`'s parent, `Block` (don't worry about this too much for now). We mainly want to focus on the rest of the functions. Each of them defines an attribute of our `CopperBlock` block, most of which should be obvious from the name. For example, `setStepSound` determines which sound the block will make when placed. `setHarvestLevel` determines what type and level of tool is required to successfully mine it (the number 2 means iron). The keyword `this` means that the function is part of the class whose constructor you're currently in, `CopperBlock` in this case (don't worry about this too much, either).
-
 
 However, simply making a new class is not enough. To actually add our block into the game, we need to register it with Minecraft Forge. Open the `CopperMod` class from the left side of the screen (it might still be called `ExampleMod` initally; just rename it to `CopperMod` if so). Add the variable declaration line and the `registerBlock` line shown below. The second argument of `registerBlock` sets up the name of the block as "_modid_\__blockname_" and lets us use the same code to create a standardized naming system for all of our blocks. In addition, by using our _MODID_ in the names of our blocks, we can make sure there won't be any overlaps with any other mods we may want to add.
 
@@ -115,6 +114,6 @@ To add our texture to our block, we first need to create the folder that will ho
 
 ![](images/section_3/block_texture.png)
 
-For right now, the block will have the same texture on all six sides like cobblestone or obsidian. Save the texture as .png called "copper_block" in the "blocks" folder. After your texture has been saved, run Minecraft. Now check out the texture of your block!
+For right now, the block will have the same texture on all six sides like cobblestone or obsidian. Save the texture as "copper_block.png" in the "blocks" folder. After your texture has been saved, run Minecraft. Now check out the texture of your block!
 
 ![](images/section_3/block_texture_ingame.png)

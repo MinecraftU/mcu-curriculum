@@ -16,18 +16,18 @@ Think of an elevator to a building. Every portal you build is a door that elevat
 
 Fixed Path:  
 1. Portal 1 -> Portal 2  
-2. Portal 2 -> Portal 1  
+1. Portal 2 -> Portal 1  
 
 Progression  
 1. Portal 1 -> Portal 2  
-2. Portal 2 -> Portal 3  
-3. Portal 3 -> Portal 4  
-4. etc...  
+1. Portal 2 -> Portal 3  
+1. Portal 3 -> Portal 4  
+1. etc...  
 
 Converging  
 1. Portal 1 -> Portal 3  
-2. Portal 2 -> Portal 3  
-3. Portal 4 -> Portal 3  
+1. Portal 2 -> Portal 3  
+1. Portal 4 -> Portal 3  
 
 ### Implementing New Redstone: Automated Observer
 
@@ -50,4 +50,3 @@ If you tried being creative, you're mostly likely all tangled up trying to entan
 4. Large entangled groups are made by entangling a new ODB with an ODB already in the entangled group.
 5. You cannot un-entangle anything (without destroying it).
 6. Entangled superpositional blocks will all resolve to the same block, making them more dependable than ODB's in large groups.
-
