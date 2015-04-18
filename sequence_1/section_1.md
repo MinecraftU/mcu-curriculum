@@ -4,7 +4,7 @@
 
 One thing any Minecraft survivor needs is a nice place to rest. Housing is the most common type of build in Minecraft. Villages offer a number of building templates and this build is based off of one of the larger village structures.
 
-We'll build this in a creative world but if you consider yourself an advanced builder you could ch  allenge yourself by changing your gamemode to survival after stocking up on supplies.
+We'll build this in a creative world but if you consider yourself an advanced builder you could challenge yourself by changing your gamemode to survival after stocking up on supplies.
 
 > To change gamemode create the world with cheats enabled and issue the command ```/gamemode s```.
 
