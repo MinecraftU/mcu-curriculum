@@ -30,36 +30,36 @@ Tip: Try putting a chest directly behind the turtle before you start the excavat
 
 ## Writing a simple turtle program (with arguments!)
 
-### Communication between computers/turtles
+  * Right click the turtle to boot it up.
+  * Type `label set mover` where _mover_ is the "name" of the turtle.
+    * This will make the programs on this turtle stick around when you break it and place it somewhere else.
+  * Create a new program called `move` by typing `edit move`
+    * Inside the file you just created, try writing a program to make the turtle move forward.
+    * If you need help you can look in a couple places:
+        * There is a complete list of every command you can give a turtle [here on the ComputerCraft wiki.](http://computercraft.info/wiki/index.php?title=Turtle_%28API%29)
+        * There is also a program called `go` that is located at `/rom/programs/turtle/go` on your turtle.
+            * To look at the `go` program type `edit /rom/programs/turtle/go`
+        * Looking at this program and the wiki will help you understand how the turtle commands work.
 
-As I'm sure you've realized, programming on a turtle can be a little tedious, especially with longer, more complex programs. For convenience, people have developed better environments for programming know as IDE's (Integrated Development Environment). In Minecraft, we have a luaIDE on the "computer" and we can transfer programs we write on the computer to turtles using "floppy disks."
+### Basics of LUA
 
-1. Create a rough version of the program.
-    1. Right click the turtle to boot it up.
-    1. Type `label set mover` where _mover_ is the "name" of the turtle.
-        1. This will make the programs on this turtle stick around when you break it and place it somewhere else.
-    1. For easier editing, run the luaide program.
-    1. Create a new program called "move"
-        1. Inside the file you just created, try writing a program to make the turtle move forward.
-        1. If you need help you can look in a couple places:
-            1. There is a complete list of every command you can give a turtle [here on the ComputerCraft wiki.](http://computercraft.info/wiki/index.php?title=Turtle_(API))
-            1. There is also a program called `go` that is located at `\programs\go` on your turtle.
-                1. Press `Ctrl+O` to open files in LuaIDE.
-            1. Looking at this program and the wiki will help you understand how the turtle commands work.
+Every program you write for your computers and turtles is in a language called **LUA**.
 
-1. Basics of LUA  
-    A standard block of code in lua looks like this.
-    ```lua
-    turtle.refuel()
-    while turtle.detectDown() do
-      turtle.dig()
-      turtle.digDown()
-      turtle.down()
-      turtle.dig()
-      turtle.forward()
-      turtle.turnLeft()
-    end
-    ```
+A standard block of code in lua looks like this.
+
+```lua
+turtle.refuel()
+while turtle.detectDown() do
+  turtle.dig()
+  turtle.digDown()
+  turtle.down()
+  turtle.dig()
+  turtle.forward()
+  turtle.turnLeft()
+end
+```
+
+When we say "block of code", we mean a section of a program. All programs can be broken down in to parts, or "blocks".
 
 ## Cobble Harvesting
 
@@ -94,7 +94,7 @@ So now we have a general outline for the program, but it's in English. Computers
 1. `else sleep(1)`  
 1. loop
 
-Explanation: 
+Explanation:
 
 `turtle.detectUp()` is a function that has the turtle check if there is a block directly above it.  
 `turtle.digUp()` is a function that makes the turtle dig or mine the block above it.  
@@ -102,23 +102,20 @@ Explanation:
 
 For this program, we'll be using a `while` loop.
 
-For detailed descriptions check out the [turtle API](http://computercraft.info/wiki/Turtle_(API)).
+For detailed descriptions check out the [turtle API](http://computercraft.info/wiki/index.php?title=Turtle_%28API%29).
 
 So our program will look like this:
 
 ```lua
 while turtle.getItemCount(16) < 64 do  
   if turtle.detectUp() then  
-  turtle.digUp()  
-  sleep(1)  
-  else sleep(1)  
+    turtle.digUp()  
+    sleep(1)  
+  else
+    sleep(1)  
   end  
 end  
 ```
-
-It should look like this:
-
-![What you should see.](images/section_4/sample.png)
 
 Program Walkthrough:  
 
@@ -131,9 +128,11 @@ Program Walkthrough:
 
 ## Room building
 
-Let's write a program to build a simple square room: `luaide room`
+Let's write a program to build a simple square room: `edit room`
 
 Step one is to check your arguments to make sure they are what you need them to be.
+
+For that we use the code `local tArgs = {...}`, which loads the arguments into your program.
 
 ```lua
 local tArgs = {...}
@@ -154,9 +153,9 @@ If they aren't, it prints a line that tells the user how to run the program.
 Now, we take the three arguments and assign them to the correct variables.
 
 ```lua
-length = tonumber(tArgs[1])
-width = tonumber(tArgs[2])
-height = tonumber(tArgs[3])
+length = tArgs[1]
+width = tArgs[2]
+height = tArgs[3]
 ```
 
 And we refuel the turtle.
@@ -345,12 +344,12 @@ while blocksMovedForward < length do
   fuel()
   DigAndMove()
   blocksMovedForward = blocksMovedForward + 1
-  
+
   -- Add torch every 8 blocks
   if (blocksMovedForward % 8) == 0 then
     placeTorch()
   end
-  
+
   if blocksMovedForward == length then
     turnAround()
     while moveBack < length do
@@ -363,3 +362,7 @@ while blocksMovedForward < length do
   end
 end
 ```
+
+### Communication between computers/turtles
+
+As I'm sure you've realized, programming on a turtle can be a little tedious, especially with longer, more complex programs. For convenience, people have developed better environments for programming know as IDE's (Integrated Development Environment). In Minecraft, we have a luaIDE on the "computer" and we can transfer programs we write on the computer to turtles using "floppy disks."

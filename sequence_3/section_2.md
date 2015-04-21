@@ -49,84 +49,74 @@ This will be your first taste of the ComputerCraft mod, and for some of you, you
 
 ### The Command Line
 
+* Open the ComputerCraft world
+* Open your inventory and search for `computer`
+* Place a computer on the ground and right-click on it  
+
 When you place a computer and right click on it, the first thing you see is this.
 
 ![The beginning of your command line life.](images/section_2/ccb1.png)
 
-This is a command line. Here, we can type word to run programs, and we can look inside folders just like in a graphical interface. Let's do that now.
+This is a command line. Here, we can type words to run programs, and we can look inside folders just like in a graphical interface. Let's do that now.
 
 ![Some simple commands to run.](images/section_2/ccb2.png)
 
-Up next we'll run the edit program and see what it look like.
+* The ```ls``` command lists the contents of the current directory
+* The ```cd``` command changes directories, e.g. ```cd rom```  
+
+Up next we'll run the edit program and see what it looks like.
+Type `edit test`.
 
 ![](images/section_2/ccb3.png)
 
-This is the program you would usually use to edit your programs. Looks pretty spartan huh?
+This is the program you use to edit your programs. Looks pretty simple huh? This program is all you need to start writing you own code in ComputerCraft.
 
-Let's download a better one. This program is called luaIDE, and it's a fancy code editor written just for ComputerCraft.
+### Play text adventure Minecraft inside a ComputerCraft computer
+  * Type `adventure`
+  * Some of the commands available in the Adventure program:
+    * `punch`
+    * `take` or `grab`
+    * `craft` or `make`
+    * `go`
+    * `eat`
+    * `inventory`
 
-![](images/section_2/ccb4.png)
+    ![Adventure](images/section_2/adventure.png)
 
-![](images/section_2/ccb5.png)
-
-![](images/section_2/ccb6.png)
-
-There we go, much better. If you're using an advanced computer, you can click on these buttons, otherwise just use the arrow keys to navigate.
-
-Let's make a new file called ```helloworld```
-
-![](images/section_2/ccb7.png)
-
-![](images/section_2/ccb8.png)
-
-This editor will autocomplete brackets and quotes for you. Watch!
-
-![](images/section_2/ccb9.png)
-
-Now let's do some stuff!
-
-### Getting familiar with ComputerCraft
-
-1. Open the ComputerCraft world
-1. Open your inventory and search for ```computer```
-1. Place a computer on the ground and right-click on it  
- ![A ComputerCraft computer](images/section_2/computer.png)
-1. Navigate to programs
- 1. the ```ls``` command lists the contents of the current directory
- 1. the ```cd``` command changes directories, e.g. ```cd rom```  
- ![Navigating a ComputerCraft console](images/section_2/navigating_console.png)
-1. Play text adventure Minecraft inside a ComputerCraft computer
-  1. type ```adventure```
-  1. some of the commands available in the Adventure program:
-    1. ```punch```
-    1. ```take``` or ```grab```
-    1. ```craft``` or ```make```
-    1. ```go```
-    1. ```eat```
-    1. ```inventory```  
-    ![Adventure](images/section_2/adventure.png)  
     In case you haven't noticed by now, Adventure is really just text-based Minecraft. You're playing Minecraft on a computer inside Minecraft.
-1. Add disk drive
-  1. Open your inventory and search for ```disk drive```
-  1. Place the disk drive next to the computer  
-  ![Disk drive](images/section_2/disk_drive.png)
-1. Add a music disk to the disk drive
-1. Play the music with the ```dj``` program
-1. Create a monitor
-  1. Open your inventory and search for ```monitor```
-  1. Place 12 monitors in a 6 wide by 2 high pattern to create a giant widescreen monitor
-  1. Place a computer next to the monitor
-  1. Place a disk drive next to the computer
-1. Watch a movie on the monitor
-  1. Open your inventory and search for ```disk```
-  1. Find a disk labeled ```alongtimeago``` and place it into the disk drive  
-    ![alongtimeago](images/section_2/a_long_time_ago.png)
-  1. Right click on the computer and run the ```alongtimeago``` program  
-    1. To run a program on the disk, specify the full path to the program like this: ```disk/alongtimeago```  
-    1. To run the program on the monitor, specify the monitor first, so this: ```monitor [top|bottom|left|right|front|back] disk/alongtimeago```
-      The syntax ```[top|bottom|left|right|front|back]``` means pick which side your monitor is on and only type that direction, of those six shown. So you command would be something like ```monitor left disk/alongtimeago```.
-  1. Sit back and enjoy the show  
-  ![Watching on the big screen](images/section_2/monitor.png)
-  1. To quit any running program, hold down ```ctrl + r```
 
-Now explore the other programs available on ComputerCraft computers.
+### Peripherals
+
+* Open your inventory and search for ```disk drive```
+* Place the disk drive next to the computer
+
+  ![Disk drive](images/section_2/disk_drive.png)
+
+* Right click the disk drive to open it.
+  * Try putting a music disk in the disk drive.
+  * Play the music by right clicking your computer and running the `dj` program.
+
+#### Create a monitor
+
+* Open your inventory and search for `monitor`
+* Place 12 monitors in a 6 wide by 2 high pattern to create a giant widescreen monitor
+* Place a computer next to the monitor
+* Place a disk drive next to the computer
+
+#### Watch a movie
+
+* Open your inventory and search for `disk`
+* Find a disk labeled `alongtimeago` and place it into the disk drive
+
+  ![alongtimeago](images/section_2/a_long_time_ago.png)
+
+* Right click on the computer and run the `alongtimeago` program
+  * To run a program on the disk, specify the full path to the program like this: `disk/alongtimeago`
+  * To run the program on the monitor, specify the monitor first, like this: `monitor [top|bottom|left|right|front|back] disk/alongtimeago`
+  * The syntax `[top|bottom|left|right|front|back]` means pick which side your monitor is on and only type that direction, of those six shown. So your command would be something like `monitor left disk/alongtimeago`.
+
+![Watching on the big screen](images/section_2/monitor.png)
+
+* To quit any running program, hold down ```ctrl + r```
+
+That's all for this section! Feel free to explore the other programs available on ComputerCraft computers!
