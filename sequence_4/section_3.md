@@ -35,7 +35,7 @@ public IIcon getIcon(int side, int par2) //side = the side of the block
 }
 ```
 
-![](images/section_3/block_texture_multiple.png)
+![Block with multiple textures.](images/section_3/block_texture_multiple.png)
 
 ## Changing tool properties
 Items in Minecraft have a variety of properties that determine how they behave in-game. These include `EntityDamage`, `Enchantability`, and `Durability`. We can make our own tools (from copper, of course!) and give them their own, unique properties that set them apart from other tools.
@@ -44,10 +44,12 @@ Items in Minecraft have a variety of properties that determine how they behave i
 The easiest way to manipulate these parameters is to simply create our custom item from a custom `ToolMaterial`. A `ToolMaterial` is a variable that holds all of the information about a material that can be made into tools. Minecraft already has them for materials such as wood and iron, but we need to make one for copper. We use the `EnumHelper` class to actually create our new material variable (this variable declaration goes in our main mod class).
 
 ```java
-public static final Item.ToolMaterial COPPER = EnumHelper.addToolMaterial("copperTool", 2,
+public static final Item.ToolMaterial COPPER = EnumHelper.addToolMaterial("copper_tool", 2,
             150, 5.0F, 7.0F, 21); //Harvest level, durability, block damage, entity damage, enchantability
 ```
-Since we've made it a static variable, we can later refer to it as `CopperMod.COPPER` for registering our tools with the game. Generally, `final` variables are in all-caps, therefore we call our `final` variable `COPPER`.
+Note that the `addToolMaterial` method takes a total of six arguments. The first argument is a string that will be registered as the name of our material. The other five arguments are numbers that determine attributes of the material. The harvest level determines what types of blocks the tools can break properly. The durability is the number of uses before the tool breaks. The block and entity damages determine how much damage the tool material does to blocks and entities, respectively (these arguments are floats). The final argument is the enchantability, or how well a tool can be enchanted (higher number means better enchantments at lower levels).
+
+Since we've made `COPPER` a static variable, we can later refer to it as `CopperMod.COPPER` for registering our tools with the game. Generally, `final` variables are in all-caps, therefore we call our `final` variable `COPPER`.
 
 
 ### Custom tool effects
@@ -66,8 +68,10 @@ This function is called whenever the item is used to hit an entity, whether it's
 ```java
 entityBeingHit.setFire(4);  //what do you think the integer does?
 ```
+<!-- TODO: Add fire on hit screenshot here -->
 
 We can even create an explosion at the hit entity's location!
 ```java
 entityBeingHit.worldObj.createExplosion(null, entityBeingHit.posX, entityBeingHit.posY, entityBeingHit.posZ, 10.0f, true);  //the float determines the radius of the explosion
 ```
+<!-- TODO: Add explosion on hit screenshot here -->

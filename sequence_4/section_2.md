@@ -27,7 +27,7 @@ public CopperIngot()
 
 One important note regarding textures is that item textures should have transparent backgrounds, or there will be a white square around the item in the game. Transparency backgrounds are indicated by a grey and white checkerboard on the background of the image file.
 
-<!-- TO DO: Add item texture screenshot here -->
+<!-- TODO: Add item texture screenshot here -->
 
 We'll also need to register our item with the game using the `registerItem` function. You should create a static `copperIngot` variable in `CopperMod` class just as we did with our static `copperBlock` variable.
 
@@ -48,7 +48,7 @@ public Item getItemDropped(int metadata, Random random, int fortune)
 }
 ```
 
-![](images/section_3/block_drops_ingot.png)
+![Block dropping an ingot](images/section_3/block_drops_ingot.png)
 
 What if we wanted to make our block drop several ingots when broken? It generally takes 9 ingots to make a block, so let's use the `quantityDropped` method to tell our `CopperBlock` to drop 9 ingots when it is mined. The following method declaration should go in your `CopperBlock` class.
 
@@ -59,7 +59,7 @@ public int quantityDropped(Random rand)
 }
 ```
 
-![](images/section_3/block_drops_multiple_ingots.png)
+![Block dropping multiple ingots](images/section_3/block_drops_multiple_ingots.png)
 
 `rand` is a `Random` object that we could use to add randomness to our drops. For example, we could specify that we want a random number of ingots between 2 and 5 to drop when a block is broken by using the `nextInt` method to get a random number.
 ```java
@@ -85,7 +85,7 @@ GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond, 64), new ItemStack(
 
 This recipe simply trades in a stack of 64 dirt blocks for 64 diamonds. The resulting item is the first argument in the function call, and any input items are the following arguments.
 
-![](images/section_2/recipe_dirt_single.png)
+![A recipe that trades in dirt for diamonds.](images/section_2/recipe_dirt_single.png)
 
 To add more items, simply add more ItemStacks within the parentheses.
 
@@ -109,7 +109,7 @@ GameRegistry.addShapedRecipe(new ItemStack(Items.diamond), "xxx", "x x", "xxx", 
     new ItemStack(Items.coal));
 ```
 
-![.](images/section_2/recipe_coal.png)
+![A shaped recipe that turns coal into diamond.](images/section_2/recipe_coal.png)
 
 ## Smelting recipes
 
@@ -134,7 +134,7 @@ woolStackOrange.setItemDamage(1);
 GameRegistry.addSmelting(woolStackBlack, woolStackOrange, 0.1f);
 ```
 
-![](images/section_2/smelting_wool.png)
+![A recipe that smelts black wool into orange wool.](images/section_2/smelting_wool.png)
 
 ## Setting names
 
@@ -158,9 +158,9 @@ Before we create our language packs, make sure you have "hide file extensions fo
 
 1. Create a folder called "lang" in the "assets/examplemod" folder.
 1. Create a new text file called "en_US.lang" in the folder.
-![](images/section_2/lang_folder.png)
+![Language folder](images/section_2/lang_folder.png)
 
 1. Right-click on the file and choose to edit it. The default entry is something similar to: `category.blockName.name=Item Name`. The name that appeared for our initial block, `tile.copper_block.name` is what we would use in our case. So my line would be `tile.copper_block.name=Copper Block`.
 
 1. Save the file and run Minecraft. Your name should now appear in-game.
-![](images/section_2/lang_block.png)
+![Block with localized name](images/section_2/lang_block.png)
