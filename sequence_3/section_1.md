@@ -1,115 +1,111 @@
-# Section 1: Logic Gates
+# Section 1: ComputerCraft Basics
 
-Logic Gates are a fundamental building block for digital circuits. They perform _boolean_ functions and usually have 2 inputs and 1 output
+## Introduction
 
-## AND
+> [ComputerCraft](http://www.computercraft.info/) is a modification for Minecraft that’s all about computer programming. It allows you to build in-game Computers and Turtles, and write programs for them using the Lua programming language. The addition of programming to Minecraft opens up a wide variety of new possibilities for automation and creativity. If you’ve never programmed before, it also serves as excellent way to learn a real world skill in a fun, familiar environment.
 
-The AND gate performs the AND logic function which mathematically works like multiplication.
+This will be your first taste of the ComputerCraft mod, and for some of you, your first time using a command line interface. With this knowledge, you can start using other command line software, and you'll get a solid foundation in simple programming skills.
 
-In Minecraft, your AND gate will take two redstone inputs which will either be ON or OFF.  The output depends on the combination of inputs.
+### The Command Line
 
-![An example of an AND gate.](images/section_1/gate_AND.png)
+* Open the ComputerCraft world
+* Open your inventory and search for `computer`
+* Place a computer on the ground and right-click on it  
 
-ON AND ON => ON  
-ON AND OFF => OFF  
-OFF AND ON => OFF  
-OFF AND OFF => OFF  
+When you place a computer and right click on it, the first thing you see is this.
 
-Try these out on the above gate and see what happens. Remember that a lever is OFF if it is pointed upward.
+![The beginning of your command line life.](images/section_1/ccb1.png)
 
-## Truth Tables
+This is a command line. Here, we can type words to run programs, and we can look inside folders just like in a graphical interface. Let's do that now.
 
-Truth tables are an easy way for us to organize the various outputs of logic gates given different inputs.  
-For boolean logic, "ON" is replaced with "True" or "1" and "OFF" is replaced with "False" or "0". For example, the AND Gate could look like this:
+![Some simple commands to run.](images/section_1/ccb2.png)
 
-TRUE AND TRUE => TRUE  
-TRUE AND FALSE => FALSE  
-FALSE AND TRUE => FALSE  
-FALSE AND FALSE => FALSE  
+* The ```ls``` command lists the contents of the current directory
+* The ```cd``` command changes directories, e.g. ```cd rom```  
 
-Which is the same as:  
-1 AND 1 => 1  
-1 AND 0 => 0  
-0 AND 1 => 0  
-0 AND 0 => 0  
+Up next we'll run the edit program and see what it looks like.
+Type `edit test`.
 
-We can simplify this further to just a table:  
+![](images/section_1/ccb3.png)
 
-Input | Input | Output
---- | --- | ---
-1 | 1 | 1
-1 | 0 | 0
-0 | 1 | 0
-0 | 0 | 0
+This is the program you use to edit your programs. Looks pretty simple huh? This program is all you need to start writing you own code in ComputerCraft.
 
+### Play text adventure Minecraft inside a ComputerCraft computer
+  * Type `adventure`
+  * Some of the commands available in the Adventure program:
+    * `punch`
+    * `take` or `grab`
+    * `craft` or `make`
+    * `go`
+    * `eat`
+    * `inventory`
 
-## OR
+    ![Adventure](images/section_1/adventure.png)
 
-The OR gate will only output OFF if both inputs are OFF. If either input is ON or if both are ON, the output will be on.
+    In case you haven't noticed by now, Adventure is really just text-based Minecraft. You're playing Minecraft on a computer inside Minecraft.
 
-![An example of an OR gate.](images/section_1/gate_OR.png)
+### Peripherals
 
-Input | Input | Output
---- | --- | ---
-1 | 1 | 1
-1 | 0 | 1
-0 | 1 | 1
-0 | 0 | 0
+* Open your inventory and search for ```disk drive```
+* Place the disk drive next to the computer
 
-## NOT
+  ![Disk drive](images/section_1/disk_drive.png)
 
-A NOT gate only has one input and simply reverses that input. An ON input leads to an OFF output, and vice-versa.
+* Right click the disk drive to open it.
+  * Try putting a music disk in the disk drive.
+  * Play the music by right clicking your computer and running the `dj` program.
 
-![An example of a NOT gate.](images/section_1/gate_NOT.png)
+#### Create a monitor
 
-Input | Output
---- | ---
-0 | 1
-1 | 0  
+* Open your inventory and search for `monitor`
+* Place 12 monitors in a 6 wide by 2 high pattern to create a giant widescreen monitor
+* Place a computer next to the monitor
+* Place a disk drive next to the computer
 
-## NOR
+#### Watch a movie
 
-A NOR gate is just an OR gate with its outputs reversed. So a NOR gate will only output ON if both inputs are OFF. Otherwise the output is OFF.
+* Open your inventory and search for `disk`
+* Find a disk labeled `alongtimeago` and place it into the disk drive
 
-![An example of a NOR gate.](images/section_1/gate_NOR.png)
+  ![alongtimeago](images/section_1/a_long_time_ago.png)
 
-Input | Input | Output
---- | --- | ---
-1 | 1 | 0
-1 | 0 | 0
-0 | 1 | 0
-0 | 0 | 1
+* Right click on the computer and run the `alongtimeago` program
+  * To run a program on the disk, specify the full path to the program like this: `disk/alongtimeago`
+  * To run the program on the monitor, specify the monitor first, like this: `monitor [top|bottom|left|right|front|back] disk/alongtimeago`
+  * The syntax `[top|bottom|left|right|front|back]` means pick which side your monitor is on and only type that direction, of those six shown. So your command would be something like `monitor left disk/alongtimeago`.
 
-## NAND
+![Watching on the big screen](images/section_1/monitor.png)
 
-Just as a NOR gate has the opposite outputs of an OR gate, a NAND gate has the opposite outputs of an AND gate. It will output OFF only if both inputs are ON. If either input is OFF, the output will be ON.
+* To quit any running program, hold down ```ctrl + r```
 
-![An example of a NAND gate.](images/section_1/gate_NAND.png)
+# Turtles
 
-Input | Input | Output
---- | --- | ---
-1 | 1 | 0
-1 | 0 | 1
-0 | 1 | 1
-0 | 0 | 1
+## Intro
 
-## XOR
+Turtles are programmable robots that you can use to collect resources, clear terrain, and other such tasks.  They run an OS called turtleOS and the programs they run can be stored on internal memory or floppy disks.  There are farming, mining, crafting, and melee turtles.  They are categorized based on the Diamond tool* you equip them with.
 
-An XOR (ex-or) gate is also called an "exclusive OR" gate. It will only output ON if either lever is ON. If both levers are either off or on, it will output OFF.
+*Note: Tools equipped to turtles will not wear out and turtles themselves are indestructible (unless you break them yourself).  This makes them one of the safest ways to utilize diamond tools, not to mention the time they will save you.
 
-![An example of an XOR gate.](images/section_1/gate_XOR_front.png)
+Like any robot, turtles require fuel.  They can get energy from anything that would work in a furnace as well as other more advanced options we'll get to later.  Different types of fuel will yield different _fuel counts_ which is the number of blocks the turtle can move with that amount of fuel.  For example, coal will give the turtle 80 fuel, so the turtle can now move 80 blocks.
 
-![A different perspective of the same gate.](images/section_1/gate_XOR_back.png)
+1. Add some dancing turtles
+  1. Open your inventory and search for ```turtle```
+  1. Place a turtle or two on the ground
+  1. Right-click on the turtle
+  1. Run the ```dance``` program
 
-Input | Input | Output
---- | --- | ---
-1 | 1 | 0
-1 | 0 | 1
-0 | 1 | 1
-0 | 0 | 0
+## Make it move!
 
-## Reference
+Turtles have several default programs including the "go" program.
 
-This diagram has most of the logic gates that we've gone over, as well as some more that you may find useful.
+1. Select a turtle and put a _coal_ in its inventory.
+2. type ```refuel```
+  1. Notice it says _Fuel level is 80_
+3. type ```go forward 10``` and watch it go!
+  1. type ```refuel``` and notice that the fuel level is now 70.
+  2. Whenever there is no fuel source in the turtle's inventory, you can type ```refuel``` to check its fuel level.
 
-![A diagram with redstone gate examples.](images/section_1/redstone_diagrams.jpg)
+The "go" program has the following format:
+```go <direction> <distance>```
+
+Note: For fast/mass refueling, type ```refuel all```
