@@ -1,84 +1,115 @@
-# Command Blocks
+# Section 3: Logic Gates
 
-> A command block is a redstone component that can execute commands when activated. It cannot be obtained legitimately in survival mode, and is primarily used on multiplayer servers and in custom maps.
+Logic Gates are a fundamental building block for digital circuits. They perform _boolean_ functions and usually have 2 inputs and 1 output
 
-## Practicing the basic commands available to command blocks
+## AND
 
-Create a new creative world.
+The AND gate performs the AND logic function which mathematically works like multiplication.
 
-To obtain a command block type the command ```/give <playername> command_block```.
+In Minecraft, your AND gate will take two redstone inputs which will either be ON or OFF.  The output depends on the combination of inputs.
 
-Place the command block and right-click it. Now do the /give command again. This will give the nearest player an iron pickaxe, for example:
+![An example of an AND gate.](images/section_3/gate_AND.png)
 
-```/give @p 257```
+ON AND ON => ON  
+ON AND OFF => OFF  
+OFF AND ON => OFF  
+OFF AND OFF => OFF  
 
-Click "done" and then put a button on the command block by holding the button and shift clicking on the command block. Then activate the command block by right-clicking the button.
+Try these out on the above gate and see what happens. Remember that a lever is OFF if it is pointed upward.
 
-## Command block reference
+## Truth Tables
 
-Some of the other more useful commands for use in command blocks are:
+Truth tables are an easy way for us to organize the various outputs of logic gates given different inputs.  
+For boolean logic, "ON" is replaced with "True" or "1" and "OFF" is replaced with "False" or "0". For example, the AND Gate could look like this:
 
-* ```say```, ```tell```, ```msg``` and ```w``` (whisper) to communicate messages to a player(s).
-  ```tell <player> <message>```
-* ```clear <player> [item] [data] [maxCount] [dataTag]``` clears a players inventory, or just the items specified in the arguments
-* ```effect <player> <effect> [seconds] [amplifier] [hideParticles]``` gives the targeted player or entity the specified effect for the specified time (default is 30 seconds). There is also ```effect <player> clear```
-* ```gamemode <mode> [player]```
-* ```playsound <sound> <player> [x] [y] [z] [volume] [pitch] [minimumVolume]```
-* ```setblock <x> <y> <z> <TileName> [dataValue]```
-* ```summon <EntityName> [x] [y] [z]```
-* ```testfor <player> [dataTag]```
-* ```time set <value>```
-* ```toggledownfall```
-* ```tp [target player] <destination player>``` or ```tp [target player] <x> <y> <z>```
-* ```weather <clear|rain|thunder> [duration in seconds]```
-* ```xp <amount> [player]```
+TRUE AND TRUE => TRUE  
+TRUE AND FALSE => FALSE  
+FALSE AND TRUE => FALSE  
+FALSE AND FALSE => FALSE  
 
-There are some additional new commands coming in the 1.8 release. We will update the electronic version of this book when that version is released.
+Which is the same as:  
+1 AND 1 => 1  
+1 AND 0 => 0  
+0 AND 1 => 0  
+0 AND 0 => 0  
 
-## Communicating to a player with command blocks
+We can simplify this further to just a table:  
 
-This exercise is going to use command blocks to warn a player of impending doom. We've provided a map with the trap already set. Try it out, then observe how it works.
+Input | Input | Output
+--- | --- | ---
+1 | 1 | 1
+1 | 0 | 0
+0 | 1 | 0
+0 | 0 | 0
 
-The first circuit involves a clock, a ```testfor``` block which then powers a ```say``` block when a player enters a specific radius:
 
-![Clock/Testfor/Say circuit](images/section_3/circuit_test_and_say.png)
+## OR
 
-The second circuit involves the same configuration as above, with the addition of a switched clock and two ```setblock``` blocks:
+The OR gate will only output OFF if both inputs are OFF. If either input is ON or if both are ON, the output will be on.
 
-![Drop stuff on the player's head when they enter the chamber](images/section_3/circuit_test_and_drop_sand.png)
+![An example of an OR gate.](images/section_3/gate_OR.png)
 
-Change the messages the ```say``` command blocks output. Change the type of block that is dropped on the player (hint: there are only a few types of blocks that will fall, and two of them won't require the clock circuit). If you have time, recreate the trap. (If you don't, don't worry, we're going to create another trap later.)
+Input | Input | Output
+--- | --- | ---
+1 | 1 | 1
+1 | 0 | 1
+0 | 1 | 1
+0 | 0 | 0
 
-The map for this exercise is called "It's a trap!".
+## NOT
 
-## Moving a player around a map with command blocks
+A NOT gate only has one input and simply reverses that input. An ON input leads to an OFF output, and vice-versa.
 
-Let's take a look at how to build a simple security system for your house, using a command block and a pressure plate.
+![An example of a NOT gate.](images/section_3/gate_NOT.png)
 
-* First, place a pressure plate in front of your door.
-* Make sure that the player will step on it when walking to the door.
-* Now, place a command block under the pressure plate somewhere so that it will be powered when the plate is stepped on.
-* Now go to the command block and enter ```/tp @p[r=<radius>,name=!<yourname>] <x> <y> <z>```
+Input | Output
+--- | ---
+0 | 1
+1 | 0  
 
-Breaking this command down we have ```/tp```, which is the command for teleporting players. Then we have the ```@p``` specifier, which says that this command block acts on players. The ```@p``` command takes arguments, ```r=``` for radius and ```name=``` for which players to teleport. Setting the radius is straightforward. Setting the name, however is a little interesting. Here, we use the ```!``` operation, which means ```NOT```. Just like in redstone, this inverts the output of a command. Right now, we're using it to make sure any player that is ```NOT``` you gets teleported, while you remain safe. The final part of the command is the location to teleport to, which you put in place of the ```<x> <y> <z>``` in the command.
+## NOR
 
-## Giving a player items with command blocks
+A NOR gate is just an OR gate with its outputs reversed. So a NOR gate will only output ON if both inputs are OFF. Otherwise the output is OFF.
 
-The ```/give``` command is one of the more versatile commands available for use in Command Blocks. In this section, we'll list a few good uses.
+![An example of a NOR gate.](images/section_3/gate_NOR.png)
 
-#### Public Lottery
+Input | Input | Output
+--- | --- | ---
+1 | 1 | 0
+1 | 0 | 0
+0 | 1 | 0
+0 | 0 | 1
 
-```
-/give @r
-```
+## NAND
 
-Add the ```@r``` specifier to the ```/give``` command to make the block give the player a random item. Be careful, since this can give items that are not otherwise available.
+Just as a NOR gate has the opposite outputs of an OR gate, a NAND gate has the opposite outputs of an AND gate. It will output OFF only if both inputs are ON. If either input is OFF, the output will be ON.
 
-#### Starter Kits
+![An example of a NAND gate.](images/section_3/gate_NAND.png)
 
-```
-/give @p[r=2 m=2] <item>
-/gamemode 0 @p[r=2]
-```
+Input | Input | Output
+--- | --- | ---
+1 | 1 | 0
+1 | 0 | 1
+0 | 1 | 1
+0 | 0 | 1
 
-These two commands need to be activated in sequence. The first command only activates if the player is in gamemode 2. The second command changes the players mode to survival so that they can't activate the block a second time. These commands use the same ```@p``` specifier as the pervious commands.
+## XOR
+
+An XOR (ex-or) gate is also called an "exclusive OR" gate. It will only output ON if either lever is ON. If both levers are either off or on, it will output OFF.
+
+![An example of an XOR gate.](images/section_3/gate_XOR_front.png)
+
+![A different perspective of the same gate.](images/section_3/gate_XOR_back.png)
+
+Input | Input | Output
+--- | --- | ---
+1 | 1 | 0
+1 | 0 | 1
+0 | 1 | 1
+0 | 0 | 0
+
+## Reference
+
+This diagram has most of the logic gates that we've gone over, as well as some more that you may find useful.
+
+![A diagram with redstone gate examples.](images/section_3/redstone_diagrams.jpg)
