@@ -5,25 +5,25 @@
 This section concerns making doors powered by pistons and redstone. Rather than using wood or iron doors, we'll be using pistons to make large doors using blocks. For this you will need redstone, redstone torches, and sticky pistons. Since sticky pistons can both push and pull blocks, they're ideal for making something like a door. The redstone circuit used is simple but still requires some space, which can be hidden inside a wall (especially since doors normally appear in walls!).
 
 1. The door will be two blocks wide and three blocks tall. Place two columns of three sticky pistons facing each other with four empty air blocks between them. Then place your door blocks (lapiz, gold, etc) onto each of the sticky piston faces. When unpowered, there will be a two-block gap between the pieces of the door.
-![The initial door blocks](images/section_1/piston_door_initial.png)
+![The initial door blocks](images/section_2/piston_door_initial.png)
 
 1. Dig a one block deep channel around the doors as shown in this picture. We will hide the redstone we're using to power the doors within this channel. Dig out two more blocks from the front of the door (consult the screenshot if you are confused).
-![The channel that will house the redstone](images/section_1/piston_door_channel.png)
+![The channel that will house the redstone](images/section_2/piston_door_channel.png)
 Then put two ground blocks back in the middle (keeping the just-mined block underneath empty) and put two pressure plates on top of them.
-![The slabs that will power the door](images/section_1/piston_door_plates.png)
+![The slabs that will power the door](images/section_2/piston_door_plates.png)
 
 1. Now run redstone from the very bottom space all the way around the bottom of the channel, with the ends pointing into the remaining sandstone block on either side.
-![The channel filled with redstone](images/section_1/piston_door_redstone_channel.png)
+![The channel filled with redstone](images/section_2/piston_door_redstone_channel.png)
 
 1. Place a redstone torch on top of that remaining sandstone (the torch should be next to the bottom-most sticky piston).
-![The redstone torch powering the bottom piston](images/section_1/piston_door_torches.png)
+![The redstone torch powering the bottom piston](images/section_2/piston_door_torches.png)
 Place a sandstone block on top of that torch and redstone dust on top of that sandstone block. Repeat this for the other side of the door.
-![The sandstone block and redstone dust that power the middle and top pistons](images/section_1/piston_door_redstone_top.png)
+![The sandstone block and redstone dust that power the middle and top pistons](images/section_2/piston_door_redstone_top.png)
 
 1. Cover up the redstone using slabs, which give the best aesthetics. You can also cover up the side towers (pistons and all) with sandstone, wood, or other attractive patterns.
-![The slabs to cover up the redstone](images/section_1/piston_door_slabs.png)
+![The slabs to cover up the redstone](images/section_2/piston_door_slabs.png)
 Ultimately, only the two-block space in the middle of the door is what shouldn't be covered. Our suggestion is to build this door as part of a wall where it looks best.
-![The final door as part of an entrance-way](images/section_1/piston_door_final.png)
+![The final door as part of an entrance-way](images/section_2/piston_door_final.png)
 
 # Cannons
 
