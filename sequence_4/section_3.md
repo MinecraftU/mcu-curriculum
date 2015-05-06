@@ -3,7 +3,7 @@
 
 ## Multi-sided textures
 
-What about blocks like grass that have different textures on different sides? The following code in the `CopperBlock` class registers three different textures and tells the program which textures belong on the top, sides, and bottom. If we wanted, we could even make the side textures different (like a furnace or dispenser). You will have to create three texture files matching the names that are being registered.
+What about blocks like grass that have different textures on different sides? The following code in the `CopperBlock` class registers three different textures and tells the program which textures belong on the top, sides, and bottom. If we want, we could even make the side textures different (like a furnace or dispenser). You will have to create three texture files matching the names that are being registered. I've made it so that my block has a silver-colored top and bottom.
 
 ```java
 //Creating our icon variables
@@ -53,7 +53,7 @@ Since we've made `COPPER` a static variable, we can later refer to it as `Copper
 
 
 ### Custom tool effects
-By knowing how to override the `hitEntity` function, we can create fire, lightning bolts, and even explosions1 when our tools are used!
+By knowing how to override the `hitEntity` function, we can create fire, lightning bolts, and even explosions when our tools are used!
 
 Create the following function definition in one of your item classes.
 ```java
@@ -68,10 +68,13 @@ This function is called whenever the item is used to hit an entity, whether it's
 ```java
 entityBeingHit.setFire(4);  //what do you think the integer does?
 ```
-<!-- TODO: Add fire on hit screenshot here -->
+
+![Fire on hitting pig](images/section_3/sword_hit_fire.png)
 
 We can even create an explosion at the hit entity's location!
 ```java
-entityBeingHit.worldObj.createExplosion(null, entityBeingHit.posX, entityBeingHit.posY, entityBeingHit.posZ, 10.0f, true);  //the float determines the radius of the explosion
+entityBeingHit.worldObj.createExplosion(null, entityBeingHit.posX, entityBeingHit.posY, entityBeingHit.posZ, 3.0f, true);  //the float determines the radius of the explosion
 ```
-<!-- TODO: Add explosion on hit screenshot here -->
+![Before hitting pig](images/section_3/sword_hit_explosion_pre.png)
+
+![Explosion on hitting pig](images/section_3/sword_hit_explosion.png)

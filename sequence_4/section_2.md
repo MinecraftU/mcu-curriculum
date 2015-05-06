@@ -27,7 +27,7 @@ public CopperIngot()
 
 One important note regarding textures is that item textures should have transparent backgrounds, or there will be a white square around the item in the game. Transparency backgrounds are indicated by a grey and white checkerboard on the background of the image file.
 
-<!-- TODO: Add item texture screenshot here -->
+![Making item texture](images/section_2/item_texture.png)
 
 We'll also need to register our item with the game using the `registerItem` function. You should create a static `copperIngot` variable in `CopperMod` class just as we did with our static `copperBlock` variable.
 
@@ -48,7 +48,7 @@ public Item getItemDropped(int metadata, Random random, int fortune)
 }
 ```
 
-![Block dropping an ingot](images/section_3/block_drops_ingot.png)
+![Block dropping an ingot](images/section_2/block_drops_ingot.png)
 
 What if we wanted to make our block drop several ingots when broken? It generally takes 9 ingots to make a block, so let's use the `quantityDropped` method to tell our `CopperBlock` to drop 9 ingots when it is mined. The following method declaration should go in your `CopperBlock` class.
 
@@ -59,7 +59,7 @@ public int quantityDropped(Random rand)
 }
 ```
 
-![Block dropping multiple ingots](images/section_3/block_drops_multiple_ingots.png)
+![Block dropping multiple ingots](images/section_2/block_drops_multiple_ingots.png)
 
 `rand` is a `Random` object that we could use to add randomness to our drops. For example, we could specify that we want a random number of ingots between 2 and 5 to drop when a block is broken by using the `nextInt` method to get a random number.
 ```java

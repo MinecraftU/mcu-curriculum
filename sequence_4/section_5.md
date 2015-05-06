@@ -1,2 +1,4 @@
-## Custom Furnace
-Making a custom furnace requires significantly more work than a crafting table. A crafting table is purely an interface; you put some items in the slots, and it gives you new items back. A furnace, however, must have _state_. Some class (in this case the `TileEntity` class) must keep track of the current item being smelted, the speed of smelting, the fuel level, and other properties of a running furnace.
+## Custom Models and Mobs
+>In this section, you will learn about making 3D models and new mobs.
+
+TODO: This section.

@@ -1,4 +1,4 @@
-# Minecraft mod development
+Â# Minecraft mod development
 >You should have performed the setup steps in section_0. You're going to learn about what exactly a Minecraft mod is, as well as how to add a new block to the game.
 
 ## What is a _mod_?
