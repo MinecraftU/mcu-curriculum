@@ -1,4 +1,4 @@
-Â# Minecraft mod development
+## Minecraft mod development
 >You should have performed the setup steps in section_0. You're going to learn about what exactly a Minecraft mod is, as well as how to add a new block to the game.
 
 ## What is a _mod_?
@@ -6,7 +6,7 @@ The word _mod_ is short for _modification_. A _mod_ is made up of code and image
 
 ## Creating a new block
 
->Anytime you copy Java code in this section, be sure to match ALL capitalization and punctuation as exactly as possible.
+>Anytime you copy Java code in this section, be sure to match ALL capitalization, punctuation, and spacing.
 
 Programmers use something called a _class_ as a blueprint for all of the objects in Minecraft. There's a class for a diamond pickaxe, for an iron ore, and all other blocks and items. These classes tell what a block (or item) should look like, how it should behave, as well as where it spawns or how it can be crafted. By creating our own classes, we can add our own blocks and items to the game. Let's say that we wanted to make a new type of block. Minecraft already has a `Block` class that defines what a block is in the game (all blocks can be broken and have a texture, for example). We can _extend_ the existing `Block` class and make our own new block. It will have all the normal properties of a block but we can set our own texture, hardness, and sound.
 
