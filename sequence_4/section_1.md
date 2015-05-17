@@ -114,6 +114,6 @@ To add our texture to our block, we first need to create the folder that will ho
 
 ![Making a new block texture](images/section_1/block_texture.png)
 
-For right now, the block will have the same texture on all six sides like cobblestone or obsidian. Save the texture as "copper_block.png" in the "blocks" folder. After your texture has been saved, run Minecraft. Now check out the texture of your block!
+For right now, the block will have the same texture on all six sides like cobblestone or obsidian. Name the texture "copper_block" and save it as a `.png` in the "blocks" folder. After your texture has been saved, run Minecraft. Now check out the texture of your block!
 
 ![New block with texture in-game](images/section_1/block_texture_ingame.png)
