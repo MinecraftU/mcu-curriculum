@@ -1,4 +1,4 @@
-![](images/section_4/recipe_coal.png)
+![](images/section_2/recipe_coal.png)
 
 ## Minecraft U Sequence 4: Java and Modding Minecraft
 
