@@ -1,5 +1,5 @@
 ![](images/Minecraft-Redstone-HD-Wallpaper-For-Desktop-Background.jpg)
 
-## Minecraft U Sequence 2: Redstone and Programming
+## Minecraft U Sequence 2: I Sing the Minecraft Electric
 
-Redstone minecrafters are the electrical engineers of Minecraft, and their creations often amaze and confound more basic players. Command blocks are special blocks in Minecraft that can be programmed to accomplish specific tasks. ComputerCraft is a modification for Minecraft that’s all about computer programming. Used individually and together these elements of Minecraft open up elements of programming within the game's unique and engaging environment. Also: cannons!
+Learn the basics of electricity, with in game and real world applications. We’ll go over digital circuits, like those found in smartphones and tablets, and how to use them in the Minecraft world to build yourself awesome contraptions. At the advanced level, we’ll go over what binary really is, and how to design binary logic machines with Redstone!

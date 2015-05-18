@@ -1,5 +1,5 @@
 ![](images/section_4/recipe_coal.png)
 
-## Minecraft U Sequence 4: 
+## Minecraft U Sequence 4: Java and Modding Minecraft
 
-qCraft is a mod that brings the principles of quantum physics to the world of Minecraft. “Mods”, or game modifications, are programs that change the game in any way the mod developer desires. Campers will learn about the special objects and properties of qCraft, then learn just enough Java to get dangerous within a mod development environment and learn what it takes to become a game developer.
+Learn the basics of Java, the most common programming language in the world, and use them to create your own modification of Minecraft. Add any item of your design to the game, expanding Minecraft in whatever direction you desire. At the end, you’ll understand the syntax and applications of Java, and how they apply to Minecraft.

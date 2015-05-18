@@ -1,6 +1,5 @@
 ![](images/Minecraft-Redstone-HD-Wallpaper-For-Desktop-Background.jpg)
 
-## Minecraft U Sequence 3: Advanced Redstone, ComputerCraft and Programming
+## Minecraft U Sequence 3: ComputerCraft
 
-Further exploring the possibilities of redstone crafting, the use of ComputerCraft robots and moving into more traditional programming within the a visual Javascript environment.
-
+Use the Minecraft mod ComputerCraft to learn the basics of programming and then apply those skills via your own in-game robots. These robots can do anything, from build you a house to find and mine diamonds for you. The only limit is your ability to direct them. At the advanced level, we’ll discuss the limitations of computers and how to work around them.
