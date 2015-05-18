@@ -47,11 +47,11 @@ The easiest way to manipulate these parameters is to simply create our custom it
 public static final Item.ToolMaterial COPPER = EnumHelper.addToolMaterial("copper_tool", 2,
             150, 5.0F, 7.0F, 21); //Harvest level, durability, block damage, entity damage, enchantability
 ```
-Note that the `addToolMaterial` method takes a total of six arguments. The first argument is a string that will be registered as the name of our material. The other five arguments are numbers that determine attributes of the material:
-  *Harvest level (0-3): Determines what types of blocks the tools can break properly.  
-  *Durability (Diamond = 1562): The number of uses before the tool breaks.  
-  *Block and Entity damages: Determine how much damage the tool material does to blocks and entities, respectively (these arguments are floats).  
-  *Enchantability (Gold Armor = 25): How well a tool can be enchanted (higher number means better enchantments at lower levels).  
+Note that the `addToolMaterial` method takes a total of six arguments. The first argument is a string that will be registered as the name of our material. The other five arguments are numbers that determine attributes of the material:  
+  * Harvest level (0-3): Determines what types of blocks the tools can break properly.  
+  * Durability (Diamond = 1562): The number of uses before the tool breaks.  
+  * Block and Entity damages: Determine how much damage the tool material does to blocks and entities, respectively (these arguments are floats).  
+  * Enchantability (Gold Armor = 25): How well a tool can be enchanted (higher number means better enchantments at lower levels).  
 
 Since we've made `COPPER` a static variable, we can later refer to it as `CopperMod.COPPER` for registering our tools with the game. Generally, `final` variables are in all-caps, therefore we call our `final` variable `COPPER`.
 
