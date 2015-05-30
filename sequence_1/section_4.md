@@ -39,27 +39,6 @@ The bottle of enchantment provided is only going to get you so far. You'll have 
 
 There is a fair amount of luck involved, and no one strategy is necessarily better than another. After everyone has completed the challenge, compare notes.
 
-## X-ray machines
-
-X-ray machines are rather useful things, allowing you to see through the ground to whatever open space it might contain, allowing you to locate abandoned mineshafts, dungeons, ravines, etc. To create a primitive x-ray machine in the latest version of Minecraft:
-
-* Acquire two pieces of fence and a redstone block
-* Dig a 1x2 hole and jump in
-* Place the two fence posts one on top of the other in one half of the hole
-* While jumping, place the redstone block against the side of the fence facing you
-
-Timing is tricky here, you must time it just right, and it might take a few tries
-
-![simple x-ray machine](images/section_4/x-ray_machine.png)
-
-There is also a more sophisticated x-ray machine design that involves minecarts. If you would like to try those, you can checkout [this SethBling video (at 16:30 minutes)](http://youtu.be/WBu2gPRYPyQ?t=16m33s).
-
-Unfortunately the x-ray glitch is becoming more difficult to exploit in upcoming versions. To see a 1.8 x-ray machine, checkout [this video](https://www.youtube.com/watch?v=hQMhwqlaArI).
-
-Fortunately, one of our camp servers is running on version 1.6.4, which allows for a more elegant x-ray machine using a sticky piston and a block of glowstone. Power a sticky piston via a pressure plate that pushes a block of glowstone into your head while you are standing on the pressure plate.
-
-![1.6.4 x-ray machine](images/section_4/1.6.4-xray.png)
-
 ## Minecarts and railway construction
 
 As you expand your living area, you may find that traveling between areas taking up a lot of your time. Running and walking aren't particularly fast, but minecarts can make traveling significantly faster and safer.
