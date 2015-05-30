@@ -82,11 +82,3 @@ When you are on the railway, you will stop right next to one of the buttons. Pre
 Your assignment is to make a minecart rail that connects three different locations: a house, a farm, and a cave entrance. Make a start-stop point at each of the destinations. Create a stop that allows you to choose your destination (see screenshot below). The map for this exercise is called "Railroad".
 
 ![A three-way intersection](images/section_4/track_switching_station.png)
-
-## Auto-Smelters
-
-The concept behind an auto-smelter is pretty simple, actually: smelt a chest full of materials automatically. The build in its most basic is this: Chest (with materials) feeds into a hopper, which in turn feeds into the furnace, then into another hopper, then into the chest with the final product.
-
-![auto-smelter](images/auto-smelt.png)
-
-Think of ways to improve upon this design by making it more efficient, easier to load with raw materials or have more capacity.
