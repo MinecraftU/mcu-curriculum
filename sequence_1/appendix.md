@@ -31,3 +31,7 @@ And finally we create a 22-block high shaft for the zombies to drop down. We can
 ![Where we can farm the zombies from.](images/section_2/grinder_farm_space.png)
 
 We've given you a world that has a zombie dungeon located directly below the spawn point. Your task is to find the spawner (dig down carefully to find it) and build a mob grinder like the one described above.
+
+## Skin Design
+
+This section is pretty straightforward thanks to the great tools at [Miners Need Cool Shoes](http://www.needcoolshoes.com/). Go to needcoolshoes.com and import your skin or go to the gallery and pick a new one to tweak. Then edit that skin using their editing tools! You can download the png file or change your skin right from the site. You can even combine skins by loading multiple skins as layers in the editing tool.

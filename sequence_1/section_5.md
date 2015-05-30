@@ -26,86 +26,32 @@ Maps provided:
 * "The Evil Doctor's Castle" is a classic escape-style map. Quickly determining the way through each "level" is of the most importance with this map, but it does have a very clear path to success!
 * "Jungle Stream" is a classic story/puzzle/parkour map in the style of the Indiana Jones series.*
 
-## Importing Schematics Using MCEdit
+## Nether Portal
 
-Schematics and tools that support them, like MCEdit, can be very helpful in getting started creating more interesting worlds for any game type.
+The Nether is an awful place without much to see and a lot to be afraid of; but it also a place one must visit if one is ever to create potions. It is also fairly handy when travelling long distances.
 
-Let's create a very small village using a few schematics.
+This section is going to focus on placing nether portals for maximum transportation value with maximum safety features.
 
-> A good resource for Minecraft schematics is [http://www.minecraft-schematics.com/](minecraft-schematics.com). These schematics came from there.
+Going through a nether portal will create a linked portal in the nether. If there is already an active portal within range (about 128 blocks) in the other world, the portal will link to it.
 
-![Medieval House](images/section_3/Small_Medieval_House_08.png)
+For this exercise we will create two portals to travel between two mountain ranges.
 
-![Medieval House](images/section_3/Small_Medieval_House_12.png)
+Some friendly reminders regarding traveling through the nether:
 
-Open MCEdit and create a new world by creating "Create New World". Keep it creative for now. We'll likely need to make adjustments from within Minecraft itself. Check the box to simulate the world. Save the world with a name you'll remember.
+* Take flint and steel. Your portal might be damaged by ghasts. In this exercise you'll need it to light a new portal at the 2nd location.
+* Take cobble and gravel. The former for building walls to protect from ghasts, the latter for gravel elevators.
+* Take a bow and plenty of arrows for fighting ghasts.
+* Do not hit zombie pigmen! Be careful when mining around them!
+* Use shift/sneak liberally while near precipices and lava, so as not to fall
 
-![MCEdit Create Dialog](images/section_3/mcedit_create_dialog2.png)
+The advantage of using the nether for long-distance travel is that for every block traveled in the nether, you travel eight blocks in the overworld. Since naturally occuring resources are often far apart in the overworld, you will very likely need to travel long distances with some frequency as you collect and transport those resources.
 
-You'll end up back at the same opening screen. This time click "Load World" and choose the world you just created. You'll be dropped at the spawn point for the world. The inital view inside MCEdit can be very confusing and disorienting. There are a few extra controls you'll need to get used to in comparison to normal Minecraft. And there are inherit difficulties in manipulating a 3D world on a 2D screen. But it's all part of the fun. The good news is MCEdit puts instructions right in the interface.
+Placing portals so that they connect is tricky. From the wiki:
 
-Of course your world will look different depending on what biome you spawned in. Regardless, we need to create some flat space in which to build our village. Tap ```Q``` a few times to move up, then ```S``` a few times to move back. This way you'll be looking down towards the spawn point. Use the mouse to select some space to clear. Don't worry about selecting exactly the right area. We'll adjust it. In fact it is really difficult to select just the area you want to at first. You must select some portion of it, then release the mouse button and make adjustments by clicking and dragging the sides of the 3D selection that you first drew.
+> Horizontal coordinates and distances in the Nether are proportional to the Overworld in a 1:8 ratio (1:3 in Xbox 360 & PlayStation 3 version)...This does not apply on the Y-axis...Thus, for a given location X, Y, Z in the Overworld, the corresponding coordinates in the Nether are X ÷ 8, Y, Z ÷ 8. Conversely, for a location X, Y, Z in the Nether, the matching Overworld coordinates are X × 8, Y, Z × 8.
 
-![Initial MCEdit Selection](images/section_3/mcedit_select_initial.png)
+The goal of this exercise is to travel through the nether to another portal to the overworld position 1000 blocks away.
 
-Now use ```Q W E A S D Z``` to orient yourself around your selection and the mouse pointer to see how you can select edges of the 3D selection. When you have the hang of it, click and drag an edge to refine your selection.
+Mobs of all kinds can make their way through portals, so be a little cautious when traveling through no matter which direction. Here an unfortunate sheep has found their way into the nether and a very precarious position. He doesn't look too happy:
 
-![Editing Edges of MCEdit Selection](images/section_3/mcedit_select_edit.png)
-
-When you think you have a decent area select, click "Delete Blocks" to clear the area. This might take some trial-and-error. You might also want to save the world and go into Minecraft to do some detail repair work.
-
-To save the world click the MCEdit button in the top left of the window and then choose "Save".
-
-Click "Deselect".
-
-Click "Import" from the bottom menu (the one that looks like a hotbar). Navigate to the directory containing the schematics and select one of them to import.
-
-Place the structure where you want it.
-
-Uncheck "Copy Biomes".
-
-Click "Import".
-
-Click "Deselect" to release the building.
-
-![Placing a building in MCEdit](images/section_3/mcedit_place_building.png)
-
-Repeat for the other two structures provided.
-
-![Three buildings placed in MCEdit](images/section_3/mcedit_buildings_placed.png)
-
-Save your village with ```control + S```
-
-Quit MCEdit, open Minecraft and test out your new creations!
-
-> It is very important to have only MCEdit *or* Minecraft open at any given time. You will lose work if you try to have a world open in both applications.
-
-## Creating Schematics
-
-While you are in your creative Minecraft world, whip up a quick farm.
-
-![Roughed out wheat farm](images/section_3/mcedit_farm.png)
-
-Open back up MCEdit and load your world.
-
-Select your farm and click Export.
-
-![Selecting wheat farm in MCEdit](images/section_3/mcedit_select_farm.png)
-
-Name your schematic and save it. Then click Deselect.
-
-Now import your schematic and create multiple farms (or one big farm) by placing your new schematic throughout your world.
-
-![Using a schematic multiple times](images/section_3/mcedit_multiple_wheat_farms.png)
-
-Everything might not be perfect in MCEdit (as you can see in the image above). That's ok, you can go make cosmetic touch ups from inside Minecraft itself.
-
-Now you can try to create schematics from other worlds and import them into your world.
-
-## Building Your Own Map
-
-Continue using the techniques you just learned to flesh out your map. Leave goodies for players to find, particular challenges for them to complete, etc. Once you've completed your map, trade with a friend or neighbor (ask your instructor for help with this step).
-
-## Skin Design
-
-This section is pretty straightforward thanks to the great tools at [Miners Need Cool Shoes](http://www.needcoolshoes.com/). Go to needcoolshoes.com and import your skin or go to the gallery and pick a new one to tweak. Then edit that skin using their editing tools! You can download the png file or change your skin right from the site. You can even combine skins by loading multiple skins as layers in the editing tool.
+![Nether Sheep](images/nether_sheep.png)
