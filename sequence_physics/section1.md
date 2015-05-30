@@ -35,7 +35,7 @@ Think of a car, when a car is accelerating, its speed is increasing.  We can thi
 ##Combining Velocity and Acceleration  
 Since acceleration effects velocity, practically all equation with one will involve the other.  
 The first allows us to calculate our velocity at some time (t):  
-``` V = V<sub>0</sub> + at ```  
+** V = V<sub>0</sub> + at **  
 
 * V<sub>0</sub> is initial velocity  
 * a is acceleration  
@@ -49,14 +49,14 @@ A car traveling north at 45 mph accelerates for 5 seconds, achieving a final spe
 What was the car's acceleration?  
 
 This second equation allows us to calculate distance (d) using initial velocity (v<sub>0</sub>), acceleration (a), and time (t):  
-``` d = v<sub>0</sub>t + .5 at<sup>2</sup> ```  
+** d = v<sub>0</sub>t + .5 at<sup>2</sup> **  
 
 ###Exercise 1.4
 A train traveling at 60 m/s begins accelerating at 3 m/s<sup>2</sup> for 10 seconds.  
 How far does the train travel in those 10 seconds?
 
 The third and final equation we'll use combines the first two:
-``` V<sup>2</sup> = V<sub>0</sub><sup>2</sup> + 2 ad ```  
+** V<sup>2</sup> = V<sub>0</sub><sup>2</sup> + 2 ad **
 
 ###Exercise 1.5
 A car traveling at 25 m/s can brake at a rate of 8 m/s<sup>2</sup>.  A red light is coming up in 100 meters.  
