@@ -6,7 +6,7 @@ Use the Minecraft mod ComputerCraft to learn the basics of programming and then 
 
 ###Table of Contents
 Section 1: ComputerCraft Basics (Using the Command Line)  
-Section 2:
-Section 3:
-Section 4:
-Section 5:
+Section 2:  
+Section 3:  
+Section 4:  
+Section 5:  
