@@ -9,4 +9,4 @@ Section 1: First House and Tools
 Section 2: Farming and Ranching  
 Section 3: Mining  
 Section 4: Enchanting and Minecarts  
-Section 5: Adventure Maps and Nether portals  
+Section 5: Adventure Maps and Nether Portals  
