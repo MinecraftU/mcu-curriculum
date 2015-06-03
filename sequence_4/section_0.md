@@ -5,7 +5,7 @@ To get started writing mods, you'll need a good development environment. Always 
 
 * Download IntelliJ from their site: [JetBrains IntelliJ IDEA Community Edition](http://www.jetbrains.com/idea/). Find the button towards the bottom of that page that says `Download Community`. This is a free version of their commercial IDE, and it has lots of the same features.
 
-* We'll also need to download [Forge](http://www.minecraftforge.net/forum/index.php?action=files), which is a modding API. Pick the version marked `1.7.10` that's labeled as `Recommended`, and click the `*` to the right of `(Src)`. This should start downloading a file called `forge-1.7.10-10.13.#.####-src.zip`
+* We'll also need to download [Forge](http://www.minecraftforge.net/forum/index.php?action=files), which is a modding API. In the section marked "Minecraft Versions" hover over "1.7" and select `1.7.10` from the drop down menu.  Down and to the right under "Download Recommended", click `Src`. Wait for the countdown on the top right, and click skip.  This should start downloading a file called `forge-1.7.10-10.13.#.####-src.zip`
 
 * Also download the [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html). Download the correct version for your system from that page.
 
