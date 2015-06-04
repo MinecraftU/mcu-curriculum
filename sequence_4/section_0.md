@@ -23,11 +23,11 @@ Note: If you wish, you can rename the extracted `forge` folder to whatever you w
 
 2. Once you get `BUILD SUCCESSFUL` type `gradlew idea` and press `Enter`.
 
-3. After you get `BUILD SUCCESSFUL` again, run IntelliJ (the installation should have put a shortcut on your desktop).  You most likely won't have any setting to import (click "ok").  Unless you have coding experience and have preferences, click "Skip All and Set Defaults."
+3. After you get `BUILD SUCCESSFUL` again, run IntelliJ (the installation should have put a shortcut on your desktop).  You most likely won't have any setting to import (click `ok`).  Unless you have coding experience and have preferences, click `Skip All and Set Defaults`.
 
-4. On the pop-up screen, select `Import Project` and navigate to the folder you renamed.
+4. On the pop-up screen, select `Open` and navigate to the folder you renamed.
 
-5. Find the file with the IntelliJ icon - it should be (Your_Folder_Name.ipr) and import it.
+5. Find the file with the IntelliJ icon - it should be (Your_Folder_Name.ipr) and open it.
 
 ### Getting Started for Mac/Linux
 1. Open a terminal and navigate to the folder you just renamed. Type `./gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod.
@@ -42,9 +42,9 @@ Note: If you wish, you can rename the extracted `forge` folder to whatever you w
 
 1. On the top left, double click the folder icon (the name of your folder should be next to it).
 
-2. Double-click the folders: src > main > java > com > example > `your-folder-name`
+2. Double-click the folders: src > main > java > com.example.examplemod 
 
-3. There should be an `ExampleMod` class and if you double-click it you should see the following code:
+3. There should be an `ExampleMod` class (blue circle with the letter 'c' in it) and if you double-click it you should see the following code:
 
 ```java
 package com.example.examplemod;
@@ -68,4 +68,4 @@ public class ExampleMod
     }
 }
 ```
-* Right-click on _ExampleMod.java_ and select "Refactor". Change the name to something that you like. For our examples, we use `CopperMod` since our mod adds copper to the game. We'll also have to change the _MODID_ and _VERSION_ to what we want. You can delete the example `println` statement if you wish.
+* Left-click on _ExampleMod_ and press `Shift + F6` Change the name to something that you like and click `Refactor`. For our examples, we use `CopperMod` since our mod adds copper to the game. We'll also have to change the _MODID_ and _VERSION_ to what we want. You can delete the example `println` statement if you wish.
