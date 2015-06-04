@@ -23,7 +23,7 @@ Note: If you wish, you can rename the extracted `forge` folder to whatever you w
 
 2. Once you get `BUILD SUCCESSFUL` type `gradlew idea` and press `Enter`.
 
-3. After you get `BUILD SUCCESSFUL` again, run IntelliJ (the installation should have put a shortcut on your desktop).
+3. After you get `BUILD SUCCESSFUL` again, run IntelliJ (the installation should have put a shortcut on your desktop).  You most likely won't have any setting to import (click "ok").  Unless you have coding experience and have preferences, click "Skip All and Set Defaults."
 
 4. On the pop-up screen, select `Import Project` and navigate to the folder you renamed.
 
