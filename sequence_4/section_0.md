@@ -27,7 +27,7 @@ Note: If you wish, you can rename the extracted `forge` folder to whatever you w
 
 4. On the pop-up screen, select `Import Project` and navigate to the folder you renamed.
 
-5. Find the file with the IntelliJ icon - it should be (Your_Folder_Name-src.ipr) and import it.
+5. Find the file with the IntelliJ icon - it should be (Your_Folder_Name.ipr) and import it.
 
 ### Getting Started for Mac/Linux
 1. Open a terminal and navigate to the folder you just renamed. Type `./gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod.
