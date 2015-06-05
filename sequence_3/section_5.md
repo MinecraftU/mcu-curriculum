@@ -1,6 +1,6 @@
 # Section 5: The Room
 
-Let's write a program to build a simple square room: `edit room`
+Let's write a program to build a simple room: `edit room`
 
 Step one is to check your arguments to make sure they are what you need them to be.
 

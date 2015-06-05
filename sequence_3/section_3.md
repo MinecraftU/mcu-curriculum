@@ -1,4 +1,4 @@
-# Section 3: That Thing Which Chops Trees
+# Section 3: Chopping Trees
 
 > From now on, all the code you see in this book will be text only, not a screenshot from the game. It's still the same code, and it will work just like a screenshot would.
 
