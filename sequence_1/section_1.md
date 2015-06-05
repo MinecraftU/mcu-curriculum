@@ -59,7 +59,7 @@ Start a new world! When you spawn, it will be morning in the world of Minecraft.
 
 ![Artic map](images/arctic-main_900_6399647.jpg)
 
-For this challenge we'll be playing the _Artic_ map by _[ICrafting](http://www.planetminecraft.com/member/indianacrafting/)_. In this map, you are the sole survivor of a shipwreck, washed up near an artic research station. We're going to see who can survive the longest.
+For this challenge we'll be playing the _Arctic_ map by _[ICrafting](http://www.planetminecraft.com/member/indianacrafting/)_. In this map, you are the sole survivor of a shipwreck, washed up near an artic research station. We're going to see who can survive the longest.
 
 Additional challenges on this map are:
 
