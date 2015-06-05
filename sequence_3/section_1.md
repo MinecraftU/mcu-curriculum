@@ -76,7 +76,9 @@ This is the program you use to edit your programs. Looks pretty simple huh? This
 
 ![Watching on the big screen](images/section_1/monitor.png)
 
-* To quit any running program, hold down ```ctrl + r```
+* To quit any running program, hold down ```ctrl + t```
+
+* To restart the computer, hold down ```ctrl + r```
 
 # Turtles
 
