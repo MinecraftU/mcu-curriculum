@@ -1,241 +1,10 @@
-# Section 4: Advanced ComputerCraft
-
-## Tunneling
-
-This program will require a mining turtle (a turtle with a diamond pickaxe equipped).
-
-The "tunnel" program has the turtle dig a tunnel that is two (2) blocks high, three (3) blocks wide and  _distance_ blocks long (the turtle will stop mining when its inventory is full, it runs out of fuel, or it hits bedrock).  It has the following format:
-
-```tunnel <distance>```
-
-Try typing `tunnel 5`
-
-Note that the turtle will automatically pick up what it mines and it fills in gaps in the floor.
-
-WARNING: It will not block water or LAVA flow.
-
-## Excavate
-
-The "excavate" program makes the turtle dig a hole that is _distance_ x _distance_ until it hits bedrock.
-
-It uses the format: `excavate <distance>`
-
-Try typing  `excavate 5` but don't let it dig too deep!
-
-Notice that the Turtle digs _distance_ blocks forward and then _distance_ blocks to the right.  Keep this in mind in case there's something important in close proximity.
-
-Like the tunnel program, the turtle will stop when its inventory is full, it runs out of fuel, or it hits bedrock.
-
-Tip: Try putting a chest directly behind the turtle before you start the excavation program.
-
-## Writing a simple turtle program (with arguments!)
-
-  * Right click the turtle to boot it up.
-  * Type `label set mover` where _mover_ is the "name" of the turtle.
-    * This will make the programs on this turtle stick around when you break it and place it somewhere else.
-  * Create a new program called `move` by typing `edit move`
-    * Inside the file you just created, try writing a program to make the turtle move forward.
-    * If you need help you can look in a couple places:
-        * There is a complete list of every command you can give a turtle [here on the ComputerCraft wiki.](http://computercraft.info/wiki/index.php?title=Turtle_%28API%29)
-        * There is also a program called `go` that is located at `/rom/programs/turtle/go` on your turtle.
-            * To look at the `go` program type `edit /rom/programs/turtle/go`
-        * Looking at this program and the wiki will help you understand how the turtle commands work.
-
-### Basics of LUA
-
-Every program you write for your computers and turtles is in a language called **LUA**.
-
-A standard block of code in lua looks like this.
-
-```lua
-turtle.refuel()
-while turtle.detectDown() do
-  turtle.dig()
-  turtle.digDown()
-  turtle.down()
-  turtle.dig()
-  turtle.forward()
-  turtle.turnLeft()
-end
-```
-
-When we say "block of code", we mean a section of a program. All programs can be broken down in to parts, or "blocks".
-
-## Cobble Harvesting
-
-Remember the cobblestone generator? What if we could make a turtle automatically harvest that cobblestone? Let's do it!
-
-First, underneath the row of cobblestone, put a mining turtle.
-
-![What you should see.](images/section_4/Placement.png)
-
-Since we'll be writing a program, let's name the turtle so we don't lose it.  
-
-`label set SoMuchCobble`
-
-Let's start coding!  
-
-`edit cobbling`  
-
-This will create a new program called "cobbling" that will be stored on the turtle's internal memory. Program names **are case-sensitive.**
-
-Now let's consider the problem.  What do we want the turtle to do **exactly**?  Let's break it down.
-
-1. Detect if there is a block above it  
-1. If there is a block above it, mine it  
-1. Otherwise, wait for a block to appear above it.  
-1. repeat
-
-Breaking problems down into simple steps is a large part of a programmer's job.  Computers themselves are not smart...yet.
-So now we have a general outline for the program, but it's in English. Computers don't speak English. Let's translate it!  
-
-1. `turtle.detectUp()`  
-1. `if turtle.detectUp()` then `turtle.digUp()`  
-1. `else sleep(1)`  
-1. loop
-
-Explanation:
-
-`turtle.detectUp()` is a function that has the turtle check if there is a block directly above it.  
-`turtle.digUp()` is a function that makes the turtle dig or mine the block above it.  
-`sleep(1)` is a function that makes the turtle wait for one (1) second.  
-
-For this program, we'll be using a `while` loop.
-
-For detailed descriptions check out the [turtle API](http://computercraft.info/wiki/index.php?title=Turtle_%28API%29).
-
-So our program will look like this:
-
-```lua
-while turtle.getItemCount(16) < 64 do  
-  if turtle.detectUp() then  
-    turtle.digUp()  
-    sleep(1)  
-  else
-    sleep(1)  
-  end  
-end  
-```
-
-Program Walkthrough:  
-
-1. `while turtle.getItemCount(16) < 64 do` Creates what's known as a "while" loop. This has the turtle do whatever the program says as long as the condition `turtle.getItemCount(16) < 64` is "true".
-1. `turtle.getItemCount(16) < 64` Checks if the number items in the last inventory slot of the turtle is less than 64. Basically it checks to make sure the turtle isn't out of inventory space and returns a "true" or "false".
-1. `if turtle.detectUp() then` has the turtle check if there is a block above it and if it's "true" it continues with the `then` statement. If there is not a block above it, the check will return "false" and the turtle will skip to the `else` part of the program.
-1. `turtle.digUp() sleep(1)` has the turtle break the block above it and then wait for one (1) second for the cobble generator to create another block.
-1. `else sleep(1)` Only happens if step 3 returned "false" in which case the turtle waits one (1) second for the cobble generator to create another block.
-1. The two end statements simply close the loops.
-
-## Room building
-
-Let's write a program to build a simple square room: `edit room`
-
-Step one is to check your arguments to make sure they are what you need them to be.
-
-For that we use the code `local tArgs = {...}`, which loads the arguments into your program.
-
-```lua
-local tArgs = {...}
-
-if #tArgs ~= 3 then
-  print ("Usage: room <l> <w> <h>")
-end
-for i=1,3 do
-  if tonumber(tArgs[i]) < 1 then
-    print("Usage: room <l> <w> <h>")
-  end
-end
-```
-
-This block of code takes arguments and checks to make sure there are 3 of them, and that all are numbers greater than 1.
-If they aren't, it prints a line that tells the user how to run the program.
-
-Now, we take the three arguments and assign them to the correct variables.
-
-```lua
-length = tArgs[1]
-width = tArgs[2]
-height = tArgs[3]
-```
-
-And we refuel the turtle.
-
-```lua
-turtle.select(1)
-turtle.refuel()
-
-if turtle.getFuelLevel() < 50 then
-  print("Fuel level too low.")
-  return false
-end
-```
-
-Here, we select the first slot, and load the turtle with fuel from that slot.
-
-This program is going to be in a few different sections, or functions.
-
-```lua
-function buildRow(rowLen)
-  for i = 1, rowLen do
-    findItems()
-    turtle.placeDown()
-    turtle.forward()
-  end
-end
-```
-This first function builds one single row of blocks, using a for loop to stop it when it reaches the desired length.
-
-```lua
-function buildLayer()
-  turtle.up()
-  buildRow(length)
-  turtle.turnRight()
-  buildRow(width)
-  turtle.turnRight()
-  buildRow(length)
-  turtle.turnRight()
-  buildRow(width)
-  turtle.turnRight()
-end
-```
-
-This function calls the `buildRow()` function using the variables we set earlier, to make a whole layer of the house. Note that it turns right every time. This means that you must start the house at the bottom left corner.
-
-```lua
-function findItems()
-  local slot = 2
-  while slot < 16 do
-    if turtle.getItemCount(slot) < 1  then
-      slot = slot + 1
-    else
-      turtle.select(slot)
-      return true
-    end
-  end
-  return false
-end
-```
-
-This is our final function. It searches for items starting in slot 2, the slot right after the fuel slot. Note that it doesn't check to make sure they are placable items, and will not stop you from trying to build a house made of carrots.
-
-Now that we have useful functions to call, we can write the part of the program that does things!
-
-```lua
-for i=1,height do
-  buildLayer()
-end
-```
-
-All this does is call buildLayer() for the number of layers you specified with `height`
-
-And we're done! Feed your turtle coal and a building material and run the program with `room <length> <width> <height>`
-
-## Mining
+# Section 4: Diggy Diggy Hole
 
 Another useful program! You can point this one at a wall and it will dig a two block tall and one block wide tunnel. It will also place torches every 8 blocks.
 
-We'll also build this one with several different functions.
-The first will check if the turtle is on solid ground, and if not, it will place a block below itself.
+> We're going to be building this program with **functions**. Functions are what you use in more complex programs so that you don't have to type all of your code in the same block over and over again. Think of a function as something that does one thing really well, and if you put them together, they do a complex task.
+
+The first function we write will check if the turtle is on solid ground, and if not, it will place a block below itself. You define functions like this.
 
 ```lua
 function placeFloorBlock()
@@ -250,17 +19,20 @@ function placeFloorBlock()
 end
 ```
 
+Now you can use `placeFloorBlock()` anywhere else in this program and it will run this code.
+
 This next function is a basic check for fuel, and if it sees that the turtle is low on fuel, it will try to refuel from inventory slot 1.
 
 ```lua
 function fuel()
-  if turtle.getFuelLevel() < 10 then
+  if turtle.getFuelLevel() < 25 then
     turtle.select(1)
     if turtle.refuel(1) then
       return true
+    else
+      print("Refuelling Failed")
+      return false
     end
-    print("Refuelling Failed")
-    return false
   end
 end
 ```
@@ -312,22 +84,14 @@ function placeTorch()
 end
 ```
 
-Again, this is a piece of code that accepts and checks arguments to make sure they work with the program.
-
-```lua
-local tArgs = {...}
-if #tArgs ~= 1 or tonumber(tArgs[1]) == nil or math.floor(tonumber(tArgs[1])) ~= tonumber(tArgs[1]) or tonumber(tArgs[1]) < 1 then
-  print("Usage: tunnel+ <length>")
-  return
-end
-```
-
 Here we set two variables, one for the length you give as an argument, and one to use in the `moveBack` section of code.
 
 ```lua
 local length = tonumber(tArgs[1])
 local moveBack = 0
 ```
+
+> The `tArgs[1]` bit of the code above is an **argument**. And argument is something you give a program when you run it. If you run a program like `go forward 10`, then your first argument (`tArgs[1]`) is `forward` and your second argument (`tArgs[2]`) is `10`.
 
 Now we put it all together.
 
@@ -362,7 +126,4 @@ while blocksMovedForward < length do
   end
 end
 ```
-
-### Communication between computers/turtles
-
-As I'm sure you've realized, programming on a turtle can be a little tedious, especially with longer, more complex programs. For convenience, people have developed better environments for programming know as IDE's (Integrated Development Environment). In Minecraft, we have a luaIDE on the "computer" and we can transfer programs we write on the computer to turtles using "floppy disks."
+ **Woop!** That was your third program. This one was long, but it let's you find diamonds much easier. Try digging down to level 12 or 13 and putting six turtles running this program down, with a 2 block space between them. You'll be drowning in diamonds in no time.
