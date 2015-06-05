@@ -5,7 +5,7 @@ An _adder_ uses logic gates to perform addition. There are three inputs to the w
 This diagram shows the overall structure of an adder.  
 Note: A dot means the two lines of redstone should connect.  Other overlaps should not connect.
 
-![A diagram fo an adder.](images/section_2/adder_diagram.gif)
+![A diagram for an adder.](images/section_2/adder_diagram.gif)
 
 Look at the logic gates key so you can begin to understand how the adder works.
 
