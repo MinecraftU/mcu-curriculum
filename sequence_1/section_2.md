@@ -63,3 +63,4 @@ Once you have at least 2 cows you're all set!  Feed each cow a wheat by right-cl
 after a short pause, a calf will appear!  
 ![calf](images/section_2/calf.png)  
 You will need to wait 5 minutes before you can repeat this process.
+Calves take 20 minutes to mature.
