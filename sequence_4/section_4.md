@@ -37,7 +37,11 @@ public class ItemTortilla extends ItemFood {
 ```
 ![Eating the tortilla.](images/section_4/tortilla_eating.png)
 
-Making the crafting recipe for a food is just like for any other item.
+Making the crafting recipe for a food is just like for any other item. A recipe is required to make the tortilla from wheat, and then make the taco from tortilla and steak.
+```java
+GameRegistry.addShapedRecipe(new ItemStack(itemTortilla), "xx ", "xx ", "   ", 'x', Items.wheat);
+```
+![Tortilla crafting recipe.](images/section_4/tortilla_recipe.png)
 ```java
 GameRegistry.addShapelessRecipe(new ItemStack(itemSteakTaco), itemTortilla, Items.cooked_beef);
 ```
