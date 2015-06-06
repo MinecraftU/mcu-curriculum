@@ -1,4 +1,4 @@
-# Mincraft U Curriculum
+# Minecraft U Curriculum
 
 This is the repository for the Minecraft U curriculum. This curriculum is published under a [Creative Commons Attribution-ShareAlike 4.0 International license](http://creativecommons.org/licenses/by-sa/4.0/).
 
