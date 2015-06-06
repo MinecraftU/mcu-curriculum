@@ -1,1 +1,17 @@
-##Continue/review Gravity & intro Rocketry
+#Gravity
+
+
+Now we are going to start learning about exactly how gravity works. Most of you probably know that gravity is the force that pulls objects together, and that more massive objects have more gravity, but we’re going to go into more detail. First and most importantly, we have to be clear on what we mean when we say ‘mass’, and how it’s related to weight. Mass is basically how much of an object there is. The more mass something has, the harder it is to push - mass resists force. This is what Newton's Second Law is all about; the more mass something has, the less a given amount of force will accelerate it. I was careful to avoid the word ‘heavy’ above; heaviness refers to weight, which is similar - and related to - mass, but is very different.
+
+Weight is how hard the force of gravity is pulling on something. We generally refer to weight as being how hard something is being pulled downward toward the surface of the planet it is sitting on. This means that the weight of an object is a measurement of force that is directly related to how massive it is. On Earth, an object with a mass of 1 kilogram weighs 9.8 Newtons (around 2.2 pounds) and another object with 2 kilograms of mass weighs 19.6 Newtons. When mass doubles, so does weight. However, if we change what planet we’re on, the force of that planet’s gravity and therefore the weight of objects on it will change.
+
+The Moon, for example, has gravity one sixth as strong as Earth’s, so an object on the moon weighs 1/6th as much as an object with identical mass on Earth. Important to remember, however, is that another object on the Moon with a mass of two kilograms still weighs twice as much as another object with one kilogram of mass - and therefore one third the weight of a one kilogram block on Earth.
+
+In KSP, Kerbin has 2 moons instead of one - Mun and Minmus. Mun is smaller than Kerbin, but Minmus is much, much smaller than even Mun. If you open up the game and load *4-Gravity*, you should have 2 rockets available, one on Mun and another on Minmus. These rockets are identical, but one will accelerate up much faster. Compare the end velocities of each rocket - how much more powerful is gravity on Mun than Minmus? If you could create your rockets on Kerbin, Mun, or Minmus, which would be the best place to launch them from?
+
+To put it another way, on any given planet, weight is some constant ratio of mass. Each planet has its own ratio, but that ratio doesn’t change based on the object being pulled into the planet. This put into formula form looks like this :
+weight = mass \* (planet ratio).
+
+Some of you may have already realized that this looks quite a lot like a formula from earlier in this course - Newton’s second law, force = mass \* acceleration. As we said above, weight is a measurement of force, so that implies that the ‘planet ratio’ is a measurement of acceleration. In fact, this ratio is exactly equal to how quickly things fall on a planet, measured in meters per second per second. On Earth, this is about 9.8 m/s<sup>2</sup>; this is why in the above example a 1 kilogram object has a weight of 9.8 Newtons. All objects, no matter how much they weigh, will fall towards Earth at that speed! 
+
+We can easily see this in game. In KSP, kerbals can leave their rockets and float around. If you load *5 - Falling*, you should have a rocket floating above Mun with a kerbal inside. Go ahead and eject him with the EVA button in the bottom right, and make him let go. Do he and his rocket fall together? If we repeated this experiment above Kerbin, would the same thing happen? Why or why not?
