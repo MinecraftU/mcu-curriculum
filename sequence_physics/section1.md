@@ -1,63 +1,13 @@
-#Newton's Laws & intro to Velocity
+#Newton's Laws of Motion
 
-##Newton's Laws of Motion  
-1. An object at rest remains at rest and an object in motion will stay in motion, unless acted upon by an outside force  
-2. Force = Mass x Acceleration  
-3. Every action has an equal and opposite reaction  
+Isaac Newton discovered 3 laws of physics that, when used together, can be used to explain, predict, and understand the motion of literally any object. They are fairly simple concepts, but applying them correctly will let you understand how everything in the universe moves - including rockets. This makes them very important for space travel, and this camp.
 
-##Velocity  
-Velocity, though similar, is not the same as speed.  Velocity has the additional information of a *Direction*.  This is what's known as a *vector* quantity since it includes a direction.  On the other hand speed is a *scalar* quantity.  
+The first law simply states that objects don't move without something pushing them. Also known as *inertia*, this means that if nothing pushes on it, things will keep doing whatever they were already doing. If you don't hit the gas in a car, it won't move; if it's already moving it will keep going until you hit the brakes. The only reason that things don't go forever after being pushed once is that things like air resistance and friction slow them down. In space, there is no air resistance, so once your rocket starts moving on a path it won't leave it unless you use the engine. This is fairly simple but very, very important! If an object changes its path, something must have pushed it.
 
-The first equation we will use to calculate Velocity (V) is:  
-#####V = Distance / Time
+The second law gives the mathematical relationship between a push and the object being pushed. Formally, it states that Force = Mass \* Acceleration. We'll go into more detail on all of those things later, but the basic concept is that pushing something twice as hard affects it twice as much, and something that weighs 2 pounds will move half as much as something that weighs 1 pound. What this means for your rocket is that a stronger engine will make it go faster, and a heavier rocket will go slower! Simple enough, but remembering that the two are directly related is important.
 
-###Example 1.1  
-A car driving West travels 100 miles in 2 hours.  
-Speed of the car: 100 / 2 = 50 miles per hour  
-Velocity of the car: 100 / 2 = 50 miles per hour **to the West**  
+Let's look at this inside Kerbal Space Program. You should have a save file available called *1-Newton’s Second Law*. Go ahead and open it up and look at your list of active flights. Click on your Command Center, the building __. There should be two rockets on the Mun, *Weak* and *Strong*. Both of these are currently at rest, and have the exact same weight, but the one labeled *Strong* has an engine twice as powerful. Click the Fly! button to take command of a rocket, and hit the spacebar to ignite it's engine. You can see its speed in the bottom of your screen, above the 'navball'. Don't worry about where you send it for now, just watch the speed. If you launch them both at the same time and switch between them, *Strong* should be moving exactly twice as fast. 
 
-###Exercise 1.1  
-A blue car is driving North and covers 30 miles in 30 minutes.  
-40 miles behind the blue car, a red car is also driving North and covers 20 miles in 15 minutes.  
+The third and final law says that **for every action there is an equal and opposite reaction**. This means that when you push on an object, the object pushes back. This is incredibly important for rockets! A rocket moves forward because it pushes exhaust backward just as hard. The exhaust goes much, much faster than the rocket, though. This is because it weighs less! Following the second law, the same push makes the light exhaust go much faster than the heavy rocket.
 
-What is the velocity of the red and blue car?  
-Will the red car ever pass the blue car? When?  
-
-##Acceleration  
-Acceleration is the rate in which an object changes velocity.  More specifically, acceleration is the result of the "outside force" mentioned in Newton's first law of motion:  
-
-> An object at rest remains at rest and an object in motion will stay in motion, unless acted upon by an outside force  
-
-Think of a car, when a car is accelerating, its speed is increasing.  We can think of decelerating as negative acceleration.  
-
-> Negative vector quantities signal direction (opposite of whatever positive would be).
-
-##Combining Velocity and Acceleration  
-Since acceleration effects velocity, practically all equation with one will involve the other.  
-The first allows us to calculate our velocity at some time (t):  
-#####V = V<sub>0</sub> + at
-
-* V<sub>0</sub> is initial velocity  
-* a is acceleration  
-
-###Exercise 1.2  
-A bird traveling West at 10 m/s flys into a head wind that causes it to accelerate at 3m/s<sup>2</sup> to the east.  
-After 2 seconds what is the bird's velocity?  
-
-###Exercise 1.3  
-A car traveling north at 45 mph accelerates for 5 seconds, achieving a final speed of 50 mph.  
-What was the car's acceleration?  
-
-This second equation allows us to calculate distance (d) using initial velocity (v<sub>0</sub>), acceleration (a), and time (t):  
-#####d = v<sub>0</sub>t + .5 at<sup>2</sup>   
-
-###Exercise 1.4
-A train traveling at 60 m/s begins accelerating at 3 m/s<sup>2</sup> for 10 seconds.  
-How far does the train travel in those 10 seconds?
-
-The third and final equation we'll use combines the first two:
-#####V<sup>2</sup> = V<sub>0</sub><sup>2</sup> + 2 ad 
-
-###Exercise 1.5
-A car traveling at 25 m/s can brake at a rate of 8 m/s<sup>2</sup>.  A red light is coming up in 100 meters.  
-Will the car stop in time?  How far will the car travel before it comes to a stop?
+Let’s go back to the game and explore these concepts. If you open up the save file *2-Newton’s Laws*, there will be a rocket in orbit around Kerbin that might look a little odd. It has a very large and a very small bit, connected with separatrons. A separatron will, when activated, push on both sides equally hard. You should be able to see the middle bit in between the two separators stay in place, while the small side rockets away and the large side slowly drifts. Even though the middle bit is pushed twice, by the separatron on each end of it, it doesn't move. Why?
