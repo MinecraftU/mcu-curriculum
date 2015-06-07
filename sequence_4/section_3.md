@@ -1,4 +1,4 @@
-# Advanced modding
+# Advanced textures and tools
 >In this section, you'll learn how to give blocks multiple textures, create new tool materials, and add on-hit effects to tools.
 
 ## Multi-sided textures

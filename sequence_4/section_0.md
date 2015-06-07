@@ -14,11 +14,11 @@ To get started writing mods, you'll need a good development environment. Always 
 
 2. Run the IntelliJ installer, and follow its instructions. Make sure you have installed the Java SDK before installing IntelliJ, it makes things easier.
 
-3. Make a new folder on the desktop and name it `Minecraft Dev` and drag the `forge` folder into it. The forge folder is a .zip file so we need to extract it (if you don't have an extraction tool we recommend 7-zip). Put the extracted folder into the Minecraft Dev folder. 
+3. Make a new folder on the desktop and name it `Minecraft Dev` and drag the `forge` folder into it. The forge folder is a .zip file so we need to extract it (if you don't have an extraction tool we recommend 7-zip). Put the extracted folder into the Minecraft Dev folder.
 
 Note: If you wish, you can rename the extracted `forge` folder to whatever you want your mod to be called, e.g. from `forge` to `DiamondCutter`. Keep the Forge zip file in case you want to start a fresh mod.
 
-### Getting Started for Windows
+### Getting started for Windows
 1. Hold shift and right click inside the folder you renamed. Click on `Open command window here`. Then type `gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod.
 
 2. Once you get `BUILD SUCCESSFUL` type `gradlew idea` and press `Enter`.
@@ -29,20 +29,20 @@ Note: If you wish, you can rename the extracted `forge` folder to whatever you w
 
 5. Find the file with the IntelliJ icon - it should be (Your_Folder_Name.ipr) and open it.
 
-### Getting Started for Mac/Linux
+### Getting started for Mac/Linux
 1. Open a terminal and navigate to the folder you just renamed. Type `./gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod.
 
 2. After you get `BUILD SUCCESSFUL` open IntelliJ and select `import project`. Navigate to the folder you renamed and select `build.gradle`.
 
 3. Once IntelliJ finishes importing the project, close it. Go back to your terminal and type `./gradlew idea`.
 
-4. Open IntelliJ back up and navigate back to your folder and import the file ending in `-src.ipr` 
+4. Open IntelliJ back up and navigate back to your folder and import the file ending in `-src.ipr`
 
 ### Testing
 
 1. On the top left, double click the folder icon (the name of your folder should be next to it).
 
-2. Double-click the folders: src > main > java > com.example.examplemod 
+2. Double-click the folders: src > main > java > com.example.examplemod
 
 3. There should be an `ExampleMod` class (blue circle with the letter 'c' in it) and if you double-click it you should see the following code:
 
@@ -69,3 +69,6 @@ public class ExampleMod
 }
 ```
 * Left-click on _ExampleMod_ and press `Shift + F6` Change the name to something that you like and click `Refactor`. For our examples, we use `CopperMod` since our mod adds copper to the game. We'll also have to change the _MODID_ and _VERSION_ to what we want. You can delete the example `println` statement if you wish.
+
+###Publishing your mod
+Running the command `gradlew build` or `gradle build` will package your mod into a .JAR file that you can add to Minecraft like any other mod.
