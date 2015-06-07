@@ -55,7 +55,6 @@ __List of Feeds__
 * Pigs - carrots
 
 Note: it is possible to herd more than one cow at a time.
-![Skillful Herding](images/section_2/two_cows.png)
 
 ### Breeding  
 Once you have at least 2 cows you're all set!  Feed each cow a wheat by right-clicking.  You should see hearts appear like so:  

@@ -1,4 +1,4 @@
-# Section 5: Minecraft Tools
+# Section 5: Adventure Maps and Nether Portals
 
 ## Adventure Maps
 

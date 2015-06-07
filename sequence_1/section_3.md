@@ -20,6 +20,6 @@ Whenever we mine a straight shaft, we are either digging out or looking at 3 col
 
 ![Our 3-block-tall shaft with torches every 7 blocks on the right side.](images/section_2/mining_horizontal_shaft.png)
 
-If you keep mining long enough, you're sure to find some good veins of ore! Here, I found a vein of diamond ore after just a few minutes of mining from start to finish.
+If you keep mining long enough, you're sure to find some good veins of ore!
 
 ![A vein of diamond ore.](images/section_2/mining_diamond.png)
