@@ -3,5 +3,3 @@
 <<[section_2.md]
 <<[section_3.md]
 <<[section_4.md]
-<<[server_rules.md]
-<<[appendix.md]
