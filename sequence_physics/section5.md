@@ -1,2 +1,2 @@
-##More KSP?
-#Room for friction?
+More KSP?
+Room for friction?

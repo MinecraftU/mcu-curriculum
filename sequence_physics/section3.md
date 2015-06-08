@@ -1,5 +1,4 @@
-#Gravity
-
+# Gravity
 
 Now we are going to start learning about exactly how gravity works. Most of you probably know that gravity is the force that pulls objects together, and that more massive objects have more gravity, but we’re going to go into more detail. First and most importantly, we have to be clear on what we mean when we say ‘mass’, and how it’s related to weight. Mass is basically how much of an object there is. The more mass something has, the harder it is to push - mass resists force. This is what Newton's Second Law is all about; the more mass something has, the less a given amount of force will accelerate it. I was careful to avoid the word ‘heavy’ above; heaviness refers to weight, which is similar - and related to - mass, but is very different.
 

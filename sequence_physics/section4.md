@@ -1,4 +1,4 @@
-#Rocketry
+# Rocketry
 
 Now we’re ready for the details of rockets, using the things you’ve learned so far this week. Rockets are, basically, a big heavy tank of fuel and people (or Kerbals) and an engine to push them. The first part is the mass, and the latter part is the force. You know how those two relate, now. The thrust of the engine, which is the amount of force it exerts, divided by the total mass of your rocket, is how quickly your engine will make your rocket accelerate. Remember Newton’s second law!
 
