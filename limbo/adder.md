@@ -5,11 +5,9 @@ An _adder_ uses logic gates to perform addition. There are three inputs to the w
 This diagram shows the overall structure of an adder.  
 Note: A dot means the two lines of redstone should connect.  Other overlaps should not connect.
 
-![A diagram for an adder.](adder_img/adder_diagram.gif)
+![A diagram for an adder.](adder_img/adder_diagram.png)
 
 Look at the logic gates key so you can begin to understand how the adder works.
-
-![A key for the gate symbols.](adder_img/adder_symbols.png)
 
 Now, we're going to build an adder using redstone! Follow along with the steps as best you can. This is a complex circuit so be sure to ask questions. The doors at the end represent the output. The door to the left represents the normal output, and the door to the right represents the carry. An open door is a 1 and a closed door is a 0.
 
