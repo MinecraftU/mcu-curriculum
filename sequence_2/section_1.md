@@ -22,3 +22,29 @@ To move current upward, you must make stairs and connect the redstone dust going
 ![stairs](images/section_1/stairs.png)  
 
 Now that you've seen some of the basics of redstone, experiment more with interactions between redstone and blocks. For example, you could try placing repeaters next to blocks and see how the current behaves.
+
+Redstone torches are “turned off” when the block attached to it is turned on. In the setup below, when the lever is switched on, the redstone power travels to the stone block that the redstone torch is attached to. Because the block the redstone torch is attached to is now powered, the torch is turned off.
+
+![torch off](images/section_1/Redstone_torch_turned_off.png)  
+
+###Redstone can also be used to power devices such as the ones shown below:  
+* Dispenser powered by button. Dispenser may be filled with any material (e.g. Arrows, diamond, etc).
+
+![dispenser](images/section_1/Dispenser.png)  
+
+* Sticky piston powered by lever.
+
+![Piston](images/section_1/Piston.png)  
+
+* Door powered by pressure plate.
+
+![door](images/section_1/Door.png)
+
+* Powered rails powered by levers.
+
+![rails](images/section_1/Powered_Rails.png)  
+
+
+You can also combine these elements to make more complex contraptions.
+
+![contraption](images/section_1/redstone_contraption.png)
