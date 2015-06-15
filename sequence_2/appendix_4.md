@@ -30,48 +30,18 @@ Trap chests emit a redstone signal whose power is based on the number of people 
 
 Try to think of some other ideas for traps that could be fun or useful. If we have time left over, feel free to experiment and share ideas with each other.
 
-## Automatic Farming
+##Light Switches
 
-Farming isn't exactly difficult, and can be quite relaxing, but if you wanted to speed things up a bit there is a simple redstone contraption you can construct to automatically harvest your crops.
+Using XOR gates, you can create a light that you can control with multiple switches. You might have lights that work this way in your actual home! Any light that has multiple switches to control it use a XOR gate. The most common use of these is lights in stairwells.
 
-Water will flow 8 blocks, which is an important fact to know for many purposes. This farm will use water flowing downhill over the crops to automatically harvest them and drop them into hoppers, and then a central chest where you can pick up the foodstuffs.
+1. Build a wall and hang a redstone lamp on it. Put a lever on each end of the wall. The idea is that the levers can be as far away as you want, but this is a simple demonstration.
+![The lamp and levers on a wall.](images/section_4/xor_light_1.png)
 
-Create a new creative world for this exercise.
+2. Create a XOR gate behind the wall, pointing the output towards the wall. Use the Section 3 reference picture if you need to. Remember that you don't need to place the levers, since the redstone signal is coming from the levers you placed on the front of the wall. Connect those to the XOR gate using redstone.
+![XOR Gate behind wall.](images/section_4/xor_light_2.png)
 
-First we'll set up the irrigation system for our farm by creating a canal down the center of our farming area. Both levels are eight blocks long, but the water starts at the second block so that it will flow off the end of the first level and down the second level.
+3. Lead the redstone signal coming from the output of the XOR gate to the lamp through the back of the wall, as shown.
+![Connecting the gate to the lamp.](images/section_4/xor_light_3.png)
 
-![Irrigation system.](images/section_2/autofarm_1.png)
-
-Next cover the irrigation canal (using whatever block you want) and create the farm plots next to the canal:
-
-![Farm plots and hiding the irrigation canal.](images/section_2/autofarm_2.png)
-
-Now create walls along the side of your plots. These will keep the water from flowing over the sides.
-
-![Water barriers along the side.](images/section_2/autofarm_3.png)
-
-Now we'll place dispensers along the top of our farm. These will dispense the water that will harvest our crops and carry them down to the bottom of the farm.
-
-![Dispenser placement.](images/section_2/autofarm_4.png)
-
-To power the dispensers, you'll need redstone repeaters, redstone and a button, like so:
-
-![Redstone configuration.](images/section_2/autofarm_5.png)
-
-Place a bucket of water in each dispenser. The nice thing about this setup is the water buckets will remain full even after the dispenser dispenses the water. Plant crops of your choice. Here we've planted some carrots on the left and potatoes on the right:
-
-![Planting crops.](images/section_2/autofarm_7.png)
-
-Now we need to get the collection system in place. Place a chest at the bottom-center of your farm, directly in front of where the irrigation canal stops. Then place hoppers on either side of the chest. To do so take a hopper and then shift-click on the side of the chest to place the hopper. Do the same on the side of the hopper with another hopper. Now everything falling into these four hoppers will go into the chest in the center:
-
-![Hopper and chest placement.](images/section_2/autofarm_8.png)
-
-Now we have to wait for our crops to grow, but in creative we have a shortcut. Go ahead and take some bonemeal in your hand and right-click on your crops until they're fully grown.
-
-![Grown crops ready for harvest.](images/section_2/autofarm_9.png)
-
-To harvest, go press the button connected to the hoppers. The water will flow down over your crops, harvesting them and carrying them down to the hoppers.
-
-![Hoppers collecting items.](images/section_2/autofarm_11.png)
-
-When all the items have flowed down into the hoppers, press the button to stop the water flow, and replant!
+4. You're done! Flip one of the levers, and your lamp will turn on. Feel free to flip them as much as you want. The lamp will always be affected, no matter which way you flip either lever.
+![Lamp is on.](images/section_4/xor_light_4.png)
