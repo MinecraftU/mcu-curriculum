@@ -22,7 +22,7 @@ MultiMC is a program that lets you handle different versions of Minecraft, and d
 * In the name box, type in ```Minecraft U 1.7.10 Opal```.
 * In the window that appears, look for the checkbox marked ```Import Modpack```, and click it.
 * Paste or type in this URL into the area next to the checkbox.
-http://minecraftu.org/modpack
+`http://minecraftu.org/modpack`
 * Now just click OK.
 
 **Congrats! You are now on the most up to date version of the Minecraft U mod pack, and can play on our moderated servers, or alone.**
