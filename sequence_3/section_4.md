@@ -1,4 +1,4 @@
-# Section 4: Diggy Diggy Hole
+# Section 4: Advanced Mining
 
 Another useful program! You can point this one at a wall and it will dig a two block tall and one block wide tunnel. It will also place torches every 8 blocks.
 
