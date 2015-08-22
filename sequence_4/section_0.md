@@ -1,6 +1,6 @@
 ## Setup
 
-###Downloads
+### Downloads
 To get started writing mods, you'll need a good development environment. Always try to keep your enviromnet organized, since it's what you'll have to use to write all your code.
 
 * Download IntelliJ from their site: [JetBrains IntelliJ IDEA Community Edition](http://www.jetbrains.com/idea/). Find the button towards the bottom of that page that says `Download Community`. This is a free version of their commercial IDE, and it has lots of the same features.
@@ -9,7 +9,7 @@ To get started writing mods, you'll need a good development environment. Always 
 
 * Also download the [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html). Download the correct version for your system from that page.
 
-###Installation
+### Installation
 1. Install the Java SDK by running the file you downloaded.
 
 2. Run the IntelliJ installer, and follow its instructions. Make sure you have installed the Java SDK before installing IntelliJ, it makes things easier.
@@ -29,16 +29,33 @@ Note: If you wish, you can rename the extracted `forge` folder to whatever you w
 
 5. Find the file with the IntelliJ icon - it should be (Your_Folder_Name.ipr) and open it.
 
-### Getting started for Mac/Linux
-1. Open a terminal and navigate to the folder you just renamed. Type `./gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod.
+### For MAC  
+1. Double-click the zipped forge  
+2. Drag the forge folder that is created to your desktop  
+3. Download gradle: https://gradle.org/gradle-download/  
+   -click the Binary only distribution (second option)  
+4. Unzip it and put it in the forge folder on your desktop  
+5. Then press command+spacebar and type in "terminal" and press Enter (this will open a terminal window)  
+6. Type "cd Desktop" and press Enter  
+7. Type "cd forge" and press Tab (it should auto-complete to the folder name) and then press Enter  
+8. Type "gradle-2.5/bin/gradle setupDecompWorkspace --refresh-dependencies" and press Enter  
+9. After BUILD SUCCESSFUL shows up type: "gradle-2.5/bin/gradle idea"  
 
-2. After you get `BUILD SUCCESSFUL` open IntelliJ and select `import project`. Navigate to the folder you renamed and select `build.gradle`.
+### Troubleshooting:  
+The most common error is the build failing with a message saying "JAVA_HOME does not point to JDK":  
 
-3. Once IntelliJ finishes importing the project, close it. Go back to your terminal and type `./gradlew idea`.
+1. click start  
+2. right-click Computer  (for Windows 8 open up file explorer and right-click "This PC")  
+3. click properties  
+4. on the left side click advanced system settings  
+5. at the bottom of the pop-up, click Environment Variables  
+6. under system variables (second section of pop-up) click new  
+7. Name it JAVA_HOME  
+8. The value should point to your JDK 7 folder (something like "C:\Program Files\Java\jdk1.7.0_51")  
+9. Click ok  
+10. close and re-open command prompt and run the command again.  
 
-4. Open IntelliJ back up and navigate back to your folder and import the file ending in `-src.ipr`
-
-### Testing
+### Testing  
 
 1. On the top left, double click the folder icon (the name of your folder should be next to it).
 
@@ -71,4 +88,4 @@ public class ExampleMod
 * Left-click on _ExampleMod_ and press `Shift + F6` Change the name to something that you like and click `Refactor`. For our examples, we use `CopperMod` since our mod adds copper to the game. We'll also have to change the _MODID_ and _VERSION_ to what we want. You can delete the example `println` statement if you wish.
 
 ###Publishing your mod
-Running the command `gradlew build` or `gradle build` will package your mod into a .JAR file that you can add to Minecraft like any other mod.
+Running the command `gradlew build` or `gradle build` will package your mod into a .JAR file in the build/libs folder.  You can then add it to Minecraft like any other mod.
