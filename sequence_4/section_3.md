@@ -45,6 +45,7 @@ public boolean onItemUse(ItemStack itemstack, EntityPlayer player, World world, 
 }
 ```
 
+```java
 `onItemRightClick` is a bit more general and primitive. There are fewer arguments given to us,
   @Override
 public ItemStack onItemRightClick(ItemStack itemstack, World world, EntityPlayer player)
@@ -52,3 +53,32 @@ public ItemStack onItemRightClick(ItemStack itemstack, World world, EntityPlayer
     return itemstack;
 }
 ```
+
+## Setting names
+
+The names that we've given our new blocks and items so far are all hard-coded into our mod. They are all lowercase and use underscores to separate words, but they don't look like the typical names of items in Minecraft. Also, what if we want people in other countries who speak different languages to play our mod? We can use what are called _language packs_ to give our items language-specific names that will actually show up in the game. The packs also replace the cumbersome "package.item.item"-type names with real names such as "Iron Ingot" or "Dirt".
+
+### File extensions
+
+Before we create our language packs, make sure you have "hide file extensions for known file types" disabled. To check if its disabled, go look at your textures.  If they show up as "_name_.png" you're good.  Otherwise, follow these instructions.  
+
+##### Windows
+1. Start -> Control Panel -> Appearance and Personalization -> Folder Options
+2. Click on "View" tab
+3. Click "Advanced settings"
+4. Uncheck the box next to "Hide extensions for known file types" then click "OK"
+
+##### Mac
+1. Select Finder -> Preferences -> Advanced
+2. Select "Show all filename extensions"
+
+### Making the language pack
+
+1. Create a folder called "lang" in the "assets/examplemod" folder.
+1. Create a new text file called "en_US.lang" in the folder.
+![Language folder](images/section_2/lang_folder.png)
+
+1. Right-click on the file and choose to edit it. The default entry is something similar to: `category.blockName.name=Item Name`. The name that appeared for our initial block, `tile.copper_block.name` is what we would use in our case. So my line would be `tile.copper_block.name=Copper Block`.
+
+1. Save the file and run Minecraft. Your name should now appear in-game.
+![Block with localized name](images/section_2/lang_block.png)
