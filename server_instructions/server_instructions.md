@@ -1,30 +1,27 @@
-# The current server version is: ***1.7.10***
-IP: **s28.hosthorde.com:25742**
+# The current server version is: ***1.8***
+IP: **52.10.194.42:25565**
 
-### I Already Have MultiMC, What Do I Do?
-If you can already hop on the MCU Sequences server (the main server) and play, you're most of the way there. Please skip to step **TWO**.
+### Big Update!
+Lots of thing have changed behind the scenes for the new server, but there's only a couple things that you need to know to play.
 
-### Step One: MultiMC
+* We're on Minecraft 1.8 now!
+* Our mods have changed. (Check the bottom of this page for a list of those mods.)
+* We moved to the Technic Platform to distribute our modpack.
 
-First we'll want to install MultiMC, a program that makes it easy to install mods and the mod loader.
+That last one is pretty important, so this page will tell you how to install the Technic Launcher and our modpack.
 
-* Navigate to [the MultiMC website](http://multimc.org/) and find the download link for your OS. There are versions for Windows, Mac, and Linux.
-* Once you've downloaded the correct version, open that file. On most platforms, this is as simple as double clicking it.
-* This will display a folder called ```MultiMC```. Drag and drop this folder to extract it to somewhere safe. Choose carefully, as this will be the place your Minecraft game will be installed to.
-* Open the folder you just extracted and double click on ```MultiMC.exe``` (on Mac, drag and drop to install it like any other app).
-* You will be greeted with a window asking you to select your Java version, if you have more than one. Select the one with the highest number under the ```Arch``` column, and click ```OK```.
-* You are now in the main window of MultiMC!
+### Installing the Modpack
 
-### Step Two: Making The MCU Instance
-MultiMC is a program that lets you handle different versions of Minecraft, and different sets of mods, very easily.
-
-* Look in the top left of the main MultiMC window for the ```Create New Instance``` button, and click it.
-* In the name box, type in ```Minecraft U 1.7.10 Opal```.
-* In the window that appears, look for the checkbox marked ```Import Modpack```, and click it.
-* Paste or type in this URL into the area next to the checkbox.
-`http://minecraftu.org/modpack`
-* Now just click OK.
+* Navigate to [the Technic website](http://technicpack.net/) and click the "Get the Launcher" button on that page.
+* Once you've downloaded the launcher, save it somewhere where you'll be able to find it later.
+* Open the launcher. On most platforms, this is as simple as double clicking it.
+* When you open Technic, it will set itself up, then ask you for a username and password. Log in just like you do to the normal Minecraft launcher, with your Minecraft username (or email) and password.
+* Once you're logged in, click the middle tab at the top of the launcher, then search for **MCU**. You should see the "Minecraft U Official Modpack". Install that by clicking it and then clicking the install button.
 
 **Congrats! You are now on the most up to date version of the Minecraft U mod pack, and can play on our moderated servers, or alone.**
 
-**Just double click the new icon in the instances area of MultiMC to start playing!**
+**Just click the modpack in the Technic Launcher to start playing!**
+
+### Current Mod list
+* [Dr. Cyano's Wonderful Wands & Wizarding Armor](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2233889-dr-cyanos-wonderful-wands-and-wizarding-robes)
+* [Iron Chests](http://ftbwiki.org/Iron_Chests)
