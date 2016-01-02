@@ -1,5 +1,5 @@
 # The current server version is: ***1.8***
-IP: **52.10.194.42:25565**
+IP: **server.minecraftu.org**
 
 ### Big Update!
 Lots of thing have changed behind the scenes for the new server, but there's only a couple things that you need to know to play.
@@ -25,3 +25,4 @@ That last one is pretty important, so this page will tell you how to install the
 ### Current Mod list
 * [Dr. Cyano's Wonderful Wands & Wizarding Armor](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2233889-dr-cyanos-wonderful-wands-and-wizarding-robes)
 * [Iron Chests](http://ftbwiki.org/Iron_Chests)
+* [ComputerCraft](http://www.computercraft.info/2015/12/24/computercraft-1-76/)!
