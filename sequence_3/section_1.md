@@ -16,7 +16,7 @@ When you place a computer and right click on it, the first thing you see is this
 
 ![The beginning of your command line life.](images/section_1/ccb1.png)
 
-This is a command line. Here, we can type words to run programs, and we can look inside folders just like in a graphical interface. Let's do that now.
+This is a command line. Here, we can type words to run programs, and we can look inside folders just like on a real life computer. Let's do that now.
 
 ![Some simple commands to run.](images/section_1/ccb2.png)
 
