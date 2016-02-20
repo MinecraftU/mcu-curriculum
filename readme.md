@@ -12,12 +12,16 @@ Minecraft game mechanics are incredibly analogous to engineering. Our programs f
 
 Our curriculum is organized into a core curriculum called _sequences_, which allow for a logical progression through increasingly complex concepts. There are also additional units outside of the core sequences.
 
-### Sequence 1: Basic Problem Solving in Gaming
+### Sequence 1a: Basic Computer Skill with Minecraft
+
+Learn how to use a computer...no previous experience required! You might be able to make an iPad sing, but it's time to learn how to use a keyboard and mouse. You also might be brand-new to Minecraft, or need to level up your Minecraft skills from the Pocket Edition to the "proper" PC version.
+
+### Sequence 1b: Basic Problem Solving with Minecraft
 
 Learn the basics of survival in the Minecraft world, from fending off starvation to defending against skeletons. Solve these problems and more in a fun environment, with help from our instructors. Overcome the challenges that Minecraft has to offer, and have fun doing it. Improve building skills with creative tips and tricks.
  _For ages 6-12._
 
-### Sequence 2: I Sing the Minecraft Electric
+### Sequence 2: I Sing the Minecraft Electric (Redstone)
 
 Learn the basics of electricity, with in game and real world applications. We’ll go over digital circuits, like those found in smartphones and tablets, and how to use them in the Minecraft world to build yourself awesome contraptions. At the advanced level, we’ll go over what binary really is, and how to design binary logic machines with Redstone! _For ages 8-14 or younger when having completed Sequence 1 or with equivalent experience._
 
@@ -28,14 +32,6 @@ Use the Minecraft mod ComputerCraft to learn the basics of programming and then 
 ### Sequence 4: Java and Modding Minecraft
 
 Learn the basics of Java, the most common programming language in the world, and use them to create your own modification of Minecraft. Add any item of your design to the game, expanding Minecraft in whatever direction you desire. At the end, you’ll understand the syntax and applications of Java, and how they apply to Minecraft. _For ages 10-16 or younger when having completed Sequence 3 or with equivalent experience._
-
-### Architectural Design in Minecraft
-
-Start with the basics of aesthetic and functional design and learn how to incorporate architectural concepts like flow, movement, and negative space into your builds. Design and then create structures ranging from houses to bridges and aqueducts. Finish by taking ideas from multiple sources and combining them into your own unique structure. _For ages 8-16._
-
-### Physics
-
-TBD
 
 ---
 
