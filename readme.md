@@ -14,7 +14,7 @@ Our curriculum is organized into a core curriculum called _sequences_, which all
 
 ### Sequence 1a: Basic Computer Skill with Minecraft
 
-Learn how to use a computer...no previous experience required! You might be able to make an iPad sing, but it's time to learn how to use a keyboard and mouse. You also might be brand-new to Minecraft, or need to level up your Minecraft skills from the Pocket Edition to the "proper" PC version. :simple_smile:
+Learn how to use a computer...no previous experience required! You might be able to make an iPad sing, but it's time to learn how to use a keyboard and mouse. You also might be brand-new to Minecraft, or need to level up your Minecraft skills from the Pocket Edition to the "proper" PC version.
 
 ### Sequence 1b: Basic Problem Solving with Minecraft
 
