@@ -85,7 +85,7 @@ public class ExampleMod
     }
 }
 ```
-* Left-click on _ExampleMod_ and press `Shift + F6` Change the name to something that you like and click `Refactor`. For our examples, we use `CopperMod` since our mod adds copper to the game. We'll also have to change the _MODID_ and _VERSION_ to what we want. You can delete the example `println` statement if you wish.
+* Left-click on _ExampleMod_ and press `Shift + F6`. Change the name to something that you like and click `Refactor`. For our examples, we use `CopperMod` since our mod adds copper to the game. We'll also have to change the _MODID_ and _VERSION_ to what we want. You can delete the example `println` statement if you wish.
 
 ###Publishing your mod
 Running the command `gradlew build` or `gradle build` will package your mod into a .JAR file in the build/libs folder.  You can then add it to Minecraft like any other mod.
