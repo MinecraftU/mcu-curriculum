@@ -20,8 +20,8 @@ This is a command line. Here, we can type words to run programs, and we can look
 
 ![Some simple commands to run.](images/section_1/ccb2.png)
 
-* The ```ls``` command lists the contents of the current directory
-* The ```cd``` command changes directories, e.g. ```cd rom```  
+* The ```ls``` command lists the contents of the current folder (aka directory)
+* The ```cd``` command changes folders (directories), e.g. ```cd rom```
 
 Up next we'll run the edit program and see what it looks like.
 Type `edit test`.
@@ -30,8 +30,10 @@ Type `edit test`.
 
 This is the program you use to edit your programs. Looks pretty simple huh? This program is all you need to start writing you own code in ComputerCraft.
 
+Exit the `edit` program by pressing `ctrl`, using the arrow keys to select exit, and then hitting `enter`.
+
 ### Play text adventure Minecraft inside a ComputerCraft computer
-  * Type `adventure`
+  * Type `adventure` and press `enter`
   * Some of the commands available in the Adventure program:
     * `punch`
     * `take` or `grab`
@@ -40,43 +42,29 @@ This is the program you use to edit your programs. Looks pretty simple huh? This
     * `eat`
     * `inventory`
 
-    ![Adventure](images/section_1/adventure.png)
+![Adventure](images/section_1/adventure.png)
 
-    In case you haven't noticed by now, Adventure is really just text-based Minecraft. You're playing Minecraft on a computer inside Minecraft.
+  If you haven't noticed by now, Adventure is really just text-based Minecraft. You're playing Minecraft on a computer inside Minecraft.
 
 ### Peripherals
 
-* Open your inventory and search for ```disk drive```
-* Place the disk drive next to the computer
-
-  ![Disk drive](images/section_1/disk_drive.png)
-
-* Right click the disk drive to open it.
-  * Try putting a music disk in the disk drive.
-  * Play the music by right clicking your computer and running the `dj` program.
+> Peripherals are blocks that you put next to a computer. Then you can use programs on the computer to "talk" to those peripherals. One of the most useful peripherals is the **monitor**.
 
 #### Create a monitor
 
 * Open your inventory and search for `monitor`
 * Place 12 monitors in a 6 wide by 2 high pattern to create a giant widescreen monitor
-* Place a computer next to the monitor
-* Place a disk drive next to the computer
+* Place a computer next to the monitor, on the left side.
+  * It matters what side the monitor is on, so make sure you check!
 
-#### Watch a movie
+#### Paint a picture
 
-* Open your inventory and search for `disk`
-* Find a disk labeled `alongtimeago` and place it into the disk drive
+* Right click the computer to open it, and then type `monitor right paint mypainting`
+* Press escape to close the computer and then look at the monitor.
 
-  ![alongtimeago](images/section_1/a_long_time_ago.png)
+  You should see something that looks like a canvas on the screen. Try right clicking on the canvas to paint. When you're done, open the computer again, and press `ctrl` then `enter`. This will save the painting to a file called `mypainting`.
 
-* Right click on the computer and run the `alongtimeago` program
-  * To run a program on the disk, specify the full path to the program like this: `disk/alongtimeago`
-  * To run the program on the monitor, specify the monitor first, like this: `monitor [top|bottom|left|right|front|back] disk/alongtimeago`
-  * The syntax `[top|bottom|left|right|front|back]` means pick which side your monitor is on and only type that direction, of those six shown. So your command would be something like `monitor left disk/alongtimeago`.
-
-![Watching on the big screen](images/section_1/monitor.png)
-
-* To quit any running program, hold down ```ctrl + t```
+* To quit any running program without saving, hold down ```ctrl + t```
 
 * To restart the computer, hold down ```ctrl + r```
 
@@ -86,7 +74,7 @@ This is the program you use to edit your programs. Looks pretty simple huh? This
 
 Turtles are programmable robots that you can use to collect resources, clear terrain, and other such tasks.  They run an OS called turtleOS and the programs they run can be stored on internal memory or floppy disks.  There are farming, mining, crafting, and melee turtles.  They are categorized based on the Diamond tool* you equip them with.
 
-*Note: Tools equipped to turtles will not wear out and turtles themselves are indestructible (unless you break them yourself).  This makes them one of the safest ways to utilize diamond tools, not to mention the time they will save you.
+>Note: Tools equipped to turtles will not wear out and turtles themselves are indestructible (unless you break them yourself).  This makes them one of the safest ways to utilize diamond tools, not to mention the time they will save you.
 
 Like any robot, turtles require fuel.  They can get energy from anything that would work in a furnace as well as other more advanced options we'll get to later.  Different types of fuel will yield different _fuel counts_ which is the number of blocks the turtle can move with that amount of fuel.  For example, coal will give the turtle 80 fuel, so the turtle can now move 80 blocks.
 
