@@ -5,7 +5,7 @@ Before we dive into the Minecraft environment, you should understand what the wo
 
 ## Creating a main class
 Go ahead and right-click on your main project package and select `Create new class`.
-![](images/s1_create_class.png)
+![](images/section_1/s1_create_class.png)
 Give it a name, we'll be calling ours `Main`, and click `OK`.  For this class only, you'll need to add the method `main` (note it is lowercase `main` since Java is case sensitive).  It should look like this:
 ```
 public class Main {

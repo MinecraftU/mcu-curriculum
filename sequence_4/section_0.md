@@ -61,7 +61,7 @@ The most common error is the build failing with a message saying "JAVA_HOME does
 
 2. Double-click the folders: src > main > java > com.example.examplemod
 
-3. There should be an `ExampleMod` class (blue circle with the letter 'c' in it) and if you double-click it you should see the following code:
+3. There should be an `ExampleMod` class (blue circle with the letter 'c' in it) and if you double-click it you should see the following code (you might have to change `preInit` to `init` and `FMLPreInitializationEvent` to `FMLInitializationEvent`):
 
 ```java
 package com.example.examplemod;
@@ -85,7 +85,7 @@ public class ExampleMod
     }
 }
 ```
-* Left-click on _ExampleMod_ and press `Shift + F6`. Change the name to something that you like and click `Refactor`. For our examples, we use `CopperMod` since our mod adds copper to the game. We'll also have to change the _MODID_ and _VERSION_ to what we want. You can delete the example `println` statement if you wish.
+* Left-click on `ExampleMod` and press `Shift + F6`. Change the name to something that you like and click `Refactor`. This will change all instances of `ExampleMod` to a mod name of your choice. For our examples, we use `CopperMod` since our mod adds copper to the game. We'll also have to change the `MODID` and `VERSION` to what we want. You can delete the example `println` statement if you wish.
 
 ###Publishing your mod
 Running the command `gradlew build` or `gradle build` will package your mod into a .JAR file in the build/libs folder.  You can then add it to Minecraft like any other mod.
