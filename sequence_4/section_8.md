@@ -38,7 +38,8 @@ entityBeingHit.setFire(4);  //what do you think the integer does?
 
 We can even create an explosion at the hit entity's location!
 ```java
-entityBeingHit.worldObj.createExplosion(null, entityBeingHit.posX, entityBeingHit.posY, entityBeingHit.posZ, 3.0f, true);  //the float determines the radius of the explosion
+entityBeingHit.worldObj.createExplosion(null, entityBeingHit.posX, entityBeingHit.posY, entityBeingHit.posZ,
+3.0f, true);  //the float determines the radius of the explosion
 ```
 ![Before hitting pig](images/section_3/sword_hit_explosion_pre.png)
 
