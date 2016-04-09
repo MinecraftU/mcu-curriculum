@@ -1,0 +1,31 @@
+
+function chopTree()
+  detect with compare
+  if block
+    for 6
+      break block
+      detect up
+      if block up
+        break block up
+      move up 1
+  else
+    wait N period of time
+    goto 3
+  move down 6
+  
+three times:
+  twice:
+    move forward 4 blocks
+      turn left
+    chopTree()
+    place sapling
+    turn right
+    goto 17
+
+  turn right
+
+move forward 4 blocks
+turn right
+dispense into water
+
+repeat all
