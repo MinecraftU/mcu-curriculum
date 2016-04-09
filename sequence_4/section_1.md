@@ -43,27 +43,47 @@ To execute this code, go to `Run -> Run 'Main'`
 At the bottom it should print out the result, in this case 5.  `Process finished with exit code 0` just means the program ran successfully.  
 
 ## Defining a new class
-At the beginning of this section, you read that classes have both state and behavior. So far, we've only created a class with behavior (a method that sums two numbers). Let's create a class that also contains information. Go ahead and create a new class called `Rectangle` just as you created the class called `Main`.
+At the beginning of this section, you read that classes have both state and behavior. So far, we've only created a class with behavior (a method that sums two numbers). Let's create a class that also contains information. Go ahead and create a new class called `Rectangle` just as you created the class called `Main`.  Then let's give it some properties: length, width, perimeter, area.
 ```
 public class Rectangle {
-    Rectangle(int length, int width);
-    public int perimeter
-    public int area;
+    public int length;
+    public int width;
+    public int perimeter, area;
+
+    public Rectangle(int l, int w) {
+        length = l;
+        width = w;
+    }
 
     perimeter = length*2 + width*2;
     area = length * width;
 }
-```
+```  
+The only new part here, is the `public Rectangle(int l, int w)` method.  This method is called the `Constructor` and will be used to _instantiate_ our object in our next section.  
 
 ## Creating an object from a class
-Now that a `Rectangle` class has been defined, we can _instantiate_ a `Rectangle` _object_ in our main. To _instantiate_ an object means to create an _instance_ from a class. Imagine that our class is the blueprint for constructing a particular model of car, and that objects are the actual cars that are being driven. All of these cars behave the same way and contain the same types of information (think speed,)
+Now that a `Rectangle` class has been defined, we can _instantiate_ a `Rectangle` _object_ in our main. To _instantiate_ an object means to create an _instance_ from a class. Imagine that our class is the blueprint for constructing a particular model of car, and that objects are the actual cars that are being driven. All of these cars behave the same way and contain the same types of information (think speed, color, license plate).  To start, let's make a few Rectangles.  
+
+In your `Main` class, in the `main` method, create a few Rectangle objects by calling the Rectangle constructor.  We'll make the first one a 2x3 Rectangle and the second a 3x4 Rectangle.  We'll also want to print out the area and perimeter.  Your code should look like this:
+```java
+public static void main(String[] args) {    
+    Rectangle rect1 = new Rectangle(2,3);
+    Rectangle rect2 = new Rectangle(3,4);
+
+    System.out.println("Area of rect1: " + rect1.area);
+    System.out.println("Perimeter of rect1: " + rect1.perimeter);
+    System.out.println("Area of rect2: " + rect2.area);
+    System.out.println("Perimeter of rect2: " + rect2.perimeter);
+}
+```
 
 ## Inheritance
 Square class
 
 ```
 public class Square extends Rectangle {
-    Square(int length);
-    width = length;
+    public Square(int length){
+        super(length, length);
+    }
 }
 ```
