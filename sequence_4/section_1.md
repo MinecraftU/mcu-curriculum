@@ -46,7 +46,12 @@ At the bottom it should print out the result, in this case 5.  `Process finished
 At the beginning of this section, you read that classes have both state and behavior. So far, we've only created a class with behavior (a method that sums two numbers). Let's create a class that also contains information. Go ahead and create a new class called `Rectangle` just as you created the class called `Main`.
 ```
 public class Rectangle {
+    Rectangle(int length, int width);
+    public int perimeter
+    public int area;
 
+    perimeter = length*2 + width*2;
+    area = length * width;
 }
 ```
 
@@ -55,3 +60,10 @@ Now that a `Rectangle` class has been defined, we can _instantiate_ a `Rectangle
 
 ## Inheritance
 Square class
+
+```
+public class Square extends Rectangle {
+    Square(int length);
+    width = length;
+}
+```
