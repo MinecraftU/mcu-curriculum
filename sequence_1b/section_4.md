@@ -2,7 +2,17 @@
 
 ## Enchanting
 
+> Enchanting is a mechanic that augments armor, tools, weapons and books with one or more of a variety of enchantments that improve an item's existing abilities or imbue them with additional abilities and uses.
+
 Enchanting is a very important technique in Minecraft. Enchanted tools, armor and weapons make success in your Minecraft adventures much more likely, and are more fun to use as well.
+
+To enchant an item, right-click on an enchanting table and place the item and 1–3 lapis lazuli in the input slots. Options will display on the right hand side of the enchanting display.
+
+![Enchanting table with bookshelves.](images/section_4/enchantment-table.png)
+
+![The enchanting display.](images/section_4/enchanting-gui.png)
+
+To get the maximum enchants, surround the enchanting table with bookshelves. To get to the highest level of enchanting (level 30), you will need 15 bookshelves placed within a 5×5 square centered at the table or the block above. No other blocks can be placed in between the table and the bookshelves.
 
 Tips:
 
