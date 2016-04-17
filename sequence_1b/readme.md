@@ -23,5 +23,6 @@ These all work with the latest vanilla Minecraft version (as of June 7, 2015)
 
 Optional maps:
 
+* "We are the Rangers"
 * "Teramia 0.9.1 Beta"
 * "Jungle Stream"
