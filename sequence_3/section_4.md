@@ -126,4 +126,4 @@ while blocksMovedForward < length do
   end
 end
 ```
- **Woop!** That was your third program. This one was long, but it let's you find diamonds much easier. Try digging down to level 12 or 13 and putting six turtles running this program down, with a 2 block space between them. You'll be drowning in diamonds in no time.
+This was a long one, but it let's you find diamonds much easier. Try digging down to level 12 or 13 and putting six turtles running this program down, with a 2 block space between them. You'll be drowning in diamonds in no time.

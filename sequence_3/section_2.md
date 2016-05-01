@@ -46,4 +46,4 @@ Now look at your turtle behind the chest and right click it. Type in `cobblefarm
 
 Once the chest is full, you can open your turtle again and hold down `control` and `t` at the same time to terminate your program.
 
-**Feel good about yourself!** You just wrote your first simple program in ComputerCraft. In the next few sections, we'll write more useful programs, and more complex ones.
+**Congratulations!** You just wrote your first simple program in ComputerCraft. In the next few sections, we'll write more useful programs, and more complex ones.

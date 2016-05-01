@@ -84,7 +84,7 @@ Like any robot, turtles require fuel.  They can get energy from anything that wo
   1. Right-click on the turtle
   1. Run the ```dance``` program
 
-## Make it move!
+## Make it move
 
 Turtles have several default programs including the "go" program.
 
