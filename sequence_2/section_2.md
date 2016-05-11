@@ -4,12 +4,13 @@
 
 This section concerns making doors powered by pistons and redstone. Rather than using wood or iron doors, we'll be using pistons to make large doors using blocks. For this you will need redstone, redstone torches, and sticky pistons. Since sticky pistons can both push and pull blocks, they're ideal for making something like a door. The redstone circuit used is simple but still requires some space, which can be hidden inside a wall (especially since doors normally appear in walls!).
 
-1. The door will be two blocks wide and three blocks tall. Place two columns of three sticky pistons facing each other with four empty air blocks between them. Then place your door blocks (lapiz, gold, etc) onto each of the sticky piston faces. When unpowered, there will be a two-block gap between the pieces of the door.
+1. The door will be two blocks wide and three blocks tall. Place two columns of three sticky pistons facing each other with four empty air blocks between them. Then place your door blocks (lapiz, gold, etc) onto each of the sticky piston faces. When unpowered, there will be a two-block gap between the pieces of the door. 
 ![The initial door blocks](images/section_2/piston_door_initial.png)
 
-1. Dig a one block deep channel around the doors as shown in this picture. We will hide the redstone we're using to power the doors within this channel. Dig out two more blocks from the front of the door (consult the screenshot if you are confused).
-![The channel that will house the redstone](images/section_2/piston_door_channel.png)
-Then put two ground blocks back in the middle (keeping the just-mined block underneath empty) and put two pressure plates on top of them.
+1. Dig a one block deep channel around the doors as shown in this picture. We will hide the redstone we're using to power the doors within this channel. Dig out two more blocks from the front of the door (consult the screenshot if you are confused).  
+![The channel that will house the redstone](images/section_2/piston_door_channel.png)  
+
+1. Then put two ground blocks back in the middle (keeping the just-mined block underneath empty) and put two pressure plates on top of them.  
 ![The slabs that will power the door](images/section_2/piston_door_plates.png)
 
 1. Now run redstone from the very bottom space all the way around the bottom of the channel, with the ends pointing into the remaining sandstone block on either side.
