@@ -1,6 +1,8 @@
 # Making a new set of armor
 ```java
-public static final ItemArmor.ArmorMaterial COPPER_ARMOR = EnumHelper.addArmorMaterial("copper_armor", 20, new int[]{2, 6, 5, 2}, 20); //durability (diamond = 33), damage done to pieces (helmet down to boots), enchantability
+public static final ItemArmor.ArmorMaterial COPPER_ARMOR =  
+    EnumHelper.addArmorMaterial("copper_armor", 20, new int[]{2, 6, 5, 2}, 20);
+//durability (diamond = 33), damage done to pieces (helmet down to boots), enchantability
 ```
 
 ```java
@@ -58,10 +60,13 @@ public class ItemCopperArmor extends ItemArmor
     //called on every armor tick
     @Override
     public void onArmorTick(World world, EntityPlayer player, ItemStack armor) {
-        //player.addPotionEffect(new PotionEffect(Potion.moveSlowdown.id, 500, 4));   //will refresh duration, not stack multiple
+        //player.addPotionEffect(new PotionEffect(Potion.moveSlowdown.id, 500, 4));  
+        //will refresh duration, not stack multiple
 
         //note that indices for getCurrentArmor are BACKWARDS (eg. 0 = boots, 3 = helm)
-        if (player.getCurrentArmor(0) != null && player.getCurrentArmor(0).getItem() == CopperMod.copperBoots) {
+        if (player.getCurrentArmor(0) != null && player.getCurrentArmor(0).getItem()
+            == CopperMod.copperBoots)
+        {
             player.addPotionEffect(new PotionEffect(Potion.jump.getId(), 2, 10));
         }
     }
@@ -69,13 +74,15 @@ public class ItemCopperArmor extends ItemArmor
     //can put in multiple creative tabs
     @Override
     public CreativeTabs[] getCreativeTabs() {
-        return new CreativeTabs[] {CreativeTabs.tabCombat, CreativeTabs.tabTools}; //This lets me put my armor in as many create tabs as I want, pretty cool right?
+        return new CreativeTabs[] {CreativeTabs.tabCombat, CreativeTabs.tabTools};
+        //This lets me put my armor in as many create tabs as I want, pretty cool right?
     }
 
     //can repair in anvil or not
     @Override
     public boolean getIsRepairable(ItemStack armor, ItemStack stack) {
-        return stack.getItem() == CopperMod.copperIngot; //Allows certain items to repair this armor.
+        return stack.getItem() == CopperMod.copperIngot;
+        //Allows certain items to repair this armor.
     }
 
 

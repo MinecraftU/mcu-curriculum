@@ -2,10 +2,10 @@
 Before we dive into the Minecraft environment, you should understand what the words _class_ and _method_ mean in Java. At its most basic, a _class_ represents a real-world object by using code. Classes can have both state and behavior. In other words, they both store information and do something with that information.
 
 ## Navigating IntelliJ
-
+Open up IntelliJ using either the shortcut on your desktop, or hitting the Windows key and searching `IntelliJ`.  Choose `Create new project` and give it a name.  We'll be calling ours `JavaReview`.  Once IntelliJ opens, in the top left, you should see a folder icon called `JavaReview` or whatever you named the project.  Double-click it and a sidebar should appear with two options: `JavaReview` and `External Libraries`.  We'll talk about "External Libraries" later, double-click `JavaReview` for now.  You should have a few options appear, including an `out` folder and a `src` folder.
 ## Creating a main class
-Go ahead and right-click on your main project package and select `Create new class`.
-![](images/section_1/s1_create_class.png)
+Go ahead and right-click on the `src` folder and select `Create new class`.
+![](images/section_1/s1_create_class.png)  
 Give it a name, we'll be calling ours `Main`, and click `OK`.  For this class only, you'll need to add the method `main` (note it is lowercase `main` since Java is case sensitive).  It should look like this:
 ```
 public class Main {
