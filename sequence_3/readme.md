@@ -1,4 +1,4 @@
-![](images/Minecraft-Redstone-HD-Wallpaper-For-Desktop-Background.jpg)
+![](images/brighta.png)
 
 ## Minecraft U Sequence 3: ComputerCraft
 
