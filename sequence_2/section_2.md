@@ -47,6 +47,10 @@ By exploiting some of the physics of Minecraft, we can make cannons that fire TN
 
 We know that we're limited to using TNT seven blocks away from whatever we want to fire. How could we increase our firing power with this limitation? Come up with some ideas and designs and test them out. Also, experiment with the height of the projectile TNT. How does placing it onto a slab change the distance shot?
 
+### TNT Cannon Competition
+
+Try challenging your neighbor with a TNT cannon competition! Modify the example design and see who can fire the farthest and with the most accuracy.
+
 # Redstone Clocks
 
 Interestingly enough, you can use redstone to make simple clocks in Minecraft. Redstone signals do not travel instantaneously. Instead, they update based on the timing of "ticks". A "tick" is one update in the world of Minecraft; for redstone, ten ticks occur per second. Generally torches, repeaters, and other blocks take one tick to update. Repeaters are unique in that they can be set to a specific number of ticks; the "setting" on a repeater (moving the torch back and forth along it) changes it to 1, 2, 3, or 4 ticks. So repeaters can be used to make clocks that pulse at a regular rate.
