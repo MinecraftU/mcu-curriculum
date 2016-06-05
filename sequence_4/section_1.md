@@ -50,10 +50,10 @@ public class Rectangle {
     public int perimeter, area;
 
     public Rectangle(int l, int w) {
-        self.length = l;
-        self.width = w;
-        self.perimeter = length*2 + width*2;
-        self.area = length * width;
+        this.length = l;
+        this.width = w;
+        this.perimeter = length*2 + width*2;
+        this.area = length * width;
     }
 
 }
