@@ -15,6 +15,7 @@ public class CopperBlock extends Block //Add the second half of this line
 
 }
 ```
+
 The keyword `class` means that we are creating a new class. By extending the `Block` class, our `CopperBlock` class will inherit all of the attributes of the existing `Block` class. We call `Block` the _parent class_ of `CopperBlock`, while `CopperBlock` is the _child class_ of `Block`.
 
 An error will come up regarding a missing _constructor_. A constructor is a function that runs whenever a new block is created in the game. The following constructor should go inside the braces of the `CopperBlock` class. If your cursor is over `CopperBlock`, you should be able to press Alt-Enter and select `Add missing constructor`. Then change the name of the `Material` parameter to `mat` and fill in the rest of the constructor.
@@ -39,6 +40,7 @@ public class CopperBlock extends Block
     }
 }
 ```
+
 `super` calls the constructor of `CopperBlock`'s parent class, `Block`. It's very important, but we mainly want to focus on the rest of the functions since they allow more customization! Each of them defines an attribute of our `CopperBlock` block, most of which should be obvious from the name. For example, `setStepSound` determines which sound the block will make when placed. `setHarvestLevel` determines what type and level of tool is required to successfully mine it (the number `2` means iron tools are required). The keyword `this` means that the function is part of the class whose constructor you're currently in, `CopperBlock` in this case (don't worry about this too much, either).
 
 However, simply making a new class in our project is not enough. To actually add our block into the game, we need to register it with Minecraft Forge. Open the `CopperMod` class from the left side of the screen (it might still be called `ExampleMod` initially; just rename it to `CopperMod` if so). Add the variable declaration line and the `registerBlock` line shown below. The second argument of `registerBlock` sets up the name of the block as "_modid_\__blockname_" and lets us use the same code to create a standardized naming system for all of our blocks. In addition, by using our _MODID_ in the names of our blocks, we can make sure there won't be any overlaps with any other mods we may want to add.
@@ -53,6 +55,7 @@ public void init(FMLInitializationEvent event)
     GameRegistry.registerBlock(copperBlock, MODID + "_" + copperBlock.getUnlocalizedName());
 }
 ```
+
 This block of code registers our newly-created block with the game. Again, `MODID + "_" + copperBlock.getUnlocalizedName()` creates a unique name based on our `MODID`, so that our blocks (or items) will not conflict with other mods.
 
 So to recap, our `CopperMod` and `CopperBlock` classes should look as follows.

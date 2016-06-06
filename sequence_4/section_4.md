@@ -24,6 +24,7 @@ public int quantityDropped(Random rand)
 ![Block dropping multiple ingots](images/section_2/block_drops_multiple_ingots.png)
 
 `rand` is a `Random` object that we could use to add randomness to our drops. For example, we could specify that we want a random number of ingots between 2 and 5 to drop when a block is broken by using the `nextInt` method to get a random number.
+
 ```java
 public int quantityDropped(Random rand)
 {
@@ -41,6 +42,7 @@ We simply use the `addShaplessRecipe` and `addShapedRecipe` function calls to re
 ### Shapeless recipes
 
 First, let's make a shapeless recipe.
+
 ```java
 GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond, 64), new ItemStack(Blocks.dirt));
 ```

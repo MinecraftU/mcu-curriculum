@@ -1,6 +1,7 @@
 ## Setup
 
 ### Downloads
+
 To get started writing mods, you'll need a good development environment. Always try to keep your enviromnet organized, since it's what you'll have to use to write all your code.
 
 * Download IntelliJ from their site: [JetBrains IntelliJ IDEA Community Edition](http://www.jetbrains.com/idea/). Find the button towards the bottom of that page that says `Download Community`. This is a free version of their commercial IDE, and it has lots of the same features.
@@ -10,6 +11,7 @@ To get started writing mods, you'll need a good development environment. Always 
 * Also download the [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html). Download the correct version for your system from that page.
 
 ### Installation
+
 1. Install the Java SDK by running the file you downloaded.
 
 2. Run the IntelliJ installer, and follow its instructions. Make sure you have installed the Java SDK before installing IntelliJ, it makes things easier.
@@ -19,6 +21,7 @@ To get started writing mods, you'll need a good development environment. Always 
 Note: If you wish, you can rename the extracted `forge` folder to whatever you want your mod to be called, e.g. from `forge` to `DiamondCutter`. Keep the Forge zip file in case you want to start a fresh mod.
 
 ### Getting started for Windows
+
 1. Hold shift and right click inside the folder you renamed. Click on `Open command window here`. Then type `gradlew setupDecompWorkspace --refresh-dependencies` and press `Enter`. This will download the Minecraft source code and decompile it so we can work with it to make our mod.
 
 2. Once you get `BUILD SUCCESSFUL` type `gradlew idea` and press `Enter`.
@@ -29,11 +32,12 @@ Note: If you wish, you can rename the extracted `forge` folder to whatever you w
 
 5. Find the file with the IntelliJ icon - it should be (Your_Folder_Name.ipr) and open it.
 
-### For MAC  
+### For MAC
+
 1. Double-click the zipped forge  
 2. Drag the forge folder that is created to your desktop  
 3. Download gradle: https://gradle.org/gradle-download/  
-   -click the Binary only distribution (second option)  
+    - click the Binary only distribution (second option)  
 4. Unzip it and put it in the forge folder on your desktop  
 5. Then press command+spacebar and type in "terminal" and press Enter (this will open a terminal window)  
 6. Type "cd Desktop" and press Enter  
@@ -41,51 +45,53 @@ Note: If you wish, you can rename the extracted `forge` folder to whatever you w
 8. Type "gradle-2.5/bin/gradle setupDecompWorkspace --refresh-dependencies" and press Enter  
 9. After BUILD SUCCESSFUL shows up type: "gradle-2.5/bin/gradle idea"  
 
-### Troubleshooting:  
-The most common error is the build failing with a message saying "JAVA_HOME does not point to JDK":  
+### Troubleshooting:
 
-1. click start  
-2. right-click Computer  (for Windows 8 open up file explorer and right-click "This PC")  
-3. click properties  
-4. on the left side click advanced system settings  
-5. at the bottom of the pop-up, click Environment Variables  
-6. under system variables (second section of pop-up) click new  
+The most common error is the build failing with a message saying "JAVA_HOME does not point to JDK":
+
+1. Click start  
+2. Right-click Computer  (for Windows 8 open up file explorer and right-click "This PC")  
+3. Click properties  
+4. On the left side click advanced system settings  
+5. At the bottom of the pop-up, click Environment Variables  
+6. Under system variables (second section of pop-up) click new  
 7. Name it JAVA_HOME  
 8. The value should point to your JDK 7 folder (something like "C:\Program Files\Java\jdk1.7.0_51")  
 9. Click ok  
-10. close and re-open command prompt and run the command again.  
+10. Close and re-open command prompt and run the command again.  
 
-### Testing  
+### Testing
 
 1. On the top left, double click the folder icon (the name of your folder should be next to it).
 
 2. Double-click the folders: src > main > java > com.example.examplemod
 
 3. There should be an `ExampleMod` class (blue circle with the letter 'c' in it) and if you double-click it you should see the following code (you might have to change `preInit` to `init` and `FMLPreInitializationEvent` to `FMLInitializationEvent`):
+    ```java
+    package com.example.examplemod;
 
-```java
-package com.example.examplemod;
+    import net.minecraft.init.Blocks;
+    import cpw.mods.fml.common.Mod;
+    import cpw.mods.fml.common.Mod.EventHandler;
+    import cpw.mods.fml.common.event.FMLInitializationEvent;
 
-import net.minecraft.init.Blocks;
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.Mod.EventHandler;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-
-@Mod(modid = ExampleMod.MODID, version = ExampleMod.VERSION)
-public class ExampleMod
-{
-    public static final String MODID = "examplemod";
-    public static final String VERSION = "1.0";
-
-    @EventHandler
-    public void init(FMLInitializationEvent event)
+    @Mod(modid = ExampleMod.MODID, version = ExampleMod.VERSION)
+    public class ExampleMod
     {
-		// some example code
-        System.out.println("DIRT BLOCK >> "+Blocks.dirt.getUnlocalizedName());
+        public static final String MODID = "examplemod";
+        public static final String VERSION = "1.0";
+
+        @EventHandler
+        public void init(FMLInitializationEvent event)
+        {
+    		// some example code
+            System.out.println("DIRT BLOCK >> "+Blocks.dirt.getUnlocalizedName());
+        }
     }
-}
-```
-* Left-click on `ExampleMod` and press `Shift + F6`. Change the name to something that you like and click `Refactor`. This will change all instances of `ExampleMod` to a mod name of your choice. For our examples, we use `CopperMod` since our mod adds copper to the game. We'll also have to change the `MODID` and `VERSION` to what we want. You can delete the example `println` statement if you wish.
+    ```
+
+4. Left-click on `ExampleMod` and press `Shift + F6`. Change the name to something that you like and click `Refactor`. This will change all instances of `ExampleMod` to a mod name of your choice. For our examples, we use `CopperMod` since our mod adds copper to the game. We'll also have to change the `MODID` and `VERSION` to what we want. You can delete the example `println` statement if you wish.
 
 ###Publishing your mod
+
 Running the command `gradlew build` or `gradle build` will package your mod into a .JAR file in the build/libs folder.  You can then add it to Minecraft like any other mod.

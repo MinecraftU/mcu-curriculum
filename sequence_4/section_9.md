@@ -1,4 +1,5 @@
 # Making a new set of armor
+
 ```java
 public static final ItemArmor.ArmorMaterial COPPER_ARMOR =  
     EnumHelper.addArmorMaterial("copper_armor", 20, new int[]{2, 6, 5, 2}, 20);
