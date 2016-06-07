@@ -30,7 +30,7 @@ We'll also need to register our item with the game using the `registerItem` func
 
 ```java
 copperIngot = new CopperIngot();    //initializing the variable you should declare in the class
-GameRegistry.registerItem(copperIngot, MODID + "_" + copperBlock.getUnlocalizedName());
+GameRegistry.registerItem(copperIngot, MODID + "_" + copperIngot.getUnlocalizedName());
 ```
 
 ## On-click effects
