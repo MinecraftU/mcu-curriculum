@@ -1,11 +1,9 @@
-# MCU Servers
+## MCU Servers
 
-<img src='images/mcu1.png' style='width:400px; float:right'>
+<img src='images/mcu1.png' style='width:200px; float:right'>
 Only MinecraftU students and staff, plus a very few vetted outside players, are allowed on the MCU servers. Do not ask for friends and siblings who have not been to MinecraftU to be added to the server.
 
-This is all included as a part of your experience at Minecraft U, and you may continue to play on the server indefinitely.
-
-PVP is turned off. Currently, hostile mobs (except witches) are turned off _on the surface only_. Every action on the server is logged.
+This is all included as a part of your experience at Minecraft U, and you may continue to play on the server indefinitely. Every action on the server is logged.
 
 Access to the camp server is contingent on behavior guidelines just like those in real life. Anything you wouldn't do to someone else in real life, you should not do on the server.
 
