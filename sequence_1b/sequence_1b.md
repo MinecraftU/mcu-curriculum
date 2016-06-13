@@ -4,5 +4,3 @@
 <<[section_3.md]
 <<[section_4.md]
 <<[section_5.md]
-<<[appendix_a.md]
-<<[appendix_b.md]

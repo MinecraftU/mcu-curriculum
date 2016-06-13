@@ -1,3 +1,5 @@
+<!--BREAK-->
+
 # Section 1: House Building
 
 When you first enter the game, you are stranded in a mysterious land. To make sure you survive, you need to first make a house. Your house will be shaped like a cube, with a door for an entrance, a roof, glass panes, and different kinds of blocks. Be sure to place torches somewhere in the house, to keep monsters from spawning in your house!
@@ -20,12 +22,18 @@ Now that you have all your materials, it’s time to begin construction.
 * Finally, add a door and glass panes in the middle of the house so you can see outside.
 
 Example house before roof is added:
-![](images/no_roof.png)
 
-Completed house screenshots:
-![](images/front_house.png)
-![](images/back_house.png)
-![](images/top_house.png)
+<img src="images/no_roof.png" style="width:600px">
+
+********************
+
+Completed house:
+
+<img src="images/front_house.png" style="width:600px">
+
+<img src="images/back_house.png" style="width:600px">
+
+<img src="images/top_house.png" style="width:600px">
 
 When you have finished your house, you don't have to stop there! Expand your house by making the walls go out further, adding more floors, and adding more things like bedding and a furnace.
 

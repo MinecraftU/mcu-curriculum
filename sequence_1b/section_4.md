@@ -1,3 +1,5 @@
+<!--BREAK-->
+
 # Section 4: More Advanced Survival Techniques
 
 ## Enchanting
@@ -8,9 +10,9 @@ Enchanting is a very important technique in Minecraft. Enchanted tools, armor an
 
 To enchant an item, right-click on an enchanting table and place the item and 1–3 lapis lazuli in the input slots. Options will display on the right hand side of the enchanting display.
 
-![Enchanting table with bookshelves.](images/section_4/enchantment-table.png)
+<img src="images/section_4/enchantment-table.png" style="width:300px; float: left; margin-right: 20px">
 
-![The enchanting display.](images/section_4/enchanting-gui.png)
+<img src="images/section_4/enchanting-gui.png" style="width:300px">
 
 To get the maximum enchants, surround the enchanting table with bookshelves. To get to the highest level of enchanting (level 30), you will need 15 bookshelves placed within a 5×5 square centered at the table or the block above. No other blocks can be placed in between the table and the bookshelves.
 
@@ -35,7 +37,7 @@ In the map provided, enchant a sword to either:
 
 * Two enchantments, one at level 2 or better.
 
-_or_
+**or**
 
 * One enchantment, level 3 or better.
 
@@ -55,40 +57,38 @@ As you expand your living area, you may find that traveling between areas taking
 
 After placing down some track, you can place a minecart on top and right-click to enter. Once you're in the cart, pressing W will start moving you forward. Pressing the left SHIFT key will make you dismount the minecart though it will keep going. The wooden block at the end of this track stops the minecart before it goes too far.
 
-![Placing a minecart on the ground.](images/section_4/minecart_initial.png)
+<img src="images/section_4/minecart_initial.png" style="width:300px; float: left; margin-right: 20px">
 
-![Riding in a mincart.](images/section_4/minecart_riding.png)
+<img src="images/section_4/minecart_riding.png" style="width:300px">
 
 You can use powered rails to keep the minecart going on long tracks, similar to redstone repeaters. They must be powered with redstone to provide any power to the minecart.
 
-![An example of a powered minecart rail.](images/section_4/minecart_powered.png)
+<img src="images/section_4/minecart_powered.png" style="width:600px">
 
 By using blocks to create tilted rails, we can make handy locations for starting minecarts without having to move manually.
 
-![An example of a start/end section of a rail.](images/section_4/minecart_launcher.png)
+<img src="images/section_4/minecart_launcher.png" style="width:600px">
 
 Redstone can also be used to make junctions where you can select which direction the cart will take you. Three-way intersections will flip back and forth as power is supplied or cut off.
 
-![The intersection without power.](images/section_4/minecart_turn_off.png)
+<img src="images/section_4/minecart_turn_off.png" style="width:300px; float: left; margin-right: 20px">
 
-![The intersection when powered.](images/section_4/minecart_turn_on.png)
+<img src="images/section_4/minecart_turn_on.png" style="width:300px">
 
 We can also make a two-way minecart station where our minecart will stop until we tell it to continue.
 
 Dig out a 3x1 trench. Put a detector rail in the middle, and two powered rails on either side (powered rails act as brakes when unpowered).
 
-![The trench with railing inside.](images/section_4/stop_initial.png)
+<img src="images/section_4/stop_initial.png" style="width:600px">
 
 Extend the rails outward to connect to your normal railways. Place two blocks with buttons on them on top of the blocks adjacent to the powered rail segments. When you press the button, the powered rail below it should light up.
 
-![The placement of the buttons.](images/section_4/stop_buttons.png)
+<img src="images/section_4/stop_buttons.png" style="width:600px">
 
 When you are on the railway, you will stop right next to one of the buttons. Press the button to power the rail underneath you, pushing you forward. The detector rail will then power the rail on the other side, pushing you along on your journey.
 
-![Once the minecart has stopped, press the button to...](images/section_4/stop_stopped.png)
-
-![...continue on your journey.](images/section_4/stop_going.png)
+<img src="images/section_4/stop_stopped.png" style="width:600px">
 
 Your assignment is to make a minecart rail that connects three different locations: a house, a farm, and a cave entrance. Make a start-stop point at each of the destinations. Create a stop that allows you to choose your destination (see screenshot below). The map for this exercise is called "Railroad".
 
-![A three-way intersection](images/section_4/track_switching_station.png)
+<img src="images/section_4/track_switching_station.png" style="width:600px">
