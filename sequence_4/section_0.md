@@ -95,7 +95,7 @@ The most common error is the build failing with a message saying "JAVA_HOME does
 5. If this is your first IntelliJ project, or you don't have an SDK setup, you will need to do so now. 
     * Press `ctrl + shift + alt + s` 
     * In the `Project SDK` section click `New...` and click `JDK`
-    * A _Select Home Directory for JDK_ window will appear.  Navigate to your `Java` folder which by default should be in ```C:\ > Program Files > Java```  Click the jdk folder and hit `OK`
+    * A _Select Home Directory for JDK_ window will appear.  Navigate to your `Java` folder which by default should be in `C:\ > Program Files > Java`  Click the jdk folder and hit `OK`  
 ![JDK Directory](images/section_0/jdk_directory.png)
 
 ###Publishing your mod
