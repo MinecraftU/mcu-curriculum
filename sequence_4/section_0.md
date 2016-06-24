@@ -92,6 +92,12 @@ The most common error is the build failing with a message saying "JAVA_HOME does
 
 4. Left-click on `ExampleMod` and press `Shift + F6`. Change the name to something that you like and click `Refactor`. This will change all instances of `ExampleMod` to a mod name of your choice. For our examples, we use `CopperMod` since our mod adds copper to the game. We'll also have to change the `MODID` and `VERSION` to what we want. You can delete the example `println` statement if you wish.
 
+5. If this is your first IntelliJ project, or you don't have an SDK setup, you will need to do so now. 
+    * Press `ctrl + shift + alt + s` 
+    * In the `Project SDK` section click `New...` and click `JDK`
+    * A _Select Home Directory for JDK_ window will appear.  Navigate to your `Java` folder which by default should be in ```C:\ > Program Files > Java```  Click the jdk folder and hit `OK`
+![JDK Directory](images/section_0/jdk_directory.png)
+
 ###Publishing your mod
 
 Running the command `gradlew build` or `gradle build` will package your mod into a .JAR file in the build/libs folder.  You can then add it to Minecraft like any other mod.
