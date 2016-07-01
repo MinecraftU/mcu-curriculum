@@ -10,21 +10,21 @@
 
 ### Ideation
 
-#### What do we want to build?
+What do we want to build:
   * What is our goal?
   * What are we capable of accomplishing in our timeframe?
   * What elements do we like from our list of favorites?
 
 ### User Stories
 
-#### Who are we building for?
+Who are we building for:
   * Ourseleves?
   * Our friends?
   * Our family?
   * Customers?
   * Other gamers?
 
-#### How are these people different?
+**How are these people different?**
 
 For each role we are building for, consider:
   * How familiar are they with Minecraft?
