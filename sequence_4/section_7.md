@@ -109,7 +109,7 @@ public class ItemBlueberry extends ItemSeedFood
 ```java
 //CROPS
 blueberryBlock = new BlockBlueberry();
-GameRegistry.registerBlock(blueberryBlock, blueberryBlock.getUnlocalizedName());
+GameRegistry.registerBlock(blueberryBlock, MODID + "_" + blueberryBlock.getUnlocalizedName());
 blueberry = new ItemBlueberry();
-GameRegistry.registerItem(blueberry, blueberry.getUnlocalizedName());
+GameRegistry.registerItem(blueberry, MODID + "_" + blueberry.getUnlocalizedName());
 ```
