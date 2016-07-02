@@ -8,16 +8,16 @@ public static final ItemArmor.ArmorMaterial COPPER_ARMOR =
 
 ```java
 //ARMOR
-ItemCopperArmor copperHelmet = new ItemCopperArmor(COPPER_ARMOR, 0, "copper_helmet");
+copperHelmet = new ItemCopperArmor(COPPER_ARMOR, 0, "copper_helmet");
 GameRegistry.registerItem(copperHelmet, MODID + "_" + copperHelmet.getUnlocalizedName());
 
-ItemCopperArmor copperChestplate = new ItemCopperArmor(COPPER_ARMOR, 1, "copper_chestplate");
+copperChestplate = new ItemCopperArmor(COPPER_ARMOR, 1, "copper_chestplate");
 GameRegistry.registerItem(copperChestplate, MODID + "_" + copperChestplate.getUnlocalizedName());
 
-ItemCopperArmor copperLegs = new ItemCopperArmor(COPPER_ARMOR, 2, "copper_legs");
+copperLegs = new ItemCopperArmor(COPPER_ARMOR, 2, "copper_legs");
 GameRegistry.registerItem(copperLegs, MODID + "_" + copperLegs.getUnlocalizedName());
 
-ItemCopperArmor copperBoots = new ItemCopperArmor(COPPER_ARMOR, 3, "copper_boots");
+copperBoots = new ItemCopperArmor(COPPER_ARMOR, 3, "copper_boots");
 GameRegistry.registerItem(copperBoots, MODID + "_" + copperBoots.getUnlocalizedName());
 ```
 
