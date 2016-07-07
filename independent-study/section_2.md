@@ -1,4 +1,4 @@
-## Section 1: Design
+## Section 2: Design
 
 ### Research
 

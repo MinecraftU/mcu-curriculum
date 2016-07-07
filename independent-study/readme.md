@@ -8,20 +8,21 @@ The curriculum introduces students to the project planning and implementation pr
 
 ### Table of Contents
 
-* Section 1: Design 
+* Section 1: Worldbuilding
+* Section 2: Design 
   * Research
   * Ideation
   * User Stories
   * Prototyping
   * Determining Direction
   * Iterating
-* Section 2: Project Management
+* Section 3: Project Management
   * Communication
   * Kanban
   * Pomodoro Technique
   * Pairing
-* Section 3: Build
-* Section 4: Rollout
+* Section 4: Build
+* Section 5: Rollout
   * Publishing
   * Promoting
   * Providing Support
