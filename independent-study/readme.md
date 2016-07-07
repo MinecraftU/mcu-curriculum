@@ -9,6 +9,8 @@ The curriculum introduces students to the project planning and implementation pr
 ### Table of Contents
 
 * Section 1: Worldbuilding
+  * What is worldbuilding?
+  * Examples of worldbuilding
 * Section 2: Design 
   * Research
   * Ideation
@@ -29,21 +31,23 @@ The curriculum introduces students to the project planning and implementation pr
 
 ### Schedule for MCU Camps
 
-* Section 1: Design _1.5 days (assumes 2hr days + homework)_
+* Section 1: Worldbuilding _.25 days_
+  * What is worldbuilding? _15 min_
+  * Examples of worldbuilding _15 min_
+* Section 2: Design _1.5 days (assumes 2hr days + homework)_
   * Day 1:
     * Research _15 min intro lecture, 30 min working (plus part of homework)_
     * Ideation _15 min intro lecture, 45 min working_
-  * Day 1 Homework:
+  * Day 2:
     * User Stories & Prototyping
-  * Day 2:
     * Determining Direction _10 min intro, 30 min working_
-* Section 2: Project Management
-  * Day 2:
+* Section 3: Project Management
+  * Day 3:
     * Communication _10 min intro, 15 min setting up Slack_
     * Kanban _15 min intro, 15 min setting up Trello_
     * Pairing _10 min intro_
-* Section 3: Build
-  * Days 3-8
-* Section 4: Rollout
+* Section 4: Build
+  * Days 4-8
+* Section 5: Rollout
   * Day 9: Going over topics, final prep for release
   * Day 10: Publish on Technic, set up server (if applicable), publish on forums, set up support channel (possibly just forum thread), possibly a website (possibly as post-camp follow up, can use Github Pages or Squarespace)
