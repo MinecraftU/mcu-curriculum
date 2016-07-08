@@ -1,12 +1,19 @@
+![](images/design-sprint.png)
 
+# MCU Independent Study Preparation Worksheet
 
+### Part 1: Prep Work
 
-## Modpacks to check out
+### Part 2: Extra Credit Prep Work
+
+### References
+
+#### Modpacks to check out
 
 * MCU's, of course
 * Life in the Woods
 
-## Maps to check out
+#### Maps to check out
 
 * [Building with BdoubleO map](http://www.mediafire.com/download/dzcfbhpiz5zo9nt/Bdubs.zip)
 * [Vechs' super hostile series](http://superhostile.mindcracklp.com/)
@@ -14,14 +21,10 @@
 * [We are the Rangers](http://wearetherangers.com/)
 * [Pizza Delivery](https://www.dropbox.com/s/gdf27hdgcqjdsxx/Pushing%20The%20Limits%20Pizza%20Delivery.zip?dl=0)
 
-## Video series to check out
+#### Video series to check out
 
 * [Building with BdoubleO](https://www.youtube.com/watch?v=hrw4r10A_y4) (world tour of map above)
 
-## Code reference
+#### Code reference
 
 * [Dragnoz Pastebin](http://pastebin.com/u/dragnoz)
-
-## Section 1 Pre-homework!
-
-
