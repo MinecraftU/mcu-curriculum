@@ -11,6 +11,7 @@ The curriculum introduces students to the project planning and implementation pr
 * Section 1: Worldbuilding
   * What is worldbuilding?
   * Examples of worldbuilding
+  * The importance of narrative in worldbuilding and design
 * Section 2: Design 
   * Research
   * Ideation
@@ -32,8 +33,9 @@ The curriculum introduces students to the project planning and implementation pr
 ### Schedule for MCU Camps
 
 * Section 1: Worldbuilding _.25 days_
-  * What is worldbuilding? _15 min_
+  * What is worldbuilding? _5 min_
   * Examples of worldbuilding _15 min_
+  * Narrative _10 min_
 * Section 2: Design _1.5 days (assumes 2hr days + homework)_
   * Day 1:
     * Research _15 min intro lecture, 30 min working (plus part of homework)_
