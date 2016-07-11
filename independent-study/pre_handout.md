@@ -2,24 +2,42 @@
 
 # MCU Independent Study Preparation Worksheet
 
-The MCU Independent Study course is a significant level up from sequences 1-4. As such, we would like you to be as prepared as possible for the type and amount of work that will be done during these two weeks.
+The MCU Independent Study course is a significant level up from [sequences 1-4](https://github.com/MinecraftU/mcu-curriculum#the-sequences). As such, we would like you to be as prepared as possible for the work that will be done during these two weeks.
 
-The course is designed to follow professional product development process as closely as possible. In this case the product will be a Minecraft map, modpack, texture pack or combination of the three.
+The course is designed to follow professional product development processes as closely as possible. In this case the product will be a Minecraft map, mod pack, texture pack or combination of the three.
 
 The first 2-3 days of the course will be spent away from a computer, exploring and practicing the concepts around worldbuilding and narrative, product research, design, prototyping, iteration, and project management.
 
-The middle 6 days will be the build phase, and participants are expected to work dilligently on their project, including time at home. Access to a computer at home--ideally a laptop they can also bring with them--is absolutely necessary. Certain pieces of software will be required in order to both build and communicate with team members. (So far the only non-free software necessary will be Minecraft itself.) Continuous design-build-testing cycles will be performed during this phase.
+The middle 6 days will be the build phase, and participants are expected to work dilligently on their project, including time at home. Access to a computer at home--ideally a laptop they can also bring with them--is absolutely necessary. Certain pieces of software will be required in order to both build and communicate with team members. (The only paid software necessary will be Minecraft itself.) Numerous design-build-test cycles will be performed during this phase.
 
 The final days of the course will involve publishing the work.
 
-#### Articles to read
+-----
 
-#### Modpacks to check out
+## Preparation
+
+In order to find inspiration and grow your personal pool of creative resources, we provide the following list of reference material.
+
+**Parents:** 
+
+* You might be interested in some of these materials as well.
+* There are way more things below than could possibly be consumed; this is entirely optional and no given resource is more valuable than another. Any research performed before, during or after the course is considered a bonus.
+* The inclusion of a map, mod pack, article, YouTube channel and all other materials below means that we consider them safe for consumption by the age group we expect in the Independent Study course. However you should monitor your child's consuption to whatever degree you find necessary. Some of the YouTube channels linked below also contain series with more mature game titles. We link only to their Minecraft series, but the YouTube pages those videos reside on will likely also display links to those other series.
+
+#### Articles
+
+* Anything on the [Google Ventures design sprint page](http://www.gv.com/sprint/)
+* Anything from [Sprint Stories](https://sprintstories.com/)
+* Anything by [Ian Bogost](http://bogost.com/)
+* Anything by [Jane McGonigal](https://janemcgonigal.com/)
+
+#### Modpacks
 
 * [MCU's, of course](http://www.technicpack.net/modpack/mcu.743668)
 * [Life in the Woods](http://www.lifeinthewoods.ca/)
+* Review the [list of mods](http://modlist.mcf.li/)
 
-#### Maps and map playthroughs to check out and be inspired by
+#### Maps
 
 * [Building with BdoubleO map](http://www.mediafire.com/download/dzcfbhpiz5zo9nt/Bdubs.zip)
   * [world tour](https://www.youtube.com/watch?v=hrw4r10A_y4)
@@ -31,7 +49,7 @@ The final days of the course will involve publishing the work.
 * [The Golden Chalice of Kurast](https://www.youtube.com/watch?v=ap_hTQlvz14)
   * [forum thread](http://www.drobnovia.com/forum/forums/topic/443-the-golden-chalice-of-kurast-an-overview/)
 
-#### Minecraft video series to check out
+#### Minecraft video series
 
 * [Wizard Keen: ComputerCraftEDU Survival](https://www.youtube.com/playlist?list=PL41iJfA2iBPEjucVWD65Fe4F-cjDhEM4G)
 * [Wizard Keen: 101 Ideas for Minecraft Learners](https://www.youtube.com/playlist?list=PL41iJfA2iBPHyuNHpxsa80hJaXKvZDdWH)
