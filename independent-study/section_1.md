@@ -1,8 +1,8 @@
 <img src="images/5.jpg">
 
-## Section 1: Worldbuilding
+# Section 1: Worldbuilding
 
-### What is Worldbuilding?
+## What is Worldbuilding?
 
 Watch the first 4:22 of [Alex McDowell: World Building and Narrative](https://vimeo.com/141454667)
 
@@ -21,33 +21,33 @@ Play [Parameters](http://nekogames.jp/g.html?gid=PRM)
 
 Peruse the [worldbuilding Stack Exchange](http://worldbuilding.stackexchange.com/)
 
-### Narrative
+## Narrative
 
 Most creative work involves narrative, and Minecraft map building is no different. The stronger the narrative that our map/modpack creates, the more invested players will become while playing it.
 
 We will ask ourselves related questions in the forthcoming design phase, but it is useful for now to simply consider what all writers ask themselves before starting on a creative work.
 
-#### SOAPS
+### SOAPS
 
 Speaker, Occasion, Audience, Purpose, Subject
 
-##### Who is the Speaker?
+#### Who is the Speaker?
 
 **The voice that tells the story**. Before students begin to write, they must decide whose voice is going to be heard. Whether this voice belongs to a fictional character or to the writers themselves, students should determine how to insert and develop those attributes of the speaker that will influence the perceived meaning of the piece.
 
-##### What is the Occasion?
+#### What is the Occasion?
 
 **The time and the place of the piece**; the context that prompted the writing. Writing does not occur in a vacuum. All writers are influenced by the larger occasion: an environment of ideas, attitudes, and emotions that swirl around a broad issue. Then there is the immediate occasion: an event or situation that catches the writer's attention and triggers a response.
 
-##### Who is the Audience? 
+#### Who is the Audience? 
 
 **The group of readers to whom this piece is directed**. As they begin to write, students must determine who the audience is that they intend to address. It may be one person or a specific group. This choice of audience will affect how and why students write a particular text.
 
-##### What is the Purpose?
+#### What is the Purpose?
 
 **The reason behind the text**. Students need to consider the purpose of the text in order to develop the thesis or the argument and its logic. They should ask themselves, "What do I want my audience to think or do as a result of reading my text?"
 
-##### What is the Subject? 
+#### What is the Subject? 
 
 Students should be able to state the subject in a few words or phrases. This step helps them to focus on the intended task throughout the writing process.
 
@@ -57,7 +57,7 @@ Students should be able to state the subject in a few words or phrases. This ste
 
 ## Homework:
 
-##### Watch [Worldbuilding: Mutual Acts of Creation](https://vimeo.com/63532147)
+#### Watch [Worldbuilding: Mutual Acts of Creation](https://vimeo.com/63532147)
 
 Answer the following:
 
@@ -66,7 +66,7 @@ Answer the following:
 * What do the "texts" posed as examples do to the "reader"?
 * What kind of worldbuilding occurs inside Minecraft? Around the Minecraft ecosystem?
 
-##### Play the [Hexxit modpack](http://www.technicpack.net/modpack/hexxit.552552)
+#### Play the [Hexxit modpack](http://www.technicpack.net/modpack/hexxit.552552)
 
 ...it is included by default in the Technic launcher (the same one the Minecraft U modpack uses).
 
@@ -77,11 +77,11 @@ Answer the following:
 
 ## Extra credit
 
-##### Watch the rest of [Alex McDowell: World Building and Narrative](https://vimeo.com/141454667)
+#### Watch the rest of [Alex McDowell: World Building and Narrative](https://vimeo.com/141454667)
 
 [Read more about Alex McDowell](https://en.wikipedia.org/wiki/Alex_McDowell).
 
-##### Play the [Life in the Woods modpack](http://www.lifeinthewoods.ca/).
+#### Play the [Life in the Woods modpack](http://www.lifeinthewoods.ca/).
 
 * What did the author of Life in the Woods want to change about Minecraft? 
 * What did they want players to be able to experience?
