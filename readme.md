@@ -21,7 +21,7 @@ Learn how to use a computer...no previous experience required! You might be able
 Learn the basics of survival in the Minecraft world, from fending off starvation to defending against skeletons. Solve these problems and more in a fun environment, with help from our instructors. Overcome the challenges that Minecraft has to offer, and have fun doing it. Improve building skills with creative tips and tricks.
  _For ages 6-12._
 
-### Sequence 2: I Sing the Minecraft Electric (Redstone)
+### Sequence 2: Engineering with Redstone
 
 Learn the basics of electricity, with in game and real world applications. We’ll go over digital circuits, like those found in smartphones and tablets, and how to use them in the Minecraft world to build yourself awesome contraptions. At the advanced level, we’ll go over what binary really is, and how to design binary logic machines with Redstone! _For ages 8-14 or younger when having completed Sequence 1 or with equivalent experience._
 
