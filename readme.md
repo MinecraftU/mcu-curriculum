@@ -7,7 +7,7 @@ This is the repository for the [Minecraft U](http://minecraftu.org/) curriculum.
 <img src="mcu1.png" style="max-width:250px;float:right">
 ### Practical Programming and Design Instruction for Your Child
 
-Minecraft game mechanics are incredibly analogous to engineering. Our programs focus on teaching problem solving and programming techniques through Minecraft, Lua, and Java.
+Minecraft game mechanics are incredibly analogous to engineering. We focus on teaching problem solving and programming techniques in a safe, encouraging ecosystem centered around Minecraft.
 
 Our curriculum is designed to guide a child from the basics of Minecraft gameplay all the way through to programming using modern programming languages. Our materials are engaging and skip the cruft of most books or templated materials. Maintaining it ourselves means we are able to keep it updated to the changing landscape of both Minecraft and technology education.
 
