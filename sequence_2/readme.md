@@ -1,4 +1,4 @@
-![](images/Minecraft-Redstone-HD-Wallpaper-For-Desktop-Background.jpg)
+![](images/mcu3.png)
 
 ## Minecraft U Sequence 2:  Engineering with Redstone
 

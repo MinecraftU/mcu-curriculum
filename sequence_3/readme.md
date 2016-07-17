@@ -1,4 +1,4 @@
-![](images/brighta.png)
+![](images/mcu4.png)
 
 ## Minecraft U Sequence 3: ComputerCraft
 
