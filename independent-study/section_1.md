@@ -16,8 +16,8 @@ How will we be worldbuilding?
 
 ### What are the requirements of a world?
 
-Read about [Paramters](http://www.wired.com/2012/05/parameters-flash-game/)
-Play [Paramters](http://nekogames.jp/g.html?gid=PRM)
+Read about [Parameters](http://www.wired.com/2012/05/parameters-flash-game/)  
+Play [Parameters](http://nekogames.jp/g.html?gid=PRM)
 
 Peruse the [worldbuilding Stack Exchange](http://worldbuilding.stackexchange.com/)
 
