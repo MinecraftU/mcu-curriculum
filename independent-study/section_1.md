@@ -79,6 +79,8 @@ Answer the following:
 
 ##### Watch the rest of [Alex McDowell: World Building and Narrative](https://vimeo.com/141454667)
 
+[Read more about Alex McDowell](https://en.wikipedia.org/wiki/Alex_McDowell).
+
 ##### Play the [Life in the Woods modpack](http://www.lifeinthewoods.ca/).
 
 * What did the author of Life in the Woods want to change about Minecraft? 
