@@ -1,18 +1,17 @@
-![](mcu1.png)
-
 # Minecraft U Curriculum
 
-This is the repository for the Minecraft U curriculum. This curriculum is published under a [Creative Commons Attribution-ShareAlike 4.0 International license](http://creativecommons.org/licenses/by-sa/4.0/).
+This is the repository for the [Minecraft U](http://minecraftu.org/) curriculum. This curriculum is published under a [Creative Commons Attribution-ShareAlike 4.0 International license](http://creativecommons.org/licenses/by-sa/4.0/).
 
 ## About Minecraft U
 
+<img src="mcu1.png" style="max-width:250px;float:right">
 ### Practical Programming and Design Instruction for Your Child
 
 Minecraft game mechanics are incredibly analogous to engineering. Our programs focus on teaching problem solving and programming techniques through Minecraft, Lua, and Java.
 
-## The Sequences
+Our curriculum is designed to guide a child from the basics of Minecraft gameplay all the way through to programming using modern programming languages. Our materials are engaging and skip the cruft of most books or templated materials. Maintaining it ourselves means we are able to keep it updated to the changing landscape of both Minecraft and technology education.
 
-Our curriculum is organized into a core curriculum called _sequences_, which allow for a logical progression through increasingly complex concepts. There are also additional units outside of the core sequences.
+The curriculum itself is organized into a core curriculum called _sequences_, progressions through increasingly complex concepts. There are also additional units outside of the core sequences.
 
 ### Sequence 1a: Basic Computer Skill with Minecraft
 
