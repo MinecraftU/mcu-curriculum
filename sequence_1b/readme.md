@@ -1,4 +1,4 @@
-![](images/Minecraft-Creeper-Wallpapers.jpg)
+![](images/mcu2.png)
 
 ## Minecraft U Sequence 1b: Basic Problem Solving in Gaming
 
