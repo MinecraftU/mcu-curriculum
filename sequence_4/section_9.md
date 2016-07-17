@@ -22,9 +22,8 @@ GameRegistry.registerItem(copperBoots, MODID + "_" + copperBoots.getUnlocalizedN
 ```
 
 ```java
-package utd.atvaccaro.coppermod.item;
+package com.example.coppermod;
 
-import utd.atvaccaro.coppermod.CopperMod;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;

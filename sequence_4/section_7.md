@@ -1,9 +1,8 @@
 # Creating crops
 
 ```java
-package utd.atvaccaro.coppermod.block;
+package com.example.coppermod;
 
-import utd.atvaccaro.coppermod.CopperMod;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.BlockCrops;
