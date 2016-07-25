@@ -42,8 +42,8 @@ Note: If you wish, you can rename the extracted `forge` folder to whatever you w
 5. Then press command+spacebar and type in "terminal" and press Enter (this will open a terminal window)  
 6. Type "cd Desktop" and press Enter  
 7. Type "cd forge" and press Tab (it should auto-complete to the folder name) and then press Enter  
-8. Type "gradle-2.5/bin/gradle setupDecompWorkspace --refresh-dependencies" and press Enter  
-9. After BUILD SUCCESSFUL shows up type: "gradle-2.5/bin/gradle idea"  
+8. Type "./gradle-2.5/bin/gradle setupDecompWorkspace --refresh-dependencies" and press Enter
+9. After BUILD SUCCESSFUL shows up type: "./gradle-2.5/bin/gradle idea"
 
 ### Troubleshooting:
 
