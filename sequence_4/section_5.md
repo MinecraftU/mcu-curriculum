@@ -1,9 +1,8 @@
 # Generate your ore
 
 ```java
-package utd.atvaccaro.coppermod.worldgen;
+package com.example.coppermod;
 
-import utd.atvaccaro.coppermod.CopperMod;
 import cpw.mods.fml.common.IWorldGenerator;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
@@ -103,6 +102,5 @@ public class OreManager implements IWorldGenerator {
 ```java
 OreManager om = new OreManager();
 GameRegistry.registerWorldGenerator(om, 0); //Integer determines when generation code
- runs (0 = normal)
-//Use higher numbers to run later
+// runs (0 = normal). Use higher numbers to run later
 ```
