@@ -1,6 +1,6 @@
 ![](images/design-sprint.png)
 
-# MCU Independent Study Preparation Worksheet
+# MCU Product Design Preparation Worksheet
 
 The MCU Independent Study course is a significant level up from [sequences 1-4](https://github.com/MinecraftU/mcu-curriculum#the-sequences). As such, we would like you to be as prepared as possible for the work that will be done during these two weeks.
 
