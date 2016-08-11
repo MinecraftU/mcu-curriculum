@@ -5,6 +5,7 @@ hostile, and tamable. An example of each would be a Cow, Spider, Creeper, and Wo
 
 For our example, we will create a human mob that will attack hostile mobs and you if attacked. Each mob needs three
 main components:
+
 1. A renderer class. This is used for advanced graphics drawing, which we will only use it for model textures now.
 2. A model class. This is used to modify the shape of our entity.
 3. An entity class. This is where we add our entity properties and AI behaviors.
