@@ -5,6 +5,7 @@ This is the repository for the [Minecraft U](http://minecraftu.org/) curriculum.
 ## About Minecraft U
 
 <img src="mcu1.png" style="max-width:250px;float:right">
+
 ### Practical Programming and Design Instruction for Your Child
 
 Minecraft game mechanics are incredibly analogous to engineering. We focus on teaching problem solving and programming techniques in a safe, encouraging ecosystem centered around Minecraft.
@@ -24,15 +25,15 @@ Learn the basics of survival in the Minecraft world, from fending off starvation
 
 ### Level 3: Engineering with Redstone
 
-Learn the basics of electricity, with in game and real world applications. We’ll go over digital circuits, like those found in smartphones and tablets, and how to use them in the Minecraft world to build yourself awesome contraptions. At the advanced level, we’ll go over what binary really is, and how to design binary logic machines with Redstone! _For ages 8-14 or younger when having completed Sequence 1 or with equivalent experience._
+Learn the basics of electricity, with in game and real world applications. We’ll go over digital circuits, like those found in smartphones and tablets, and how to use them in the Minecraft world to build yourself awesome contraptions. At the advanced level, we’ll go over what binary really is, and how to design binary logic machines with Redstone! _For ages 8-14 or younger when having completed Level 2 or with equivalent experience._
 
 ### Level 4: ComputerCraft
 
-Use the Minecraft mod ComputerCraft to learn the basics of programming and then apply those skills via your own in-game robots. These robots can do anything, from build you a house to find and mine diamonds for you. The only limit is your ability to direct them. At the advanced level, we’ll discuss the limitations of computers and how to work around them. _For ages 8-14 or younger when having completed Sequence 2 or with equivalent experience._
+Use the Minecraft mod ComputerCraft to learn the basics of programming and then apply those skills via your own in-game robots. These robots can do anything, from build you a house to find and mine diamonds for you. The only limit is your ability to direct them. At the advanced level, we’ll discuss the limitations of computers and how to work around them. _For ages 8-14 or younger when having completed Level 3 or with equivalent experience._
 
 ### Level 5: Java and Modding Minecraft
 
-Learn the basics of Java, the most common programming language in the world, and use them to create your own modification of Minecraft. Add any item of your design to the game, expanding Minecraft in whatever direction you desire. At the end, you’ll understand the syntax and applications of Java, and how they apply to Minecraft. _For ages 10-16 or younger when having completed Sequence 3 or with equivalent experience._
+Learn the basics of Java, the most common programming language in the world, and use them to create your own modification of Minecraft. Add any item of your design to the game, expanding Minecraft in whatever direction you desire. At the end, you’ll understand the syntax and applications of Java, and how they apply to Minecraft. _For ages 10-16 or younger when having completed Level 4 or with equivalent experience._
 
 ### Level 6: Advanced Mod Development
 
