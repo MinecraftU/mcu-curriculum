@@ -24,7 +24,7 @@ public class Main {
 
 ## Writing a new method
 
-If you remember from Sequence 3, a function is a block of code that performs some action.  In Java we call functions _methods_.  In this case, our method will calculate and print the sum of two integers.  
+If you remember from Level 4, a function is a block of code that performs some action.  In Java we call functions _methods_.  In this case, our method will calculate and print the sum of two integers.  
 
 ```java
 public static int sum(int a, int b) {

@@ -2,7 +2,7 @@
 
 # MCU Product Design Preparation Worksheet
 
-The MCU Independent Study course is a significant level up from [sequences 1-4](https://github.com/MinecraftU/mcu-curriculum#the-sequences). As such, we would like you to be as prepared as possible for the work that will be done during these two weeks.
+The MCU Independent Study course is a significant level up from previous levels. As such, we would like you to be as prepared as possible for the work that will be done during these two weeks.
 
 The course is designed to follow professional product development processes as closely as possible. In this case the product will be a Minecraft map, mod pack, texture pack or combination of the three.
 
