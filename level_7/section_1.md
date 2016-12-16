@@ -1,4 +1,4 @@
-<img src="images/5.jpg">
+<img src="images/maps.jpg">
 
 # Section 1: Worldbuilding
 

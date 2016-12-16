@@ -21,15 +21,6 @@ Tasks:
   * do not be concerned with completeness at this point
 * Assign cards and move the first cards into the working column
 
-#### Communication
-
-We will need a way to communicate when we're not in the same location. For this purpose we will use a group chat product called Slack.
-
-Tasks:
-
-* Instructor creates Slack channel for this project
-* Instructor invites students to Slack as single-channel guest
-
 #### Time Management
 
 We suggest using the Pomodoro Technique in order to get the most out of your build time during this course.
@@ -55,8 +46,5 @@ Likely: a server. What else?
 Tasks:
 
 * Instructor faciliates spinning up a group server
-* Everything else!
-
-![](images/allthethings.jpg)
 
 ### Congratulations, you're on to the build phase! 
