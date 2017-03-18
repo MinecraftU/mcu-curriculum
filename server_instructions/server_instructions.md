@@ -1,10 +1,8 @@
-<!-- BREAK -->
-#### MCU Server Info
+### MCU Server Info
 
-Server address: **server.minecraftu.org**
-Server runs a modded version of Minecraft 1.8.
+Server address: TBD!
 
-##### Installing the Modpack
+#### Installing the Modpack
 
 * Navigate to [the Technic website](http://technicpack.net/) and click the "Get the Launcher" button on that page.
 * Once you've downloaded the launcher, save it somewhere where you'll be able to find it later.
@@ -18,14 +16,6 @@ Server runs a modded version of Minecraft 1.8.
 
 **Just click the modpack in the Technic Launcher to start playing!**
 
-To join our server, choose 'Multiplayer' and then 'Add server'. Enter `server.minecraftu.org` as the 'Server Address'.
+#### Current Mod list
 
-<br style="clear:both">
-<img src="images/create-server.png" style="width:300px; float:left"> <img src="images/server-list.png" style="width:300px; float:left">
-<br style="clear:both">
-
-##### Current Mod list
-
-* [Dr. Cyano's Wonderful Wands & Wizarding Armor](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2233889-dr-cyanos-wonderful-wands-and-wizarding-robes)
-* [Iron Chests](http://ftbwiki.org/Iron_Chests)
-* [ComputerCraft](http://www.computercraft.info/2015/12/24/computercraft-1-76/)!
+TBD
