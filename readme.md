@@ -14,24 +14,24 @@ Our curriculum is designed to guide a child from the basics of Minecraft gamepla
 
 The curriculum itself is organized into a core curriculum organized by levels. There are also additional units outside of the core levels.
 
-### [Level 1: Basic Computer Skills with Minecraft](/level1)
+### [Level 1: Basic Computer Skills with Minecraft](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_1)
 
 Learn how to use a computer...no previous experience required! You might be able to make an iPad sing, but it's time to learn how to use a keyboard and mouse. You also might be brand-new to Minecraft, or need to level up your Minecraft skills from the Pocket Edition to the "proper" PC version.
 
-### Level 2: Basic Problem Solving with Minecraft
+### [Level 2: Basic Problem Solving with Minecraft](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_2)
 
 Learn the basics of survival in the Minecraft world, from fending off starvation to defending against skeletons. Solve these problems and more in a fun environment, with help from our instructors. Overcome the challenges that Minecraft has to offer, and have fun doing it. Improve building skills with creative tips and tricks.
  _For ages 6-12._
 
-### Level 3: Engineering with Redstone
+### [Level 3: Engineering with Redstone](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_3)
 
 Learn the basics of electricity, with in game and real world applications. We’ll go over digital circuits, like those found in smartphones and tablets, and how to use them in the Minecraft world to build yourself awesome contraptions. At the advanced level, we’ll go over what binary really is, and how to design binary logic machines with Redstone! _For ages 8-14 or younger when having completed Level 2 or with equivalent experience._
 
-### Level 4: ComputerCraft
+### [Level 4: ComputerCraft](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_4)
 
 Use the Minecraft mod ComputerCraft to learn the basics of programming and then apply those skills via your own in-game robots. These robots can do anything, from build you a house to find and mine diamonds for you. The only limit is your ability to direct them. At the advanced level, we’ll discuss the limitations of computers and how to work around them. _For ages 8-14 or younger when having completed Level 3 or with equivalent experience._
 
-### Level 5: Java and Modding Minecraft
+### [Level 5: Java and Modding Minecraft](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_5)
 
 Learn the basics of Java, the most common programming language in the world, and use them to create your own modification of Minecraft. Add any item of your design to the game, expanding Minecraft in whatever direction you desire. At the end, you’ll understand the syntax and applications of Java, and how they apply to Minecraft. _For ages 10-16 or younger when having completed Level 4 or with equivalent experience._
 
@@ -39,7 +39,7 @@ Learn the basics of Java, the most common programming language in the world, and
 
 TBD
 
-### Level 7: Product Design
+### [Level 7: Product Design](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_7)
 
 This camp is an advanced course that gives campers hands-on software development experience, within the context of Minecraft, and teaches them to push the boundaries of both their creative and technical ability.
 
