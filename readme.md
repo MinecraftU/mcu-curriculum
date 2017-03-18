@@ -14,7 +14,7 @@ Our curriculum is designed to guide a child from the basics of Minecraft gamepla
 
 The curriculum itself is organized into a core curriculum organized by levels. There are also additional units outside of the core levels.
 
-### Level 1: Basic Computer Skills with Minecraft
+### [Level 1: Basic Computer Skills with Minecraft](/level1)
 
 Learn how to use a computer...no previous experience required! You might be able to make an iPad sing, but it's time to learn how to use a keyboard and mouse. You also might be brand-new to Minecraft, or need to level up your Minecraft skills from the Pocket Edition to the "proper" PC version.
 
