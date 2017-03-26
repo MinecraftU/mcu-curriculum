@@ -3,7 +3,3 @@
 <<[section_2.md]
 <<[section_3.md]
 <<[section_4.md]
-<<[adder.md]
-<<[appendix_2.md]
-<<[appendix_3.md]
-<<[appendix_4.md]
