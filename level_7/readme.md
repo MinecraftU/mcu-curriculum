@@ -2,6 +2,8 @@
 
 ## Minecraft U Level 7: Product Design
 
+![](images/level7.png)
+
 This camp is an advanced course that will give campers hands-on software development experience, within the context of Minecraft, and teach them to push the boundaries of both their creative and technical ability.
 
 The curriculum introduces students to the project planning and implementation process as they work collaboratively on the design of a virtual world and user experience.

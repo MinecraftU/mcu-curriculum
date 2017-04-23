@@ -1,5 +1,7 @@
 ## Minecraft U Level 4: ComputerCraft
 
+![](images/level4.png)
+
 Use the Minecraft mod ComputerCraft to learn the basics of programming and then apply those skills via your own in-game robots. These robots can do anything, from build you a house to find and mine diamonds for you. The only limit is your ability to direct them. At the advanced level, we’ll discuss the limitations of computers and how to work around them.
 
 ### Table of Contents
