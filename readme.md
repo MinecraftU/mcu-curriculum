@@ -50,3 +50,5 @@ The curriculum introduces students to the project planning and implementation pr
 ### Contributing
 
 Contributions, corrections and improvements to this curriculum are welcome! If you are not familiar with how to contribute to a project on GitHub, check out [this guide](https://guides.github.com/activities/forking/).
+
+See the core Minecraft U team's curriculum planning board [here](https://trello.com/b/cDkc2Ign/mcu-curriculum).
