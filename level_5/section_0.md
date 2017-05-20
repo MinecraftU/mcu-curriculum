@@ -4,11 +4,11 @@
 
 To get started writing mods, you'll need a good development environment. Always try to keep your enviromnet organized, since it's what you'll have to use to write all your code.
 
-* Download IntelliJ from their site: [JetBrains IntelliJ IDEA Community Edition](http://www.jetbrains.com/idea/). Find the button towards the bottom of that page that says `Download Community`. This is a free version of their commercial IDE, and it has lots of the same features.
+* Download IntelliJ from their site: [JetBrains IntelliJ IDEA Community Edition](http://www.jetbrains.com/idea/). Click on the `Download` button at the top of the page to take you to the downloads section. You will want to download the Community edition, which is a free version of JetBrains commercial IDE, and it has lots of the same features.
 
-* We'll also need to download [Forge](http://www.minecraftforge.net/forum/index.php?action=files), which is a modding API. In the section marked "Minecraft Versions" hover over "1.7" and select `1.7.10` from the drop down menu.  Down and to the right under "Download Recommended", click `Src`. Wait for the countdown on the top right, and click skip.  This should start downloading a file called `forge-1.7.10-10.13.#.####-src.zip`
+* We'll also need to download [Forge](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.7.10.html), which is a modding API. Under the "Download Recommended" secion, click `Src`. Wait for the countdown on the top right, and click skip.  This should start downloading a file called `forge-1.7.10-10.13.#.####-src.zip`
 
-* Also download the [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html). Download the correct version for your system from that page.
+* Also download the [Java SDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). You will have to click the `Accept License Agreement` button to download the sofware. Download the correct version for your system from that page.
 
 ### Installation
 
@@ -36,8 +36,8 @@ Note: If you wish, you can rename the extracted `forge` folder to whatever you w
 
 1. Double-click the zipped forge  
 2. Drag the forge folder that is created to your desktop  
-3. Download gradle: https://gradle.org/gradle-download/  
-    - click the Binary only distribution (second option)  
+3. Download gradle: https://gradle.org/releases  
+    - Find gradle version 2.5, and click the `binary only` link from the download section.
 4. Unzip it and put it in the forge folder on your desktop  
 5. Then press command+spacebar and type in "terminal" and press Enter (this will open a terminal window)  
 6. Type "cd Desktop" and press Enter  
@@ -56,7 +56,7 @@ The most common error is the build failing with a message saying "JAVA_HOME does
 5. At the bottom of the pop-up, click Environment Variables  
 6. Under system variables (second section of pop-up) click new  
 7. Name it JAVA_HOME  
-8. The value should point to your JDK 7 folder (something like "C:\Program Files\Java\jdk1.7.0_51")  
+8. The value should point to your JDK 8 folder (something like "C:\Program Files\Java\jdk1.8.0_131")  
 9. Click ok  
 10. Close and re-open command prompt and run the command again.  
 
@@ -66,7 +66,7 @@ The most common error is the build failing with a message saying "JAVA_HOME does
 
 2. Double-click the folders: src > main > java > com.example.examplemod
 
-3. There should be an `ExampleMod` class (blue circle with the letter 'c' in it) and if you double-click it you should see the following code (you might have to change `preInit` to `init` and `FMLPreInitializationEvent` to `FMLInitializationEvent`):
+3. There should be an `ExampleMod` class (blue circle with the letter 'c' in it) and if you double-click it you should see the following code:
     ```java
     package com.example.examplemod;
 
@@ -96,8 +96,12 @@ The most common error is the build failing with a message saying "JAVA_HOME does
     * Press `ctrl + shift + alt + s` 
     * In the `Project SDK` section click `New...` and click `JDK`
     * A _Select Home Directory for JDK_ window will appear.  Navigate to your `Java` folder which by default should be in `C:\ > Program Files > Java`  Click the jdk folder and hit `OK`  
-![JDK Directory](images/section_0/jdk_directory.png)
 
-###Publishing your mod
+6. Finally, select the dropdown arrow on the upper right and click it. You should see two options "Minecraft Client" and "Minecraft Server". Select `Minecraft Client` and then click the green run arrow right next to the bug icon.
+![](images/section_0/run_configuration.png)  
+
+You are done! Minecraft should launch with our example mod loaded into the game (You can verify by clicking the `Mods` button, and you will see "Example Mod" in the mods list).
+
+### Publishing your mod
 
 Running the command `gradlew build` or `gradle build` will package your mod into a .JAR file in the build/libs folder.  You can then add it to Minecraft like any other mod.
