@@ -10,13 +10,15 @@ To get started writing mods, you'll need a good development environment. Always 
 
 * Also download the [Java SDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). You will have to click the `Accept License Agreement` button to download the sofware. Download the correct version for your system from that page.
 
+* If you are using Windows, download the [7-Zip](http://www.7-zip.org) program. We will need this program for creating textures later on.
+
 ### Installation
 
-1. Install the Java SDK by running the file you downloaded.
+1. Install the Java SDK and 7-Zip by running the files you downloaded.
 
 2. Run the IntelliJ installer, and follow its instructions. Make sure you have installed the Java SDK before installing IntelliJ, it makes things easier.
 
-3. Make a new folder on the desktop and name it `Minecraft Dev` and drag the `forge` folder into it. The forge folder is a .zip file so we need to extract it (if you don't have an extraction tool we recommend 7-zip). Put the extracted folder into the Minecraft Dev folder.
+3. Make a new folder on the desktop and name it `Minecraft Dev` and drag the `forge` folder into it. The forge folder is a .zip file so we need to extract it. Put the extracted folder into the Minecraft Dev folder.
 
 Note: If you wish, you can rename the extracted `forge` folder to whatever you want your mod to be called, e.g. from `forge` to `DiamondCutter`. Keep the Forge zip file in case you want to start a fresh mod.
 
