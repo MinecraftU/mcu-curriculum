@@ -8,11 +8,11 @@ Create a new creative world.
 
 To obtain a command block type the command ```/give <playername> command_block```.
 
-Place the command block and right-click it. Now do the /give command again. This will give the nearest player an iron pickaxe, for example:
+Place the command block and right-click it. Now enter the /give command into the command block. This will give the nearest player an iron pickaxe, for example:
 
-```/give @p 257```
+```/give @p iron_pickaxe```
 
-Click "done" and then put a button on the command block by holding the button and shift clicking on the command block. Then activate the command block by right-clicking the button.
+Click "done" and then put a button on the command block by holding the button and shift clicking on the command block. (A command block executes commands when activated by redstone power.) Then activate the command block by right-clicking the button. You'll receive an iron pickaxe.
 
 ## Command block reference
 
@@ -33,23 +33,23 @@ Some of the other more useful commands for use in command blocks are:
 * ```weather <clear|rain|thunder> [duration in seconds]```
 * ```xp <amount> [player]```
 
-There are some additional new commands coming in the 1.8 release. We will update the electronic version of this book when that version is released.
-
 ## Communicating to a player with command blocks
 
-This exercise is going to use command blocks to warn a player of impending doom. We've provided a map with the trap already set. Try it out, then observe how it works.
+This exercise is going to use command blocks to warn a player of impending doom.
 
-The first circuit involves a clock, a ```testfor``` block which then powers a ```say``` block when a player enters a specific radius:
+There are a few different types of command blocks:
 
-![Clock/Testfor/Say circuit](images/section_3/circuit_test_and_say.png)
+* a command block ("Impulse") will try to execute its command once
+* a chain command block ("Chain") will not try to execute its command until another command block facing it executes its own command
+* a repeating command block ("Repeat") will try to execute its command every game tick until no longer activated
 
-The second circuit involves the same configuration as above, with the addition of a switched clock and two ```setblock``` blocks:
+The first block uses a ```testfor``` command which then powers a ```say``` block when a player enters a specific radius:
 
-![Drop stuff on the player's head when they enter the chamber](images/section_3/circuit_test_and_drop_sand.png)
+![](images/appendices/appendix_6/chain-impulse-command-blocks.png)
 
-Change the messages the ```say``` command blocks output. Change the type of block that is dropped on the player (hint: there are only a few types of blocks that will fall, and two of them won't require the clock circuit). If you have time, recreate the trap. (If you don't, don't worry, we're going to create another trap later.)
+![](images/appendices/appendix_6/chain-command-block-0.png)
 
-The map for this exercise is called "It's a trap!".
+![](images/appendices/appendix_6/chain-command-block.png)
 
 ## Moving a player around a map with command blocks
 
@@ -58,71 +58,58 @@ Let's take a look at how to build a simple security system for your house, using
 * First, place a pressure plate in front of your door.
 * Make sure that the player will step on it when walking to the door.
 * Now, place a command block under the pressure plate somewhere so that it will be powered when the plate is stepped on.
+
+![](images/appendices/appendix_6/teleport-door-setup.png)
+
 * Now go to the command block and enter ```/tp @p[r=<radius>,name=!<yourname>] <x> <y> <z>```
 
-Breaking this command down we have ```/tp```, which is the command for teleporting players. Then we have the ```@p``` specifier, which says that this command block acts on players. The ```@p``` command takes arguments, ```r=``` for radius and ```name=``` for which players to teleport. Setting the radius is straightforward. Setting the name, however is a little interesting. Here, we use the ```!``` operation, which means ```NOT```. Just like in redstone, this inverts the output of a command. Right now, we're using it to make sure any player that is ```NOT``` you gets teleported, while you remain safe. The final part of the command is the location to teleport to, which you put in place of the ```<x> <y> <z>``` in the command.
+![](images/appendices/appendix_6/teleport-door-command.png)
+
+Breaking this command down we have ```/tp```, which is the command for teleporting players. Then we have the ```@p``` specifier, which says that this command block acts on players. The ```@p``` command takes arguments, ```r=``` for radius and ```name=``` for which players to teleport. Setting the radius is straightforward. Setting the name, however is a little interesting. Here, we use the ```!``` operation, which means ```NOT```. Just like in redstone, this inverts the output of a command. Right now, we're using it to make sure any player that is ```NOT``` you gets teleported, while you remain safe. The final part of the command is the location to teleport to, which you put in place of the ```<x> <y> <z>``` in the command. This could be `~ ~ ~-2` to move the player back 2 blocks.
+
+Here is a setup with a redstone circuit, so no pressure plate required!
+
+![](images/appendices/appendix_6/teleport-door-with-circuit.png)
+
+Here is the final command that makes sure one user can get past:
+
+![](images/appendices/appendix_6/teleport-door-with-not-name.png)
 
 ## Giving a player items with command blocks
 
 The ```/give``` command is one of the more versatile commands available for use in Command Blocks. In this section, we'll list a few good uses.
 
-#### Public Lottery
-
-```
-/give @r
-```
-
-Add the ```@r``` specifier to the ```/give``` command to make the block give the player a random item. Be careful, since this can give items that are not otherwise available.
-
-#### Starter Kits
-
-```
-/give @p[r=2 m=2] <item>
-/gamemode 0 @p[r=2]
-```
-
-These two commands need to be activated in sequence. The first command only activates if the player is in gamemode 2. The second command changes the players mode to survival so that they can't activate the block a second time. These commands use the same ```@p``` specifier as the pervious commands.
-
 # Command Block "Spawner"
 
-In this section we will use two clock circuits to control two command blocks, creating a custom mob spawner whenever a player enters a certain distance from the contraption.
+In this section we will use two command blocks, creating a custom mob spawner whenever a player enters a certain distance from the contraption.
 
-The area needed for this spawner is approximately 8x5. It could be done more efficiently so if you finish early try to make a more compact contraption with the same functionality.
+It is very similar to the other command circuits we already built, except instead of simply using `/say` or teleporting all nearby players, this one will conditionally spawn zombies when players are nearby.
 
 The first step is to create a simple clock circuit to power the command block that will detect when a player is within a certain radius.
 
-![Our basic clock circuit for the monster spawner.](images/section_4/clock_circuit.png)
+The first command block uses the ```testfor``` command to test for any player within _N_ blocks. It is a normal command block with the default settings just like those we used before.
 
-The reason we need the clock circuit is to continuously fire the command block command. The block executes the command once for each redstone pulse, so a continuous redstone signal will only cause the command to execute once. We need to continuously check for players within the radius of the "spawner" so we want to pulse the signal with the clock.
+The next command block will have two special properties. The first is it will be a _chain_ type command block. It will not execute unless the `testfor` block executes. The second special property is that it will be a _conditional_ command block. A command block in conditional mode will only execute its command after the command block behind it has executed successfully. So now this block will not execute unless the `testfor` block executes successfully (it finds a player within its defined radius).
 
-This is the basic design of the spawner, with the initial clock in the upper right, triggering the detector block in the bottom right, setting off the second (slower) clock in the bottom left, which in turn pulses the command block in the center, which summons a mob.
+This `/summon` command will generate Zombies named "Braaaaains" wearing leather caps (so they won't burn up during daytime).
 
-![The design of the monster spawner.](images/section_4/spawner.png)
+```
+/summon minecraft:zombie ~ ~1 ~ {CustomName:Braaaaains,CustomNameVisible:1,ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1}]}
+```
 
-The first command block uses the ```testfor``` command to test for any player within _N_ blocks (in this case, nine)
+![](images/appendices/appendix_6/spawner.png)
 
-![The test for a player within a certain radius.](images/section_4/testfor.png)
+![](images/appendices/appendix_6/spawner-testfor.png)
 
-Connected to this block is a redstone comparator. Comparator blocks have a number of uses but in this case we are using its properties specific to command blocks. The comparator will output a signal equal to the number of times the command block's command succeeded. Since we're connecting the comparator directly to a NOT gate it won't matter as long as the block's command succeeds once (i.e. there is one player within the given radius).
+![](images/appendices/appendix_6/spawner-summon-conditional.png)
 
-![The comparator block.](images/section_4/Redstone_Comparator.png)
-
-The redstone torch forming that NOT gate stops the second clock circuit from executing by keeping the circuit powered continuously, unless it's switched off by the signal from the comparator.
-
-That circuit powers the second command block, which uses the ```summon``` command to create zombies in a certain spot, in this case relative to the command block, just outside the walls surrounding the contraption. Normally the contraption would be hidden underground or some other location that would be difficult to grief, especially while zombies are spawning every few seconds!
-
-![The summon command.](images/section_4/summon_zombie.png)
 
 ## Spawner Upgrades Challenge
 
 Once you have a working spawner, try to figure out these upgrades:
 
-1. Make the contraption more compact without decreasing the delay between zombies.
 1. Spawn more than one mob at a time, in different areas around the spawner.
 1. Add a switch to turn on and off the spawner, by making the first clock circuit a switchable loop.
-  ![A switchable repeater loop](images/section_4/Switchable_repeater_loop_1-clock.png)
-  ![A switchable repeater loop in action--off position](images/section_4/switchable_repeater_off.png)
-  ![A switchable repeater loop in action--on position](images/section_4/switchable_repeater_on.png)
 
 # Sorting
 
@@ -186,3 +173,9 @@ The above build is more of a proof-of-concept. It's pretty easy to see that the 
 ![Testfor command. Your coordinates will be different! (Or you could just do a large radius).](images/section_4/bridge-testfor_block.png)
 
 Now make the ```testfor``` command only test for your player. You could even make it a trap bridge, only letting you cross and turning the blocks to air when any other player tries to cross.
+
+## References
+
+* [minecraftcommand.science](https://minecraftcommand.science/) -- "Several minecraft vanilla JSON generators for all your `/give` and `/summon` needs."
+* [Minecraft mobspawner and summon generator](http://minecraft.tools/en/spawn.php)
+* [Minecraft wiki command reference](http://minecraft.gamepedia.com/Commands)
