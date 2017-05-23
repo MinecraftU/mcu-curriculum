@@ -13,7 +13,7 @@ Note that the `addToolMaterial` method takes a total of six arguments. The first
 
 * Harvest level (0-3): Determines what types of blocks the tools can break properly (0 is wood, 3 is diamond).  
 * Durability (Diamond = 1562): The number of uses before the tool breaks.  
-* Block and Entity damages: Determine how much damage the tool material does to blocks and entities, respectively (these arguments are floats).  
+* Block and Entity damages (both floats): Determine how much damage the tool material does to blocks and entities, respectively.  
 * Enchantability (Gold Armor = 25): How well a tool can be enchanted (higher number means better enchantments at lower levels).  
 
 Since we've made `COPPER` a static variable, we can later refer to it as `CopperMod.COPPER` for registering our tools with the game. Generally, `final` variables are in all-caps, therefore we call our `final` variable `COPPER`.
@@ -23,7 +23,9 @@ Since we've made `COPPER` a static variable, we can later refer to it as `Copper
 ```java
 public class ItemCopperPickaxe extends ItemPickaxe
 {
-    //as if it was a shovel
+    // A `Set` object that determines which blocks are easily
+    // broken by the tool. These blocks will make our pickaxe
+    // act as if it was a shovel, just for fun!
     private static Set effectiveAgainst = Sets.newHashSet(new Block[]{
             Blocks.grass, Blocks.dirt, Blocks.sand, Blocks.gravel,
             Blocks.snow_layer, Blocks.snow, Blocks.clay, Blocks.farmland,
@@ -59,7 +61,7 @@ public class ItemCopperPickaxe extends ItemPickaxe
 ```
 
 ### Custom tool effects
-By knowing how to override the `hitEntity` function, we can create fire, lightning bolts, and even explosions when our tools are used!
+By knowing how to override the `hitEntity` method in our class, we can create fire, lightning bolts, and even explosions when our tools are used!
 
 Create the following function definition in one of your item classes.
 
