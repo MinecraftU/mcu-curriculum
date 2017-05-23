@@ -13,7 +13,5 @@ Learn the basics of Java, the most common programming language in the world, and
 * Section 4: Specifying dropped items and creating recipes  
 * Section 5: Generating your ore  
 * Section 6: Creating a new food  
-* Section 7: Creating a new crop  
-* Section 8: Creating new tools  
-* Section 9: Creating new armor  
-* Section 10: Creating a custom bow  
+* Section 7: Creating new tools  
+* Section 8: Creating new armor  

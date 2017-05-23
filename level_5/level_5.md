@@ -8,5 +8,3 @@
 <<[section_6.md]
 <<[section_7.md]
 <<[section_8.md]
-<<[section_9.md]
-<<[section_10.md]
