@@ -8,6 +8,6 @@ Use the Minecraft mod ComputerCraft to learn the basics of programming and then 
 
 * Section 1: ComputerCraft Basics (Using the Command Line)  
 * Section 2: Cobblestone farmer (while loop)  
-* Section 3: Single-Tree farmer (control statements)  
+* Section 3: Tree farmer (control statements)  
 * Section 4: Mining (functions, vars, and args)  
 * Section 5: House builder (for loop, input verification)
