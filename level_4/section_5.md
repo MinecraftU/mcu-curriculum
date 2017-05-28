@@ -104,5 +104,3 @@ All this does is call buildLayer() for the number of layers you specified with `
 **And we're done!** Feed your turtle coal and a building material and run the program with `room <length> <width> <height>`
 
 Now you're finished with the main parts of Level 4! Hopefully you have a good idea of how to write your own programs in the future. If you have any questions feel free to ask us, and remember, *the wiki is your friend*: [http://www.computercraft.info/wiki/Main_Page](http://www.computercraft.info/wiki/Main_Page)
-
-For additional ComputerCraft exercises, check out the appendices!
