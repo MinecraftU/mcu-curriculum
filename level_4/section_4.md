@@ -2,7 +2,11 @@
 
 Another useful program! You can point this one at a wall and it will dig a two block tall and one block wide tunnel. It will also place torches every 8 blocks.
 
-> We're going to be building this program with **functions**. Functions are what you use in more complex programs so that you don't have to type all of your code in the same block over and over again. Think of a function as something that does one thing really well, and if you put them together, they do a complex task.
+```
+edit tunnel
+```
+
+We're going to be building this program with **functions**. Functions are what you use in more complex programs so that you don't have to type all of your code in the same block over and over again. Think of a function as something that does one thing really well, and if you put them together, they do a complex task.
 
 The first function we write will check if the turtle is on solid ground, and if not, it will place a block below itself. You define functions like this.
 
@@ -29,10 +33,9 @@ function fuel()
     turtle.select(1)
     if turtle.refuel(1) then
       return true
-    else
-      print("Refuelling Failed")
-      return false
     end
+    print("Refuelling Failed")
+    return false
   end
 end
 ```
@@ -87,11 +90,12 @@ end
 Here we set two variables, one for the length you give as an argument, and one to use in the `moveBack` section of code.
 
 ```lua
+local tArgs = { ... }
 local length = tonumber(tArgs[1])
 local moveBack = 0
 ```
 
-> The `tArgs[1]` bit of the code above is an **argument**. And argument is something you give a program when you run it. If you run a program like `go forward 10`, then your first argument (`tArgs[1]`) is `forward` and your second argument (`tArgs[2]`) is `10`.
+The `tArgs[1]` bit of the code above is an **argument**. And argument is something you give a program when you run it. If you run a program like `go forward 10`, then your first argument (`tArgs[1]`) is `forward` and your second argument (`tArgs[2]`) is `10`.
 
 Now we put it all together.
 
@@ -126,4 +130,27 @@ while blocksMovedForward < length do
   end
 end
 ```
-This was a long one, but it let's you find diamonds much easier. Try digging down to level 12 or 13 and putting six turtles running this program down, with a 2 block space between them. You'll be drowning in diamonds in no time.
+
+![](images/section_4/tunnel-inventory.png)
+
+This is the turtle's inventory required by the program--fuel in slot 1, torches in slot 2, and floor blocks in slot 3.
+
+Call the program, passing the length variable:
+
+```
+tunnel 50
+```
+
+...will dig a tunnel 50 blocks long.
+
+If you have trouble with the above program, try copying it from Pastebin using the following command:
+
+```
+pastebin get Taenfb85 pastedTunnel
+```
+
+This will create a program called _pastedTunnel_, using the code at [https://pastebin.com/Taenfb85](https://pastebin.com/Taenfb85) (a copy of the tunnel program).
+
+Compare the copied program to yours to see what the differences are.
+
+This was a long one, but it allows you to find diamonds much easier. Try digging down to level 12 or 13 and putting six turtles running this program down, with a 2 block space between them. You'll be rich in diamonds in no time.
