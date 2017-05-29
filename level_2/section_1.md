@@ -21,7 +21,7 @@ Now that you have all your materials, it’s time to begin construction.
 * Next, connect the four columns with your second block, building up the walls from there.
 * Finally, add a door and glass panes in the middle of the house so you can see outside.
 
-Example house before roof is added:
+Example house before the roof is added:
 
 <img src="images/no_roof.png" style="width:600px">
 

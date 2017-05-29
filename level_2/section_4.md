@@ -8,7 +8,7 @@
 
 Enchanting is a very important technique in Minecraft. Enchanted tools, armor and weapons make success in your Minecraft adventures much more likely, and are more fun to use as well.
 
-To enchant an item, right-click on an enchanting table and place the item and 1–3 lapis lazuli in the input slots. Options will display on the right hand side of the enchanting display.
+To enchant an item, right-click on an enchanting table and place the item and 1–3 lapis lazuli in the input slots. Options will display on the right-hand side of the enchanting display.
 
 <img src="images/section_4/enchantment-table.png" style="width:300px; float: left; margin-right: 20px">
 
@@ -22,7 +22,7 @@ Tips:
 * When trying to get a specific enchantment on a tool/weapon that is already enchanted, use books.
 * As you progress above level 16, each level requires more XP than the last. Try to enchant using a level as close to yours as possible to make the high XP cost worthwhile.
 * Do not enchant anything weaker than iron as the lack of durability makes the cost not worthwhile.
-* In 1.7 and later, an enchanted fishing rod can pay off. "Luck of the Sea" lowers chance of "junk" catches by 2.5% per level and increases chance of "treasure" catches by 1% per level. "Treasure" can include enchanted tools. "Lure" decreases wait time until a catch by 5 seconds per level but decreases chances of both "junk" and "treasure" catches by 1% per level, so be careful with that one if your goal is to catch treasure. ("Treasure" and "junk" catches are only available in version 1.7 and up.)
+* In 1.7 and later, an enchanted fishing rod can pay off. "Luck of the Sea" lowers chance of "junk" catches by 2.5% per level and increases the chance of "treasure" catches by 1% per level. "Treasure" can include enchanted tools. "Lure" decreases wait time until a catch by 5 seconds per level but decreases chances of both "junk" and "treasure" catches by 1% per level, so be careful with that one if your goal is to catch treasure. ("Treasure" and "junk" catches are only available in version 1.7 and up.)
 * Place 15 bookshelves around an enchantment table to get the highest level enchantments. If after establishing the 15 bookshelves you _do not_ want maximized enchantments, you can block their effect with torches.
 
 ### Anvils
