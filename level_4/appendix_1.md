@@ -25,7 +25,7 @@ function left()
 end
 
 function forward()
-  turtle.forward()
+  return turtle.forward()
 end
 
 function shiftRight()
@@ -81,5 +81,16 @@ end
 function fifFlip(val, a, b)
   if val then a() else b() end
   return not val
+end
+
+function move(len)
+  for i=1,len,1 do
+    fuel()
+    while not forward() do
+      if not turtle.dig() then
+        turtle.attack()
+      end
+    end
+  end
 end
 ```
