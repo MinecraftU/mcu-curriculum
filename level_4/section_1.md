@@ -101,6 +101,8 @@ You should see something that looks like a canvas on the screen. Try right-click
 
 ## Intro
 
+![](images/section_1/Turtles.png)
+
 Turtles are programmable robots that you can use to collect resources, clear terrain, and other such tasks. They run an OS called turtleOS and the programs they run can be stored on internal memory or floppy disks.  There are farming, mining, crafting, and melee turtles. They are categorized based on the Diamond tool* you equip them with.
 
 Note: Tools equipped to turtles will not wear out and turtles themselves are indestructible (unless you break them yourself).  This makes them one of the safest ways to utilize diamond tools, not to mention the time they will save you.
@@ -129,3 +131,39 @@ The "go" program has the following format:
 `go <direction> <distance>`
 
 Note: For fast/mass refueling, type `refuel all`
+
+## Use built-in turtle programs
+
+### Tunnel
+
+`tunnel` is a built in tunneling program. 
+
+`tunnel <length>`
+
+Make sure your turtle has plenty of fuel in slot 1! The turtle will also not place any torches, so the tunnel will be very dark! The turtle will also not return to you, so you'll have to go get it at the end of the tunnel.
+
+### Excavate
+
+`excavate` is a built in digging program. It will dig a square straight down until it hits bedrock. It will deposit what it mines in a chest placed behind its starting point.
+
+`excavate <width>`
+
+Make sure your turtle has plenty of fuel in slot 1! The turtle *will* return to its starting point. This program leaves giant holes in the ground that will kill you should you fall into them. But they are convenient for rapid descents to rare ore levels, as well as for raw materials collection.
+
+![](images/section_1/excavate.png)
+
+## Crafting turtles
+
+Computers and turtles, especially the useful tool-equipped turtles, are rather expensive.
+
+Here is the advanced computer recipe:
+
+![](images/section_1/craft-advanced-computer.png)
+
+Here is the turtle recipe:
+
+![](images/section_1/craft-turtle.png)
+
+To equip a turtle, craft it with a brand new diamond tool:
+
+![](images/section_1/craft-mining-turtle.png)

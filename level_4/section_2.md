@@ -55,6 +55,8 @@ while true do
 end
 ```
 
+*Do not forget to save!*
+
 ![](images/section_2/cobblefarm7.png)
 
 Once the chest is full, you can open your turtle again and hold down `control` and `t` at the same time to terminate your program.

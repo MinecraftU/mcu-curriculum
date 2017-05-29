@@ -1,3 +1,10 @@
+## Turtle Program Boilerplate
+
+This section contains some turtle code that can make writing new turtle programs easier. It contains what are called _helper functions_ to handle certain things (like refueling) and make other things shorter to write (like turning around).
+
+You can `pastebin` this code from [https://pastebin.com/7r6V30wi](https://pastebin.com/7r6V30wi).
+
+```lua
 function fuel()
   if turtle.getFuelLevel() < 30 then
     turtle.select(1)
@@ -33,6 +40,22 @@ function shiftLeft()
   right()
 end
 
+function shiftNRight(n)
+  right()
+  for i=1,n,1 do
+    forward()
+  end
+  left()
+end
+
+function shiftNLeft(n)
+  left()
+  for i=1,n,1 do
+    forward()
+  end
+  right()
+end
+
 function dig()
   if turtle.detect() then
     turtle.dig()
@@ -59,3 +82,4 @@ function fifFlip(val, a, b)
   if val then a() else b() end
   return not val
 end
+```

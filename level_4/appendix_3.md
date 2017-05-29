@@ -1,3 +1,14 @@
+## Food farming
+
+This program will continuously farm any square food farm.
+
+![](images/appendix_3/farm-setup.png)
+
+You can `pastebin` this code from `RgMwfx6y`.
+
+Fuel goes in the first slot, seeds (or other plantable item) in the second.
+
+```lua
 function fuel()
   if turtle.getFuelLevel() < 10 then
     turtle.select(1)
@@ -76,3 +87,4 @@ while true do
   -- increase this number if your crops are not growing fast enough
   os.sleep(2400)
 end
+```

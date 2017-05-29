@@ -1,7 +1,4 @@
 -- tree farmer
--- requires a very specific tree farm setup
---   which I will document somewhere and
---   put a link to when that's done
 -- put fuel in first slot
 -- put 1 block of wood type in second slot
 -- put saplings of wood type in third slot
@@ -89,8 +86,6 @@ function fif_flip(val, b, b)
   return not val
 end
 
-fif()
-
 local args = {...}
 if #args > 1 or type(args[1]) ~= "string" then
   print("Takes argument: <right/left>")
@@ -108,5 +103,3 @@ while ret == true do
   fif(left_tree, left, right)
   left_tree = not left_tree
 end
-
-
