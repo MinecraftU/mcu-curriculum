@@ -1,5 +1,7 @@
-<<[adder.md]
+<<[appendix_1.md]
 <<[appendix_2.md]
 <<[appendix_3.md]
 <<[appendix_4.md]
 <<[appendix_5.md]
+<<[appendix_6.md]
+<<[appendix_7.md]

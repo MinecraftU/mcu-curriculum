@@ -1,3 +1,5 @@
+# OR Gate Doors
+
 You can open doors using levers and redstone, and using an OR gate, you can open them from both sides.
 
 1. Build a wall with a door in it. Place a lever on both sides of the door. Make sure the levers are at least one block away.
