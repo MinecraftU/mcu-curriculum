@@ -33,6 +33,8 @@ Some of the other more useful commands for use in command blocks are:
 * `weather <clear|rain|thunder> [duration in seconds]`
 * `xp <amount> [player]`
 
+Any parameters enclosed in brackets (such as `[volume]`) are required, while any enclosed in chevrons (such as `<amount>`) are optional.
+
 ## Communicating to a player with command blocks
 
 This exercise is going to use command blocks to warn a player of impending doom.
@@ -65,7 +67,7 @@ Let's take a look at how to build a simple security system for your house, using
 
 ![](images/appendices/appendix_6/teleport-door-command.png)
 
-Breaking this command down we have `/tp`, which is the command for teleporting players. Then we have the `@p` specifier, which says that this command block acts on players. The `@p` command takes arguments, `r=` for radius and `name=` for which players to teleport. Setting the radius is straightforward. Setting the name, however is a little interesting. Here, we use the `!` operation, which means `NOT`. Just like in redstone, this inverts the output of a command. Right now, we're using it to make sure any player that is `NOT` you gets teleported, while you remain safe. The final part of the command is the location to teleport to, which you put in place of the `<x> <y> <z>` in the command. This could be `~ ~ ~-2` to move the player back 2 blocks.
+Breaking this command down we have `/tp`, which is the command for teleporting players. Then we have the `@p` specifier, which says that this command block acts on players. The `@p` command takes arguments, `r=` for radius and `name=` for which players to teleport. Setting the radius is straightforward. Setting the name, however is a little interesting. Here, we use the `!` operation, which means `NOT`. Just like in redstone, this inverts the output of a command. Right now, we're using it to make sure any player that is `NOT` you gets teleported, while you remain safe. The final part of the command is the location to teleport to, which you put in place of the `<x> <y> <z>` in the command. The tilda `~` is used to represent the current location of the player; teleporting to `~ ~ ~` wouldn't move the player at all! We can also add or subtract a number from the tilda, such as using `~ ~ ~-2` to move the player back 2 blocks.
 
 Here is a setup with a redstone circuit, so no pressure plate required!
 
