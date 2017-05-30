@@ -35,7 +35,6 @@ Some of the other more useful commands for use in command blocks are:
 
 Any parameters enclosed in chevrons (such as `<amount>`) are required, while any enclosed in brackets (such as `[volume]`) are optional.
 
-
 ## Communicating to a player with command blocks
 
 This exercise is going to use command blocks to warn a player of impending doom.
