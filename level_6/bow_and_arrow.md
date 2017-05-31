@@ -81,7 +81,7 @@ public class ItemExplodingBow extends ItemBow {
             }
 
             itemStack.damageItem(1, player);
-            world.playSoundAtEntity(player, "random.bow", 1.0F, 1.0F / (itemRand.nextFloat() * 0.4F + 1.2F) + f * 0.5F);
+            world.playSoundAtEntity(player, "random.bow", 1.0F, 1.0F/(itemRand.nextFloat() * 0.4F+1.2F) + f*0.5F);
 
             if (flag) {
                 entityarrow.canBePickedUp = 2;
@@ -125,7 +125,8 @@ public class ItemExplodingBow extends ItemBow {
 
     @Override
     @SideOnly(Side.CLIENT)
-    public IIcon getIcon(ItemStack stack, int renderPass, EntityPlayer player, ItemStack usingItem, int useRemaining) {
+    public IIcon getIcon(ItemStack stack, int renderPass, EntityPlayer player, ItemStack usingItem, int useRemaining)
+    {
         if (usingItem == null || useRemaining == 0) {
             bowIconRenderStage = -1;
             return this.itemIcon;
@@ -317,7 +318,7 @@ public class EntityExplodingArrow extends EntityArrow {
                     if (entity1.canBeCollidedWith() && (entity1 != this.shootingEntity || this.ticksInAir >= 5)) {
                         f1 = 0.3F;
                         AxisAlignedBB axisalignedbb1 = entity1.boundingBox.expand((double) f1,
-                                (double) f1, (double) f1);
+                            (double) f1, (double) f1);
                         MovingObjectPosition movingobjectposition1 = axisalignedbb1.calculateIntercept(vec31, vec3);
 
                         if (movingobjectposition1 != null) {
@@ -372,7 +373,7 @@ public class EntityExplodingArrow extends EntityArrow {
 
                         if (movingobjectposition.entityHit.attackEntityFrom(damagesource, (float) k)) {
                             if (movingobjectposition.entityHit instanceof EntityLivingBase) {
-                                EntityLivingBase entitylivingbase = (EntityLivingBase) movingobjectposition.entityHit;
+                                EntityLivingBase entitylivingbase = (EntityLivingBase)movingobjectposition.entityHit;
 
                                 if (!this.worldObj.isRemote) {
                                     entitylivingbase.setArrowCountInEntity(
@@ -392,7 +393,8 @@ public class EntityExplodingArrow extends EntityArrow {
                                     }
                                 }
 
-                                if (this.shootingEntity != null && this.shootingEntity instanceof EntityLivingBase) {
+                                if (this.shootingEntity != null && this.shootingEntity instanceof EntityLivingBase)
+                                {
                                     EnchantmentHelper.func_151384_a(entitylivingbase, this.shootingEntity);
                                     EnchantmentHelper.func_151385_b((EntityLivingBase)
                                             this.shootingEntity, entitylivingbase);
@@ -552,7 +554,8 @@ public class RenderExplodingBow implements IItemRenderer {
         GL11.glEnable(GL12.GL_RESCALE_NORMAL);
         GL11.glTranslatef(0.1f, -0.3f, 0);
         GL11.glRotatef(20.0f, 1.0f, 0, 0);
-        ItemRenderer.renderItemIn2D(tessellator, f1, f2, f, f3, iicon.getIconWidth(), iicon.getIconHeight(), 0.0625F);
+        ItemRenderer.renderItemIn2D(tessellator, f1, f2, f, f3, iicon.getIconWidth(),
+           iicon.getIconHeight(), 0.0625F);
     }
 }
 ```
