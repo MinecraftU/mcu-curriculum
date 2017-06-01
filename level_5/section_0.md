@@ -6,19 +6,19 @@ To get started writing mods, you'll need a good development environment. Always 
 
 * Download IntelliJ from their site: [JetBrains IntelliJ IDEA Community Edition](http://www.jetbrains.com/idea/). Click on the `Download` button at the top of the page to take you to the downloads section. You will want to download the Community edition, which is a free version of JetBrains commercial IDE, and it has lots of the same features.
 
-* We'll also need to download [Forge](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.7.10.html), which is a modding API. Under the "Download Recommended" secion, click `Src`. Wait for the countdown on the top right, and click skip.  This should start downloading a file called `forge-1.7.10-10.13.#.####-src.zip`
+* We'll also need to download [Forge](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.7.10.html), which is a modding API. Under the "Download Recommended" section, click `Src`. Wait for the countdown on the top right, and click skip.  This should start downloading a file called `forge-1.7.10-10.13.#.####-src.zip`
 
 * Also download the [Java SDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). You will have to click the `Accept License Agreement` button to download the sofware. Download the correct version for your system from that page.
 
-* If you are using Windows, download the [7-Zip](http://www.7-zip.org) program. We will need this program for creating textures later on.
+* If you are using Windows, also download [7-Zip](http://www.7-zip.org). We will need this program for creating textures later on.
 
 ### Installation
 
 1. Install the Java SDK and 7-Zip by running the files you downloaded.
 
-2. Run the IntelliJ installer, and follow its instructions. Make sure you have installed the Java SDK before installing IntelliJ, it makes things easier.
+2. Run the IntelliJ installer, and follow its instructions. Make sure you have installed the Java SDK before installing IntelliJ, it will make the setup process easier.
 
-3. Make a new folder on the desktop and name it `Minecraft Dev` and drag the `forge` folder into it. The forge folder is a .zip file so we need to extract it. Put the extracted folder into the Minecraft Dev folder.
+3. Make a new folder on the desktop and name it `Minecraft Dev` and drag the `forge` folder into it. The forge folder is a .zip file so we need to extract it. Put the extracted folder into the Minecraft Dev folder as well.
 
 Note: If you wish, you can rename the extracted `forge` folder to whatever you want your mod to be called, e.g. from `forge` to `DiamondCutter`. Keep the Forge zip file in case you want to start a fresh mod.
 
@@ -36,12 +36,12 @@ Note: If you wish, you can rename the extracted `forge` folder to whatever you w
 
 ### For MAC
 
-1. Double-click the zipped forge  
+1. Double-click the zipped forge   
 2. Drag the forge folder that is created to your desktop  
 3. Download gradle: https://gradle.org/releases  
     - Find gradle version 2.5, and click the `binary only` link from the download section.
 4. Unzip it and put it in the forge folder on your desktop  
-5. Then press command+spacebar and type in "terminal" and press Enter (this will open a terminal window)  
+5. Then press command+spacebar, type in "terminal" and press Enter (this will open a terminal window)  
 6. Type "cd Desktop" and press Enter  
 7. Type "cd forge" and press Tab (it should auto-complete to the folder name) and then press Enter  
 8. Type "./gradle-2.5/bin/gradle setupDecompWorkspace --refresh-dependencies" and press Enter
