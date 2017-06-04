@@ -8,7 +8,7 @@ The AND gate performs the AND logic function which mathematically works like mul
 
 In Minecraft, your AND gate will take two redstone inputs which will either be ON or OFF.  The output depends on the combination of inputs.
 
-![An example of an AND gate.](images/section_3/gate_AND.png)
+![](images/section_3/gate_AND.png)
 
 ON AND ON => ON  
 ON AND OFF => OFF  
@@ -47,7 +47,7 @@ Input | Input | Output
 
 The OR gate will only output OFF if both inputs are OFF. If either input is ON or if both are ON, the output will be on.
 
-![An example of an OR gate.](images/section_3/gate_OR.png)
+![](images/section_3/gate_OR.png)
 
 Input | Input | Output
 --- | --- | ---
@@ -60,7 +60,7 @@ Input | Input | Output
 
 A NOT gate only has one input and simply reverses that input. An ON input leads to an OFF output, and vice-versa.
 
-![An example of a NOT gate.](images/section_3/gate_NOT.png)
+![](images/section_3/gate_NOT.png)
 
 Input | Output
 --- | ---
@@ -71,7 +71,7 @@ Input | Output
 
 A NOR gate is just an OR gate with its outputs reversed. So a NOR gate will only output ON if both inputs are OFF. Otherwise the output is OFF.
 
-![An example of a NOR gate.](images/section_3/gate_NOR.png)
+![](images/section_3/gate_NOR.png)
 
 Input | Input | Output
 --- | --- | ---
@@ -84,7 +84,7 @@ Input | Input | Output
 
 Just as a NOR gate has the opposite outputs of an OR gate, a NAND gate has the opposite outputs of an AND gate. It will output OFF only if both inputs are ON. If either input is OFF, the output will be ON.
 
-![An example of a NAND gate.](images/section_3/gate_NAND.png)
+![](images/section_3/gate_NAND.png)
 
 Input | Input | Output
 --- | --- | ---
@@ -97,9 +97,9 @@ Input | Input | Output
 
 An XOR (ex-or) gate is also called an "exclusive OR" gate. It will only output ON if either lever is ON. If both levers are either off or on, it will output OFF.
 
-![An example of an XOR gate.](images/section_3/gate_XOR_front.png)
+![](images/section_3/gate_XOR_front.png)
 
-![A different perspective of the same gate.](images/section_3/gate_XOR_back.png)
+![](images/section_3/gate_XOR_back.png)
 
 Input | Input | Output
 --- | --- | ---
@@ -112,4 +112,4 @@ Input | Input | Output
 
 This diagram has most of the logic gates that we've gone over, as well as some more that you may find useful.
 
-![A diagram with redstone gate examples.](images/section_3/redstone_diagrams.jpg)
+![](images/section_3/redstone_diagrams.jpg)
