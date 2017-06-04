@@ -1,5 +1,3 @@
-<!--BREAK-->
-
 # Section 2: Advanced Survival Strategies
 
 ## Farming

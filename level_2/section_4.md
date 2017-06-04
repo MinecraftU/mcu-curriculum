@@ -1,10 +1,8 @@
-<!--BREAK-->
-
 # Section 4: More Advanced Survival Techniques
 
 ## Enchanting
 
-> Enchanting is a mechanic that augments armor, tools, weapons and books with one or more of a variety of enchantments that improve an item's existing abilities or imbue them with additional abilities and uses.
+Enchanting is a mechanic that augments armor, tools, weapons and books with one or more of a variety of enchantments that improve an item's existing abilities or imbue them with additional abilities and uses.
 
 Enchanting is a very important technique in Minecraft. Enchanted tools, armor and weapons make success in your Minecraft adventures much more likely, and are more fun to use as well.
 

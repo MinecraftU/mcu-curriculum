@@ -1,5 +1,3 @@
-<!--BREAK-->
-
 ## Mining
 
 ## Basic mining strategies
