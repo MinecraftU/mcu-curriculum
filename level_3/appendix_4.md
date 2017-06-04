@@ -15,33 +15,33 @@ Now that you've learned about the basics of traps, we're going to build an examp
 Trap chests emit a redstone signal whose power is based on the number of people who are opening the chest. We can use this redstone signal to spring a trap designed for people opening the chest. It will open a flow of water when they open the chest, and it will not stop until a reset button has been pressed.
 
 1. Place a trap chest somewhere. They're made out of a regular chest and a tripwire. Dig a whole behind the chest and place one patch of redstone dust.
-![Our trap chest placed on the ground.](images/appendices/appendix_4/trap_chest_placement.png)
+![](images/appendices/appendix_4/trap_chest_placement.png)
 
 1. Dig a second hole and place a redstone repeater. Since the redstone power is proportional to the number of people opening the chest, this trap will trigger if just one person opens the chest.
-![Placement of the redstone repeater.](images/appendices/appendix_4/trap_chest_repeater.png)
+![](images/appendices/appendix_4/trap_chest_repeater.png)
 
 1. The wiring that will make the water gate open when the chest is opened. It's a bit tricky but further down there are additional pictures for you to follow.
-![The wiring directly behind the chest.](images/appendices/appendix_4/trap_chest_wiring.png)
-![The wiring leading up to the pistons above. ](images/appendices/appendix_4/trap_chest_wiring2.png)
-![The view from the top.](images/appendices/appendix_4/trap_chest_wiring3.png)
+![](images/appendices/appendix_4/trap_chest_wiring.png)
+![](images/appendices/appendix_4/trap_chest_wiring2.png)
+![](images/appendices/appendix_4/trap_chest_wiring3.png)
 
 1. This is the "one-way gate" that prevents the water from turning off even when the trap is closed. When the button on the left is pressed, the first torch is turned off and the second one turns on (since the first one is no longer disabling it). Now the second torch is disabling the first torch as its redstone leads into the block of the first one. Toggling the button (or chest in our case) will not alter the state of the switch.
-![The "one-way gate" example setup.](images/appendices/appendix_4/trap_chest_flipflopexample.png)
+![](images/appendices/appendix_4/trap_chest_flipflopexample.png)
 
-Try to think of some other ideas for traps that could be fun or useful. If we have time left over, feel free to experiment and share ideas with each other.
+Try to think of some other ideas for traps that could be fun or useful. Experiment and share ideas with each other.
 
-##Light Switches
+## Light Switches
 
 Using XOR gates, you can create a light that you can control with multiple switches. You might have lights that work this way in your actual home! Any light that has multiple switches to control it use a XOR gate. The most common use of these is lights in stairwells.
 
 1. Build a wall and hang a redstone lamp on it. Put a lever on each end of the wall. The idea is that the levers can be as far away as you want, but this is a simple demonstration.
-![The lamp and levers on a wall.](images/section_4/xor_light_1.png)
+![](images/section_4/xor_light_1.png)
 
 2. Create a XOR gate behind the wall, pointing the output towards the wall. Use the Section 3 reference picture if you need to. Remember that you don't need to place the levers, since the redstone signal is coming from the levers you placed on the front of the wall. Connect those to the XOR gate using redstone.
-![XOR Gate behind wall.](images/section_4/xor_light_2.png)
+![](images/section_4/xor_light_2.png)
 
 3. Lead the redstone signal coming from the output of the XOR gate to the lamp through the back of the wall, as shown.
-![Connecting the gate to the lamp.](images/section_4/xor_light_3.png)
+![](images/section_4/xor_light_3.png)
 
 4. You're done! Flip one of the levers, and your lamp will turn on. Feel free to flip them as much as you want. The lamp will always be affected, no matter which way you flip either lever.
-![Lamp is on.](images/section_4/xor_light_4.png)
+![](images/section_4/xor_light_4.png)
