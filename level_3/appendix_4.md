@@ -15,18 +15,18 @@ Now that you've learned about the basics of traps, we're going to build an examp
 Trap chests emit a redstone signal whose power is based on the number of people who are opening the chest. We can use this redstone signal to spring a trap designed for people opening the chest. It will open a flow of water when they open the chest, and it will not stop until a reset button has been pressed.
 
 1. Place a trap chest somewhere. They're made out of a regular chest and a tripwire. Dig a whole behind the chest and place one patch of redstone dust.
-![Our trap chest placed on the ground.](images/section_1/trap_chest_placement.png)
+![Our trap chest placed on the ground.](images/appendices/appendix_4/trap_chest_placement.png)
 
 1. Dig a second hole and place a redstone repeater. Since the redstone power is proportional to the number of people opening the chest, this trap will trigger if just one person opens the chest.
-![Placement of the redstone repeater.](images/section_1/trap_chest_placement.png)
+![Placement of the redstone repeater.](images/appendices/appendix_4/trap_chest_repeater.png)
 
 1. The wiring that will make the water gate open when the chest is opened. It's a bit tricky but further down there are additional pictures for you to follow.
-![The wiring directly behind the chest.](images/section_1/trap_chest_wiring.png)
-![The wiring leading up to the pistons above. ](images/section_1/trap_chest_wiring2.png)
-![The view from the top.](images/section_1/trap_chest_wiring3.png)
+![The wiring directly behind the chest.](images/appendices/appendix_4/trap_chest_wiring.png)
+![The wiring leading up to the pistons above. ](images/appendices/appendix_4/trap_chest_wiring2.png)
+![The view from the top.](images/appendices/appendix_4/trap_chest_wiring3.png)
 
 1. This is the "one-way gate" that prevents the water from turning off even when the trap is closed. When the button on the left is pressed, the first torch is turned off and the second one turns on (since the first one is no longer disabling it). Now the second torch is disabling the first torch as its redstone leads into the block of the first one. Toggling the button (or chest in our case) will not alter the state of the switch.
-![The "one-way gate" example setup.](images/section_1/trap_chest_flipflopexample.png)
+![The "one-way gate" example setup.](images/appendices/appendix_4/trap_chest_flipflopexample.png)
 
 Try to think of some other ideas for traps that could be fun or useful. If we have time left over, feel free to experiment and share ideas with each other.
 
