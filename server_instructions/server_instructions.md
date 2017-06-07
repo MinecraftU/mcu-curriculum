@@ -13,7 +13,7 @@ The default world is a creative world, appropriate for players of all skill leve
 
 There are other worlds that players can move to, however a player can always go back to the creative world with the following command: 
 
-`mvtp world`
+`/mvtp world`
 
 This is a whitelisted server. To be added to the server email your username to [mailto:info@minecraftu.org](info@minecraftu.org). 
 
