@@ -1,21 +1,30 @@
-### MCU Server Info
+# Minecraft U Servers
 
-Server address: TBD!
+## Creative Server
 
-#### Installing the Modpack
+This is a vanilla Minecraft server. This server can be joined from default Minecraft, MultiMC or the Vanilla Technic Modpack as long as they are running version 1.11.2.
 
-* Navigate to [the Technic website](http://technicpack.net/) and click the "Get the Launcher" button on that page.
-* Once you've downloaded the launcher, save it somewhere where you'll be able to find it later.
-* Open the launcher. On most platforms, this is as simple as double clicking it.
-* When you open Technic, it will set itself up, then ask you for a username and password. Log in just like you do to the normal Minecraft launcher, with your Minecraft username (or email) and password.
-* Once you're logged in, click the middle tab at the top of the launcher, then search for **MCU**. You should see the "Minecraft U Official Modpack". Install that by clicking it and then clicking the install button.
+Server address: **minecraftu.mcph.co**
+Minecraft version: 1.11.2
 
-<img src="images/technic.png" style="width:400px;float:right;margin-left:10px">
+This server uses server extensions to support multiple worlds.
 
-**Congrats! You are now on the most up to date version of the Minecraft U mod pack, and can play on our moderated servers, or alone.**
+The default world is a creative world, appropriate for players of all skill levels.
 
-**Just click the modpack in the Technic Launcher to start playing!**
+There are other worlds that players can move to, however a player can always go back to the creative world with the following command: 
 
-#### Current Mod list
+`mvtp world`
 
-TBD
+This is a whitelisted server. To be added to the server email your username to [mailto:info@minecraftu.org](info@minecraftu.org). 
+
+## ComputerCraft Survival Server
+
+This is a modded server requiring the [ComputerCraft](http://www.computercraft.info/) mod.
+
+Install Minecraft and ComputerCraft using the [instructions in Level 4](https://github.com/MinecraftU/mcu-curriculum/blob/master/level_4/section_1.md#installing-computercraft) or by installing the [Minecraft U modpack on Technic](https://www.technicpack.net/modpack/mcu.743668). 
+
+Server address: **mcucc.mcph.co**
+Minecraft version: 1.8.9
+ComputerCraft version: 1.7.9 (requires Forge)
+
+This is a whitelisted server. To be added to the server email your username to [mailto:info@minecraftu.org](info@minecraftu.org). This server is recommended for students who have completed Level 4 of the Minecraft U curriculum or are familiar with ComputerCraft. It is a survival world.
