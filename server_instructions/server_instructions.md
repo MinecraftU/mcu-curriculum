@@ -15,7 +15,7 @@ There are other worlds that players can move to, however a player can always go 
 
 `/mvtp world`
 
-This is a whitelisted server. To be added to the server email your username to [mailto:info@minecraftu.org](info@minecraftu.org). 
+This is a whitelisted server. To be added to the server email your username to [info@minecraftu.org](mailto:info@minecraftu.org). 
 
 ## ComputerCraft Survival Server
 
@@ -27,4 +27,4 @@ Server address: **mcucc.mcph.co**
 Minecraft version: 1.8.9
 ComputerCraft version: 1.7.9 (requires Forge)
 
-This is a whitelisted server. To be added to the server email your username to [mailto:info@minecraftu.org](info@minecraftu.org). This server is recommended for students who have completed Level 4 of the Minecraft U curriculum or are familiar with ComputerCraft. It is a survival world.
+This is a whitelisted server. To be added to the server email your username to [info@minecraftu.org](mailto:info@minecraftu.org). This server is recommended for students who have completed Level 4 of the Minecraft U curriculum or are familiar with ComputerCraft. It is a survival world.
