@@ -18,7 +18,11 @@ function left()
 end
 
 function forward()
-  return turtle.forward()
+  while not turtle.forward() do
+    if not turtle.dig() then
+      turtle.attack()
+    end
+  end
 end
 
 function shiftRight()
@@ -62,6 +66,16 @@ function dump(start_point,end_point)
   end
 end
 
+function find(id)
+  for i=1,16,1 do
+    local data = turtle.getItemDetail(i)
+    if data and data.name == id then 
+      return i 
+    end
+  end
+  return 0
+end
+
 function turnAround()
   right()
   right()
@@ -79,10 +93,6 @@ end
 function move(len)
   for i=1,len,1 do
     fuel()
-    while not forward() do
-      if not turtle.dig() then
-        turtle.attack()
-      end
-    end
+    forward()
   end
 end
