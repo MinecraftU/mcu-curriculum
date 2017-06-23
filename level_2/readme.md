@@ -10,7 +10,7 @@ Section 1: First House and Tools
 Section 2: Farming and Ranching  
 Section 3: Mining  
 Section 4: Enchanting and Minecarts  
-Section 5: Adventure Maps and Nether Portals
-Appendix 1: (More) Adventure Maps and Modpacks
-Appendix 2: Mob Farm/Grinder
+Section 5: Adventure Maps and Nether Portals  
+Appendix 1: (More) Adventure Maps and Modpacks  
+Appendix 2: Mob Farm/Grinder  
 Appendix 3: Skin Design & Auto-smelters
