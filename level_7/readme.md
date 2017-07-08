@@ -10,8 +10,8 @@ The curriculum introduces students to the project planning and implementation pr
 
 * Section 1: Worldbuilding
   * What is worldbuilding?
-  * Examples of worldbuilding
-  * The importance of narrative in worldbuilding and design
+  * What are the requirements of a world?
+  * Narrative
 * Section 2: Design 
   * Research
   * Ideation
@@ -21,7 +21,6 @@ The curriculum introduces students to the project planning and implementation pr
   * Iterating
 * Section 3: Project Management
   * Kanban
-  * Communication
   * Pomodoro Technique
 * Section 4: Build
 * Section 5: Rollout
