@@ -1,5 +1,3 @@
-![](images/design-sprint.png)
-
 ## Minecraft U Level 7: Product Design
 
 ![](images/level7.png)
