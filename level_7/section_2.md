@@ -1,15 +1,12 @@
-<img src="images/designsprintgoogle.jpg">
-
 ## Section 2: Design
 
-### Part 1
+## Part 1
 
 #### Research
 
 ##### What is already out there?
 
 * List our favorite mods
-  * [List of mods](http://modlist.mcf.li/)
 * List our favorite maps
 * List our favorite stories
 * List our favorite [______]
@@ -54,25 +51,19 @@ How are these people different?
 
 Prototyping quickly allows for an accelerated feedback cycle. We'll talk more about iterating on these prototypes later.
 
-![](images/iteration/8.jpg)
-
 ##### Paper prototyping
-
-From [Wikipedia](https://en.wikipedia.org/wiki/Paper_prototyping):
 
 > In human–computer interaction, paper prototyping is a widely used method in the user-centered design process, a process that helps developers to create software that meets the user's expectations and needs—in this case, especially for designing and testing user interfaces. It is throwaway prototyping and involves creating rough, even hand-sketched, drawings of an interface to use as prototypes, or models, of a design. While paper prototyping seems simple, this method of usability testing can provide a great deal of useful feedback which will result in the design of better products. This is supported by many usability professionals.
 
-[This Design Sprint Tuesday video talks about what these sketches look like in the end](https://www.youtube.com/watch?v=_ITJ5lAXQhg).
+-- [https://en.wikipedia.org/wiki/Paper_prototyping](https://en.wikipedia.org/wiki/Paper_prototyping)
+
+**Watch this Design Sprint Tuesday video, which talks about what these sketches look like in the end:** [https://www.youtube.com/watch?v=_ITJ5lAXQhg](https://www.youtube.com/watch?v=_ITJ5lAXQhg)
 
 Now let's get to putting some of our ideas down on paper. What will some of the aspects of our project look like to an end user? How will they experience it? What will some of the redstone contraptions work?
 
----
-
-<!--BREAK-->
-
 ## Homework:
 
-##### Continue working on your paper prototypes
+**Continue working on your paper prototypes**
 
 * What aspects of your prototypes do you like the most?
 * Which concepts seem like they could be accomplished in 2 weeks?
@@ -81,16 +72,15 @@ Now let's get to putting some of our ideas down on paper. What will some of the 
 
 ## Extra credit
 
-* Check out [this video on using paper prototypes to design Android applications](https://www.youtube.com/watch?v=07xPF7L6klY)
-* Check out [this video about a high-definition prototype for a podcast app developed by Google Ventures](https://www.youtube.com/watch?v=iqGLrMjBLZ4)
+* Checkout this video about paper prototyping at Google: [https://www.youtube.com/watch?v=JMjozqJS44M](https://www.youtube.com/watch?v=JMjozqJS44M)
+* Check out this video on using paper prototypes to design Android applications: [https://www.youtube.com/watch?v=07xPF7L6klY](https://www.youtube.com/watch?v=07xPF7L6klY)
+* Check out this video about a high-definition prototype for a podcast app developed by Google Ventures: [https://www.youtube.com/watch?v=iqGLrMjBLZ4](https://www.youtube.com/watch?v=iqGLrMjBLZ4)
 
-<!--BREAK-->
-
-### Part 2
+## Part 2
 
 #### Determining Direction
 
-[This Design Sprint Wednesday video talks about how to make a decision on which direction to take with your project](https://www.youtube.com/watch?v=7BKBFOOKbNo0).
+**Watch this Design Sprint Wednesday video talks about how to make a decision on which direction to take with your project:** [https://www.youtube.com/watch?v=7BKBFOOKbNo0](https://www.youtube.com/watch?v=7BKBFOOKbNo0)
 
 Before moving forward ask yourselves these questions in order to properly determine the scope of your project:
 
@@ -112,10 +102,5 @@ Our goal is to get feedback as quickly as possible, so we can iterate on our con
 While we build our product, we will learn that some details could be improved. It is best to learn this as quickly as possible. When our product is ready, we should share it with others and get feedback:
 
 * What feedback did we get?
-* Did they like the product?
-* Did they find it confusing?
-
----
-
-Images from Google Istanbul and [learning ecologies](https://learningecologies2013.wordpress.com/2013/01/26/school-design-iterations/).
-
+* What did they like the product?
+* What did they find confusing?
