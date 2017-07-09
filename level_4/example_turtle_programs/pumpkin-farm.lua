@@ -97,17 +97,20 @@ function move(len)
   end
 end
 
-local i = 1
+-- two 6-long rows
 while true do
-  if turtle.detectDown() then
-    turtle.digDown()
-    turtle.suckDown()
+  for i=1,12,1 do
     fuel()
     forward()
-    i = i + 1
-    if i == 6 then
-      i = 1
-      turnAround()
+    turtle.digDown()
+    turtle.suckDown()
+    if i % 6 == 0 then
+      left()
+      forward()
+      left()
+      turtle.digDown()
+      turtle.suckDown()
     end
   end
+  os.sleep(2500)
 end
