@@ -1,4 +1,5 @@
 # Making basic blocks
+
 >Anytime you copy Java code in this section, be sure to match ALL capitalization, punctuation, and spacing.
 
 In the Minecraft source code, just about everything is represented as a class. There's a class for a diamond pickaxe, for an iron ore, and all other blocks and items. These classes tell what a block (or item) should look like, how it should behave, as well as where it spawns or how it can be crafted. By creating our own classes, we can add our own blocks and items to the game. Let's say that we wanted to make a new type of block. Minecraft already has a `Block` class that defines what a block is in the game (all blocks can be broken and have a texture, for example). We can _extend_ the existing `Block` class and make our own new block. It will have all the normal properties of a block but we can set our own texture, hardness, and sound.
@@ -123,7 +124,7 @@ For right now, the block will have the same texture on all six sides like cobble
 
 ## Multi-sided textures
 
-What about blocks like grass that have different textures on different sides? The following code in the `CopperBlock` class registers three different textures and tells the program which textures belong on the top, sides, and bottom. If we want, we could even make the side textures different (like a furnace or dispenser). You will have to create three texture files matching the names that are being registered. I've made it so that my block has a silver-colored top and bottom. You can add additional `if` statements if you would like the other sides to have different colors as well. The `meta` parameters can be used to alter which textures that are returned (such as how logs face differently based on their angle of placement).
+What about blocks like grass that have different textures on different sides? The following code in the `CopperBlock` class registers three different textures and tells the program which textures belong on the top, sides, and bottom. If we want, we could even make the side textures different (like a furnace or dispenser). You will have to create three texture files matching the names that are being registered. I've made it so that my block has a silver-colored top and bottom. You can add additional `if` statements if you would like the other sides to have different colors as well. The `meta` parameters can be used to alter which textures that are returned (such as how logs face differently based on their angle of placement). Add the following code to your `CopperBlock` class:
 
 ```java
 //Creating our icon variables

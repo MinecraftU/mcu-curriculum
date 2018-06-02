@@ -92,7 +92,7 @@ The most common error is the build failing with a message saying "JAVA_HOME does
     }
     ```
 
-4. Left-click on `ExampleMod` and press `Shift + F6`. Change the name to something that you like and click `Refactor`. This will change all instances of `ExampleMod` to a mod name of your choice. For our examples, we use `CopperMod` since our mod adds copper to the game. We'll also have to change the `MODID` and `VERSION` to what we want. You can delete the example `println` statement if you wish.
+4. Left-click on `ExampleMod` and press `Shift + F6`. Change the name to something that you like and click `Refactor`. This will change all instances of `ExampleMod` to a mod name of your choice. For our examples, we use `CopperMod` since our mod adds copper to the game. We'll also have to change the `MODID` and `VERSION` variables to what we want. You can delete the example `println` statement if you wish.
 
 5. If this is your first IntelliJ project, or you don't have an SDK setup, you will need to do so now. 
     * Press `ctrl + shift + alt + s` 
