@@ -65,4 +65,4 @@ OreManager om = new OreManager();
 GameRegistry.registerWorldGenerator(om, 0); //Integer determines when generation code
 // runs (0 = normal). Use higher numbers to run later
 ```
-![](images/section_5/copper_ore.png)  
+<img src="images/section_5/copper_ore.png" style="width:50%">  

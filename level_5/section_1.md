@@ -8,9 +8,9 @@ Open up IntelliJ using either the shortcut on your desktop, or hitting the Windo
 
 ## Creating a main class
 
-Go ahead and right-click on the `src` folder and select `Create new class`.
+Go ahead and right-click on the `src` folder and select `Create new class`:
 
-![](images/section_1/s1_create_class.png)  
+<img src="images/section_1/s1_create_class.png" style="width:50%">
 
 Give it a name, we'll be calling ours `Main`, and click `OK`.  For this class only, you'll need to add the method `main` (note it is lowercase `main` since Java is case sensitive).  It should look like this:
 

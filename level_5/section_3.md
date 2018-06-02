@@ -1,4 +1,5 @@
 # Making basic items
+
 Making an item is very similar to making a new block, except that we will be extending the `Item` class rather than the `Block` class.
 
 ```java
@@ -24,7 +25,7 @@ public CopperIngot()
 
 One important note regarding textures is that item textures should have transparent backgrounds, or there will be a white square around the item in the game. Transparency backgrounds are indicated by a grey and white checkerboard on the background of the image file.
 
-![Making item texture](images/section_2/item_texture.png)
+<img src="images/section_3/item_texture.png" style="width:50%">
 
 We'll also need to register our item with the game using the `registerItem` function. You should create a static `copperIngot` variable in `CopperMod` class just as we did with our static `copperBlock` variable.
 
@@ -34,6 +35,7 @@ GameRegistry.registerItem(copperIngot, MODID + "_" + copperIngot.getUnlocalizedN
 ```
 
 ## On-click effects
+
 There are two methods that are called when the player right-clicks while holding an item. `onItemUse` is called when the player is targeting a block in range (ie. the block has the black wireframe around it), while `onItemRightClick` is called regardless of what the player is targeting (ie. even if they are looking at the sky).
 
 `onItemUse` gives us several parameters that we can use to make _something_ happen when an item is used.
@@ -47,9 +49,10 @@ int p_77648_6_, int p_77648_7_, float p_77648_8_, float p_77648_9_, float p_7764
 }
 ```
 
+`onItemRightClick` is a bit more general and primitive. There are fewer arguments given to us:
+
 ```java
-`onItemRightClick` is a bit more general and primitive. There are fewer arguments given to us,
-  @Override
+@Override
 public ItemStack onItemRightClick(ItemStack itemstack, World world, EntityPlayer player)
 {
     return itemstack;
@@ -65,12 +68,14 @@ The names that we've given our new blocks and items so far are all hard-coded in
 Before we create our language packs, make sure you have "hide file extensions for known file types" disabled. To check if its disabled, go look at your textures.  If they show up as "_name_.png" you're good.  Otherwise, follow these instructions.  
 
 ##### Windows
+
 1. Start -> Control Panel -> Appearance and Personalization -> Folder Options
 2. Click on "View" tab
 3. Click "Advanced settings"
 4. Uncheck the box next to "Hide extensions for known file types" then click "OK"
 
 ##### Mac
+
 1. Select Finder -> Preferences -> Advanced
 2. Select "Show all filename extensions"
 
@@ -78,9 +83,9 @@ Before we create our language packs, make sure you have "hide file extensions fo
 
 1. Create a folder called "lang" in the "assets/examplemod" folder.
 1. Create a new text file called "en_US.lang" in the folder.
-![Language folder](images/section_2/lang_folder.png)
+<img src="images/section_3/lang_folder.png" style="width:50%">
 
 1. Right-click on the file and choose to edit it. The default entry is something similar to: `category.blockName.name=Item Name`. The name that appeared for our initial block, `tile.copper_block.name` is what we would use in our case. So my line would be `tile.copper_block.name=Copper Block`.
 
 1. Save the file and run Minecraft. Your name should now appear in-game.
-![Block with localized name](images/section_2/lang_block.png)
+<img src="images/section_3/lang_block.png" style="width:50%">

@@ -110,17 +110,17 @@ public class CopperBlock extends Block
 
 To actually launch our modded Minecraft, run the project by clicking on the green arrow at the top of the IDE. Make a new creative world and try placing your block on the ground. It should be under the normal `Blocks` tab at the very bottom and will be called `tile.copper_block.name`. The coloring should be a purple and black checkerboard, the default color scheme when a texture is not specified. Even though we said the texture file's name should be `copper_block` in the code, Minecraft can't find the texture file because we haven't made one!
 
-![Initial new block](images/section_1/block_initial.png)
+<img src="images/section_2/block_initial.png" style="width:50%">
 
 ## Adding a texture to a block
 
 To add our texture to our block, we first need to create the folder that will hold our textures. The full path is `src/main/resources/assets/coppermod/textures/blocks`. Start at the `resources` folder (it should already exist) and create one folder after another until you get down to the final one, `blocks`. Open up Paint (or another image-editing program) and create a new empty canvas with a square resolution. Most Minecraft textures are 16x16 but you could also try 32x32 or 64x64. Take a few minutes and make your own texture!
 
-![Making a new block texture](images/section_1/block_texture.png)
+<img src="images/section_2/block_texture.png" style="width:50%">
 
 For right now, the block will have the same texture on all six sides like cobblestone or obsidian. Name the texture `copper_block` and save it as a `.png` in the `blocks` folder. After your texture has been saved, run Minecraft. Now check out the texture of your block!
 
-![New block with texture in-game](images/section_1/block_texture_ingame.png)
+<img src="images/section_2/block_texture_ingame.png" style="width:50%">
 
 ## Multi-sided textures
 
@@ -156,4 +156,4 @@ public IIcon getIcon(int side, int meta) //side = the side of the block
 }
 ```
 
-![Block with multiple textures.](images/section_3/block_texture_multiple.png)
+<img src="images/section_2/block_texture_multiple.png" style="width:50%">

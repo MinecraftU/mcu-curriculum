@@ -78,7 +78,7 @@ This function is called whenever the item is used to hit an entity, whether it's
 entityBeingHit.setFire(4);  //what do you think the integer does?
 ```
 
-![Fire on hitting pig](images/section_3/sword_hit_fire.png)
+<img src="images/section_7/sword_hit_fire.png" style="width:50%">
 
 We can even create an explosion at the hit entity's location!
 
@@ -87,6 +87,4 @@ entityBeingHit.worldObj.createExplosion(null, entityBeingHit.posX, entityBeingHi
 3.0f, true);  //the float determines the radius of the explosion
 ```
 
-![Before hitting pig](images/section_3/sword_hit_explosion_pre.png)
-
-![Explosion on hitting pig](images/section_3/sword_hit_explosion.png)
+<img src="images/section_7/sword_hit_explosion.png" style="width:50%">

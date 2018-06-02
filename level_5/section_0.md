@@ -65,9 +65,7 @@ The most common error is the build failing with a message saying "JAVA_HOME does
 ### Testing
 
 1. On the top left, double click the folder icon (the name of your folder should be next to it).
-
 2. Double-click the folders: src > main > java > com.example.examplemod
-
 3. There should be an `ExampleMod` class (blue circle with the letter 'c' in it) and if you double-click it you should see the following code:
     ```java
     package com.example.examplemod;
@@ -91,15 +89,12 @@ The most common error is the build failing with a message saying "JAVA_HOME does
         }
     }
     ```
-
 4. Left-click on `ExampleMod` and press `Shift + F6`. Change the name to something that you like and click `Refactor`. This will change all instances of `ExampleMod` to a mod name of your choice. For our examples, we use `CopperMod` since our mod adds copper to the game. We'll also have to change the `MODID` and `VERSION` variables to what we want. You can delete the example `println` statement if you wish.
-
 5. If this is your first IntelliJ project, or you don't have an SDK setup, you will need to do so now. 
     * Press `ctrl + shift + alt + s` 
     * In the `Project SDK` section click `New...` and click `JDK`
     * A _Select Home Directory for JDK_ window will appear.  Navigate to your `Java` folder which by default should be in `C:\ > Program Files > Java`  Click the jdk folder and hit `OK`  
-
-6. Finally, select the dropdown arrow on the upper right and click it. You should see two options "Minecraft Client" and "Minecraft Server". Select `Minecraft Client` and then click the green run arrow right next to the bug icon.
+6. Finally, select the dropdown arrow on the upper right and click it. You should see two options "Minecraft Client" and "Minecraft Server". Select `Minecraft Client` and then click the green run arrow right next to the bug icon:
 ![](images/section_0/run_configuration.png)  
 
 You are done! Minecraft should launch with our example mod loaded into the game (You can verify by clicking the `Mods` button, and you will see "Example Mod" in the mods list).

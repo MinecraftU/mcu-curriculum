@@ -13,7 +13,7 @@ public Item getItemDropped(int metadata, Random random, int fortune)
 }
 ```
 
-![Block dropping an ingot](images/section_2/block_drops_ingot.png)
+<img src="images/section_4/block_drops_ingot.png" style="width:50%">
 
 What if we wanted to make our block drop several ingots when broken? It generally takes 9 ingots to make a block, so let's use the `quantityDropped` method (which needs to return `int`) to tell our `CopperBlock` to drop 9 ingots when it is mined. The following method declaration should go in your `CopperBlock` class.
 
@@ -24,7 +24,7 @@ public int quantityDropped(Random rand)
 }
 ```
 
-![Block dropping multiple ingots](images/section_2/block_drops_multiple_ingots.png)
+<img src="images/section_4/block_drops_multiple_ingots.png" style="width:50%">
 
 The `rand` parameter is a `Random` object that we could use to add randomness to our drops. For example, we could specify that we want a random number of ingots between 2 and 5 to drop when a block is broken by using the `nextInt` method to get a random number. Calling `nextInt(some_integer)` returns a random integer between 0 and the argument integer.
 
@@ -36,6 +36,7 @@ public int quantityDropped(Random rand)
 ```
 
 ## Making new crafting recipes
+
 >The function calls that create new recipes will go in your main mod class (eg. CopperMod), not the block or item classes.
 
 Now we need to make our new blocks and items useful by creating some recipes! There are two types of recipes we can create: shapeless and shaped. Shapeless recipes (such as making wooden planks from wood) don't require the items to be in any specific orientation to work. Shaped recipes (such as making a pickaxe or shovel) require blocks to be in specific locations for the recipe to function.
@@ -52,7 +53,7 @@ GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond, 64), new ItemStack(
 
 This recipe simply trades in a stack of 64 dirt blocks for 64 diamonds. The resulting item is the first argument in the function call, and any input items are the following arguments.
 
-![A recipe that trades in dirt for diamonds.](images/section_2/recipe_dirt_single.png)
+<img src="images/section_4/recipe_dirt_single.png" style="width:50%">
 
 To add more items, simply add more ItemStacks within the parentheses.
 
@@ -62,7 +63,7 @@ GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond, 64), new ItemStack(
 ```
 Note that we must call `new ItemStack(item, number)` when passing arguments. `addShapelessRecipe` expects `ItemStack` objects to be passed; this is a shortcut which allows us to skip defining an `ItemStack` variable and just directly pass a newly-instantiated object.
 
-![A recipe that requires 3 dirt per diamond.](images/section_2/recipe_dirt_triple.png)
+<img src="images/section_4/recipe_dirt_triple.png" style="width:50%">
 
 ### Shaped recipes
 
@@ -77,7 +78,7 @@ GameRegistry.addShapedRecipe(new ItemStack(Items.diamond), "xxx", "x x", "xxx", 
     new ItemStack(Items.coal));
 ```
 
-![A shaped recipe that turns coal into diamond.](images/section_2/recipe_coal.png)
+<img src="images/section_4/recipe_coal.png" style="width:50%">
 
 ## Smelting recipes
 
@@ -89,7 +90,7 @@ GameRegistry.addSmelting(Blocks.stone, new ItemStack(Blocks.stonebrick), 0.1f);
 
 This time, the input item is the first argument while the output is the second argument. Be sure to remember this is the reverse of crafting recipes! The `float` at the end specifies how much experience the player receives from the smelting.
 
-![](images/section_2/smelting_stone.png)
+<img src="images/section_4/smelting_stone.png" style="width:50%">
 
 On a side note, the _damage values_ of items often hold extra information (also called data) about the block and can be set using the `setItemDamage` method. For example, all the colors of wool are actually the same type of block. They're rendered differently based on the value of their damage value. We can use this data value in our recipes to alter what kinds of wool, clay, or wood are required.
 
@@ -102,4 +103,4 @@ woolStackOrange.setItemDamage(1);
 GameRegistry.addSmelting(woolStackBlack, woolStackOrange, 0.1f);
 ```
 
-![A recipe that smelts black wool into orange wool.](images/section_2/smelting_wool.png)
+<img src="images/section_4/smelting_wool.png" style="width:50%">

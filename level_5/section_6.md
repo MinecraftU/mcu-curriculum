@@ -19,7 +19,7 @@ public class ItemSteakTaco extends ItemFood {
 
 The `foodValue` variable determines how much health is restored when the food is eaten, and the `satmodifier` variable determines how long until the player becomes hungry again. To give an idea of these values, `foodValue` is set to 8 and `satmodifier` is set to 0.8 for cooked porkchops. The boolean `isWolfsFavoriteMeat` simply tells whether or not the food is appealing to wolves (only true for some meats by default). After writing the class and creating my texture, I register the new item with the game (simultaneously giving the heal and saturation values).
 
-![Eating a taco.](images/section_4/taco_eating.png)
+<img src="images/section_6/taco_eating.png" style="width:50%">
 
 Tacos don't just appear in the wild, however. We also need to create the ingredients as well as recipes in order to make them. For this example, I will make an `ItemTortilla` class and then create the recipes necessary to make the tortilla and then the taco. `ItemTortilla` is also a food, but will not have as good healing and saturation properties.
 
@@ -40,7 +40,7 @@ public class ItemTortilla extends ItemFood {
 }
 ```
 
-![Eating the tortilla.](images/section_4/tortilla_eating.png)
+<img src="images/section_6/tortilla_eating.png" style="width:50%">
 
 Making the crafting recipe for a food is just like for any other item. A recipe is required to make the tortilla from wheat, and then make the taco from tortilla and steak.
 
@@ -48,13 +48,13 @@ Making the crafting recipe for a food is just like for any other item. A recipe 
 GameRegistry.addShapedRecipe(new ItemStack(itemTortilla), "xx ", "xx ", "   ", 'x', Items.wheat);
 ```
 
-![Tortilla crafting recipe.](images/section_4/tortilla_recipe.png)
+<img src="images/section_6/tortilla_recipe.png" style="width:50%">
 
 ```java
 GameRegistry.addShapelessRecipe(new ItemStack(itemSteakTaco), itemTortilla, Items.cooked_beef);
 ```
 
-![Taco crafting recipe.](images/section_4/taco_recipe.png)
+<img src="images/section_6/taco_recipe.png" style="width:50%">
 
 Finally, we can quickly and easily add potion effects when our foods are eaten. If we override the `onFoodEaten` method and call the `setPotionEffect` method, we can give the player any potion effect for any duration. Look at the source code of the `Potion` class to know which ID numbers correspond to which potions.
 
