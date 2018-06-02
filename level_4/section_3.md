@@ -11,9 +11,9 @@ For this program, you need:
 
 Let's kick it off by putting our items in the correct places. Plant the sapling on some dirt, make sure it has plenty of room on all sides to grow, and then put the turtle down facing the sapling.
 
-Remember to label your turtle whenever you make a new program. Use `label set treefarmer`
+Remember to label your turtle whenever you make a new program. Use `label set treefarmer`.
 
-![](images/section_3/treefarm.png)
+<img src="images/section_3/treefarm.png" style="width:50%">
 
 Now let's start writing our program. You'll want to put your code in a while loop again, since we want it to always run.
 

@@ -8,45 +8,45 @@ This will be your first taste of the ComputerCraft mod, and for some of you, you
 
 ### Installing ComputerCraft
 
-ComputerCraft can be downloaded from [http://www.computercraft.info/download/](http://www.computercraft.info/download/) and requires Forge. The easiest way to install Forge and ComputerCraft is using MultiMC from [https://multimc.org/](https://multimc.org/). Create a new instance in MultiMC for Minecraft version `1.8.9`, the latest version of Minecraft supported by ComputerCraft. Click "Edit Instance" on the right, then "Install Forge" on the _Version_ tab.
+ComputerCraft can be downloaded from [http://www.computercraft.info/download/](http://www.computercraft.info/download/) and requires Forge. The easiest way to install Forge and ComputerCraft is using MultiMC from [https://multimc.org/](https://multimc.org/). Create a new instance in MultiMC for Minecraft version `1.8.9`, the latest version of Minecraft supported by ComputerCraft. Click "Edit Instance" on the right, then "Install Forge" on the _Version_ tab:
+<img src="images/section_1/install-version.png" style="width:50%">
 
-![](images/section_1/install-version.png)
+Then drag the `ComputerCraft1.79.jar` file you downloaded from computercraft.info into the window under the "Loader Mods" tab:
+<img src="images/section_1/install-loader-mods.png" style="width:50%">
 
-Then drag the `ComputerCraft1.79.jar` file you downloaded from computercraft.info into the window under the "Loader Mods" tab.
-
-![](images/section_1/install-loader-mods.png)
-
+<!-- BREAK -->
 ### The Command Line
 
 * Open the ComputerCraft world
 * Open your inventory and search for `computer`
 * Place an _Advanced Computer_ (the yellow one) on the ground and right-click on it
 
-![](images/section_1/advanced-computer.png)
+<img src="images/section_1/advanced-computer.png" style="width:50%">
 
-When you place a computer and right click on it, the first thing you see is this.
-
-![](images/section_1/ccb1.png)
+When you place a computer and right click on it, the first thing you see is this:
+<img src="images/section_1/ccb1.png" style="width:50%">
 
 This is a command line. Here, we can type words to run programs, and we can look inside folders just like on a real life computer. Let's do that now.
-
-![](images/section_1/ccb2.png)
 
 * The `ls` command lists the contents of the current folder (aka directory)
 * The `cd` command changes folders (directories)
 
-* type `cd rom`
-* type `cd programs`
-* type `ls`. This will list all the programs in the _programs_ directory
+Do the following:
 
-Up next we'll run the edit program and see what it looks like.
+* Type `cd rom`
+* Type `cd programs`
+* Type `ls`. This will list all the programs in the _programs_ directory
+
+<img src="images/section_1/ccb2.png" style="width:50%">
+
+Up next we'll run the `edit` program and see what it looks like.
 Type `edit time`.
 
-![](images/section_1/ccb3.png)
+<img src="images/section_1/ccb3.png" style="width:50%">
 
-This is the program you use to edit your programs. The _edit_ program is all you need to start writing you own code in ComputerCraft.
+This is the program you use to edit your programs. The `edit` program is all you need to start writing you own code in ComputerCraft.
 
-Exit the _Edit_ program by pressing `ctrl` (control), using the arrow keys to select exit, and then hitting `enter`.
+Exit the `edit` program by pressing `ctrl` (control), using the arrow keys to select exit, and then hitting `enter`.
 
 ### Play text adventure Minecraft inside a ComputerCraft computer
 
@@ -61,19 +61,19 @@ Exit the _Edit_ program by pressing `ctrl` (control), using the arrow keys to se
   * `look`
   * `help`
 
-![](images/section_1/adventure.png)
+<img src="images/section_1/adventure.png" style="width:50%">
 
 If you haven't noticed by now, Adventure is really just text-based Minecraft. You're playing Minecraft on a computer inside Minecraft.
 
 ### Peripherals
 
-Peripherals are blocks that you put next to a computer. Then you can use programs on the computer to "talk" to those peripherals. One of the most useful peripherals is the **monitor**.
+Peripherals are blocks that you put next to a computer. Then you can use programs on the computer to "talk" to those peripherals.
 
 #### Use a disk drive
 
 Open your inventory and search for _Disk_. Choose the _Disk Drive_ and place it next to your computer.
 
-![](images/section_1/disk-drive.png)
+<img src="images/section_1/disk-drive.png" style="width:50%">
 
 Place any music disk in the disk drive. Then right-click on your computer again and run the program _dj_ just by typing `dj`. It will play whatever music disk is in the disk drive, just like a Jukebox block.
 
@@ -89,7 +89,7 @@ Place any music disk in the disk drive. Then right-click on your computer again 
 * Right click the computer to open it, and then type `monitor right paint mypainting`
 * Press escape to close the computer and then look at the monitor.
 
-![](images/section_1/paint.png)
+<img src="images/section_1/paint.png" style="width:50%">
 
 You should see something that looks like a canvas on the screen. Try right-clicking on the canvas to paint. Right-click on a color to select that color. When you're done, open the computer again, and press `ctrl` then `enter`. This will save the painting to a file called `mypainting`.
 
@@ -97,11 +97,10 @@ You should see something that looks like a canvas on the screen. Try right-click
 
 * To restart the computer, hold down `ctrl + r`
 
-# Turtles
+<!-- BREAK -->
+## Turtles
 
-## Intro
-
-![](images/section_1/Turtles.png)
+<img src="images/section_1/Turtles.png" style="width:25%">
 
 Turtles are programmable robots that you can use to collect resources, clear terrain, and other such tasks. They run an OS called turtleOS and the programs they run can be stored on internal memory or floppy disks.  There are farming, mining, crafting, and melee turtles. They are categorized based on the Diamond tool* you equip them with.
 
@@ -148,9 +147,8 @@ Make sure your turtle has plenty of fuel in slot 1! The turtle will also not pla
 
 `excavate <width>`
 
-Make sure your turtle has plenty of fuel in slot 1! The turtle *will* return to its starting point. This program leaves giant holes in the ground that will kill you should you fall into them. But they are convenient for rapid descents to rare ore levels, as well as for raw materials collection.
-
-![](images/section_1/excavate.png)
+Make sure your turtle has plenty of fuel in slot 1! The turtle *will* return to its starting point. This program leaves giant holes in the ground that will kill you should you fall into them. But they are convenient for rapid descents to rare ore levels, as well as for raw materials collection:
+<img src="images/section_1/excavate.png" style="width:50%">
 
 ## Crafting turtles
 
@@ -158,12 +156,12 @@ Computers and turtles, especially the useful tool-equipped turtles, are rather e
 
 Here is the advanced computer recipe:
 
-![](images/section_1/craft-advanced-computer.png)
+<img src="images/section_1/craft-advanced-computer.png" style="width:50%">
 
 Here is the turtle recipe:
 
-![](images/section_1/craft-turtle.png)
+<img src="images/section_1/craft-turtle.png" style="width:50%">
 
 To equip a turtle, craft it with a brand new diamond tool:
 
-![](images/section_1/craft-mining-turtle.png)
+<img src="images/section_1/craft-mining-turtle.png" style="width:50%">

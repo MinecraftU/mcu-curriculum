@@ -131,7 +131,7 @@ while blocksMovedForward < length do
 end
 ```
 
-![](images/section_4/tunnel-inventory.png)
+<img src="images/section_4/tunnel-inventory.png" style="width:25%">
 
 This is the turtle's inventory required by the program--fuel in slot 1, torches in slot 2, and floor blocks in slot 3.
 

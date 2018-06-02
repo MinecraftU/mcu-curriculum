@@ -6,21 +6,20 @@ Let's start off with a simple program, one that will make sure you never run out
 
 First build a cobblestone generator. If you mine out that cobblestone, more will replace it after it breaks. Now we need to place our turtle so it can mine the cobblestone for us. Place your turtle facing the cobblestone, and put a chest behind it. Make sure you use a `mining turtle`, and to make your code easier to write, use an `advanced mining turtle`.
 
-![](images/section_2/cobblefarm1.png)
+<img src="images/section_2/cobblefarm1.png" style="width:50%">
 
-![](images/section_2/cobblefarm0.png)
+<img src="images/section_2/cobblefarm0.png" style="width:50%">
 
-Now we need to set our turtle's label, so that if we ever break him, he'll keep the programs we write. Type `label set cobblefarmer` and press `enter`.
+Now we need to set our turtle's label, so that if we ever break him, he'll keep the programs we write. Type `label set cobblefarmer` and press `enter`:
+<img src="images/section_2/cobblefarm2.png" style="width:50%">
 
-![](images/section_2/cobblefarm2.png)
+Congrats! You've done all the actual block placing you need to. Now we can start writing code. Type `edit cobblefarm` and press `enter`. This will open the editing program and let you start writing your own code:
+<img src="images/section_2/cobblefarm3.png" style="width:50%">
 
-Congrats! You've done all the actual block placing you need to. Now we can start writing code. Type `edit cobblefarm` and press `enter`. This will open the editing program and let you start writing your own code.
+The editor program looks like this:
+<img src="images/section_2/cobblefarm4.png" style="width:50%">
 
-![](images/section_2/cobblefarm3.png)
-
-The editor program looks like this. Since you typed `edit cobblefarm`, your program will be called `cobblefarm` when you save it. To open the `Save/Run/Exit` menu, press `control` or `ctrl` on your keyboard. The text in the corner that says `Ln 1` is the line counter. When you write code, it's split up into lines, just like regular writing. Whenever there's an error in your code, it will tell you which line the error is on, and that's when this line counter is really useful.
-
-![](images/section_2/cobblefarm4.png)
+Since you typed `edit cobblefarm`, your program will be called `cobblefarm` when you save it. To open the `Save/Run/Exit` menu, press `control` or `ctrl` on your keyboard. The text in the corner that says `Ln 1` is the line counter. When you write code, it's split up into lines, just like regular writing. Whenever there's an error in your code, it will tell you which line the error is on, and that's when this line counter is really useful.
 
 Let's start writing some code! Start off by copying down the code written below. This is called a while loop. The `while` command checks if something is true or false and then keeps running the code if the thing is true. The `do` part is what tells the computer that you're done defining the loop and you want it to start running code. At the end of every loop you write, you have to have the code `end`. This tells the program to end the looped section of code.
 
@@ -32,11 +31,11 @@ while true do
 end
 ```
 
-![](images/section_2/cobblefarm5.png)
+<img src="images/section_2/cobblefarm5.png" style="width:50%">
 
 Next we'll fill in our loop with some code. All we need for this program is two commands. Copy down the code as shown below. The command `turtle.dig()` tells the turtle to mine the block in front of it. Once it mines the block, it will have it in it's inventory. The second command is to put the cobblestone into a chest, and it looks like we made a mistake! There are command for `turtle.drop()`, `turtle.dropUp()`, and `turtle.dropDown()`, but nothing for `turtle.dropBack()`. Instead we'll just use `turtle.dropUp()` for now.
 
-![](images/section_2/cobblefarm6.png)
+<img src="images/section_2/cobblefarm6.png" style="width:50%">
 
 Once you've written you two lines of code, press `control` or `ctrl` on your keyboard to open the menu, and then press `enter` to save your program. Now press `control` again, press the `right arrow key` to move to `exit`, and then press `enter` to close the editor program.
 
@@ -57,7 +56,7 @@ end
 
 *Do not forget to save!*
 
-![](images/section_2/cobblefarm7.png)
+<img src="images/section_2/cobblefarm7.png" style="width:50%">
 
 Once the chest is full, you can open your turtle again and hold down `control` and `t` at the same time to terminate your program.
 
