@@ -12,17 +12,17 @@ First, you need to acquire some seeds. They are dropped when long grass is destr
 
 Use the hoe to turn some ordinary dirt blocks into farmland. Farmland needs to be hydrated by nearby water in order to remain farmland; farmland that dries out will convert back to dirt. Take a look at the screenshot below to see how far away water will hydrate farmland.
 
-<img src="images/section_2/farming_plot.png" style="width:500px">
+<img src="images/section_2/farming_plot.png" style="width:50%">
 
 One block of water can hydrate up to 4 blocks away in all directions. Even though I plowed more than that in the picture below, the water can only hydrate the farm land up to 4 blocks away, so some of the plowed land becomes normal dirt and grass.
 
-<img src="images/section_2/farmsquare.png" style="width:500px">
+<img src="images/section_2/farmsquare.png" style="width:50%">
 
 Plant your seeds by using them on the farmland. As long as they have a light source (the sun, torches, or other blocks) these seeds will slowly grow into wheat (the picture below has wheat in several stages of growth). The wheat will turn a yellow color when it is finished growing.
 
 <img src="images/section_2/farming_growing.png" style="width:300px; float: right; margin-left: 10px;"> Harvest the fully-grown wheat, which will give you wheat as well as seeds for future crops. On average, each wheat block will drop 1.5 seeds so your crop size will grow faster and faster over time. Make bread using the recipe below. Bread fills you up almost as much as cooked meat but is much more sustainable and faster to harvest.
 
-<img src="images/section_2/farming_bread_recipe.png" style="max-width:300px">
+<img src="images/section_2/farming_bread_recipe.png" style="width:50%">
 
 ## Ranching
 
@@ -34,25 +34,25 @@ You're going to want to fence an area for your cows to keep them from wandering 
 
 **Fence (you'll need ~8 sets)**  
 
-![](images/section_2/fence.png)
+<img src="images/section_2/fence.png" style="width:50%">
 
 **Fence Gate (at least one per pen)**  
 
-![](images/section_2/fence_gate.png)  
+<img src="images/section_2/fence_gate.png" style="width:50%">  
 
 You'll want to fence a decent sized area, about 8 sets of fences (24 total) will do the trick. The finished product will look something like this.  
 
-<img src="images/section_2/fenced_area.png" style="width:600px">
+<img src="images/section_2/fenced_area.png" style="width:50%">
 
 ### Herding Cattle  
 
 Now that you have a pen, you need to herd animals into it.  For this example, we'll use cows, but you can do this with any animal.  In order to herd animals, you need to get their attention.  We can do this by using different types of "feed." Hold the appropriate feed in your hand and approach the animal; it will turn and look at you like this:  
 
-<img src="images/section_2/cow_attention.png" style="width:600px">
+<img src="images/section_2/cow_attention.png" style="width:50%">
 
 Now the hard part, without losing the animals attention you must lead it into the pen.  Once the cow is in the pen, quickly close the gate behind you.  You will need a minimum of 2 animals to begin breeding.  
 
-<img src="images/section_2/cows_in_pen.png" style="width:600px">
+<img src="images/section_2/cows_in_pen.png" style="width:50%">
 
 **List of Feeds**
 
@@ -66,10 +66,10 @@ Note: it is possible to herd more than one cow at a time.
 
 Once you have at least 2 cows you're all set!  Feed each cow a wheat by right-clicking.  You should see hearts appear like so:  
 
-<img src="images/section_2/breeding.png" style="width:600px">
+<img src="images/section_2/breeding.png" style="width:50%">
 
 ...after a short pause, a calf will appear!  
 
-<img src="images/section_2/calf.png" style="width:600px">
+<img src="images/section_2/calf.png" style="width:50%">
 
 You will need to wait 5 minutes before you can repeat this process. Calves take 20 minutes to mature.

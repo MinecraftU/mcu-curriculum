@@ -31,17 +31,9 @@ The cost in levels depends on the enchantments. You can also repair and name ite
 
 ### Enchanting Challenge
 
-In the map provided, enchant a sword to either:
+In the map provided, enchant a sword with an enchantment at level 3 or better.
 
-* Two enchantments, one at level 2 or better.
-
-**or**
-
-* One enchantment, level 3 or better.
-
-Extra credit for enchanting a chest plate as well.
-
-The bottle of enchantment provided is only going to get you so far. You'll have to go get some bad guys for the rest of the XP required (there are plenty of slimes around during the day for this purpose). There are three strategies you can use to achieve the challenge:
+The bottles of enchantment provided is only going to get you so far. You'll have to gear up and go get some bad guys for the rest of the XP required. Here are some strategies you can use to achieve the challenge:
 
 * Enchant two swords and combine.
 * Enchant books and use the anvil.
@@ -55,17 +47,17 @@ As you expand your living area, you may find that traveling between areas taking
 
 After placing down some track, you can place a minecart on top and right-click to enter. Once you're in the cart, pressing W will start moving you forward. Pressing the left SHIFT key will make you dismount the minecart though it will keep going. The wooden block at the end of this track stops the minecart before it goes too far.
 
-<img src="images/section_4/minecart_initial.png" style="width:300px; float: left; margin-right: 20px">
+<img src="images/section_4/minecart_initial.png" style="width:50%;">
 
-<img src="images/section_4/minecart_riding.png" style="width:300px">
+<img src="images/section_4/minecart_riding.png" style="width:50%">
 
 You can use powered rails to keep the minecart going on long tracks, similar to redstone repeaters. They must be powered with redstone to provide any power to the minecart.
 
-<img src="images/section_4/minecart_powered.png" style="width:600px">
+<img src="images/section_4/minecart_powered.png" style="width:50%">
 
 By using blocks to create tilted rails, we can make handy locations for starting minecarts without having to move manually.
 
-<img src="images/section_4/minecart_launcher.png" style="width:600px">
+<img src="images/section_4/minecart_launcher.png" style="width:50%">
 
 Redstone can also be used to make junctions where you can select which direction the cart will take you. Three-way intersections will flip back and forth as power is supplied or cut off.
 
@@ -77,16 +69,16 @@ We can also make a two-way minecart station where our minecart will stop until w
 
 Dig out a 3x1 trench. Put a detector rail in the middle, and two powered rails on either side (powered rails act as brakes when unpowered).
 
-<img src="images/section_4/stop_initial.png" style="width:600px">
+<img src="images/section_4/stop_initial.png" style="width:50%">
 
 Extend the rails outward to connect to your normal railways. Place two blocks with buttons on them on top of the blocks adjacent to the powered rail segments. When you press the button, the powered rail below it should light up.
 
-<img src="images/section_4/stop_buttons.png" style="width:600px">
+<img src="images/section_4/stop_buttons.png" style="width:50%">
 
 When you are on the railway, you will stop right next to one of the buttons. Press the button to power the rail underneath you, pushing you forward. The detector rail will then power the rail on the other side, pushing you along on your journey.
 
-<img src="images/section_4/stop_stopped.png" style="width:600px">
+<img src="images/section_4/stop_stopped.png" style="width:50%">
 
 Your assignment is to make a minecart rail that connects three different locations: a house, a farm, and a cave entrance. Make a start-stop point at each of the destinations. Create a stop that allows you to choose your destination (see screenshot below). The map for this exercise is called "Railroad".
 
-<img src="images/section_4/track_switching_station.png" style="width:600px">
+<img src="images/section_4/track_switching_station.png" style="width:50%">

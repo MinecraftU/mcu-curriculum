@@ -12,23 +12,41 @@ I foresee a future where people can design “challenge maps” in creative or s
 
 This section's activities involve mostly just playing adventure maps. But as you play, solving the puzzles of the maps, consider how you might have built them differently, what's fun and challenging about them or what's simply tedious and boring.
 
+Camp instructors will supply the maps.
+
 The first map is relatively easy and can be played through in one sitting. It's called "D&D's Adventure Map" and was built for twin daughters, Delaney and Delilah. As a single player playing the map, you can snag both of their starting items, although you probably won't need them all (or maybe you should leave some should you perish and respawn).
 
-The concept of the map is to find the diamonds hidden in the world in various locations and to obtain extra diamonds by defeating "boss dungeons" and solving the riddles in every dungeon. You "level up" as you play by obtaining better gear which allows you to do the harder dungeons. [www.minecraftforum.net/topic/1775721-childrens-adventure-map/](http://www.minecraftforum.net/topic/1775721-childrens-adventure-map/)
+### D&D's Adventure Map by Ahkillies
+**Difficulty: 1/5**
+This fun-filled adventure is packed full of riddles and dungeons. You will travel through forests, deserts, and even underwater as you fight enemies and collect diamonds along the way. A linear and easy-to-follow map intended for young audiences.
+[Link](http://www.minecraftforum.net/forums/mapping-and-modding/maps/1536138-childrens-adventure-map)
 
 * Play "D&D's Adventure Map"
 
 After you're done with "D&D's" map, try one of the other maps provided. If you don't like the first one you pick, choose a different one. They vary in plot, types of challenges, difficulty, etc.
 
-Maps provided:
+Other maps provided:
 
-* "Teramia 0.9.1 Beta" is an open-ended map with no clear path or plot. By changing the dynamics of vanilla Minecraft only slightly, the map can still change what skills and problem-solving strategies are of most value.
-* "The Evil Doctor's Castle" is a classic escape-style map. Quickly determining the way through each "level" is of the most importance with this map, but it does have a very clear path to success!
-* "Jungle Stream" is a classic story/puzzle/parkour map in the style of the Indiana Jones series.*
+### Arctic
+**Difficulty: 2/5**
+A survival map in every sense of the world. You will spawn near your nearly-sunk vessel in freezing Arctic waters. Can you find your way to shore without succumbing to the cold? Be sure to explore for supplies before leaving the ship.
+[Link](http://www.minecraftforum.net/forums/mapping-and-modding/maps/1550608-arctic-survival-1-6-hardcore-normal-version)
 
-## Nether Portal
+### Lost Treasure
+**Difficulty: 3/5**
+>Lost Treasure is a map based in a beautiful, calm land which has now been taken over by a terrible curse, you will need to read books and signs in order to make your way through to find the source of this evil.
 
-The Nether is an awful place without much to see and a lot to be afraid of, but it also a place one must visit if one is ever to create potions. It is also fairly handy when traveling long distances.
+[Link](http://www.minecraftmaps.com/adventure-maps/lost-treasure)
+
+### Temples of Legends
+**Difficulty: 4/5**
+>There are 4 temples you have to explore. Get the legendary items from the temples to successfully make progress in the game. Search for treasures and get money, to buy useful gear and items!
+
+[Link](http://www.minecraftmaps.com/adventure-maps/temples-of-legends)
+
+## Nether Portals
+
+The Nether is an awful place without much to see and a lot to be afraid of, but it also a place one must visit if one is ever to create potions or create beacons. It is also fairly handy when traveling long distances.
 
 This section is going to focus on placing nether portals for maximum transportation value with maximum safety features.
 

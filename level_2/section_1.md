@@ -21,17 +21,15 @@ Now that you have all your materials, it’s time to begin construction.
 
 Example house before the roof is added:
 
-<img src="images/no_roof.png" style="width:600px">
+<img src="images/no_roof.png" style="width:50%">
 
-********************
+<!-- BREAK -->
 
 Completed house:
 
-<img src="images/front_house.png" style="width:600px">
+<img src="images/front_house.png" style="width:50%">
 
-<img src="images/back_house.png" style="width:600px">
-
-<img src="images/top_house.png" style="width:600px">
+<img src="images/top_house.png" style="width:50%">
 
 When you have finished your house, you don't have to stop there! Expand your house by making the walls go out further, adding more floors, and adding more things like bedding and a furnace.
 
