@@ -1,7 +1,6 @@
 ## MCU Servers
 
-<img src='images/mcu1.png' style='width:200px; float:right'>
-Only MinecraftU students and staff, plus a very few vetted outside players, are allowed on the MCU servers. Do not ask for friends and siblings who have not been to MinecraftU to be added to the server.
+<img src='images/mcu1.png' style='width:200px; float:right'>Only MinecraftU students and staff, plus a very few vetted outside players, are allowed on the MCU servers. Do not ask for friends and siblings who have not been to MinecraftU to be added to the server.
 
 This is all included as a part of your experience at Minecraft U, and you may continue to play on the server indefinitely.
 
