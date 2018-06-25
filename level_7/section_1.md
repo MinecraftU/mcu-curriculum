@@ -71,20 +71,12 @@ Answer the following:
 * What do the "texts" posed as examples do to the "reader"?
 * What kind of worldbuilding occurs inside Minecraft? Around the Minecraft ecosystem?
 
-**[Play the Hexxit modpack](http://www.technicpack.net/modpack/hexxit.552552)**
+**[Play the Life in the Woods modpack](http://lifeinthewoods.ca/life.html)**
 
-...it is included by default in the Technic launcher (the same one the Minecraft U modpack uses). **Warning**: Hexxit takes more computing power than vanilla Minecraft or even the Minecraft U Modpack.
-
-Answer the following:
-
-* What was the goal of the Hexxit authors? What did they want Minecraft to do that it did not already?
+* What did the author of the modpack want to change about Minecraft? 
+* What did they want players to be able to experience?
 * What parts of gameplay are easier? Which are more difficult?
 
 ## Extra credit
 
 **[Watch Alex McDowell on Building New Worlds](https://www.youtube.com/watch?v=IrlaV5_QdL0)**
-
-**[Play the Life in the Woods modpack](http://lifeinthewoods.ca/life.html)**
-
-* What did the author of the modpack want to change about Minecraft? 
-* What did they want players to be able to experience?
