@@ -2,26 +2,26 @@
 
 ## Part 1
 
-#### Research
+### Research
 
-##### What is already out there?
+#### What is already out there?
 
 * List our favorite mods
 * List our favorite maps
 * List our favorite stories
 * List our favorite [______]
 
-#### Ideation
+### Ideation
 
-##### What do we want to build?
+#### What do we want to build?
 
 * What is our goal?
 * What are we capable of accomplishing in our time frame?
 * What elements do we like from our list of favorites?
 
-#### User Stories
+### User Stories
 
-##### Who are we building for? 
+#### Who are we building for? 
   
 * Ourselves?
 * Our friends?
@@ -31,31 +31,31 @@
 
 How are these people different?
 
-##### For each role we are building for, consider:
+#### For each role we are building for, consider:
 
 * How familiar are they with Minecraft?
 * How often to they play Minecraft?
 * Where are they when they play Minecraft?
 * Why do they play Minecraft?
 
-##### Then let us ask ourselves:
+#### Then let us ask ourselves:
 
 * How do our users experience Minecraft differently?
 * How will this impact the design of our product?
 
-#### Prototyping
+### Prototyping
 
-##### What is prototyping?
+#### What is prototyping?
 
-##### What constitutes rapid prototyping?
+#### What constitutes rapid prototyping?
 
 Prototyping quickly allows for an accelerated feedback cycle. We'll talk more about iterating on these prototypes later.
 
-##### Paper prototyping
+#### Paper prototyping
 
 > In human–computer interaction, paper prototyping is a widely used method in the user-centered design process, a process that helps developers to create software that meets the user's expectations and needs—in this case, especially for designing and testing user interfaces. It is throwaway prototyping and involves creating rough, even hand-sketched, drawings of an interface to use as prototypes, or models, of a design. While paper prototyping seems simple, this method of usability testing can provide a great deal of useful feedback which will result in the design of better products. This is supported by many usability professionals.
 
--- [en.wikipedia.org/wiki/Paper_prototyping](https://en.wikipedia.org/wiki/Paper_prototyping)
+-- [Wikipedia](https://en.wikipedia.org/wiki/Paper_prototyping)
 
 **[Watch this Design Sprint Tuesday video, which talks about what these sketches look like in the end](https://www.youtube.com/watch?v=_ITJ5lAXQhg)**
 
@@ -66,19 +66,18 @@ Now let's get to putting some of our ideas down on paper. What will some of the 
 **Continue working on your paper prototypes**
 
 * What aspects of your prototypes do you like the most?
-* Which concepts seem like they could be accomplished in 2 weeks?
+* Which concepts seem like they could be accomplished during camp?
 * What is not working, or seems too difficult to implement?
-* Be prepared to come in tomorrow ready to make a decision on what direction to take.
 
 ## Extra credit
 
-* [Checkout this video about paper prototyping at Google](https://www.youtube.com/watch?v=JMjozqJS44M)
+* [Check out this video about paper prototyping at Google](https://www.youtube.com/watch?v=JMjozqJS44M)
 * [Check out this video on using paper prototypes to design Android applications](https://www.youtube.com/watch?v=07xPF7L6klY)
 * [Check out this video about a high-definition prototype for a podcast app developed by Google Ventures](https://www.youtube.com/watch?v=iqGLrMjBLZ4)
 
 ## Part 2
 
-#### Determining Direction
+### Determining Direction
 
 **[Watch this Design Sprint Wednesday video talks about how to make a decision on which direction to take with your project](https://www.youtube.com/watch?v=7BKBFOOKbNo0)**
 
@@ -91,7 +90,7 @@ Before moving forward ask yourselves these questions in order to properly determ
   * What do we need to build first?
   * What comes after that... etc.
 
-#### Iterating
+### Iterating
 
 Our goal is to get feedback as quickly as possible, so we can iterate on our concept.
 

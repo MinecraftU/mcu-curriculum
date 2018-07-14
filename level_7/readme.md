@@ -22,6 +22,3 @@ This camp is an advanced course that will give campers hands-on software develop
     * Pomodoro Technique
 * Section 4: Build
 * Section 5: Rollout
-    * Publishing
-    * Promoting
-    * Providing Support

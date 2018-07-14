@@ -62,7 +62,7 @@ Students should be able to state the subject in a few words or phrases. This ste
 
 ---
 
-**[Watch Worldbuilding: Mutual Acts of Creation](https://vimeo.com/63532147)**
+**[Watch the first 10:20 of Worldbuilding: Mutual Acts of Creation](https://vimeo.com/63532147)**
 
 Answer the following:
 
