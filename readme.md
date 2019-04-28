@@ -48,4 +48,4 @@ Brainstorming with Minecraft is all about how to create ideas and put them to wo
 
 Contributions, corrections and improvements to this curriculum are welcome! If you are not familiar with how to contribute to a project on GitHub, check out [this guide](https://guides.github.com/activities/forking/).
 
-See the core Minecraft U team's curriculum planning board [here](https://trello.com/b/cDkc2Ign/mcu-curriculum).
+See the core Minecraft U team's curriculum planning board [here](https://www.notion.so/514b386478514a1ca80737c7ecfe0e75?v=b36e6434acae4e9ba48b95c4a882cd21).
