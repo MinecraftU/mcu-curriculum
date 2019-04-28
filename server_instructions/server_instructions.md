@@ -1,6 +1,6 @@
 ## Creative Server
 
-This is a vanilla Minecraft server. This server can be joined from default Minecraft, MultiMC or the Vanilla Technic Modpack as long as they are running version 1.12.
+This is a vanilla Minecraft server. This server can be joined from default Minecraft, MultiMC or the Vanilla Technic Modpack as long as they are running version 1.13.2.
 
 * Server address: **mcucreative.mcph.co**
 * Minecraft version: 1.13.2
