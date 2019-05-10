@@ -1,5 +1,13 @@
 ## Setup
 
+Modding for Minecraft requires setting up a local development environment. These are all the same tools that software developers use every day.
+
+We've separated instructions for Windows and Macs. Please follow the instructions for the type of operating system you are using:
+
+Windows
+
+[Mac](mac_instructions.md)
+
 ### Downloads
 
 To get started writing mods, you'll need a good development environment. Always try to keep your enviromnet organized, since it's what you'll have to use to write all your code.
