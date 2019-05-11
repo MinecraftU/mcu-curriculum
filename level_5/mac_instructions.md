@@ -97,5 +97,64 @@ You should now have a MinecraftByExample directory in your `Level5` folder. You 
 
 `open .`
 
+## Build the Example Mods
+
+From the command line in Terminal, use `cd` to changing into the MinecraftByExampel folder. Then run:
+
+`./gradlew setupDecompWorkspace`
+
+...then:
+
+`./gradlew build`
+
+...then:
+
+`./gradlew runClient`
+
+This will launch Minecraft with the example mods loaded.
+
+Start a new creative world. Once in your new world, open up the creative inventory and scroll down in the blocks tab. You'll see the sample modded blocks:
+
+![](images/section_0/modded_blocks_inventory.png)
+
+Place down a `MBE01 Block Simple`:
+
+![](images/section_0/simple_block_placed.png)
+
+You've now successfully built a mod from scratch using example code and textures!
+
+Quit Minecraft before moving onto the next section.
+
 ## Install IntelliJ
+
+Now we want to run the mods from an IDE. IDE stands for [Integrated Development Environment](https://en.wikipedia.org/wiki/Integrated_development_environment) and will allow you to edit, debug and run your mods. We're going to use an IDE called IntelliJ.
+
+[Download the Community edition of IntelliJ here](https://www.jetbrains.com/idea/download/#section=mac) and install it.
+
+### Setup the project for IntelliJ
+
+Now we need to configure the project for ItelliJ. From the command line, run:
+
+`./gradlew idea`
+
+Then open the file `MinecraftByExample.ipr` from the Finder.
+
+A small notification window will pop up in the bottom right. Click on the link that says "Import Gradle project" in that notification window.
+
+![](images/section_0/import_gradle.png)
+
+You'll see a pane appear at the bottom of the window and after a few seconds it will finish the build:
+
+![](images/section_0/gradle_build.png)
+
+Next we have to configure the debug build. In the top of the window is the run toolbar:
+
+![](images/section_0/run_bar.png)
+
+Click the run button. (The one that looks like a play button.) It should pop up a window titled "edit configuration". In the drop down labeled "Use classpath of module" choose "MinecraftByExample.main". 
+
+This will launch Minecraft with the mods loaded, just like when we ran `./gradlew runClient` before.
+
+You're now ready to start modifying these example mods and running and debugging from within IntelliJ.
+
 
