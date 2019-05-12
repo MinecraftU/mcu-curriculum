@@ -1,19 +1,5 @@
 # Mac Setup Instructions
 
-## Install the tooling
-
-### Install MultiMC
-
-MultiMC is the Minecraft launcher we'll be using throughout this course. It allows us to run any version of Minecraft.
-
-[https://multimc.org/](https://multimc.org/)
-
-### Install Java 8 (Not Java 9)
-
-Java 8: [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-
-If you already have Java 9 installed: [https://stackoverflow.com/questions/46513639/how-to-downgrade-java-from-9-to-8-on-a-macos-eclipse-is-not-running-with-java-9](https://stackoverflow.com/questions/46513639/how-to-downgrade-java-from-9-to-8-on-a-macos-eclipse-is-not-running-with-java-9)
-
 ### Getting comfortable with the command line
 
 The next couple of tasks involve using the command line. The application you will use on the Mac is called Terminal. It can be found in Applications-->Utilities-->Terminal, or you can use [spotlight](https://support.apple.com/en-us/HT204014) to launch it by hitting `cmd+space` and then typing `Terminal`.
@@ -125,11 +111,7 @@ You've now successfully built a mod from scratch using example code and textures
 
 Quit Minecraft before moving onto the next section.
 
-## Install IntelliJ
-
-Now we want to run the mods from an IDE. IDE stands for [Integrated Development Environment](https://en.wikipedia.org/wiki/Integrated_development_environment) and will allow you to edit, debug and run your mods. We're going to use an IDE called IntelliJ.
-
-[Download the Community edition of IntelliJ here](https://www.jetbrains.com/idea/download/#section=mac) and install it.
+---
 
 ### Setup the project for IntelliJ
 

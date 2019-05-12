@@ -1,18 +1,40 @@
-## Setup
+# Setup
 
 Modding for Minecraft requires setting up a local development environment. These are all the same tools that software developers use every day.
 
-We've separated instructions for Windows and Macs. Please follow the instructions for the type of operating system you are using:
+## Install the tooling
+
+### Install MultiMC
+
+MultiMC is the Minecraft launcher we'll be using throughout this course. It allows us to run any version of Minecraft.
+
+[https://multimc.org/](https://multimc.org/)
+
+### Install Java 8 (Not Java 9)
+
+Java 8: [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
+If you already have Java 9 installed: [https://stackoverflow.com/questions/46513639/how-to-downgrade-java-from-9-to-8-on-a-macos-eclipse-is-not-running-with-java-9](https://stackoverflow.com/questions/46513639/how-to-downgrade-java-from-9-to-8-on-a-macos-eclipse-is-not-running-with-java-9)
+
+### Install IntelliJ
+
+Now we want to run the mods from an IDE. IDE stands for [Integrated Development Environment](https://en.wikipedia.org/wiki/Integrated_development_environment) and will allow you to edit, debug and run your mods. We're going to use an IDE called IntelliJ.
+
+[Download the Community edition of IntelliJ here](https://www.jetbrains.com/idea/download/) and install it.
+
+---
+
+We've separated the rest of the instructions for Windows and Macs. Please follow the instructions for the type of operating system you are using:
 
 Windows
 
 [Mac](mac_instructions.md)
 
-### Downloads
 
-To get started writing mods, you'll need a good development environment. Always try to keep your enviromnet organized, since it's what you'll have to use to write all your code.
 
-* Download IntelliJ from their site: [JetBrains IntelliJ IDEA Community Edition](http://www.jetbrains.com/idea/). Click on the `Download` button at the top of the page to take you to the downloads section. You will want to download the Community edition, which is a free version of JetBrains commercial IDE, and it has lots of the same features.
+
+
+---
 
 * We'll also need to download [Forge](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.7.10.html), which is a modding API. Under the "Download Recommended" section, click `Src`. Wait for the countdown on the top right, and click skip.  This should start downloading a file called `forge-1.7.10-10.13.#.####-src.zip`
 
@@ -41,19 +63,6 @@ Note: If you wish, you can rename the extracted `forge` folder to whatever you w
 4. On the pop-up screen, select `Open` and navigate to the folder you renamed.
 
 5. Find the file with the IntelliJ icon - it should be (Your_Folder_Name.ipr) and open it.
-
-### For MAC
-
-1. Double-click the zipped forge   
-2. Drag the forge folder that is created to your desktop  
-3. Download gradle: https://gradle.org/releases  
-    - Find gradle version 2.5, and click the `binary only` link from the download section.
-4. Unzip it and put it in the forge folder on your desktop  
-5. Then press command+spacebar, type in "terminal" and press Enter (this will open a terminal window)  
-6. Type "cd Desktop" and press Enter  
-7. Type "cd forge" and press Tab (it should auto-complete to the folder name) and then press Enter  
-8. Type "./gradle-2.5/bin/gradle setupDecompWorkspace --refresh-dependencies" and press Enter
-9. After BUILD SUCCESSFUL shows up type: "./gradle-2.5/bin/gradle idea"
 
 ### Troubleshooting:
 
