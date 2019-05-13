@@ -129,11 +129,17 @@ You'll see a pane appear at the bottom of the window and after a few seconds it 
 
 ![](images/section_0/gradle_build.png)
 
-Next we have to configure the debug build. In the top of the window is the run toolbar:
+Next we have to configure the debug build.
+
+Quit IntelliJ and go back to your Terminal. Run:
+
+`./gradlew genIntellijRuns`
+
+Relaunch IntelliJ. In the top of the window is the run toolbar:
 
 ![](images/section_0/run_bar.png)
 
-Click the run button. (The one that looks like a play button.) It should pop up a window titled "edit configuration". In the drop down labeled "Use classpath of module" choose "MinecraftByExample.main".
+Click the run button. (The one that looks like a play button.) If it pops up a window titled "edit configuration". In the drop down labeled "Use classpath of module" choose "MinecraftByExample.main".
 
 ![](images/section_0/classpath.png)
 
