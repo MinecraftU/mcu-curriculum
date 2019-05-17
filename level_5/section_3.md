@@ -1,3 +1,88 @@
+# Half blocks
+
+Next we're going to look at a half block. This code is in the MinecraftByExample `mbe02_block_partial` folder. The README is located [here](https://github.com/MinecraftU/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe02_block_partial). Here's what the block looks like in-game:
+
+![](images/section_3/half_block.png)
+
+Let's update this block with new textures, just as before, except to make a partial block requires a significant additional layer of complexity. You'll notice the JSON in `resources/assets/minecraftbyexample/models/block/mbe02_block_partial_model.json` is much more complex than the JSON from the 1x1x1 block in MBE01. To specify only certain portions of the block face be textured, we have to use **UV** values. 
+
+>The UV field used by each face has the format [U1, V1, U2, V2]. These are always oriented to the texture such that [0,0] is the top left corner.
+
+![](images/section_3/uv.png)
+
+_From [Minecraft By Example: Block Models - texturing quads (faces)](http://greyminecraftcoder.blogspot.com/2014/12/block-models-texturing-quads-faces.html)_
+
+Because it is so complex to understand, we're going to use a tool to help us. We're going to use [Blockbench](https://www.blockbench.net/web/), a free, web-based tool. (For more information about Blockbench, visit their [homepage](https://blockbench.net/).) Open Blockbench and you'll be presented with a new project. Add a cube by going Edit-->Add Cube.
+
+![](images/section_3/blockbench.png)
+
+![](images/section_3/add_cube.png)
+
+The left pane is the important area for our purposes. Save our example cake textures from [here](images/sections_3/new_textures). Click the Import Texture icon under Textures, navigate to your saved cake textures and select both textures. They'll then show up in the Textures pane.
+
+![](images/section_3/textures.png)
+
+You'll notice the top portion of the left panel is the all-imporant UV pane. For North, South, East and West, drag `cake_side.png` into the UV pane. Then resize the selection box around the image:
+
+![](images/section_3/resize_UV.png)
+
+Notice how the numbers below the image change to represent the UV values.
+
+For Up and Down, do the same thing but with the `cake_top.png` image.
+
+Finally, resize the block to be the correct size by clicking the resize icon at the top of the screen. Then drag the resizing squares (the blue, red and green elements postioned in 3D over the block) to resize the block appropriately. The numbers on the right of the top toolbar indicate the size of the block. 
+
+![](images/section_3/resize.png)
+
+This block not using up the whole space. We've accomplished this by adjusting the UV values. 
+
+Now go File-->Save. This will prompt you to download a JSON file. You can open the JSON file in IntelliJ. It should look something like this:
+
+```json
+{
+  "credit": "Made with Blockbench",
+  "textures": {
+    "0": "cake_side",
+    "1": "cake_top",
+    "particle": "cake_side"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 10, 16],
+      "faces": {
+        "north": {"uv": [1, 8, 15, 16], "texture": "#0"},
+        "east": {"uv": [1, 8, 15, 16], "texture": "#0"},
+        "south": {"uv": [1, 8, 15, 16], "texture": "#0"},
+        "west": {"uv": [1, 8, 15, 16], "texture": "#0"},
+        "up": {"uv": [1, 1, 15, 15], "texture": "#1"},
+        "down": {"uv": [1, 1, 15, 15], "texture": "#1"}
+      }
+    }
+  ]
+}
+```
+
+Copy this JSON into `mbe02_block_partial_model.json`.
+
+Now we need to save those same textures to `resources/assets/minecraftbyexample/textures/blocks/` so we can correctly reference them in the `textures` portion of the JSON. Once those textures are in that directory, we can reference them as before, and change up the particle if you like:
+
+```json
+  "textures": {
+      "0": "minecraftbyexample:blocks/cake_side",
+      "1": "minecraftbyexample:blocks/cake_top",
+      "particle": "blocks/gold_block"
+  },
+```
+
+Now run your project and you'll notice the block MBE02 Block Partial is now our cake block:
+
+![](images/section_3/new_cake.png)
+
+
+
+---
+
 # Making basic items
 
 Making an item is very similar to making a new block, except that we will be extending the `Item` class rather than the `Block` class.
@@ -58,34 +143,3 @@ public ItemStack onItemRightClick(ItemStack itemstack, World world, EntityPlayer
     return itemstack;
 }
 ```
-
-## Setting names
-
-The names that we've given our new blocks and items so far are all hard-coded into our mod. They are all lowercase and use underscores to separate words, but they don't look like the typical names of items in Minecraft. Also, what if we want people in other countries who speak different languages to play our mod? We can use what are called _language packs_ to give our items language-specific names that will actually show up in the game. The packs also replace the cumbersome "package.item.item"-type names with real names such as "Iron Ingot" or "Dirt".
-
-### File extensions
-
-Before we create our language packs, make sure you have "hide file extensions for known file types" disabled. To check if its disabled, go look at your textures.  If they show up as "_name_.png" you're good.  Otherwise, follow these instructions.  
-
-##### Windows
-
-1. Start -> Control Panel -> Appearance and Personalization -> Folder Options
-2. Click on "View" tab
-3. Click "Advanced settings"
-4. Uncheck the box next to "Hide extensions for known file types" then click "OK"
-
-##### Mac
-
-1. Select Finder -> Preferences -> Advanced
-2. Select "Show all filename extensions"
-
-### Making the language pack
-
-1. Create a folder called "lang" in the "assets/examplemod" folder.
-1. Create a new text file called "en_US.lang" in the folder.
-<img src="images/section_3/lang_folder.png" style="width:50%">
-
-1. Right-click on the file and choose to edit it. The default entry is something similar to: `category.blockName.name=Item Name`. The name that appeared for our initial block, `tile.copper_block.name` is what we would use in our case. So my line would be `tile.copper_block.name=Copper Block`.
-
-1. Save the file and run Minecraft. Your name should now appear in-game.
-<img src="images/section_3/lang_block.png" style="width:50%">
