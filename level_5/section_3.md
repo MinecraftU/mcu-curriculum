@@ -79,67 +79,39 @@ Now run your project and you'll notice the block MBE02 Block Partial is now our 
 
 ![](images/section_3/new_cake.png)
 
+# Block behavior
 
+## Drops
 
----
+The next section of MinecraftByExample we'll be looking at is `mbe07_block_behavior`. This section ads a drop when the block is broken. Look at the differtences between this block and `mbe01_block_simple`. If you need help spotting the differences, you can see them clearly in [this diff](https://gist.github.com/dealingwith/5b2f5f8e38d9e210753be85713cfe6e4/revisions?diff=unified).
 
-# Making basic items
+>In computing, the [diff](https://en.wikipedia.org/wiki/Diff) utility is a data comparison tool that calculates and displays the differences between two files
 
-Making an item is very similar to making a new block, except that we will be extending the `Item` class rather than the `Block` class.
-
-```java
-package com.example.coppermod;
-
-import net.minecraft.item.Item;
-
-public class CopperIngot extends Item {
-
-}
-```
-
-Just as we did with our `CopperBlock` class, we can also add a constructor and give some properties to our `CopperIngot`.
+Here are the important parts. We'll go over each:
 
 ```java
-public CopperIngot()
-{
-    this.setUnlocalizedName("copper_ingot");
-    this.setCreativeTab(CreativeTabs.tabMaterials);
-    this.setTextureName("coppermod:copper_ingot");
-}
+  public Item getItemDropped(IBlockState state, Random rand, int fortune)
+  {
+    return Items.COOKIE;
+  }
 ```
-
-One important note regarding textures is that item textures should have transparent backgrounds, or there will be a white square around the item in the game. Transparency backgrounds are indicated by a grey and white checkerboard on the background of the image file.
-
-<img src="images/section_3/item_texture.png" style="width:50%">
-
-We'll also need to register our item with the game using the `registerItem` function. You should create a static `copperIngot` variable in `CopperMod` class just as we did with our static `copperBlock` variable.
 
 ```java
-copperIngot = new CopperIngot();    //initializing the variable you should declare in the class
-GameRegistry.registerItem(copperIngot, MODID + "_" + copperIngot.getUnlocalizedName());
+  public int quantityDropped(Random random) {
+      return random.nextInt(4) + 1;
+  }
 ```
 
-## On-click effects
+`getItemDropped` is a _method_. A method is code that performs some operation. They are normally named in a way that you can understand what they do just by their name. `Item` defines what the method _returns_. In this case the line `return Items.COOKIE` defines what this block will drop when it's broken.
 
-There are two methods that are called when the player right-clicks while holding an item. `onItemUse` is called when the player is targeting a block in range (ie. the block has the black wireframe around it), while `onItemRightClick` is called regardless of what the player is targeting (ie. even if they are looking at the sky).
+Now let's look at the `quantityDropped` method. What does it do? What kind of data does it return? (`int` stands for _integer_.) What do you think `random.nextInt(4)` does? Why is `1` added to the result?
 
-`onItemUse` gives us several parameters that we can use to make _something_ happen when an item is used.
+>The nextInt(int n) method is used to get a [random] value between 0 and the specified value
 
-```java
-@Override
-public boolean onItemUse(ItemStack itemstack, EntityPlayer player, World world, int p_77648_4_, int p_77648_5_, 
-int p_77648_6_, int p_77648_7_, float p_77648_8_, float p_77648_9_, float p_77648_10_)
-{
-    return false;
-}
-```
+In other words, `random.nextInt(4)` will result in a number between 0 and 4. The `+ 1` makes it so it will drop at least one cookie (it will drop between 1 and 5 cookies).
 
-`onItemRightClick` is a bit more general and primitive. There are fewer arguments given to us:
+Run your project and find this block. Place a bunch, grab a tool, switch to survival and break the blocks. 
 
-```java
-@Override
-public ItemStack onItemRightClick(ItemStack itemstack, World world, EntityPlayer player)
-{
-    return itemstack;
-}
-```
+Let's change how hard it is to break this block. Note the line: `this.setHardness(0.5f);` ...let's try something between `3f`-`13f`. Test it out!
+
+What do you think the hardness value of Obsidian is?

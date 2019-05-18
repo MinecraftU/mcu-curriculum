@@ -1,41 +1,16 @@
-# Adding custom drops and recipes
+# Making basic items
 
-Right now, our `CopperBlock` only drops itself when broken, like wood does. But what about blocks such as glowstone? Glowstone drops an item (specifically glowstone dust) when broken. We can modify our existing block easily to drop an item (or multiple items) when broken. Add the following function declaration to the `CopperBlock` class. Launch the game, and try breaking your block. Our copper block will now drop an ingot when mined.
 
-```java
-@Override
-public Item getItemDropped(int metadata, Random random, int fortune)
-{
-    // This is why we use static variables! We can easily access 
-    // our registered items from our main class, without having
-    // to create a new variable or object.
-    return CopperMod.copperIngot;   
-}
-```
 
-<img src="images/section_4/block_drops_ingot.png" style="width:50%">
+## On-click effects
 
-What if we wanted to make our block drop several ingots when broken? It generally takes 9 ingots to make a block, so let's use the `quantityDropped` method (which needs to return `int`) to tell our `CopperBlock` to drop 9 ingots when it is mined. The following method declaration should go in your `CopperBlock` class.
 
-```java
-public int quantityDropped(Random rand)
-{
-    return 9;
-}
-```
 
-<img src="images/section_4/block_drops_multiple_ingots.png" style="width:50%">
+---
 
-The `rand` parameter is a `Random` object that we could use to add randomness to our drops. For example, we could specify that we want a random number of ingots between 2 and 5 to drop when a block is broken by using the `nextInt` method to get a random number. Calling `nextInt(some_integer)` returns a random integer between 0 and the argument integer.
+# Recipes
 
-```java
-public int quantityDropped(Random rand)
-{
-    return 2 + rand.nextInt(3); //random between 2 and 5
-}
-```
 
-## Making new crafting recipes
 
 >The function calls that create new recipes will go in your main mod class (eg. CopperMod), not the block or item classes.
 
