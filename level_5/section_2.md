@@ -141,3 +141,5 @@ Let's update Block Simple's textures. We'll use new cake textures from [here](im
     }
 }
 ```
+
+For more information on block models, see [https://minecraft.gamepedia.com/Model#Block_models](https://minecraft.gamepedia.com/Model#Block_models)

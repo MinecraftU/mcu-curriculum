@@ -18,7 +18,7 @@ If you already have Java 9 installed: [https://stackoverflow.com/questions/46513
 
 ### Install IntelliJ
 
-Now we want to run the mods from an IDE. IDE stands for [Integrated Development Environment](https://en.wikipedia.org/wiki/Integrated_development_environment) and will allow you to edit, debug and run your mods. We're going to use an IDE called IntelliJ.
+We want to run the mods from an IDE. IDE stands for [Integrated Development Environment](https://en.wikipedia.org/wiki/Integrated_development_environment) and will allow you to edit, debug and run your mods. We're going to use an IDE called IntelliJ.
 
 [Download the Community edition of IntelliJ here](https://www.jetbrains.com/idea/download/) and install it.
 

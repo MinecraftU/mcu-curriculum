@@ -83,9 +83,9 @@ Now run your project and you'll notice the block MBE02 Block Partial is now our 
 
 ## Drops
 
-The next section of MinecraftByExample we'll be looking at is `mbe07_block_behavior`. This section ads a drop when the block is broken. Look at the differtences between this block and `mbe01_block_simple`. If you need help spotting the differences, you can see them clearly in [this diff](https://gist.github.com/dealingwith/5b2f5f8e38d9e210753be85713cfe6e4/revisions?diff=unified).
+The next section of MinecraftByExample we'll be looking at is `mbe07_block_behavior`. This section adds a drop when the block is broken. Look at the differences between this block and `mbe01_block_simple`. If you need help spotting the differences, you can see them clearly in [this diff](https://gist.github.com/dealingwith/5b2f5f8e38d9e210753be85713cfe6e4/revisions?diff=unified).
 
->In computing, the [diff](https://en.wikipedia.org/wiki/Diff) utility is a data comparison tool that calculates and displays the differences between two files
+>In computing, the [diff](https://en.wikipedia.org/wiki/Diff) utility is a data comparison tool that calculates and displays the differences between two files.
 
 Here are the important parts. We'll go over each:
 
