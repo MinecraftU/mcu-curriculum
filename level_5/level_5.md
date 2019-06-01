@@ -2,6 +2,10 @@
 <!--BREAK-->
 <<[section_0.md]
 <!--BREAK-->
+<<[windows_instructions.md]
+<!--BREAK-->
+<<[mac_instructions.md]
+<!--BREAK-->
 <<[section_1.md]
 <!--BREAK-->
 <<[section_2.md]
@@ -13,7 +17,3 @@
 <<[section_5.md]
 <!--BREAK-->
 <<[section_6.md]
-<!--BREAK-->
-<<[section_7.md]
-<!--BREAK-->
-<<[section_8.md]

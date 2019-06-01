@@ -4,15 +4,48 @@ Before we dive into the Minecraft environment, you should understand what the wo
 
 ## Navigating IntelliJ
 
-Open up IntelliJ using either the shortcut on your desktop, or hitting the Windows key and searching `IntelliJ`.  Choose `Create new project` and give it a name.  We'll be calling ours `JavaReview`.  Once IntelliJ opens, in the top left, you should see a folder icon called `JavaReview` or whatever you named the project.  Double-click it and a sidebar should appear with two options: `JavaReview` and `External Libraries`.  We'll talk about "External Libraries" later, double-click `JavaReview` for now.  You should have a few options appear, including an `out` folder and a `src` folder.
+Open up IntelliJ. Choose File-->New-->Project...
 
-## Creating a main class
+Make sure Java is selected in the first window:
 
-Go ahead and right-click on the `src` folder and select `Create new class`:
+![](images/section_1/new_project_0.png)
 
-<img src="images/section_1/s1_create_class.png" style="width:50%">
+In the next window choose the Java Hello World template:
 
-Give it a name, we'll be calling ours `Main`, and click `OK`.  For this class only, you'll need to add the method `main` (note it is lowercase `main` since Java is case sensitive).  It should look like this:
+![](images/section_1/new_project_hello_world.png)
+
+In the next window name your project MinecraftU:
+
+![](images/section_1/new_project_name.png)
+
+Click Finish. It should open up a code file called `Main.java` that looks something like this:
+
+```java
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+```
+
+Hit the "run" button in the upper right:
+
+![](images/section_1/run.png)
+
+A panel will pop open in the bottom part of the window and it should show some output like:
+
+```text
+Hello World!
+
+Process finished with exit code 0
+```
+
+Contratulations, you've written and executed your first Java program (with a little help from IntelliJ), the classic _[Hello World](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)_:
+
+>A "Hello, World!" program generally is a computer program that outputs or displays the message "Hello, World!". Such a program is very simple in most programming languages, and is often used to illustrate the basic syntax of a programming language. It is often the first program written by people learning to code.
+
+Let's expand on this basic program. Remove the line of code in the `Main` class:
 
 ```java
 public class Main {
@@ -51,11 +84,19 @@ public class Main {
 }
 ```
 
-Use `System.out.println()` whenver you want to print something to the screen. To execute this code, go to `Run -> Run 'Main'`. At the bottom it should print out the result, in this case 5.  `Process finished with exit code 0` just means the program ran successfully.  
+Use `System.out.println()` whenver you want to print something to the screen. To execute this code, hit the run button as before (you can also use the menu Run-->Run 'Main' or hit control+R). At the bottom it should print out the result, in this case 5.  
 
 ## Defining a new class
 
-At the beginning of this section, you read that classes have both state and behavior. So far, we've only created a class with behavior (a method that sums two numbers). Let's create a class that also contains information. Go ahead and create a new class called `Rectangle` just as you created the class called `Main`.  Then let's give it some properties: length, width, perimeter, area.
+At the beginning of this section, you read that classes have both state and behavior. So far, we've only created a class with behavior (a method that sums two numbers). Let's create a class that also contains information. Go ahead and create a new class called `Rectangle`.
+
+In the Project explorer on the left, open up the tree view until you see the `src` directory. Right click on `src` and choose New-->Java Class:
+
+![](images/section_1/new_class.png)
+
+Name it Rectangle.
+
+Then let's give it some properties: length, width, perimeter, area.
 
 ```java
 public class Rectangle {
@@ -91,4 +132,13 @@ public static void main(String[] args) {
     System.out.println("Area of rect2: " + rect2.area);
     System.out.println("Perimeter of rect2: " + rect2.perimeter);
 }
+```
+
+Hit run again. Your output should look something like this:
+
+```text
+Area of rect1: 6
+Perimeter of rect1: 10
+Area of rect2: 12
+Perimeter of rect2: 14
 ```
