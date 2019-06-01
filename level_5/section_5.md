@@ -4,7 +4,11 @@ In this section, we will be referencing `mbe09_ore_spawning`. We're going to mak
 
 ![](images/section_5/generate_diamond.png)
 
-Almost all of the required code is in `mbe09_ore_spawning/OreSpawner.java`. Let's start towards the bottom of the file, with `addOreSpawn`. As the comment above the method definition explains, this is a utility method that allows us to create multiple ore spawns easily. Here we add some formatting for readability:
+Almost all of the required code is in `mbe09_ore_spawning/OreSpawner.java`.
+
+Let's start in the middle of the file, with the `generate` function.
+
+Now take a look at the `addOreSpawn` method. As the comment above the method definition explains, this is a utility method that allows us to create multiple ore spawns easily. Here we add some formatting for readability:
 
 ```java
 private void addOreSpawn(
@@ -31,13 +35,18 @@ private WorldGenerator diamondSpawner = new WorldGenMinable(
     BlockMatcher.forBlock(Blocks.DIRT)); // the block to replace
 ```
 
-Again, the author has formatted this code for readability and added comments so we know what each section is for. It's going to create 16 block veins of diamond blocks in the place of dirt.
+Again, the author has formatted this code for readability and added comments so we know what each argument does. The first two are self-explanatory; this `diamondSpawner` is going to create veins of 16 diamond blocks when triggered. The last argument is a bit trickier. It's a Forge-specific way to define which blocks to replace. `BlockMatcher` is a helper class that matches blocks!
 
-Finally the `generate` method is going to call our `addOreSpawn` helper method.
+Finally, we need to register the ore spawner as a `WorldGenerator` in a `preInit`.
+```java
+GameRegistry.registerWorldGenerator(new OreSpawner(), 0);
+```
+
+When the mod loads, Forge will look for all the registered world generators and run them after the default world generators. We use `0` so it runs first, but we could also add other generators that run later. Forge will call the `generate` method, which is going to call our `addOreSpawn` helper method, adding our chosen blocks to chunks as they are generated.
 
 To discover this working in the wild, fly around to generate new chunks and look for dirt. You should quickly discover some exposed diamond blocks.
 
-Now add another ore spawner to replace some stone blocks with gold blocks.
+Now add another ore spawner (right below the other one) to replace some stone blocks with gold blocks.
 
 ```java
 private WorldGenerator goldSpawner = new WorldGenMinable(
@@ -46,7 +55,7 @@ private WorldGenerator goldSpawner = new WorldGenMinable(
     BlockMatcher.forBlock(Blocks.STONE));
 ```
 
-...
+Then, add another `addOreSpawn` call to the `generate` method.
 
 ```java
 addOreSpawn(goldSpawner, world, random, chunkX * CHUNK_SIZE, chunkZ * CHUNK_SIZE, 64, 15, 160);
