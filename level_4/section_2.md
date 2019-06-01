@@ -8,8 +8,6 @@ First build a cobblestone generator. If you mine out that cobblestone, more will
 
 <img src="images/section_2/cobblefarm1.png" style="width:50%">
 
-<img src="images/section_2/cobblefarm0.png" style="width:50%">
-
 Now we need to set our turtle's label, so that if we ever break him, he'll keep the programs we write. Type `label set cobblefarmer` and press `enter`:
 <img src="images/section_2/cobblefarm2.png" style="width:50%">
 
