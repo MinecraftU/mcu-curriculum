@@ -1,6 +1,6 @@
 # Making basic blocks
 
-**Anytime you copy Java code in this section, be sure to match ALL capitalization, punctuation, and spacing.**
+**Anytime you copy code in this section, be sure to match ALL capitalization, punctuation, and spacing.**
 
 First we're going to explore some of the examples in the MinecraftByExample repository. Go back to that IntelliJ project. Open the file tree of  `MinecraftByExample`-->`src`-->`main`-->`java`-->`minecraftbyexample`-->`mbe01_block_simple` and double click on the BlockSimple file.
 
@@ -56,7 +56,7 @@ Let's observe this block in the wild. Run the MinecraftByExample project in Inte
 
 ### "README"
 
-Another way developers communicate about their code in plain English is via README files. These can be in various different formats but a common one is called Markdown. Markdown allows some basic formatting using simple text. This curriculum is written in Markdown. These README files in each MinecraftByExample folder will help guide you through each example. Let's experiment with `MBE01 Block Simple`. You can use GitHub to view the formatted README: [https://github.com/MinecraftU/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe01_block_simple](https://github.com/MinecraftU/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe01_block_simple)
+Another way developers communicate about their code in plain English is via README files. These can be in various different formats but a common one is called Markdown. Markdown allows some basic formatting using simple text. This curriculum is written in Markdown. These README files in each MinecraftByExample folder will help guide you through each example. Let's experiment with `MBE01 Block Simple`. [You can use GitHub to view the formatted README](https://github.com/MinecraftU/MinecraftByExample/tree/master/src/main/java/minecraftbyexample/mbe01_block_simple).
 
 First let's change the name of the block. In the README it indicates that the name of the block is in: `resources\assets\minecraftbyexample\lang\en_US.lang`. Find that file:
 

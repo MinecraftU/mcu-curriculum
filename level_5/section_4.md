@@ -196,7 +196,7 @@ Finally, the _result_ key defines what is crafted by this recipe:
 }
 ```
 
-## Shaped recipes
+## Shaped recipes in Java
 
 Now that we know how to make a shaped recipe with just JSON, doing the same in Java is more self-explanatory. Look in `java/minecraftbyexample/mbe35_recipes/StartupCommon.java`. You'll notice a lot of familiar things about this code. `ResourceLocation`, just as previous blocks and items. `optionalGroup` is not familiar and you can ignore it for now or read the explanation in the code comments of the file. Finally, something that, when formatted correctly, looks a lot like our JSON recipe. 
 

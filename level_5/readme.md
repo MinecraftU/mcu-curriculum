@@ -8,13 +8,8 @@ Learn the basics of Java, the most common programming language in the world, and
 
 * Section 0: Setting up the development environment
 * Section 1: Introduction to classes and methods
-* Section 2: Creating a new block
-* Section 3: Creating a new item (plus language packs)
-* Section 4: Specifying dropped items and creating recipes
-* Section 5: Generating your ore
-* Section 6: Creating a new food
-* Section 7: Creating new tools
-
-### Useful Links
-
-* [Forge docs](https://mcforge.readthedocs.io/en/latest/)
+* Section 2: Making basic blocks
+* Section 3: Half blocks and block drops
+* Section 4: Items and recipes 
+* Section 5: Generating ore
+* Section 6: Creating foods
