@@ -5,9 +5,9 @@ This is a vanilla Minecraft server. This server can be joined from default Minec
 * Server address: **mcucreative.mcph.co**
 * Minecraft version: 1.13.2
 
-This is a whitelisted server. To be added to the server email your username to [info@minecraftu.org](mailto:info@minecraftu.org). 
+This is a whitelisted server. To be added to the server email your username to info@minecraftu.org. 
 
-We suggest using [MultiMC](https://multimc.org/) to create a 1.13.2 "instance" of Minecraft to connect to the server.
+Since 1.13.2 is not the most recent version of Minecraft (which the standard Minecraft application from Microsoft will be running), we suggest using [MultiMC](https://multimc.org/) to create a 1.13.2 "instance" of Minecraft to connect to the server.
 
 ## ComputerCraft Survival Server
 
@@ -19,4 +19,4 @@ Install Minecraft and ComputerCraft using the [instructions in Level 4](https://
 * Minecraft version: 1.8.9
 * ComputerCraft version: 1.7.9 (requires Forge)
 
-This is a whitelisted server. To be added to the server email your username to [info@minecraftu.org](mailto:info@minecraftu.org). This server is recommended for students who have completed Level 4 of the Minecraft U curriculum or are familiar with ComputerCraft. It is a survival world.
+This is a whitelisted server. To be added to the server email your username to info@minecraftu.org. This server is recommended for students who have completed Level 4 of the Minecraft U curriculum or are familiar with ComputerCraft. It is a survival world.
