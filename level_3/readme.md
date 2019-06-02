@@ -6,10 +6,12 @@ Learn the basics of electricity, with in game and real world applications. We’
 
 ### Table of Contents
 
-* Section 1: Redstone Basics  
-* Section 2: Basic Applications (Doors, Clocks, Cannons)  
-* Section 3: Logic Gates  
-* Section 4: Building with Logic Gates  
+* Section 1: Redstone Basics
+* Section 2: Basic Applications (Doors, Clocks, Cannons)
+* Section 3: Logic Gates
+* Section 4: Building with Logic Gates
+
+---
 
 * Appendix 1: Redstone Adder Circuit
 * Appendix 2: Automatic Farming

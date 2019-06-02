@@ -25,24 +25,7 @@ This fun-filled adventure is packed full of riddles and dungeons. You will trave
 
 After you're done with "D&D's" map, try one of the other maps provided. If you don't like the first one you pick, choose a different one. They vary in plot, types of challenges, difficulty, etc.
 
-Other maps provided:
-
-### Arctic
-**Difficulty: 2/5**
-A survival map in every sense of the world. You will spawn near your nearly-sunk vessel in freezing Arctic waters. Can you find your way to shore without succumbing to the cold? Be sure to explore for supplies before leaving the ship.
-[Link](http://www.minecraftforum.net/forums/mapping-and-modding/maps/1550608-arctic-survival-1-6-hardcore-normal-version)
-
-### Lost Treasure
-**Difficulty: 3/5**
->Lost Treasure is a map based in a beautiful, calm land which has now been taken over by a terrible curse, you will need to read books and signs in order to make your way through to find the source of this evil.
-
-[Link](http://www.minecraftmaps.com/adventure-maps/lost-treasure)
-
-### Temples of Legends
-**Difficulty: 4/5**
->There are 4 temples you have to explore. Get the legendary items from the temples to successfully make progress in the game. Search for treasures and get money, to buy useful gear and items!
-
-[Link](http://www.minecraftmaps.com/adventure-maps/temples-of-legends)
+Now peruse [minecraftmaps.com/adventure-maps](http://www.minecraftmaps.com/adventure-maps) and look for another interesting adventure map to play.
 
 ## Nether Portals
 
