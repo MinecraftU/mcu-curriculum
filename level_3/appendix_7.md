@@ -4,7 +4,7 @@ Sorting contraptions involve NOT gates, comparators and exploiting the special c
 
 ![](images/appendices/appendix_7/sorter-first_circuit.png)
 
-Here is a screenshot of a basic sorting circuit. The hopper configuration is important here: the bottom row of hoppers must be attached to the chests (shift-click to attach a hopper to a chest) (and to place two chests next to one another, alternate normal chests with trapped chests) and the top row of hoppers must be attached to the comparators (shit-click to attach a hopper to the **side** of the comparator). This is where we exploit a special feature of comparators:
+Here is a screenshot of a basic sorting circuit. The hopper configuration is important here: the bottom row of hoppers must be attached to the chests (shift-click to attach a hopper to a chest) (and to place two chests next to one another, alternate normal chests with trapped chests) and the top row of hoppers must be attached to the comparators (shift-click to attach a hopper to the **side** of the comparator). This is where we exploit a special feature of comparators:
 
 If a comparator is placed next to a container, it will provide an output based on the percentage of used space in the container. see [minecraft.gamepedia.com/Redstone_Comparator](http://minecraft.gamepedia.com/Redstone_Comparator)
 
