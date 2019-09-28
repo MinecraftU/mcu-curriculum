@@ -20,3 +20,33 @@ Install Minecraft and ComputerCraft using the [instructions in Level 4](https://
 * ComputerCraft version: 1.7.9 (requires Forge)
 
 This is a whitelisted server. To be added to the server email your username to info@minecraftu.org. This server is recommended for students who have completed Level 4 of the Minecraft U curriculum or are familiar with ComputerCraft. It is a survival world.
+
+## Modded 1.12.2 Survival Server
+
+This is a modded server that includes the following mods:
+
+* [Cooking for Blockheads](http://blay09.net/mods/cookingforblockheads/?page=cookingforblockheads)
+* [JurassiCraft](https://www.curseforge.com/minecraft/mc-mods/jurassicraft)
+* [MoSwords](http://www.9minecraft.net/moswords-mod/)
+* [Pam's HarvestCraft](https://www.minecraftmods.com/pams-harvestcraft/)
+* [Switch Bow Mod](http://www.9minecraft.net/switch-bow-mod/)
+
+The modpack also includes client-side mods:
+
+* Inventory Tweaks
+* JourneyMap
+* OptiFine
+
+We created this server to just have a bit more fun with the mods available on 1.12. Cooking for Blockheads and Pam's HarvestCraft combine to create quite a culinary experience within Minecraft. JurassiCraft for the paleontologist in each of us. MoSwords and Switch Bow because who doesn't like better weapons?
+
+This is a survival server set to Peaceful, so the weapons aren't actually good for much. There aren't any monsters except for those that come from spawners. 
+
+To play on this server:
+
+* Download the MultiMC instance from here: [http://bit.ly/MCU-Cooking](http://bit.ly/MCU-Cooking). If you don't have MultiMC get it here: [https://multimc.org](https://multimc.org)
+* Create a new instance in MultiMC and choose "Import from ZIP":
+  ![](multimc-import-from-zip.png)
+* Browse to a select the ZIP file downloaded from the link above.
+* The server should already be available. If not, the server address is: **mcucooking.mcph.co**
+
+This is a whitelisted server. To be added to the server email your username to info@minecraftu.org.
