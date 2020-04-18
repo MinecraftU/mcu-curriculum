@@ -45,7 +45,7 @@ To play on this server:
 
 * Download the MultiMC instance from here: [http://bit.ly/MCU-Cooking](http://bit.ly/MCU-Cooking). If you don't have MultiMC get it here: [https://multimc.org](https://multimc.org)
     * The bit.ly link goes to Dropbox, which displays the ZIP file like a normal folder. To download the ZIP, click "Open with" in the upper right:
-      ![](dropbox-open-with.png)
+![](dropbox-open-with.png)
 * Create a new instance in MultiMC and choose "Import from ZIP":
   ![](multimc-import-from-zip.png)
     * Browse to a select the ZIP file downloaded from the link above.
