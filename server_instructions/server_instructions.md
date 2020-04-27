@@ -26,7 +26,6 @@ This is a whitelisted server. To be added to the server email your username to i
 This is a modded server that includes the following mods:
 
 * [Cooking for Blockheads](http://blay09.net/mods/cookingforblockheads/?page=cookingforblockheads)
-* [JurassiCraft](https://www.curseforge.com/minecraft/mc-mods/jurassicraft)
 * [MoSwords](http://www.9minecraft.net/moswords-mod/)
 * [Pam's HarvestCraft](https://www.minecraftmods.com/pams-harvestcraft/)
 * [Switch Bow Mod](http://www.9minecraft.net/switch-bow-mod/)
@@ -43,7 +42,7 @@ This is a survival server set to Peaceful, so the weapons aren't actually good f
 
 To play on this server:
 
-* Download the MultiMC instance from here: [http://bit.ly/MCU-Cooking](http://bit.ly/MCU-Cooking). If you don't have MultiMC get it here: [https://multimc.org](https://multimc.org)
+* Download the MultiMC instance from here: [https://bit.ly/MinecraftU-Modded-Survival](https://bit.ly/MinecraftU-Modded-Survival). If you don't have MultiMC get it here: [https://multimc.org](https://multimc.org)
     * The bit.ly link goes to Dropbox, which displays the ZIP file like a normal folder. To download the ZIP, click "Open with" in the upper right:
 
 ![](dropbox-open-with.png)
