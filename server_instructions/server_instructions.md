@@ -34,7 +34,7 @@ The modpack also includes client-side mods:
 * JourneyMap
 * OptiFine
 
-We created this server to just have a bit more fun with the mods available on 1.12. Cooking for Blockheads and Pam's HarvestCraft combine to create quite a culinary experience within Minecraft. JurassiCraft for the paleontologist in each of us. MoSwords and Switch Bow because who doesn't like better weapons?
+We created this server to just have a bit more fun with the mods available on 1.12. Cooking for Blockheads and Pam's HarvestCraft combine to create quite a culinary experience within Minecraft. MoSwords and Switch Bow because who doesn't like better weapons?
 
 This is a survival server set to Peaceful, so the weapons aren't actually good for much. There aren't any monsters except for those that come from spawners. 
 
