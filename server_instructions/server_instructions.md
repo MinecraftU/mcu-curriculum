@@ -1,9 +1,11 @@
+MultiMC instances for all three of our servers can be downloaded [here](https://drive.google.com/drive/folders/1iFEHelj_f6AewnWqjkmtoQWgSm-0kJyt?usp=sharing).
+
 ## Creative Server
 
-This is a vanilla Minecraft server. This server can be joined from default Minecraft launcher or MultiMC as long as they are running version 1.15.2. We suggest using [MultiMC](https://multimc.org/) to create a 1.15.2 "instance" of Minecraft to connect to the server.
+This is a vanilla Minecraft server. This server can be joined from default Minecraft launcher or MultiMC as long as they are running version 1.16.1. We suggest using [MultiMC](https://multimc.org/) to create a 1.16.1 "instance" of Minecraft to connect to the server.
 
 * Server address: **mcucreative.mcph.co**
-* Minecraft version: 1.15.2
+* Minecraft version: 1.16.1
 
 This is a whitelisted server. To be added to the server email your username to info@minecraftu.org. 
 
@@ -11,7 +13,7 @@ This is a whitelisted server. To be added to the server email your username to i
 
 This is a modded server requiring the [ComputerCraft](http://www.computercraft.info/) mod.
 
-Install Minecraft and ComputerCraft using the [instructions in Level 4](https://github.com/MinecraftU/mcu-curriculum/blob/master/level_4/section_1.md#installing-computercraft) or by installing the [Minecraft U modpack on Technic](https://www.technicpack.net/modpack/mcu.743668). 
+The easiest way to set up Minecraft to connect to this server is to install [MultiMC](https://multimc.org/), then drag the 1.8.9 ZIP file downloaded from [here](https://drive.google.com/drive/folders/1iFEHelj_f6AewnWqjkmtoQWgSm-0kJyt?usp=sharing) into the MultiMC window.
 
 * Server address: **mcucc.mcph.co**
 * Minecraft version: 1.8.9
@@ -33,17 +35,12 @@ The modpack also includes client-side mods:
 * JourneyMap
 * OptiFine
 
-We created this server to just have a bit more fun with the mods available on 1.12. Cooking for Blockheads and Pam's HarvestCraft combine to create quite a culinary experience within Minecraft. MoSwords and Switch Bow because who doesn't like better weapons?
+We created this server to just have a bit more fun with the mods available on 1.12. Cooking for Blockheads and Pam's HarvestCraft combine to create quite a culinary experience within Minecraft. Switch Bow because who doesn't like better ranged weapons?
 
-This is a survival server set to Peaceful, so the weapons aren't actually good for much. There aren't any monsters except for those that come from spawners. 
+This is a survival server. Mobs are on.
 
-To play on this server:
+The easiest way to set up Minecraft to connect to this server is to install [MultiMC](https://multimc.org/), then drag the 1.12.2 ZIP file downloaded from [here](https://drive.google.com/drive/folders/1iFEHelj_f6AewnWqjkmtoQWgSm-0kJyt?usp=sharing) into the MultiMC window.
 
-* [Download the MultiMC instance from here](https://drive.google.com/drive/folders/1PifUvvnTHAs-SsLRpSB5Q6kMTN0A3lMj?usp=sharing). If you don't have MultiMC get it here: [https://multimc.org](https://multimc.org)
-* Create a new instance in MultiMC and choose "Import from ZIP":
-  ![](multimc-import-from-zip.png)
-    * Browse to a select the ZIP file downloaded from the link above.
-    * You can also just drag the ZIP file into the main MultiMC window and it will auto-fill the ZIP location.
-* The server should already be available on the servers screen. If not, the server address is: **mcucooking.mcph.co**
+* The server should already be available on the multiplayer screen. If not, the server address is: **mcucooking.mcph.co**
 
 This is a whitelisted server. To be added to the server email your username to info@minecraftu.org.
