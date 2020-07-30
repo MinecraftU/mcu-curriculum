@@ -61,7 +61,7 @@ Go to GitHub and create a new account. You'll need this account to make copies o
 
 ### Fork the Example Mod Repository
 
-The first example mods we'll be exploring come from [MinecraftByExample](https://github.com/TheGreyGhost/MinecraftByExample). We'll start by forking the repository. There is a `Fork` button at the top-right of every GitHub repository. Go to MinecraftByExample and click `Fork`
+The first example mods we'll be exploring come from [MinecraftByExample](https://github.com/MinecraftU/MinecraftByExample). We'll start by forking the repository. There is a `Fork` button at the top-right of every GitHub repository. Go to MinecraftByExample and click `Fork`
 
 ![](images/section_0/fork.png)
 
@@ -137,7 +137,7 @@ Relaunch IntelliJ. In the top of the window is the run toolbar:
 
 ![](images/section_0/run_bar.png)
 
-Click the run button. (The one that looks like a play button.) If it pops up a window titled "edit configuration". In the drop down labeled "Use classpath of module" choose "MinecraftByExample.main".
+Click the run button. (The one that looks like a play button.) If it pops up a window titled "edit configuration", in the drop down labeled "Use classpath of module" choose "MinecraftByExample.main".
 
 ![](images/section_0/classpath.png)
 
