@@ -28,6 +28,7 @@ This is a modded server that includes the following mods:
 * [Cooking for Blockheads](http://blay09.net/mods/cookingforblockheads/?page=cookingforblockheads)
 * [Pam's HarvestCraft](https://www.minecraftmods.com/pams-harvestcraft/)
 * [Switch Bow Mod](http://www.9minecraft.net/switch-bow-mod/)
+* [Dragon Mounts](https://www.curseforge.com/minecraft/mc-mods/dm2)
 
 The modpack also includes client-side mods:
 
