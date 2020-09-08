@@ -29,6 +29,7 @@ This is a modded server that includes the following mods:
 * [Pam's HarvestCraft](https://www.minecraftmods.com/pams-harvestcraft/)
 * [Switch Bow Mod](http://www.9minecraft.net/switch-bow-mod/)
 * [Dragon Mounts](https://www.curseforge.com/minecraft/mc-mods/dm2)
+* [The Camping Mod](https://rikmuld.com/camping)
 
 The modpack also includes client-side mods:
 
