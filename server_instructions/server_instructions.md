@@ -1,5 +1,3 @@
-MultiMC instances for all three of our servers can be downloaded [here](https://drive.google.com/drive/folders/1iFEHelj_f6AewnWqjkmtoQWgSm-0kJyt?usp=sharing).
-
 ## Creative Server
 
 This is a vanilla Minecraft server. This server can be joined from default Minecraft launcher or MultiMC as long as they are running version 1.16.3. We suggest using [MultiMC](https://multimc.org/) to create a 1.16.3 "instance" of Minecraft to connect to the server.
@@ -20,3 +18,6 @@ The easiest way to set up Minecraft to connect to this server is to install [Mul
 
 This is a whitelisted server. To be added to the server email your username to info@minecraftu.org. This server is recommended for students who have completed Level 4 of the Minecraft U curriculum or are familiar with ComputerCraft. It is a survival world.
 
+---
+
+MultiMC instances for all of our servers can be downloaded [here](https://drive.google.com/drive/folders/1iFEHelj_f6AewnWqjkmtoQWgSm-0kJyt?usp=sharing).
