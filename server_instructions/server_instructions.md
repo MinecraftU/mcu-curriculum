@@ -1,9 +1,9 @@
 ## Creative Server
 
-This is a vanilla Minecraft server. This server can be joined from default Minecraft launcher or MultiMC as long as they are running version 1.16.3. We suggest using [MultiMC](https://multimc.org/) to create a 1.16.3 "instance" of Minecraft to connect to the server.
+This is a vanilla Minecraft server. This server can be joined from default Minecraft launcher or MultiMC as long as they are running version 1.16.3. We suggest using [MultiMC](https://multimc.org/) to create a 1.16.4 "instance" of Minecraft to connect to the server.
 
 * Server address: **mcucreative.mcph.co**
-* Minecraft version: 1.16.3
+* Minecraft version: 1.16.4
 
 This is a whitelisted server. To be added to the server email your username to info@minecraftu.org. 
 
