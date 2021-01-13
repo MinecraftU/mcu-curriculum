@@ -11,7 +11,7 @@ This is a whitelisted server. To be added to the server email your username to i
 
 This is a modded server requiring the [CC:Tweaked](https://tweaked.cc/) mod.
 
-The easiest way to set up Minecraft to connect to this server is to install [MultiMC](https://multimc.org/), then drag the `1.12-CC-Tweaked-w-OpenBlocks.zip` file downloaded from [here](https://drive.google.com/drive/folders/1iFEHelj_f6AewnWqjkmtoQWgSm-0kJyt?usp=sharing) into the MultiMC window.
+The easiest way to set up Minecraft to connect to this server is to install [MultiMC](https://multimc.org/), then drag the `Minecraft U ComputerCraft.zip` file downloaded from [here](https://drive.google.com/drive/folders/1iFEHelj_f6AewnWqjkmtoQWgSm-0kJyt?usp=sharing) into the MultiMC window.
 
 * Server address: **mcucc2.crafted.pro**
 * Minecraft version: 1.12.2
