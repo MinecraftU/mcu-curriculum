@@ -85,7 +85,7 @@ You should now have a MinecraftByExample directory in your `Level5` folder. You 
 
 ## Build the Example Mods
 
-From the command line in Terminal, use `cd` to changing into the MinecraftByExampel folder. Then run:
+From the command line in Terminal, use `cd` to changing into the MinecraftByExample folder. Then run:
 
 `./gradlew setupDecompWorkspace`
 
