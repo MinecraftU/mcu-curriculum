@@ -52,21 +52,21 @@ sCopyToPrint = get(tArgs[1])
 -- loads input string into an array where each element of the array is one word
 local tWords = mysplit(sCopyToPrint)
 
-local intLineLengthCounter = 0
-local strLineText = ""
+local iLineLengthCounter = 0
+local sLineText = ""
 
 -- print each line
 for i,v in ipairs(tWords) do 
   -- how long will the current line be if we add this string to it?
-  intLineLengthCounter = intLineLengthCounter + string.len(v)
+  iLineLengthCounter = iLineLengthCounter + string.len(v) + 1
   -- if under 25 chars, we're safe to continue the current line
-  if intLineLengthCounter < 25 then
-    strLineText = strLineText .. v .. " "
+  if iLineLengthCounter < 25 then
+    sLineText = sLineText .. v .. " "
   -- else, print the current line and add this string to the next line
   else
-    print(strLineText)
-    strLineText = v .. " "
-    intLineLengthCounter = string.len(v)
+    print(sLineText)
+    sLineText = v .. " "
+    iLineLengthCounter = string.len(v) + 1
   end
   --p.setCursorPos(1, i)
   --p.write(v)
