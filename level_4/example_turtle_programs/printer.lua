@@ -44,33 +44,41 @@ end
 sCopyToPrint = get(tArgs[1])
 
 -- attach to the printer
---p = peripheral.wrap(tArgs[2])
-
--- create a new page
---p.newPage()
+p = peripheral.wrap(tArgs[2])
 
 -- loads input string into an array where each element of the array is one word
 local tWords = mysplit(sCopyToPrint)
 
 local iLineLengthCounter = 0
 local sLineText = ""
+local iLineCount = 1
 
--- print each line
-for i,v in ipairs(tWords) do 
-  -- how long will the current line be if we add this string to it?
-  iLineLengthCounter = iLineLengthCounter + string.len(v) + 1
-  -- if under 25 chars, we're safe to continue the current line
-  if iLineLengthCounter < 25 then
-    sLineText = sLineText .. v .. " "
-  -- else, print the current line and add this string to the next line
-  else
-    print(sLineText)
-    sLineText = v .. " "
-    iLineLengthCounter = string.len(v) + 1
+-- print a page
+for i=1,21,1 do
+  -- create a new page
+  p.newPage()
+  -- print each line
+  for i, v in ipairs(tWords) do
+    -- how long will the current line be if we add this string to it?
+    iLineLengthCounter = iLineLengthCounter + string.len(v) + 1
+    -- if under 25 chars, we're safe to continue the current line
+    if iLineLengthCounter < 25 then
+      sLineText = sLineText .. v .. " "
+    -- else, print the current line and add this string to the next line
+    else
+      p.write(sLineText)
+      -- put current word on next line
+      sLineText = v .. " "
+      -- increment the line counter
+      iLineLengthCounter = string.len(v) + 1
+      -- set cursor on next line
+      iLineCount = iLineCount + 1
+      p.setCursorPos(1, iLineCount)
+    end
   end
-  --p.setCursorPos(1, i)
-  --p.write(v)
+  -- this will print the page out
+  p.endPage()
+  -- reset line count and cursor position
+  iLineCount = 1
+  p.setCursorPos(1, iLineCount)
 end
-
--- this will print the page out
---p.endPage()
