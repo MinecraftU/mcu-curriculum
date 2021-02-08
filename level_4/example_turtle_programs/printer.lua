@@ -57,6 +57,8 @@ local iLineCount = 1
 for i=1,21,1 do
   -- create a new page
   p.newPage()
+  -- reset line count
+  iLineCount = 1
   -- print each line
   for i, v in ipairs(tWords) do
     -- how long will the current line be if we add this string to it?
@@ -78,7 +80,4 @@ for i=1,21,1 do
   end
   -- this will print the page out
   p.endPage()
-  -- reset line count and cursor position
-  iLineCount = 1
-  p.setCursorPos(1, iLineCount)
 end
