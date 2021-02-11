@@ -4,12 +4,12 @@ local tArgs = {...}
 local length = tArgs[1]
 local width = tArgs[2]
 local height = tArgs[3]
- 
+
 if #tArgs < 3 or #tArgs > 5 then
     print("Usage: clone (length) (width) (height) (X/Z offset) (Y offset)")
     error("X/Z offset and Y default to 0. Y can be negative or positive. X/Z direction depends on starting orientation")
 end
- 
+
 function scan(i)
     if turtle.detect() then
         local success, data = turtle.inspect()
@@ -20,7 +20,7 @@ function scan(i)
         table.insert(blocks, "air")
     end
 end
- 
+
 -- find specified item in inventory and select that slot
 function selItem(item)
     local done = false
@@ -40,7 +40,7 @@ function selItem(item)
         end
     end
 end
- 
+
 --inspect, log, and dig each block of one row
 function scanRow()
     for i = 1, length do
@@ -49,7 +49,7 @@ function scanRow()
         turtle.forward()
     end
 end
- 
+
 --scanRow() and then reverse to replace each block of one row according to the saved list
 function copyRow()
     scanRow()
@@ -62,7 +62,7 @@ function copyRow()
     table.insert(rows, blocks)
     blocks = {}
 end
- 
+
 -- place a row of blocks according to a saved list
 function placeRow()
     for i = length, 1, -1 do
@@ -78,7 +78,7 @@ function placeRow()
         end
     end
 end
- 
+
 -- paste in each row of current plane
 function pasteArea()
     for i = 1, width do
@@ -92,7 +92,7 @@ function pasteArea()
         turtle.turnLeft()
     end
 end
- 
+
 --setup offset to pasteArea() based on user input
 if #tArgs < 4 then
     dist = 0
@@ -102,7 +102,7 @@ elseif #tArgs == 5 then
     dist = tArgs[4]
     distY = tArgs[5]
 end
- 
+
 -- same idea here but for the distances to go back after each pasteArea()
 if #tArgs < 4 then
     distBack = (width * 2)
@@ -112,7 +112,7 @@ elseif #tArgs == 5 then
     distBack = (dist + width * 2)
     distBackY = tonumber(tArgs[5])
 end
- 
+
 -- main loop to copyArea, move to paste location, pasteArea, move back to copyArea on next y level
 for i = 1, height do
     -- copy each row of one plane
@@ -166,7 +166,7 @@ for i = 1, height do
     rows = {}
     blocks = {}
 end
- 
+
 -- move back to original start height
 for i = 1, height do
     turtle.down()
