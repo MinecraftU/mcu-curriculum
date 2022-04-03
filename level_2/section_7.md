@@ -1,4 +1,4 @@
-# Level 2 Appendix 3
+# Section 7: Skin Design and Auto-smelters
 
 ## Skin Design
 

@@ -1,31 +1,4 @@
-# Section 5: Adventure Maps and Nether Portals
-
-## Adventure Maps
-
-Adventure mode is a game mode intended for player-created maps by limiting some of the gameplay in Minecraft, in which the player cannot directly destroy most blocks to avoid spoiling adventure maps or griefing servers. Most blocks cannot be destroyed without the proper tools. However, players can still interact with mobs and craft items. [minecraft.gamepedia.com/Adventure](http://minecraft.gamepedia.com/Adventure)
-
-Notch, in 2010:
-
-"But why", some people ask, "are you making Minecraft programmable?". The reason is, adventure mode!
-
-I foresee a future where people can design “challenge maps” in creative or survival mode, then share them with people so that they can try to beat them in Adventure mode. Being able to create interesting puzzles or trigger events requires some more advanced programming than the sand and water based stuff we’ve seen so far, yet still I don’t want to introduce real programming into the world. [notch.tumblr.com/post/779956568/the-rationale-for-redstone](http://notch.tumblr.com/post/779956568/the-rationale-for-redstone)
-
-This section's activities involve mostly just playing adventure maps. But as you play, solving the puzzles of the maps, consider how you might have built them differently, what's fun and challenging about them or what's simply tedious and boring.
-
-Camp instructors will supply the maps.
-
-The first map is relatively easy and can be played through in one sitting. It's called "D&D's Adventure Map" and was built for twin daughters, Delaney and Delilah. As a single player playing the map, you can snag both of their starting items, although you probably won't need them all (or maybe you should leave some should you perish and respawn).
-
-### D&D's Adventure Map by Ahkillies
-**Difficulty: 1/5**
-This fun-filled adventure is packed full of riddles and dungeons. You will travel through forests, deserts, and even underwater as you fight enemies and collect diamonds along the way. A linear and easy-to-follow map intended for young audiences.
-[Link](http://www.minecraftforum.net/forums/mapping-and-modding/maps/1536138-childrens-adventure-map)
-
-* Play "D&D's Adventure Map"
-
-After you're done with "D&D's" map, try one of the other maps provided. If you don't like the first one you pick, choose a different one. They vary in plot, types of challenges, difficulty, etc.
-
-Now peruse [minecraftmaps.com/adventure-maps](http://www.minecraftmaps.com/adventure-maps) and look for another interesting adventure map to play.
+# The Nether
 
 ## Nether Portals
 
