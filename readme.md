@@ -14,23 +14,23 @@ Our curriculum is designed to guide a child from the basics of Minecraft gamepla
 
 The curriculum itself is organized into a core curriculum organized by levels. There are also additional units outside of the core levels.
 
-### [Level 1: Basic Computer Skills with Minecraft](http://minecraftu.github.io/mcu-curriculum/level_1/) | [source](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_1)
+### Level 1: Basic Computer Skills with Minecraft | [source](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_1)
 
 Learn how to use a computer...no previous experience required! You might be able to make an iPad sing, but it's time to learn how to use a keyboard and mouse. You also might be brand-new to Minecraft or need to level up your Minecraft skills from the Pocket Edition to the "proper" PC version.
 
-### [Level 2: Basic Problem Solving with Minecraft](http://minecraftu.github.io/mcu-curriculum/level_2/) | [source](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_2)
+### Level 2: Basic Problem Solving with Minecraft | [source](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_2)
 
 Learn the basics of survival in the Minecraft world, from fending off starvation to defending against skeletons. Overcome the challenges that Minecraft has to offer, and have fun doing it. _For ages 6-12._
 
-### [Level 3: Engineering with Redstone](http://minecraftu.github.io/mcu-curriculum/level_3/) | [source](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_3)
+### Level 3: Engineering with Redstone | [source](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_3)
 
 Learn the basics of electricity and logic, with in-game and real-world applications. We’ll go over digital circuits, like those found in smartphones and tablets, and how to use them in the Minecraft world to build some awesome contraptions. _For ages 8-14 or younger when having completed Level 2 or with equivalent experience._
 
-### [Level 4: ComputerCraft](http://minecraftu.github.io/mcu-curriculum/level_4/) | [source](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_4)
+### Level 4: ComputerCraft | [source](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_4)
 
 Use the Minecraft mod ComputerCraft to learn the basics of programming and then apply those skills via your own in-game robots. These robots can do anything, from build you a house to find and mine diamonds for you. The only limit is your ability to direct them. _For ages 8-14 or younger when having completed Level 3 or with equivalent experience._
 
-### [Level 5: Java and Modding Minecraft](http://minecraftu.github.io/mcu-curriculum/level_5/) | [source](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_5)
+### Level 5: Java and Modding Minecraft | [source](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_5)
 
 Learn the basics of Java, the most common programming language in the world, and use them to create your own modification of Minecraft. Add any item of your design to the game, expanding Minecraft in whatever direction you desire. _For ages 10-16 or younger when having completed Level 4 or with equivalent experience._
 
@@ -38,7 +38,7 @@ Learn the basics of Java, the most common programming language in the world, and
 
 Expand your Java modding abilities, or learn a new language and build websites. We'll point you in the right direction, provide the material, and help you along the way.
 
-### [Level 7: Brainstorming with Minecraft](http://minecraftu.github.io/mcu-curriculum/level_7/) | [source](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_7)
+### Level 7: Brainstorming with Minecraft | [source](https://github.com/MinecraftU/mcu-curriculum/tree/master/level_7)
 
 Brainstorming with Minecraft is all about how to create ideas and put them to work with technology. We will use Minecraft as our brainstorming playground because it is friendly and easy to use, but still sophisticated enough to use as an exploratory launching pad for these concepts. Over the course of the camp, students will learn about worldbuilding, product design and work management. Students will practice a design sprint, prototyping, user testing, iteration, and Kanban—all tools and methods that real software teams use to create the products you use every day.
 
