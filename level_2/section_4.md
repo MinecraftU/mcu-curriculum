@@ -10,7 +10,7 @@ In order to enchant anything, experience is required. The easiest way to gain ex
 |:--:| 
 | *Enchanting table crafting recipe* |
 
-| ![Bookshelf table crafting recipe](images/bookshelf-recipe.png) | 
+| ![Bookshelf crafting recipe](images/bookshelf-recipe.png) | 
 |:--:| 
 | *Bookshelf crafting recipe* |
 
