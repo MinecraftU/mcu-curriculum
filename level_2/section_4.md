@@ -12,7 +12,7 @@ In order to enchant anything, experience is required. The easiest way to gain ex
 
 | ![Bookshelf table crafting recipe](images/bookshelf-recipe.png) | 
 |:--:| 
-| *Bookshelf table crafting recipe* |
+| *Bookshelf crafting recipe* |
 
 To enchant an item, right-click on an enchanting table and place the item and 1–3 lapis lazuli in the input slots. Options will display on the right-hand side of the enchanting display.
 
