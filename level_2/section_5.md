@@ -2,20 +2,17 @@
 
 As you expand your living area, you may find that traveling between areas takes up a lot of your time. Running and walking aren't particularly fast, but minecarts can make traveling significantly faster and safer.
 
-<figure>
-  <img src="images/minecart-recipe.png"/>
-  <figcaption>Minecarft crafting recipe.</figcaption>
-</figure>
+| ![Minecart crafting recipe](images/minecart-recipe.png) | 
+|:--:| 
+| *Minecart crafting recipe* |
 
-<figure>
-  <img src="images/rail-recipe.png"/>
-  <figcaption>Rail crafting recipe.</figcaption>
-</figure>
+| ![Rail crafting recipe](images/rail-recipe.png) | 
+|:--:| 
+| *Rail crafting recipe* |
 
-<figure>
-  <img src="images/powered-rail-recipe.png"/>
-  <figcaption>Powered rail crafting recipe.</figcaption>
-</figure>
+| ![Powered rail crafting recipe](images/powered-rail-recipe.png) | 
+|:--:| 
+| *Powered rail crafting recipe* |
 
 After placing down some track, you can place a minecart on top and right-click to enter. Once you're in the cart, pressing W will start moving you forward. Pressing the left SHIFT key will make you dismount the minecart, although it will keep moving. The wooden block at the end of this track stops the minecart before it goes too far:
 

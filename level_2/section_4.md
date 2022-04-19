@@ -6,15 +6,13 @@ Enchanting is a very important technique in Minecraft. Enchanted tools, armor an
 
 In order to enchant anything, experience is required. The easiest way to gain experience is by mining items such as coal and redstone, or raising animals. The most experience is gained, however, by fighting mobs.
 
-<figure>
-  <img src="images/enchanting-table-recipe.png"/>
-  <figcaption>Enchanting table crafting recipe.</figcaption>
-</figure>
+| ![Enchanting table crafting recipe](images/enchanting-table-recipe.png) | 
+|:--:| 
+| *Enchanting table crafting recipe* |
 
-<figure>
-  <img src="images/bookshelf-recipe.png"/>
-  <figcaption>Bookshelf table crafting recipe.</figcaption>
-</figure>
+| ![Bookshelf crafting recipe](images/bookshelf-recipe.png) | 
+|:--:| 
+| *Bookshelf crafting recipe* |
 
 To enchant an item, right-click on an enchanting table and place the item and 1–3 lapis lazuli in the input slots. Options will display on the right-hand side of the enchanting display.
 
