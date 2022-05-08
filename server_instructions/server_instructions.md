@@ -1,6 +1,6 @@
 ## Creative Server
 
-This is a vanilla Minecraft server. This server can be joined from default Minecraft launcher running version 1.18.2.
+This is a vanilla Minecraft creative server. This server can be joined from default Minecraft launcher running version 1.18.2.
 
 * Server address: **mcucreative.crafted.pro**
 * Minecraft version: 1.18.2
