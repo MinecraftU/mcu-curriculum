@@ -1,49 +1,39 @@
-# Section 5: Minecarts and Railway Construction
+# Section 5: Enchanting
 
-As you expand your living area, you may find that traveling between areas takes up a lot of your time. Running and walking aren't particularly fast, but minecarts can make traveling significantly faster and safer.
+Enchanting is a mechanic that improves armor, tools, weapons and books with one or more of a variety of enchantments that improve an item's existing abilities or give them additional abilities and uses.
 
-| ![Minecart crafting recipe](images/minecart-recipe.png) | 
+Enchanting is a very important technique in Minecraft. Enchanted tools, armor and weapons make success in your Minecraft adventures much more likely, and makes items more fun to use as well.
+
+In order to enchant anything, experience is required. The easiest way to gain experience is by mining items such as coal and redstone, or raising animals. The most experience is gained, however, by fighting mobs.
+
+| ![Enchanting table crafting recipe](images/enchanting-table-recipe.png) | 
 |:--:| 
-| *Minecart crafting recipe* |
+| *Enchanting table crafting recipe* |
 
-| ![Rail crafting recipe](images/rail-recipe.png) | 
+| ![Bookshelf crafting recipe](images/bookshelf-recipe.png) | 
 |:--:| 
-| *Rail crafting recipe* |
+| *Bookshelf crafting recipe* |
 
-| ![Powered rail crafting recipe](images/powered-rail-recipe.png) | 
-|:--:| 
-| *Powered rail crafting recipe* |
+To enchant an item, right-click on an enchanting table and place the item and 1–3 lapis lazuli in the input slots. Options will display on the right-hand side of the enchanting display.
 
-After placing down some track, you can place a minecart on top and right-click to enter. Once you're in the cart, pressing W will start moving you forward. Pressing the left SHIFT key will make you dismount the minecart, although it will keep moving. The wooden block at the end of this track stops the minecart before it goes too far:
+<img src="images/enchantment-table.png">
 
-<img src="images/minecart_riding.png" style="width:50%">
+<img src="images/enchanting-gui.png">
 
-You can use powered rails to keep the minecart going on long tracks, similar to redstone repeaters. They must be powered with redstone to provide any power to the minecart.
+To get the maximum enchants, surround the enchanting table with bookshelves. To get to the highest level of enchanting (level 30), you will need 15 bookshelves placed within a 5×5 square centered at the table or the block above. No other blocks can be placed in between the table and the bookshelves.
 
-<img src="images/minecart_powered.png" style="width:50%">
+Tips:
 
-By using blocks to create tilted rails, we can make handy locations for starting minecarts without having to move manually.
+* When first starting out, use just a few experience levels to enchant as many tools and armor pieces as possible. After that, use an anvil to combine enchantments. Later, do the opposite to try and get as many enchantments as possible on one tool/weapon, then  use an anvil again to combine when possible.
+* When trying to get a specific enchantment on a tool/weapon that is already enchanted, use books. Create an enchanted book by enchanting a book on an enchantment table. Enchanted books can also be found in structures or by trading with villagers.
+* As you progress above level 16, each level requires more XP than the last. Try to enchant using a level as close to yours as possible to make the high XP cost worthwhile.
+* Items have a chance to get one or more extra enchantments every time you enchant them.
+* Do not enchant anything weaker than iron--the lack of durability makes the cost not worth it.
+* An enchanted fishing rod can pay off. "Luck of the Sea" lowers chance of "junk" catches by 2.5% per level and increases the chance of "treasure" catches by 1% per level. "Treasure" can include enchanted tools. "Lure" decreases wait time until a catch by 5 seconds per level but decreases chances of both "junk" and "treasure" catches by 1% per level, so be careful with that one if your goal is to catch treasure.
+* Place 15 bookshelves around an enchantment table to get the highest level enchantments. If after establishing the 15 bookshelves you _do not_ want maximized enchantments, you can block their effect with torches.
 
-<img src="images/minecart_launcher.png" style="width:50%">
+### Anvils
 
-Redstone can also be used to make junctions where you can select which direction the cart will take you. Three-way intersections will flip back and forth as power is supplied or cut off.
+An anvil can be used to combine the enchantments of two items. The items must be of the same type and material. There are two slots in the anvil, and the item in the second slot is sacrificed to improve the first.
 
-<img src="images/minecart_turn_off.png" style="width:300px; float: left; margin-right: 20px">
-
-<img src="images/minecart_turn_on.png" style="width:300px">
-
-We can also make a two-way minecart station where our minecart will stop until we tell it to continue. Dig out a 3x1 trench. Put a detector rail in the middle, and two powered rails on either side (powered rails act as brakes when unpowered).
-
-<img src="images/stop_initial.png" style="width:50%">
-
-Extend the rails outward to connect to your normal railways. Place two blocks with buttons on them on top of the blocks adjacent to the powered rail segments. When you press the button, the powered rail below it should light up.
-
-<img src="images/stop_buttons.png" style="width:50%">
-
-When you are on the railway, you will stop right next to one of the buttons. Press the button to power the rail underneath you, pushing you forward. The detector rail will then power the rail on the other side, pushing you along on your journey.
-
-<img src="images/stop_stopped.png" style="width:50%">
-
-Your assignment is to make a minecart rail that connects three different locations. Make a start-stop point at each of the destinations. Create a stop that allows you to choose your destination (see screenshot below).
-
-<img src="images/track_switching_station.png" style="width:50%">
+The cost in levels depends on the enchantments. You can also repair and name items with the anvil. In survival mode, there is a limit of 39 levels for any work performed on the anvil.
