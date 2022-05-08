@@ -1,9 +1,18 @@
 ## Creative Server
 
-This is a vanilla Minecraft server. This server can be joined from default Minecraft launcher running version 1.18.
+This is a vanilla Minecraft server. This server can be joined from default Minecraft launcher running version 1.18.2.
 
 * Server address: **mcucreative.crafted.pro**
-* Minecraft version: 1.18
+* Minecraft version: 1.18.2
+
+This is a whitelisted server. To be added to the server email your username to info@minecraftu.org. 
+
+## Survival Server
+
+This is a vanilla Minecraft survival server for our more advanced Minecrafters. This server can be joined from default Minecraft launcher running version 1.18.2.
+
+* Server address: **mcusurvival.crafted.pro**
+* Minecraft version: 1.18.2
 
 This is a whitelisted server. To be added to the server email your username to info@minecraftu.org. 
 
