@@ -28,7 +28,7 @@ Ranged weapons like bows and crossbows can be very useful against some mobs that
 Bows require arrows, which can be crafted from 1 flint, 1 stick, and 1 feather, or obtained from the drops of defeated skeletons.
 
 ### The Shield
-A shield will block all damage from most mobs when used when held in either hand and holding the right mouse button. This makes it a very useful item, so you should get one once you have the iron for it. Put it in your offhand (by pressing f while holding it) for easiest use.
+A shield will block all damage from most mobs when used when held in either hand while pressing and holding the right mouse button. This makes it a very useful item, so you should get one once you have the iron for it. Put it in your offhand (by pressing f while holding it) for easiest use.
 | ![Shield crafting recipe](images/shield_recipe.png) | 
 |:--:| 
 | *Shield crafting recipe* |
