@@ -10,14 +10,14 @@ This section will cover a few structures that could be useful to you. For more i
 
 ### Ruined Portal
 (can also generate underground)
+### Desert Pyramid
 ### Pillager Outpost
 ### Woodland Mansion
-### Desert Pyramid
 
 ## Underwater Structures
 
-### Shipwreck
 ### Ocean Ruins
+### Shipwreck
 
 ## Underground Structures
 
@@ -27,6 +27,6 @@ This section will cover a few structures that could be useful to you. For more i
 
 ## Nether Structures
 
-### Nether Fortresse
+### Nether Fortress
 ### Bastion Remnant
 
