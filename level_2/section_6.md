@@ -23,3 +23,31 @@ There are many kinds of villagers who provide different opportunities for tradin
 |Shephard     | Loom             | Trades shears, wool, dyes, paintings and beds|
 |Toolsmith    | Smithing Table   | Trades minerals, bells and harvest tools|
 |Weaponsmith  | Grindstone       | Trades minerals, bells and enchanted melee weapons|
+
+## Example Trades
+
+We won't review every type of trade, but here are some examples:
+
+### Armorer
+
+| ![Armorer](images/Plains_Armorer.png) |
+|:--:|
+| *Armorers are valuable because they will trade enchanted diamond armor.* |
+
+TODO: Put screenshots of example trades here
+
+### Cleric
+
+| ![Cleric](images/Plains_Cleric.png) |
+|:--:|
+| *Cleric are valuable because they will trade emeralds and ender pearls.* |
+
+TODO: Put screenshots of example trades here
+
+### Librarian
+
+| ![Librarian](images/Plains_Librarian.png) |
+|:--:|
+| *Librarian are valuable because they will trade enchanted books.* |
+
+TODO: Put screenshots of example trades here
