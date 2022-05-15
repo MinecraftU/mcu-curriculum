@@ -28,6 +28,16 @@ There are many kinds of villagers who provide different opportunities for tradin
 
 We won't review every type of trade, but here are some examples:
 
+### Weaponsmith
+
+| ![Weaponsmith](images/Plains_Weaponsmith.png) |
+|:--:|
+| *Weaponsmiths are valuable because they will trade enchanted axes and swords.* |
+
+![Weaponsmith](images/trading-weaponsmith-0.png)
+
+TODO: Put more screenshots of example trades here
+
 ### Armorer
 
 | ![Armorer](images/Plains_Armorer.png) |
@@ -40,7 +50,7 @@ TODO: Put screenshots of example trades here
 
 | ![Cleric](images/Plains_Cleric.png) |
 |:--:|
-| *Cleric are valuable because they will trade emeralds and ender pearls.* |
+| *Clerics are valuable because they will trade emeralds and ender pearls.* |
 
 TODO: Put screenshots of example trades here
 
@@ -48,6 +58,6 @@ TODO: Put screenshots of example trades here
 
 | ![Librarian](images/Plains_Librarian.png) |
 |:--:|
-| *Librarian are valuable because they will trade enchanted books.* |
+| *Librarians are valuable because they will trade enchanted books.* |
 
 TODO: Put screenshots of example trades here
