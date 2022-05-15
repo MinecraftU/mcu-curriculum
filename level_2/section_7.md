@@ -1,29 +1,49 @@
-# Section 7: The Nether
+# Section 6: Minecarts and Railway Construction
 
-## Nether Portals
+As you expand your living area, you may find that traveling between areas takes up a lot of your time. Running and walking aren't particularly fast, but minecarts can make traveling significantly faster and safer.
 
-The Nether is an awful place without much to see and a lot to be afraid of, but it also a place one must visit if one is ever to create potions or create beacons. It is also fairly handy when traveling long distances.
+| ![Minecart crafting recipe](images/minecart-recipe.png) | 
+|:--:| 
+| *Minecart crafting recipe* |
 
-This section is going to focus on placing nether portals for maximum transportation value with maximum safety features.
+| ![Rail crafting recipe](images/rail-recipe.png) | 
+|:--:| 
+| *Rail crafting recipe* |
 
-Going through a nether portal will create a linked portal in the nether. If there is already an active portal within range (about 128 blocks) in the other world, the portal will link to it.
+| ![Powered rail crafting recipe](images/powered-rail-recipe.png) | 
+|:--:| 
+| *Powered rail crafting recipe* |
 
-For this exercise, we will create two portals to travel between two mountain ranges.
+After placing down some track, you can place a minecart on top and right-click to enter. Once you're in the cart, pressing W will start moving you forward. Pressing the left SHIFT key will make you dismount the minecart, although it will keep moving. The wooden block at the end of this track stops the minecart before it goes too far:
 
-Some friendly reminders regarding traveling through the nether:
+<img src="images/minecart_riding.png" style="width:50%">
 
-* Take flint and steel. Your portal might be damaged by ghasts. In this exercise, you'll need it to light a new portal at the 2nd location.
-* Take cobble and gravel. The former for building walls to protect from ghasts, the latter for gravel elevators.
-* Take a bow and plenty of arrows for fighting ghasts.
-* Do not hit zombie pigmen! Be careful when mining around them!
-* Use shift/sneak liberally while near precipices and lava, so as not to fall
+You can use powered rails to keep the minecart going on long tracks, similar to redstone repeaters. They must be powered with redstone to provide any power to the minecart.
 
-The advantage of using the nether for long-distance travel is that for every block traveled in the nether, you travel eight blocks in the overworld. Since naturally occurring resources are often far apart in the overworld, you will very likely need to travel long distances with some frequency as you collect and transport those resources.
+<img src="images/minecart_powered.png" style="width:50%">
 
-Placing portals so that they connect is tricky. From the wiki:
+By using blocks to create tilted rails, we can make handy locations for starting minecarts without having to move manually.
 
-Horizontal coordinates and distances in the Nether are proportional to the Overworld in a 1:8 ratio (1:3 in Xbox 360 & PlayStation 3 version)...This does not apply on the Y-axis...Thus, for a given location X, Y, Z in the Overworld, the corresponding coordinates in the Nether are X ÷ 8, Y, Z ÷ 8. Conversely, for a location X, Y, Z in the Nether, the matching Overworld coordinates are X × 8, Y, Z × 8.
+<img src="images/minecart_launcher.png" style="width:50%">
 
-The goal of this exercise is to travel through the nether to another portal to the overworld position 1000 blocks away.
+Redstone can also be used to make junctions where you can select which direction the cart will take you. Three-way intersections will flip back and forth as power is supplied or cut off.
 
-Mobs of all kinds can make their way through portals, so be a little cautious when traveling through no matter which direction.
+<img src="images/minecart_turn_off.png" style="width:300px; float: left; margin-right: 20px">
+
+<img src="images/minecart_turn_on.png" style="width:300px">
+
+We can also make a two-way minecart station where our minecart will stop until we tell it to continue. Dig out a 3x1 trench. Put a detector rail in the middle, and two powered rails on either side (powered rails act as brakes when unpowered).
+
+<img src="images/stop_initial.png" style="width:50%">
+
+Extend the rails outward to connect to your normal railways. Place two blocks with buttons on them on top of the blocks adjacent to the powered rail segments. When you press the button, the powered rail below it should light up.
+
+<img src="images/stop_buttons.png" style="width:50%">
+
+When you are on the railway, you will stop right next to one of the buttons. Press the button to power the rail underneath you, pushing you forward. The detector rail will then power the rail on the other side, pushing you along on your journey.
+
+<img src="images/stop_stopped.png" style="width:50%">
+
+Your assignment is to make a minecart rail that connects three different locations. Make a start-stop point at each of the destinations. Create a stop that allows you to choose your destination (see screenshot below).
+
+<img src="images/track_switching_station.png" style="width:50%">
