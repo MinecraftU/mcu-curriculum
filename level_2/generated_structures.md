@@ -35,11 +35,15 @@ A watchtower surrounded by up to four small structures that spawns pillagers. Th
 
 ### Dungeon (Common)
 ### Mineshaft (Common)
+A maze with many corridors supported by wooden beams with incomplete rail systems where minecarts with chests can generate. These chests can include loot such as rails, ores, and golden apples. Cave spider spawners heavily surrounded by cobwebs can also generate here.
+
 ### Stronghold (Rare)
 ### Buried Treasure (Rare)
+A single chest that spawns below sand in beach biomes. The chest has a high chance of containing valuable loot like ores, a heart of the sea, a potion of water breathing, and fish. Buried treasure can be located using explorer maps, which can be found in shipwrecks.
 
 ## Nether Structures
 
 ### Nether Fortress (Uncommon)
 ### Bastion Remnant (Uncommon)
+A large, castle-like structure made of mostly basalt and blackstone. They are very dangerous, with piglins, piglin brutes (that can disable shields with axes) and hoglins that can do lots of damage and knock you into lava. But, it can be very rewarding, with many gold blocks to mine and chests that may contain gold, iron, arrows, crossbows, netherite, a lodestone, and more.
 
