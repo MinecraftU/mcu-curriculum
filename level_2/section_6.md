@@ -34,9 +34,13 @@ We won't review every type of trade, but here are some examples:
 |:--:|
 | *Weaponsmiths are valuable because they will trade enchanted axes and swords.* |
 
+As you continue to trade with a villager, they will advance in the types of items they will trade. For example, a weaponsmith will start with just trading for two items:
+
 ![Weaponsmith](images/trading-weaponsmith-0.png)
 
-TODO: Put more screenshots of example trades here
+Eventually, more trades open up:
+
+![Weaponsmith](images/trading-weaponsmith-1.png)
 
 ### Armorer
 
