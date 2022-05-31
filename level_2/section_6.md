@@ -48,7 +48,10 @@ Eventually, more trades open up:
 |:--:|
 | *Armorers are valuable because they will trade enchanted diamond armor.* |
 
-TODO: Put screenshots of example trades here
+
+![Armorer](images/trading-armoror-0.png)
+
+![Armorer](images/trading-armoror-1.png)
 
 ### Cleric
 
@@ -56,7 +59,9 @@ TODO: Put screenshots of example trades here
 |:--:|
 | *Clerics are valuable because they will trade emeralds and ender pearls.* |
 
-TODO: Put screenshots of example trades here
+![Cleric](images/trading-cleric-0.png)
+
+![Cleric](images/trading-cleric-1.png)
 
 ### Librarian
 
@@ -64,4 +69,16 @@ TODO: Put screenshots of example trades here
 |:--:|
 | *Librarians are valuable because they will trade enchanted books.* |
 
-TODO: Put screenshots of example trades here
+![Cleric](images/trading-cleric-0.png)
+
+![Cleric](images/trading-cleric-1.png)
+
+### Fletcher
+
+| ![Fletcher](images/Plains_Fletcher.png) |
+|:--:|
+| *Fletchers trade for bows and crossbows, but importantly will trade emeralds for sticks!* |
+
+![Fletcher](images/trading-fletcher-0.png)
+
+![Fletcher](images/trading-fletcher-1.png)
