@@ -49,9 +49,9 @@ Eventually, more trades open up:
 | *Armorers are valuable because they will trade enchanted diamond armor.* |
 
 
-![Armorer](images/trading-armoror-0.png)
+![Armorer](images/trading-armorer-0.png)
 
-![Armorer](images/trading-armoror-1.png)
+![Armorer](images/trading-armorer-1.png)
 
 ### Cleric
 
