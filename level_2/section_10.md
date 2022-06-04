@@ -1,4 +1,4 @@
-# Section 9: Skin Design and Auto-smelters
+# Section 10: Skin Design and Auto-smelters
 
 ## Skin Design
 

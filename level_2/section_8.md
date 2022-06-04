@@ -1,4 +1,4 @@
-# Section 7: The Nether
+# Section 8: The Nether
 
 ## Nether Portals
 
