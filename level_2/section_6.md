@@ -1,6 +1,6 @@
 # Villager Trading
 
-| ![Desert village](images/desert_village.png) |
+| ![Desert village](images/desert-village.png) |
 |:--:|
 | *A desert village* |
 
@@ -8,7 +8,7 @@ Villagers are passive mobs that live in villages (naturally generated groups of 
 
 ## Villager Breeding
 
-| ![A building meeting villager breeding conditions](images/desert_village.png) |
+| ![A building meeting villager breeding conditions](images/breeding-conditions.png) |
 |:--:|
 | *A building meeting villager breeding conditions* |
 
