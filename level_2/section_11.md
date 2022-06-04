@@ -66,7 +66,11 @@ A maze with many corridors supported by wooden beams with incomplete rail system
 
 ### Stronghold (Rare)
 
-Strongholds are very hard to find and for good reason -- they are the only place you can find portals to travel to the End.
+Strongholds are very hard to find and for good reason -- they are the only place you can find portals to travel to the End. You can locate strongholds by throwing an eye of ender, which will go in the direction of a stronghold.
+
+![an end portal in a stronghold](images/end-portal.jpg)
+
+In addition to end portals, strongholds also have various types of rooms including large libraries and numerous loot chests. 
 
 ### Buried Treasure (Rare)
 ![buried treasure](images/buried-treasure.png)
@@ -75,6 +79,11 @@ A single chest that spawns below sand in beach biomes. The chest has a high chan
 ## Nether Structures
 
 ### Nether Fortress (Uncommon)
+
+Nether fortresses generate in all Nether biomes. Nether fortresses are large complexes, composed of nether bricks materials, that are supported by massive pillars that tower high above the lava oceans. There are numerous loot chests inside nether fortresses, as well as many blaze spawners. Nether fortresses are also where wither skeletons can be found. Skeletons are also very common inside nether fortresses.
+
+Nether fortresses are one of the first generated structures a player will look for, as blaze rods are necessary for brewing.
+
 ### Bastion Remnant (Uncommon)
 ![bastion remnant](images/bastion-remnant.png)
 A large, castle-like structure made of mostly basalt and blackstone. They are very dangerous, with piglins, piglin brutes (that can disable shields with axes) and hoglins that can do lots of damage and knock you into lava. But, it can be very rewarding, with many gold blocks to mine and chests that may contain gold, iron, arrows, crossbows, netherite, a lodestone, and more.
