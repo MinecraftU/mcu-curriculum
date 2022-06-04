@@ -1,33 +1,49 @@
-# Section 7: Mob Farm/Grinder
+# Section 6: Minecarts and Railway Construction
 
-Occasionally you will find a monster spawner in a Minecraft dungeon. These cage-like blocks spawn monsters in a cube around them every few seconds. While they can be dangerous, they can also be a valuable source of items and experience. To do so safely and quickly, you can build a structure that serves two purposes. First, it should weaken the monsters using water, lava, or a steep fall so that you can defeat them faster. Second, it should also allow you to attack the spawned monsters from a safe place.
+As you expand your living area, you may find that traveling between areas takes up a lot of your time. Running and walking aren't particularly fast, but minecarts can make traveling significantly faster and safer.
 
-You must locate a monster spawner! They're locating in dungeons and are surrounded by stone brick rather than smooth stone. When you find it, dig out a large space around the spawner (about 8x8) and put torches around it so monsters won't spawn.
+| ![Minecart crafting recipe](images/minecart-recipe.png) | 
+|:--:| 
+| *Minecart crafting recipe* |
 
-<img src="images/section_2/grinder_initial.png" style="width:600px">
+| ![Rail crafting recipe](images/rail-recipe.png) | 
+|:--:| 
+| *Rail crafting recipe* |
 
-The goal for this mob grinder is to drop zombies exactly 22 steps (check out the Minecraft wiki to calculate how high you should drop each type of monster). After the drop, they will have low enough health that one hit from a sword will kill them. At the same time, the player must be able to stand near enough the spawner that new zombies will spawn. First, we need to force the monsters into one location so we can control where they go. Dig out some of the stone on one side (see the picture for reference) and then put water at the middle and corners of the other side (underneath the glowstone in the second picture).
+| ![Powered rail crafting recipe](images/powered-rail-recipe.png) | 
+|:--:| 
+| *Powered rail crafting recipe* |
 
-<img src="images/section_2/grinder_dug.png" style="width:600px">
+After placing down some track, you can place a minecart on top and right-click to enter. Once you're in the cart, pressing W will start moving you forward. Pressing the left SHIFT key will make you dismount the minecart, although it will keep moving. The wooden block at the end of this track stops the minecart before it goes too far:
 
-<img src="images/section_2/grinder_water.png" style="width:600px">
+<img src="images/minecart_riding.png" style="width:50%">
 
-Next, we will dig a shaft upward 22 blocks (we built ours out of glass so you can easily see how it is built). Inside, we will use a water-and-sign checkerboard to get the zombies to swim up to the top. The air pockets will keep the zombies alive while they swim upward.
+You can use powered rails to keep the minecart going on long tracks, similar to redstone repeaters. They must be powered with redstone to provide any power to the minecart.
 
-<img src="images/section_2/grinder_shaft_bottom.png" style="width:600px">
+<img src="images/minecart_powered.png" style="width:50%">
 
-<img src="images/section_2/grinder_signs.png" style="width:600px">
+By using blocks to create tilted rails, we can make handy locations for starting minecarts without having to move manually.
 
-<img src="images/section_2/grinder_signs_and_water.png" style="width:600px">
+<img src="images/minecart_launcher.png" style="width:50%">
 
-Third, we need to build a horizontal tunnel with water at one end to push the zombies to the top of our drop shaft. Place one more water source next to the top sign so that it pushes the zombies over the spawner to the opposite side. Another sign at the end will stop the water where we want it for the drop shaft.
+Redstone can also be used to make junctions where you can select which direction the cart will take you. Three-way intersections will flip back and forth as power is supplied or cut off.
 
-<img src="images/section_2/grinder_top_shaft.png" style="width:600px">
+<img src="images/minecart_turn_off.png" style="width:300px; float: left; margin-right: 20px">
 
-And finally we create a 22-block high shaft for the zombies to drop down. We can dig stairs down to the bottom and easily farm these zombies for items and experience. By standing one block further down than the zombies, we can attack their legs while being completely safe.
+<img src="images/minecart_turn_on.png" style="width:300px">
 
-<img src="images/section_2/grinder_drop_shaft.png" style="width:600px">
+We can also make a two-way minecart station where our minecart will stop until we tell it to continue. Dig out a 3x1 trench. Put a detector rail in the middle, and two powered rails on either side (powered rails act as brakes when unpowered).
 
-<img src="images/section_2/grinder_farm_space.png" style="width:600px">
+<img src="images/stop_initial.png" style="width:50%">
 
-We've given you a world that has a zombie dungeon located directly below the spawn point. Your task is to find the spawner (dig down carefully to find it) and build a mob grinder like the one described above.
+Extend the rails outward to connect to your normal railways. Place two blocks with buttons on them on top of the blocks adjacent to the powered rail segments. When you press the button, the powered rail below it should light up.
+
+<img src="images/stop_buttons.png" style="width:50%">
+
+When you are on the railway, you will stop right next to one of the buttons. Press the button to power the rail underneath you, pushing you forward. The detector rail will then power the rail on the other side, pushing you along on your journey.
+
+<img src="images/stop_stopped.png" style="width:50%">
+
+Your assignment is to make a minecart rail that connects three different locations. Make a start-stop point at each of the destinations. Create a stop that allows you to choose your destination (see screenshot below).
+
+<img src="images/track_switching_station.png" style="width:50%">

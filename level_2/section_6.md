@@ -1,29 +1,103 @@
-# Section 6: The Nether
+# Villager Trading
 
-## Nether Portals
+| ![Desert village](images/desert-village.png) |
+|:--:|
+| *A desert village* |
 
-The Nether is an awful place without much to see and a lot to be afraid of, but it also a place one must visit if one is ever to create potions or create beacons. It is also fairly handy when traveling long distances.
+Villagers are passive mobs that live in villages (naturally generated groups of buildings). They work at their jobs, breed, and interact with each other. They spawn unemployed, but can be given jobs by placing a job site block near them (there must be a job site block for every employed villager). To learn more about villagers, check out [the wiki](https://minecraft.fandom.com/wiki/Villager) (https://minecraft.fandom.com/wiki/Villager).
 
-This section is going to focus on placing nether portals for maximum transportation value with maximum safety features.
+## Villager Breeding
 
-Going through a nether portal will create a linked portal in the nether. If there is already an active portal within range (about 128 blocks) in the other world, the portal will link to it.
+| ![A building meeting villager breeding conditions](images/breeding-conditions.png) |
+|:--:|
+| *A building meeting villager breeding conditions* |
 
-For this exercise, we will create two portals to travel between two mountain ranges.
+For 2 villagers to breed, a couple of conditions must be met:
+* The building where the villagers will breed must have at least three beds with two or more empty blocks above them
+* The villagers must have 3 loaves of bread, 12 carrots, 12 potatoes, or 12 beetroots in their inventory (you can give them this food by throwing it to them)
 
-Some friendly reminders regarding traveling through the nether:
+If these conditions are met, the villagers should breed in around 20 minutes. Once they have bred, a new, unemployed baby villager will appear. Baby villagers cannot trade; you will have to wait 20 minutes until they grow up to trade with them.
 
-* Take flint and steel. Your portal might be damaged by ghasts. In this exercise, you'll need it to light a new portal at the 2nd location.
-* Take cobble and gravel. The former for building walls to protect from ghasts, the latter for gravel elevators.
-* Take a bow and plenty of arrows for fighting ghasts.
-* Do not hit zombie pigmen! Be careful when mining around them!
-* Use shift/sneak liberally while near precipices and lava, so as not to fall
+## Types of Villagers
 
-The advantage of using the nether for long-distance travel is that for every block traveled in the nether, you travel eight blocks in the overworld. Since naturally occurring resources are often far apart in the overworld, you will very likely need to travel long distances with some frequency as you collect and transport those resources.
+| ![Villager types](images/trading-1.png) |
+|:--:|
+| *Different villager types, with their job site blocks* |
 
-Placing portals so that they connect is tricky. From the wiki:
+There are many kinds of villagers who provide different opportunities for trading. The types of villagers and their respective job site blocks and trades are:
 
-Horizontal coordinates and distances in the Nether are proportional to the Overworld in a 1:8 ratio (1:3 in Xbox 360 & PlayStation 3 version)...This does not apply on the Y-axis...Thus, for a given location X, Y, Z in the Overworld, the corresponding coordinates in the Nether are X ÷ 8, Y, Z ÷ 8. Conversely, for a location X, Y, Z in the Nether, the matching Overworld coordinates are X × 8, Y, Z × 8.
+| Villager    | Job Site Block   | Trades |
+| ----------- | ---------------- | ---- |
+|Nitwit       | n/a              | n/a |
+|Unemployed   | n/a              | None until employed |
+|Armorer      | Blast Furnance   | Trades foundry items and sells chain, iron and enchanted diamond armor tiers|
+|Butcher      | Smoker           | Trades meats, sweet berries, rabbit stew, and dried kelp blocks |
+|Cartographer | Cartography Table| Trades banners, compasses, banner patterns, papers and various maps, including explorer maps|
+|Cleric       | Brewing Stand    | Trades magic items like ender pearls, redstone dust, glowstone dust, and other enchanting or potion ingredients|
+|Farmer       | Composter        | Trades crops and natural foods, such as bread|
+|Fisherman    | Barrel           | Trades campfires and fishing items|
+|Fletcher     | Fletching Table  | Trades bows, crossbows, arrows|
+|Leatherworker| Cauldron         | Trades scutes, rabbit hide, and leather-related items|
+|Librarian    | Lectern          | Trades enchanted books, clocks, compasses, name tags, glass, ink sacs, lanterns, and book and quills|
+|Mason        | Stonecutter      | Trades polished stones, terracotta, clay, glazed terracotta and quartz|
+|Shephard     | Loom             | Trades shears, wool, dyes, paintings and beds|
+|Toolsmith    | Smithing Table   | Trades minerals, bells and harvest tools|
+|Weaponsmith  | Grindstone       | Trades minerals, bells and enchanted melee weapons|
 
-The goal of this exercise is to travel through the nether to another portal to the overworld position 1000 blocks away.
+## Example Trades
 
-Mobs of all kinds can make their way through portals, so be a little cautious when traveling through no matter which direction.
+We won't review every type of trade, but here are some examples:
+
+### Weaponsmith
+
+| ![Weaponsmith](images/Plains_Weaponsmith.png) |
+|:--:|
+| *Weaponsmiths are valuable because they will trade enchanted axes and swords.* |
+
+As you continue to trade with a villager, they will advance in the types of items they will trade. For example, a weaponsmith will start with just trading for two items:
+
+![Weaponsmith](images/trading-weaponsmith-0.png)
+
+Eventually, more trades open up:
+
+![Weaponsmith](images/trading-weaponsmith-1.png)
+
+### Armorer
+
+| ![Armorer](images/Plains_Armorer.png) |
+|:--:|
+| *Armorers are valuable because they will trade enchanted diamond armor.* |
+
+![Armorer](images/trading-armorer-0.png)
+
+![Armorer](images/trading-armorer-1.png)
+
+### Cleric
+
+| ![Cleric](images/Plains_Cleric.png) |
+|:--:|
+| *Clerics are valuable because they will trade emeralds and ender pearls.* |
+
+![Cleric](images/trading-cleric-0.png)
+
+![Cleric](images/trading-cleric-1.png)
+
+### Librarian
+
+| ![Librarian](images/Plains_Librarian.png) |
+|:--:|
+| *Librarians are valuable because they will trade enchanted books.* |
+
+![Cleric](images/trading-librarian-0.png)
+
+![Cleric](images/trading-librarian-1.png)
+
+### Fletcher
+
+| ![Fletcher](images/Plains_Fletcher.png) |
+|:--:|
+| *Fletchers trade for bows and crossbows, but importantly will trade emeralds for sticks!* |
+
+![Fletcher](images/trading-fletcher-0.png)
+
+![Fletcher](images/trading-fletcher-1.png)
