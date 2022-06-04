@@ -1,5 +1,25 @@
 # Villager Trading
 
+| ![Desert village](images/desert_village.png) |
+|:--:|
+| *A desert village* |
+
+Villagers are passive mobs that live in villages (naturally generated groups of buildings). They work at their jobs, breed, and interact with each other. They spawn unemployed, but can be given jobs by placing a job site block near them (there must be a job site block for every employed villager). To learn more about villagers, check out [the wiki](https://minecraft.fandom.com/wiki/Villager#Spawning).
+
+## Villager Breeding
+
+| ![A building meeting villager breeding conditions](images/desert_village.png) |
+|:--:|
+| *A building meeting villager breeding conditions* |
+
+For 2 villagers to breed, a couple of conditions must be met:
+* The building where the villagers will breed must have at least three beds with two or more empty blocks above them
+* The villagers must have 3 loaves of bread, 12 carrots, 12 potatoes, or 12 beetroots in their inventory (you can give them this food by throwing it to them)
+
+If these conditions are met, the villagers should breed in around 20 minutes. Once they have bred, a new, unemployed baby villager will appear. Baby villagers cannot trade; you will have to wait 20 minutes until they grow up to trade with them.
+
+## Types of Villagers
+
 | ![Villager types](images/trading-1.png) |
 |:--:|
 | *Different villager types, with their job site blocks* |
