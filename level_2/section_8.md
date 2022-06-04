@@ -1,33 +1,29 @@
-# Section 8: Mob Farm/Grinder
+# Section 7: The Nether
 
-Occasionally you will find a monster spawner in a Minecraft dungeon. These cage-like blocks spawn monsters in a cube around them every few seconds. While they can be dangerous, they can also be a valuable source of items and experience. To do so safely and quickly, you can build a structure that serves two purposes. First, it should weaken the monsters using water, lava, or a steep fall so that you can defeat them faster. Second, it should also allow you to attack the spawned monsters from a safe place.
+## Nether Portals
 
-You must locate a monster spawner! They're locating in dungeons and are surrounded by stone brick rather than smooth stone. When you find it, dig out a large space around the spawner (about 8x8) and put torches around it so monsters won't spawn.
+The Nether is an awful place without much to see and a lot to be afraid of, but it also a place one must visit if one is ever to create potions or create beacons. It is also fairly handy when traveling long distances.
 
-<img src="images/section_2/grinder_initial.png" style="width:600px">
+This section is going to focus on placing nether portals for maximum transportation value with maximum safety features.
 
-The goal for this mob grinder is to drop zombies exactly 22 steps (check out the Minecraft wiki to calculate how high you should drop each type of monster). After the drop, they will have low enough health that one hit from a sword will kill them. At the same time, the player must be able to stand near enough the spawner that new zombies will spawn. First, we need to force the monsters into one location so we can control where they go. Dig out some of the stone on one side (see the picture for reference) and then put water at the middle and corners of the other side (underneath the glowstone in the second picture).
+Going through a nether portal will create a linked portal in the nether. If there is already an active portal within range (about 128 blocks) in the other world, the portal will link to it.
 
-<img src="images/section_2/grinder_dug.png" style="width:600px">
+For this exercise, we will create two portals to travel between two mountain ranges.
 
-<img src="images/section_2/grinder_water.png" style="width:600px">
+Some friendly reminders regarding traveling through the nether:
 
-Next, we will dig a shaft upward 22 blocks (we built ours out of glass so you can easily see how it is built). Inside, we will use a water-and-sign checkerboard to get the zombies to swim up to the top. The air pockets will keep the zombies alive while they swim upward.
+* Take flint and steel. Your portal might be damaged by ghasts. In this exercise, you'll need it to light a new portal at the 2nd location.
+* Take cobble and gravel. The former for building walls to protect from ghasts, the latter for gravel elevators.
+* Take a bow and plenty of arrows for fighting ghasts.
+* Do not hit zombie pigmen! Be careful when mining around them!
+* Use shift/sneak liberally while near precipices and lava, so as not to fall
 
-<img src="images/section_2/grinder_shaft_bottom.png" style="width:600px">
+The advantage of using the nether for long-distance travel is that for every block traveled in the nether, you travel eight blocks in the overworld. Since naturally occurring resources are often far apart in the overworld, you will very likely need to travel long distances with some frequency as you collect and transport those resources.
 
-<img src="images/section_2/grinder_signs.png" style="width:600px">
+Placing portals so that they connect is tricky. From the wiki:
 
-<img src="images/section_2/grinder_signs_and_water.png" style="width:600px">
+Horizontal coordinates and distances in the Nether are proportional to the Overworld in a 1:8 ratio (1:3 in Xbox 360 & PlayStation 3 version)...This does not apply on the Y-axis...Thus, for a given location X, Y, Z in the Overworld, the corresponding coordinates in the Nether are X ÷ 8, Y, Z ÷ 8. Conversely, for a location X, Y, Z in the Nether, the matching Overworld coordinates are X × 8, Y, Z × 8.
 
-Third, we need to build a horizontal tunnel with water at one end to push the zombies to the top of our drop shaft. Place one more water source next to the top sign so that it pushes the zombies over the spawner to the opposite side. Another sign at the end will stop the water where we want it for the drop shaft.
+The goal of this exercise is to travel through the nether to another portal to the overworld position 1000 blocks away.
 
-<img src="images/section_2/grinder_top_shaft.png" style="width:600px">
-
-And finally we create a 22-block high shaft for the zombies to drop down. We can dig stairs down to the bottom and easily farm these zombies for items and experience. By standing one block further down than the zombies, we can attack their legs while being completely safe.
-
-<img src="images/section_2/grinder_drop_shaft.png" style="width:600px">
-
-<img src="images/section_2/grinder_farm_space.png" style="width:600px">
-
-We've given you a world that has a zombie dungeon located directly below the spawn point. Your task is to find the spawner (dig down carefully to find it) and build a mob grinder like the one described above.
+Mobs of all kinds can make their way through portals, so be a little cautious when traveling through no matter which direction.
