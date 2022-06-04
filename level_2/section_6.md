@@ -4,7 +4,7 @@
 |:--:|
 | *A desert village* |
 
-Villagers are passive mobs that live in villages (naturally generated groups of buildings). They work at their jobs, breed, and interact with each other. They spawn unemployed, but can be given jobs by placing a job site block near them (there must be a job site block for every employed villager). To learn more about villagers, check out [the wiki](https://minecraft.fandom.com/wiki/Villager#Spawning).
+Villagers are passive mobs that live in villages (naturally generated groups of buildings). They work at their jobs, breed, and interact with each other. They spawn unemployed, but can be given jobs by placing a job site block near them (there must be a job site block for every employed villager). To learn more about villagers, check out [the wiki](https://minecraft.fandom.com/wiki/Villager).
 
 ## Villager Breeding
 
@@ -67,7 +67,6 @@ Eventually, more trades open up:
 | ![Armorer](images/Plains_Armorer.png) |
 |:--:|
 | *Armorers are valuable because they will trade enchanted diamond armor.* |
-
 
 ![Armorer](images/trading-armorer-0.png)
 
