@@ -10,26 +10,32 @@ This section will describe a few structures that could be useful to you. For mor
 
 ### Ruined Portal (Common)
 ![ruined portal](images/ruined-portal.png)
+
 An incomplete nether portal made with obsidian, crying obsidian, and many types of stone with a netherrack platform is below it. A loot chest containing many nether related items (like golden tools, flint and steel, etc.) and gold blocks often generates with it. Note that these also generate underground and in the nether.
 
 ### Desert Pyramid (Uncommon)
 ![desert pyramid](images/desert-pyramid.png)
+
 Found in only deserts, desert pyramids are large buildings made of sandstone containing four loot chests hidden below terracotta. Directly below the blue terracotta and right next to the loot chests is a pressure plate that will activate a TNT trap below the pressure plate, so make sure not to drop down directly below the blue terracotta. The loot chests could contain mob drops, gold and iron ingots, horse armor, golden apples, and more.
 
 ### Igloo (Rare)
 ![igloo](images/igloo.png)
+
 Snow buildings found in snowly plains and snowy taigas. They may contain a basement hidden under carpet. The basement contains a villager and zombie villager behind bars, a brewing stand with a weakness potion, and a loot chest that contains a golden apple and other items. The weakness potion and golden apple can be used to cure the zombie villager.
 
 ### Jungle Temple (Rare)
 ![jungle temple](images/jungle-temple.png)
+
 Overgrown cobblestone structures containing two loot chests, with one trapped with two dispensers firing arrows and the other hidden behind a lever puzzle. To get past the trap, simply walk towards the chest while making sure you are touching the right wall. You can then mine the dispenser and tripwire to disable the trap and get some extra items. To get past the puzzle, simply break through the wall containing the levers with a pickaxe. Loot chests may contain mob drops, gold and iron ingots, bamboo, enchanted books, horse armor, and more.
 
 ### Pillager Outpost (Rare)
 ![pillager outpost](images/pillager-outpost.png)
+
 A watchtower surrounded by up to four small structures that spawns pillagers. The watchtower is mainly made of birch planks, dark oak logs, and cobblestone. Possible items in the loot chest include dark oak logs, crossbows, arrows, iron ingots, and enchanted books.
 
 ### Woodland Mansion (Rare)
 ![woodland mansion](images/woodland-mansion.jpg)
+
 The woodland mansion is very rare and can be found only in dark forests, normally far away from spawn. A mansion is inhabited by evokers and vindicators, and is one of the few places where a totem of undying can be obtained. They can be located with woodland explorer maps, which are obtained from cartographer villagers. 
 
 A woodland mansion naturally generates vindicators and evokers inside the mansion, but because the entrance is open and most rooms in the woodland mansion are dark, overworld monsters often spawn in woodland mansions. Make sure you are well-equipped before you attempt to clear a woodland mansion! Once ready, however, you will find a lot of loot inside a woodland mansion.
@@ -49,12 +55,14 @@ Ocean momuments are large, heavily gaurded structures in the ocean inhabited by 
 
 ### Dungeon (Common)
 ![zombie dungeon](images/dungeon.png)
+
 A dungeon is a cobblestone room typically generated underground that contains a spawner and up to two loot chests. The spawner has a 50% chance of producing zombies, a 25% chance of producing skeletons, or a 25% chance of producing spiders. 
 
 Dungeons are great for creating mob farms, so whenever possible the spawner should not be destroyed. Place light sources throughout the dungeon to prevent mobs from spawning, once your have faught off the original hoard in the dungeon.
 
 ### Mineshaft (Common)
 ![mineshaft](images/mineshaft.png)
+
 A maze with many corridors supported by wooden beams with incomplete rail systems where minecarts with chests can generate. These chests can include loot such as rails, ores, and golden apples. Cave spider spawners heavily surrounded by cobwebs can also generate here.
 
 ### Stronghold (Rare)
@@ -66,6 +74,7 @@ In addition to end portals, strongholds also have various types of rooms includi
 
 ### Buried Treasure (Rare)
 ![buried treasure](images/buried-treasure.png)
+
 A single chest that spawns below sand in beach biomes. The chest has a high chance of containing valuable loot like ores, a heart of the sea, a potion of water breathing, and fish. Buried treasure can be located using explorer maps, which can be found in shipwrecks.
 
 ## Nether Structures
@@ -77,4 +86,5 @@ Nether fortresses are one of the first generated structures a player will look f
 
 ### Bastion Remnant (Uncommon)
 ![bastion remnant](images/bastion-remnant.png)
+
 A large, castle-like structure made of mostly basalt and blackstone. They are very dangerous, with piglins, piglin brutes (that can disable shields with axes) and hoglins that can do lots of damage and knock you into lava. But, it can be very rewarding, with many gold blocks to mine and chests that may contain gold, iron, arrows, crossbows, netherite, a lodestone, and more.
