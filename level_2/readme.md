@@ -11,7 +11,8 @@ Learn the basics of survival in the Minecraft world, from fending off starvation
 * Section 3: Mining  
 * Section 4: Fighting Mobs
 * Section 5: Enchanting
-* Section 6: Minecarts  
-* Section 7: The Nether
-* Section 8: Mob Farm/Grinder  
-* Section 9: Auto-smelters
+* Section 6: Villager Trading
+* Section 7: Minecarts  
+* Section 8: The Nether
+* Section 9: Mob Farm/Grinder  
+* Section 10: Auto-smelters

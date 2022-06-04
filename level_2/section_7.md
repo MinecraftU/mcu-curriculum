@@ -1,4 +1,4 @@
-# Section 6: Minecarts and Railway Construction
+# Section 7: Minecarts and Railway Construction
 
 As you expand your living area, you may find that traveling between areas takes up a lot of your time. Running and walking aren't particularly fast, but minecarts can make traveling significantly faster and safer.
 

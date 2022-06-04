@@ -1,4 +1,4 @@
-# Villager Trading
+# Section 6: Villager Trading
 
 | ![Desert village](images/desert-village.png) |
 |:--:|
