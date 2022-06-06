@@ -34,7 +34,7 @@ If you keep mining long enough, you're sure to find some good veins of ore!
 
 As you can see from the chart, some ores spawn the most at high Y-coordinates. This is because they generate in mountains. Mining by going to mountain biomes and digging up visible ores can be a safer alternative to underground mining.
 
-Locate a mountain biome by exploring until you see a mountain (remember to bring enough food). You can check your biome by pressing F3. A list of mountain biomes can be found [here](https://minecraft.fandom.com/wiki/Mountains).
+Locate a mountain biome by exploring until you see a mountain (remember to bring enough food). You can check your biome by pressing F3. A list of mountain biomes can be found [here](https://minecraft.fandom.com/wiki/Mountains) (https://minecraft.fandom.com/wiki/Mountains).
 
 <img src="images/section_3/f3_biome.png" style="width:50%">
 

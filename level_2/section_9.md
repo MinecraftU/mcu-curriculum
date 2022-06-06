@@ -29,5 +29,3 @@ And finally we create a 22-block high shaft for the zombies to drop down. We can
 <img src="images/section_2/grinder_drop_shaft.png" style="width:600px">
 
 <img src="images/section_2/grinder_farm_space.png" style="width:600px">
-
-We've given you a world that has a zombie dungeon located directly below the spawn point. Your task is to find the spawner (dig down carefully to find it) and build a mob grinder like the one described above.

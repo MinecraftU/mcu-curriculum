@@ -4,7 +4,7 @@ A generated structure is a structure that is generated when the world is created
 
 It can be very useful to find these structures, as they can contain useful things like loot chests (which can contain useful items) and monster spawners (for mob farms). 
 
-This section will describe a few structures that could be useful to you. For more information on all structures, check [the wiki](https://minecraft.fandom.com/wiki/Generated_structures).
+This section will describe a few structures that could be useful to you. For more information on all structures, check [the wiki](https://minecraft.fandom.com/wiki/Generated_structures) (https://minecraft.fandom.com/wiki/Generated_structures).
 
 ## Aboveground Structures
 

@@ -7,7 +7,7 @@ Mobs can be separated into 3 categories:
 2. Neutral mobs, which try to attack you only if you attack them
 3. Hostile mobs, or monsters, which will always try to attack you. 
 
-Many neutral and hostile mobs may be hard to fight, so this section will teach some mob fighting strategies. If you want more detail about how to fight a specific mob, [see this tutorial](https://www.kodeclik.com/how-to-kill-mobs-minecraft/).
+Many neutral and hostile mobs may be hard to fight, so this section will teach some mob fighting strategies. If you want more detail about how to fight a specific mob, [see this tutorial](https://www.kodeclik.com/how-to-kill-mobs-minecraft/) (https://www.kodeclik.com/how-to-kill-mobs-minecraft/).
 
 ## Tools
 
