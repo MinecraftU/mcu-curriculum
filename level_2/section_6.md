@@ -4,7 +4,7 @@
 |:--:|
 | *A desert village* |
 
-Villagers are passive mobs that live in villages (naturally generated groups of buildings). They work at their jobs, breed, and interact with each other. They spawn unemployed, but can be given jobs by placing a job site block near them (there must be a job site block for every employed villager). To learn more about villagers, check out [the wiki](https://minecraft.fandom.com/wiki/Villager) (https://minecraft.fandom.com/wiki/Villager).
+Villagers are passive mobs that live in villages (naturally generated groups of buildings). They work at their jobs, breed, and interact with each other. They spawn unemployed, but can be given jobs by placing a job site block near them (there must be a job site block for every employed villager). To learn more about villagers, check out [the wiki](https://minecraft.wiki/w/Villager) (https://minecraft.wiki/w/Villager).
 
 ## Villager Breeding
 

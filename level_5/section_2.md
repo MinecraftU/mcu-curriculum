@@ -48,7 +48,7 @@ Whenever you create the instance of subclass, an instance of parent class is cre
 
 Therefore, the line `super(Material.ROCK)` is calling the `Block` parent class (in this case, its _constructor_). What can you infer from this line of code?
 
-Answer: this new block is going to inherit some properties of Minecraft [Rock](https://minecraft.gamepedia.com/Rock). 
+Answer: this new block is going to inherit some properties of Minecraft [Rock](https://minecraft.wiki/w/Rock). 
 
 Let's observe this block in the wild. Run the MinecraftByExample project in IntelliJ just as before. Find the block "MBE01 Block Simple" and observe its characteristics. Make sure to observe that when you break the block, it has blue particles, identical to the Lapis particles. It is _inheriting_ those settings from the Lapis block.
 
@@ -142,4 +142,4 @@ Let's update Block Simple's textures. We'll use new cake textures from [here](im
 }
 ```
 
-For more information on block models, see [https://minecraft.gamepedia.com/Model#Block_models](https://minecraft.gamepedia.com/Model#Block_models)
+For more information on block models, see [https://minecraft.wiki/w/Model#Block_models](https://minecraft.wiki/w/Model#Block_models)
