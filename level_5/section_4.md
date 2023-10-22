@@ -63,7 +63,7 @@ You can see the rotation numbers change when in the left hand, and in the GUI th
 
 ![](images/section_4/frog_item.png)
 
-For more information on item models, see [https://minecraft.gamepedia.com/Model#Item_models](https://minecraft.gamepedia.com/Model#Item_models)
+For more information on item models, see [https://minecraft.wiki/w/Model#Item_models](https://minecraft.wiki/w/Model#Item_models)
 
 # Extending an existing item
 
@@ -186,7 +186,7 @@ The key _pattern_ is an array, with each element of the array representing a row
 },
 ```
 
-Hint: Use [https://minecraft.gamepedia.com/Java_Edition_data_values](https://minecraft.gamepedia.com/Java_Edition_data_values) to know what different data values to use, if any are required.
+Hint: Use [https://minecraft.wiki/w/Java_Edition_data_values](https://minecraft.wiki/w/Java_Edition_data_values) to know what different data values to use, if any are required.
 
 Finally, the _result_ key defines what is crafted by this recipe:
 

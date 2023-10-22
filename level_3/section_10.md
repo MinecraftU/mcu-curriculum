@@ -140,4 +140,4 @@ Now make the `testfor` command only test for your player. You could even make it
 
 * [minecraftcommand.science](https://minecraftcommand.science/) -- "Several minecraft vanilla JSON generators for all your `/give` and `/summon` needs."
 * Minecraft mobspawner and summon generator: [http://minecraft.tools/en/spawn.php](http://minecraft.tools/en/spawn.php)
-* Minecraft wiki command reference: [http://minecraft.gamepedia.com/Commands](http://minecraft.gamepedia.com/Commands)
+* Minecraft wiki command reference: [http://minecraft.wiki/w/Commands](http://minecraft.wiki/w/Commands)

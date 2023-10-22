@@ -6,11 +6,11 @@ Sorting contraptions involve NOT gates, comparators and exploiting the special c
 
 Here is a screenshot of a basic sorting circuit. The hopper configuration is important here: the bottom row of hoppers must be attached to the chests (shift-click to attach a hopper to a chest) (and to place two chests next to one another, alternate normal chests with trapped chests) and the top row of hoppers must be attached to the comparators (shift-click to attach a hopper to the **side** of the comparator). This is where we exploit a special feature of comparators:
 
-If a comparator is placed next to a container, it will provide an output based on the percentage of used space in the container. see [minecraft.gamepedia.com/Redstone_Comparator](http://minecraft.gamepedia.com/Redstone_Comparator)
+If a comparator is placed next to a container, it will provide an output based on the percentage of used space in the container. see [minecraft.wiki/w/Redstone_Comparator](http://minecraft.wiki/w/Redstone_Comparator)
 
 There is some specific math at the above link to determine how to get the comparator to output, but with the hopper it is easy enough to just fill the hopper until you see the output occur. In this case we're going to fill the hopper so that any additional item creates the redstone signal, which will in turn power the hopper below. This also exploits a special feature of hoppers:
 
-When powered by redstone, the hopper won't take items from the inventories of blocks directly above it, put items into an attached inventory or suck up items from the environment. However, a hopper below it can still take items from its inventory and a hopper above or beside it can still put items into it. see [minecraft.gamepedia.com/Hopper](http://minecraft.gamepedia.com/Hopper)
+When powered by redstone, the hopper won't take items from the inventories of blocks directly above it, put items into an attached inventory or suck up items from the environment. However, a hopper below it can still take items from its inventory and a hopper above or beside it can still put items into it. see [minecraft.wiki/w/Hopper](http://minecraft.wiki/w/Hopper)
 
 Build enough of the circuit to test the output signal from the top hopper. Put a single item of the type you want to sort in the first slot in the hopper. Put a single item that won't be coming through the sorting machine in the rest of slots. Fill the **last** slot until you get a signal, then take one item out. Now only those two items can enter the hopper, and the hopper below will take from the first slot (the item type you want to sort) whenever one more item lands in the topmost hopper.
 
