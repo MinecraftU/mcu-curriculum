@@ -3,17 +3,19 @@
 This is a vanilla Minecraft creative server. This server can be joined from default Minecraft launcher.
 
 * Server address: **mcucreative.crafted.pro**
-* Minecraft version: 1.20.2
+* Minecraft version: 1.20.6
 
-This is a whitelisted server. To be added to the server email your username to info@minecraftu.org. 
+This is a whitelisted server. To be added to the server email your username to info@minecraftu.org.
+
+The world map can be viewed at [creative.minecraftu.org](https://creative.minecraftu.org/)
 
 ## Survival Server
 
 This is a vanilla Minecraft survival server for our more advanced Minecrafters. This server can be joined from default Minecraft launcher.
 
-* Server address: **mcusurvival.cubed.pro**
-* Minecraft version: 1.20.2
+* Server address: **mcusurvival.crafted.pro**
+* Minecraft version: 1.20.6
 
 This is a whitelisted server. To be added to the server email your username to info@minecraftu.org.
 
-[Here is a map of the currently explored survival server map](world.png) [updated 06/10/2023]
+The world map can be viewed at [survival.minecraftu.org](https://survival.minecraftu.org/)
